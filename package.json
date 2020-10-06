@@ -1,0 +1,27 @@
+{
+  "name": "osmtoimdf",
+  "version": "0.0.1",
+  "description": "a set of tools to convert OpenStreetMap to IMDF https://register.apple.com/resources/imdf/ (GeoJSON)",
+  "main": "osmtoimdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielrotaermel/osmtoimdf.git"
+  },
+  "keywords": [
+    "openstreetmap",
+    "osm",
+    "geojson",
+    "imdf",
+    "indoor",
+    "map"
+  ],
+  "author": "Daniel Rotärmel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielrotaermel/osmtoimdf/issues"
+  },
+  "homepage": "https://github.com/danielrotaermel/osmtoimdf#readme"
+}
