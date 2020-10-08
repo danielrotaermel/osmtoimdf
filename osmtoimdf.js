@@ -91,6 +91,8 @@ async function run() {
     }
 
     // zip the imdf archive
+    console.log("INFO: created zip at " + pathToIMDFArchive.slice(0, -1)  + ".zip");
+    console.log("INFO: validate zip here https://register.apple.com/indoor/imdf-sandbox");
     execute(`zip -r "${path.basename(pathToIMDFArchive)}" "${pathToIMDFArchive}"`);
 
     // try data on apple imdf sandbox
@@ -423,6 +425,7 @@ function generateReferences(featureCollections) {
 }
 
 function validateIMDF(params) {
+    assert("manifest.json" in featureCollections, "manifest.json missing")
     assert("venue" in featureCollections, "venue missing")
     assert("footprint" in featureCollections, "footprint missing")
     assert("building" in featureCollections, "building missing")

@@ -1,4 +1,3 @@
-
 # node gitignore
 # https://github.com/github/gitignore/blob/master/Node.gitignore
 
@@ -118,3 +117,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+# osmtoimdf
+# overpass-queries/osm-data
+# overpass-queries/geojson-data
