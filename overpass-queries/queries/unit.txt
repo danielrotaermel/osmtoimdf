@@ -13,6 +13,7 @@ map_to_area ->.area;
 		// features to include
       	way[indoor~"room|corridor|yes"](area.area)(if:is_closed());
         way[highway="elevator"](area.area);
+      	way[stairs=yes](area.area);
 	);
 -
   	(

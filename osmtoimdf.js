@@ -1,143 +1,39 @@
-
-// download all data
-// function execute(command) {
-//   const exec = require('child_process').exec
-
-//   exec(command, (err, stdout, stderr) => {
-//     process.stdout.write(stdout)
-//   })
-// }
-
-// execute('echo "Hello World!"')
-
-// dissolve
-var dissolve = require('geojson-dissolve')
-
-var line1 = {
-  type: 'LineString',
-  coordinates: [
-    [0.0, 0.0],
-    [1.0, 1.0],
-    [2.0, 2.0]
-  ]
-}
-
-var line2 = {
-  type: 'LineString',
-  coordinates: [
-    [2.0, 2.0],
-    [3.0, 3.0]
-  ]
-}
-
-console.log(dissolve([line1, line2]))
-
-
-// const geojsonStream = require('geojson-stream');
-// const fs = require('fs');
-// const out = fs.createWriteStream('buildings-with-id.geojson');
-
-// fs
-//     .createReadStream(`buildings.geojson`)
-//     .pipe(geojsonStream.parse((building, index) => {
-//         if (building.geometry.coordinates === null) {
-//             return null;
-//         }
-//         building.id = index;
-//         return building;
-//     }))
-//     .pipe(geojsonStream.stringify())
-//     .pipe(out);
-
-
-const polylabel = require('polylabel');
-
-const turf = {
-    featureEach: require('@turf/meta').featureEach,
-};
-
-
-const load = require('load-json-file');
-const write = require('write-json-file');
-
-// const directories = {
-    // in: path.join(__dirname, 'test', 'in') + path.sep,
-    // out: path.join(__dirname, 'test', 'out') + path.sep
-// };
-
-// let fixtures = fs.readdirSync(directories.in).map(filename => {
-//     return {
-//         filename,
-//         name: path.parse(filename).name,
-//         geojson: load.sync(directories.in + filename)
-//     };
-// });
-
-// Function to get current filenames 
-// in directory with "withFileTypes" 
-// set to "true"  
-  
-// const fs = require('fs'); 
-
-
-// files.forEach(function(file) {
-// var contents = fs.readFileSync(__dirname + '/files/' + file, 'utf8');
-// console.log(contents);
-// })
-
-
-const queryOverpass = require('@derhuerst/query-overpass')
-
+// const queryOverpass = require('@derhuerst/query-overpass')
 const assert = require('assert');
-
-
+const polylabel = require('polylabel');
+const turf = require('@turf/turf')
 const fs = require('fs');
 const fsPromises = fs.promises;
-var path = require('path');
-
-async function readFiles(dir) {
-    const fileList = fs.readdirSync(dir);
-    console.log(fileList);
-
-    var files = []
-    await Promise.all(fileList.map(async (file) => {
-        if (path.extname(file) != ".xml") return
-        // console.log(file)
-        const filePath = path.join(dir,file)
-      const content = await fsPromises.readFile(filePath, 'utf8')
-      const fileName = path.parse(file).name
-      files.push(
-          {
-              path: filePath,
-              fileName: fileName,
-              content: content
-          }
-      )
-    }));
-    
-    return files;
-}
-
+const path = require('path');
+const child_process = require("child_process");
+const trash = require('trash');
+const xmldom = new (require('xmldom').DOMParser)();
+const osmtogeojson = require('osmtogeojson');
+const { v4: uuidv4 } = require('uuid');
+const open = require('open');
 
 const pathToQueries = path.join(__dirname + '/overpass-queries/queries/');
 const pathToOsmData = path.join(__dirname + '/overpass-queries/osm-data/');
 const pathToGeoJsonData = path.join(__dirname + '/overpass-queries/geojson-data/');
 const pathToIMDFArchive = path.join(__dirname + '/IMDFData/');
 const pathToIMDFArchiveZip = path.join(__dirname + '');
+const runQueries = './overpass-queries/runQueries.sh';
+
+// get geojson from overpass
+// execute(runQueries);
 
 run().catch(err => console.log(err));
 
 // anonymous async function
-// (async () =>  {
-//    console.log("use await here");
-//})
+(async () =>  {
+   console.log("use await here");
+})
 
 async function run() {
     // let queries = await readFiles(pathToQueries)
     // console.log(queries);
 
     // // clear dir
-    // const trash = require('trash');
     // await trash(['overpass-queries/osm-data/*.json']);
 
     // let osmData = []
@@ -157,18 +53,10 @@ async function run() {
     // }
     
     // clear dir
-    const trash = require('trash');
-    await trash(['overpass-queries/geojson-data/*1.json']);
-    const xmldom = new (require('xmldom').DOMParser)();
-    const osmtogeojson = require('osmtogeojson');
-
-    let geoJsonCollections = []
-
+    await trash(['/IMDFData/*']);
     let osmFiles = await readFiles(pathToOsmData);
     
-    var featureCollections = {
-
-    }
+    var featureCollections = {}
 
     // read xml files convert to geojson and transform according to imdf
     for (const osm of osmFiles) {
@@ -184,8 +72,6 @@ async function run() {
             const collectionSource = osm.fileName.split(".")[0]
             
             geojson = runTransformations(geojson, collectionSource)
-            var geoJsonString = JSON.stringify(geojson, undefined, 2); 
-
             featureCollections[collectionSource] = geojson
     }
 
@@ -205,10 +91,11 @@ async function run() {
     }
 
     // zip the imdf archive
-    const child_process = require("child_process");
-    child_process.execSync(`zip -r`, { pathToIMDFArchiveZip }, ` *`, {
-      cwd: pathToIMDFArchive
-    });
+    execute(`zip -r "${path.basename(pathToIMDFArchive)}" "${pathToIMDFArchive}"`);
+
+    // try data on apple imdf sandbox
+    // await open('https://register.apple.com/indoor/imdf-sandbox');
+    // await open(pathToIMDFArchive + "zip", {app: 'finder'});
 
     // // clear dir
     // await trash(['overpass-queries/geojson-data/*.geojson']);
@@ -243,130 +130,6 @@ async function run() {
   
 }
 
-
-
-function getTagsAndTheirPossibleValues(featureCollection, excludeEmptyTags) {
-    var tagsAndTheirValues = {}
-
-    featureCollection.features.map( (f) => {
-        let tags = f.properties.tags
-        Object.keys(f.properties.tags).map( (key) => {
-            if (key in tagsAndTheirValues) {
-            tagsAndTheirValues[key].push(tags[key])
-            } else {
-                tagsAndTheirValues[key] = []
-            }
-        }       
-        )
-    });
-
-    if (excludeEmptyTags) {        
-        Object.keys(tagsAndTheirValues).forEach((key) => (tagsAndTheirValues[key].length == 0) && delete tagsAndTheirValues[key]);
-    }
-
-    return tagsAndTheirValues    
-}
-
-function generateReferences(featureCollections) {
-    // assert("venue" in featureCollections, "venue missing")
-    // assert("footprint" in featureCollections, "footprint missing")
-    // assert("building" in featureCollections, "building missing")
-    // assert("level" in featureCollections, "level missing")
-    // assert("unit" in featureCollections, "unit missing")
-    // assert("anchor" in featureCollections, "anchor missing")
-    // assert("amenity" in featureCollections, "amenity missing")
-    // assert("occupant" in featureCollections, "occupant missing")
-
-    // get all building_id
-    var buildingIds = featureCollections.building.features.map(f => ({ buildingId: f.id,  osmId: f.properties.osmId, }));
-    
-    // add building_id to levels, footprint
-    featureCollections.level.features.forEach(f => {
-        f.building_id = buildingIds[0].buildingId
-    });
-
-    // get all level_id 
-    var levelIds = featureCollections.level.features.map(f => ({ id: f.id,  osmId: f.properties.osmId, level: f.properties.tags.level}));
-
-    // add level ids to units, fixtures and details
-    featureCollections.unit.features.forEach(f => {
-        levelIds.forEach(levelId => {
-            if (f.properties.tags.level === levelId.level) {
-                f.level_id = levelId.id
-            }
-        });
-    });
-
-    // IDEA: on device routing
-    // https://turfjs.org/docs/#shortestPath
-
-    // TODO: cleanup features
-    // https://turfjs.org/docs/#cleanCoords
-    
-    // TODO: generate doors 
-    // problem doors are points in the context of openstreetmap which is a strange decision in my opinion
-    // therefore we need to turn door points to paths
-    // solution a: @turf/along
-        // what about doors that are not directly on a line or a corner
-        // https://turfjs.org/docs/#nearestPointOnLine
-    // solution b: draw circle around door point and cut wall that resides inside
-        // works with corners and even if point is not directly on wall
-        // https://turfjs.org/docs/#circle
-        // directly output line intersect https://turfjs.org/docs/#lineIntersect
-        // create intersectiong points
-            // https://turfjs.org/docs/#lineSplit
-            // https://turfjs.org/docs/#lineSlice
-            // combine points to door https://turfjs.org/docs/#combine
-
-
-    // TODO: correlate amenities with units and set the unit_id
-    // problem no easy way to find where amenities reside in
-    
-    // solution a
-        // get all amenities that were generated from units (type==way)
-            // create a unit_id based on type==way and .properties.id
-        // get all amenities that are not generated from units (type!=way)
-            // find corresponding unit they reside in
-    
-    // solution b
-        // get all units of a level
-        // get all amenities of a level
-        // use const booleanPointInPolygon = require('@turf/boolean-point-in-polygon').featureEach,
-        // turf.booleanPointInPolygon(pt, poly);
-        // to find a unit for each amenity point
-
-
-
-    // find all amenities that occupy more then one floor
-    // add correlation_id to these amenities e.g. elevators
-
-    // do the same for every anchor
-    // add anchor_id to occupants, fixtures and kiosks
-
-
-
-
-    /*
-    IDEA: create an app that helps you to create an imdf archive
-    start by selecting a venue outline drawn or selected
-    
-    get geojson data from openstreetmap
-    select which features should be transformed to their imdf counterpart
-     */
-
-    
-
-    // // write out feature collections
-    // for (const [collectionName, featureCollection] of Object.entries(featureCollections)) {
-    // // do something with each collection
-    // }
-
-    // featureCollection.features.forEach(function(f) {
-        // create references according to imdf
-
-    // })
-}
-
 function runTransformations(featureCollection, collectionSource) {
     console.log(collectionSource);
     featureCollection.name = collectionSource
@@ -383,6 +146,10 @@ function runTransformations(featureCollection, collectionSource) {
         f.id = uuidv4(f.properties.customId);
 
         f.feature_type = collectionSource
+
+        if (f.geometry.type === "Multipoligon" || f.geometry.type === "Polygon") {
+            f.properties._area = turf.area(f.geometry)
+        }
     });
     
     // explode features that are present on multiple layers e.g. elevators (level="0;1;2;3;4;5) 
@@ -391,12 +158,15 @@ function runTransformations(featureCollection, collectionSource) {
         if ("level" in f.properties.tags && f.properties.tags.level.includes(";")) {
             // extract features that are on multiple floors
             let levels = f.properties.tags.level
+            // create a correlation_id 
+            const correlation_id = uuidv4(levels + "/" + f.properties.osmId)
             levels.split(";").forEach(level => {
                  // deep copy
-                 let newFeature = JSON.parse(JSON.stringify(f));
-                 newFeature.properties.tags.level = level
+                let newFeature = JSON.parse(JSON.stringify(f));
+                newFeature.properties.correlation_id = correlation_id
+                newFeature.properties.tags.level = level
                 // update id
-                newFeature.osmId = level + "/" + newFeature.customId;
+                newFeature.properties.customId = level + "/" + newFeature.properties.customId;
                 newFeature.id = uuidv4(newFeature.customId);
                 featureCollection.features.push(newFeature)
             });
@@ -499,6 +269,226 @@ function runTransformations(featureCollection, collectionSource) {
     return featureCollection
 }
 
+function generateDoors(doorPointsFC, intersectingWallsFC) {
+    // deep copy
+    let _doorFC = JSON.parse(JSON.stringify(doorPointsFC));
+    let _wallFC = JSON.parse(JSON.stringify(intersectingWallsFC));
+
+    featureCollection.features = featureCollection.features.filter(f => {
+
+    });
+
+    _doorFC.features.map(function(f, index, arr) {        
+        if ("level" in f.properties.tags && f.properties.tags.level.includes(";")) {
+            // extract features that are on multiple floors
+            let levels = f.properties.tags.level
+            levels.split(";").forEach(level => {
+                 // deep copy
+                 let newFeature = JSON.parse(JSON.stringify(f));
+                 newFeature.properties.tags.level = level
+                // update id
+                newFeature.properties.customId = level + "/" + newFeature.customId;
+                newFeature.id = uuidv4(newFeature.customId);
+                featureCollection.features.push(newFeature)
+            });
+        }
+        
+    });
+
+    // TODO: generate doors 
+    // problem doors are points in the context of openstreetmap which is a strange decision in my opinion
+    // therefore we need to turn door points to paths
+    // solution a: @turf/along
+        // what about doors that are not directly on a line or a corner
+        // https://turfjs.org/docs/#nearestPointOnLine
+    // solution b: draw circle around door point and cut wall that resides inside
+        // works with corners and even if point is not directly on wall
+        // https://turfjs.org/docs/#circle
+        // directly output line intersect https://turfjs.org/docs/#lineIntersect
+        // create intersectiong points
+            // https://turfjs.org/docs/#lineSplit
+            // https://turfjs.org/docs/#lineSlice
+            // combine points to door https://turfjs.org/docs/#combine
+
+
+}
+
+function generateReferences(featureCollections) {
+    
+    // get all building_id
+    var buildingIds = featureCollections.building.features.map(f => ({ buildingId: f.id}));
+    
+    // add building_id to levels, footprint
+    featureCollections.level.features.forEach(f => {
+        f.building_id = buildingIds[0].buildingId
+    });
+
+    // get all level_id 
+    var levelIds = featureCollections.level.features.map(f => ({ id: f.id, level: f.properties.tags.level}));
+
+    // add level ids to units, fixtures and details
+    featureCollections.unit.features.forEach(f => {
+        levelIds.forEach(levelId => {
+            if (f.properties.tags.level === levelId.level) {
+                f.level_id = levelId.id
+            }
+        });
+    });
+
+    // IDEA: on device routing
+    // https://turfjs.org/docs/#shortestPath
+
+    // TODO: cleanup features
+    // https://turfjs.org/docs/#cleanCoords
+    
+    
+
+
+    // TODO: correlate amenities with units and set the unit_id
+    // problem no easy way to find where amenities reside in
+    
+    // solution a
+        // get all amenities that were generated from units (type==way)
+            // create a unit_id based on type==way and .properties.id
+        // get all amenities that are not generated from units (type!=way)
+            // find corresponding unit they reside in
+    
+    // solution b
+        // get all units of a level
+        // get all amenities of a level
+        // use const booleanPointInPolygon = require('@turf/boolean-point-in-polygon').featureEach,
+        // turf.booleanPointInPolygon(pt, poly);
+        // to find a unit for each amenity point
+
+    // solution c
+    // combination of both
+    featureCollections.amenity.features.forEach(amenity => {
+        amenity.properties.unit_ids = []
+        // hacky but I'm tired
+        let smallestArea = Number.MAX_VALUE
+        featureCollections.unit.features.forEach(unit => {
+            // if (amenity.properties.osmId === unit.properties.osmId) {
+            //     amenity.properties.unit_ids.push(unit.id)
+            // }
+            // else 
+            // if unit and anchor share the same level
+            if (amenity.properties.tags.level === unit.properties.tags.level ) {
+                if (turf.booleanPointInPolygon(amenity, unit)) {
+                    // if unit is smaller than the last found one
+                    if (unit.properties._area < smallestArea) {
+                        smallestArea = unit.properties._area
+                        amenity.properties.unit_ids = [unit.id]
+                    }
+                }
+            }
+        });      
+        
+        if (amenity.properties.unit_ids.length == 0 ) {
+            amenity.properties.unit_ids = null
+            console.log("INFO: found amenity without unit_ids: " + amenity.properties.osmId)
+            console.log(amenity.properties.tags)
+        }
+    });
+
+
+    // find all amenities that occupy more then one floor
+    // add correlation_id to these amenities e.g. elevators
+
+
+    // do the same for every anchor
+    // add anchor_id to occupants, fixtures and kiosks
+
+
+
+
+    /*
+    IDEA: create an app that helps you to create an imdf archive
+    start by selecting a venue outline drawn or selected
+    
+    get geojson data from openstreetmap
+    select which features should be transformed to their imdf counterpart
+     */
+
+    
+
+    // // write out feature collections
+    // for (const [collectionName, featureCollection] of Object.entries(featureCollections)) {
+    // // do something with each collection
+    // }
+
+    // featureCollection.features.forEach(function(f) {
+        // create references according to imdf
+
+    // })
+}
+
+function validateIMDF(params) {
+    assert("venue" in featureCollections, "venue missing")
+    assert("footprint" in featureCollections, "footprint missing")
+    assert("building" in featureCollections, "building missing")
+    assert("level" in featureCollections, "level missing")
+    assert("unit" in featureCollections, "unit missing")
+    assert("anchor" in featureCollections, "anchor missing")
+    assert("amenity" in featureCollections, "amenity missing")
+    assert("occupant" in featureCollections, "occupant missing")
+}
+
+function getTagsAndTheirPossibleValues(featureCollection, excludeEmptyTags) {
+    var tagsAndTheirValues = {}
+
+    featureCollection.features.map( (f) => {
+        let tags = f.properties.tags
+        Object.keys(f.properties.tags).map( (key) => {
+            if (key in tagsAndTheirValues) {
+            tagsAndTheirValues[key].push(tags[key])
+            } else {
+                tagsAndTheirValues[key] = []
+            }
+        }       
+        )
+    });
+
+    if (excludeEmptyTags) {        
+        Object.keys(tagsAndTheirValues).forEach((key) => (tagsAndTheirValues[key].length == 0) && delete tagsAndTheirValues[key]);
+    }
+
+    return tagsAndTheirValues    
+}
+
+function execute(command) {
+    child_process.execSync(command, {stdio: 'inherit'});
+}
+
+async function readFiles(dir) {
+    const fileList = fs.readdirSync(dir);
+    console.log(fileList);
+
+    var files = []
+    await Promise.all(fileList.map(async (file) => {
+        if (path.extname(file) != ".xml") return
+        // console.log(file)
+        const filePath = path.join(dir,file)
+      const content = await fsPromises.readFile(filePath, 'utf8')
+      const fileName = path.parse(file).name
+      files.push(
+          {
+              path: filePath,
+              fileName: fileName,
+              content: content
+          }
+      )
+    }));
+    
+    return files;
+}
+
+// function generateAnchors(featureCollection) {
+//     return featureCollection
+// }
+
+// function expandMultiLevelFeatures(featureCollection) {
+// }
+
 // var unitLocalizedMapping = {
 //     en: "name"
 // }
@@ -530,16 +520,63 @@ function runTransformations(featureCollection, collectionSource) {
 //     }
 // }
 
+// dissolve
+// const dissolve = require('geojson-dissolve')
+// var line1 = {
+//   type: 'LineString',
+//   coordinates: [
+//     [0.0, 0.0],
+//     [1.0, 1.0],
+//     [2.0, 2.0]
+//   ]
+// }
 
-const { v4: uuidv4 } = require('uuid');
-const { toUnicode } = require('punycode')
+// var line2 = {
+//   type: 'LineString',
+//   coordinates: [
+//     [2.0, 2.0],
+//     [3.0, 3.0]
+//   ]
+// }
 
-function generateAnchors(featureCollection) {
-    return featureCollection
-}
+// console.log(dissolve([line1, line2]))
 
-function expandMultiLevelFeatures(featureCollection) {
-}
+
+// const geojsonStream = require('geojson-stream');
+// const fs = require('fs');
+// const out = fs.createWriteStream('buildings-with-id.geojson');
+
+// fs
+//     .createReadStream(`buildings.geojson`)
+//     .pipe(geojsonStream.parse((building, index) => {
+//         if (building.geometry.coordinates === null) {
+//             return null;
+//         }
+//         building.id = index;
+//         return building;
+//     }))
+//     .pipe(geojsonStream.stringify())
+//     .pipe(out);
+
+// let fixtures = fs.readdirSync(directories.in).map(filename => {
+//     return {
+//         filename,
+//         name: path.parse(filename).name,
+//         geojson: load.sync(directories.in + filename)
+//     };
+// });
+
+// Function to get current filenames 
+// in directory with "withFileTypes" 
+// set to "true"  
+  
+// const fs = require('fs'); 
+
+
+// files.forEach(function(file) {
+// var contents = fs.readFileSync(__dirname + '/files/' + file, 'utf8');
+// console.log(contents);
+// })
 
 
 // generates a uuid based on features type/id

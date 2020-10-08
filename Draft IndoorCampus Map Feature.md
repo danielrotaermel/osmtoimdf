@@ -13,6 +13,9 @@ https://register.apple.com/resources/indoor/Apple-Indoor-Maps-Guidelines.pdf
 ## TODO
 
 - [ ] think through how to apply learned for whole campus
+
+  IDEA: combine all connected buildings into one
+
 - [ ] Finish converter
 
 
