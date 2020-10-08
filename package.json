@@ -4,6 +4,7 @@
   "description": "a set of tools to convert OpenStreetMap to IMDF https://register.apple.com/resources/imdf/ (GeoJSON)",
   "main": "osmtoimdf.js",
   "scripts": {
+    "start": "node osmtoimdf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,18 @@
   "bugs": {
     "url": "https://github.com/danielrotaermel/osmtoimdf/issues"
   },
-  "homepage": "https://github.com/danielrotaermel/osmtoimdf#readme"
+  "homepage": "https://github.com/danielrotaermel/osmtoimdf#readme",
+  "dependencies": {
+    "@derhuerst/query-overpass": "^2.0.0",
+    "@turf/turf": "^5.1.6",
+    "del": "^6.0.0",
+    "geojson-dissolve": "^3.1.0",
+    "geojson-summary": "^0.5.0",
+    "load-json-file": "^6.2.0",
+    "osmtogeojson": "^3.0.0-beta.4",
+    "polylabel": "^1.1.0",
+    "trash": "^6.1.1",
+    "uuid": "^8.3.1",
+    "write-json-file": "^4.3.0"
+  }
 }
