@@ -1,0 +1,6774 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2e20c84b-0bac-4a3e-9049-4773c9479e4f",
+      "properties": {
+        "type": "node",
+        "id": "3777179783",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/131"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179783",
+        "customId": "doors/node/3777179783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574544,
+          48.4227215
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "43c3a727-41ab-4a65-8a5a-d54290cc7e52",
+      "properties": {
+        "type": "node",
+        "id": "3777179789",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179789",
+        "customId": "doors/node/3777179789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568421,
+          48.4227837
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c82ee623-297b-46d5-a8a4-86bc40fffbb5",
+      "properties": {
+        "type": "node",
+        "id": "3777179795",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/242"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179795",
+        "customId": "doors/node/3777179795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569571,
+          48.4228165
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e37f40c8-5c88-4cc9-9b89-1571387dc10a",
+      "properties": {
+        "type": "node",
+        "id": "3777179800",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179800",
+        "customId": "doors/node/3777179800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572769,
+          48.4228224
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5cb948ea-7643-44fd-b97a-09c6f717ea8e",
+      "properties": {
+        "type": "node",
+        "id": "3777179817",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179817",
+        "customId": "doors/node/3777179817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570987,
+          48.4228801
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "71f0365b-f0ae-4d95-932a-e83b64b3bdbb",
+      "properties": {
+        "type": "node",
+        "id": "3777179824",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179824",
+        "customId": "doors/node/3777179824"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957335,
+          48.4229312
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "7aaa8818-83e4-499e-891c-1951d5089ae3",
+      "properties": {
+        "type": "node",
+        "id": "3777179836",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2204"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179836",
+        "customId": "doors/node/3777179836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574941,
+          48.4229778
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e983dc25-2c93-46b8-a581-ceb0cc9b6c3e",
+      "properties": {
+        "type": "node",
+        "id": "3777179839",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/121"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179839",
+        "customId": "doors/node/3777179839"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574458,
+          48.4229853
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6a69c860-1839-4ebe-8049-91e84dc6a430",
+      "properties": {
+        "type": "node",
+        "id": "3777179840",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/123"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179840",
+        "customId": "doors/node/3777179840"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575198,
+          48.4229867
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3a5ed08e-1382-4651-933b-a281d8a1156c",
+      "properties": {
+        "type": "node",
+        "id": "3777179841",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179841",
+        "customId": "doors/node/3777179841"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572887,
+          48.4229873
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "31d4eb62-c0c5-4cf3-ae08-acab607b652e",
+      "properties": {
+        "type": "node",
+        "id": "3777179846",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/123"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179846",
+        "customId": "doors/node/3777179846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575898,
+          48.4230126
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "445058dc-2050-447b-8154-45df871b468f",
+      "properties": {
+        "type": "node",
+        "id": "3777179848",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/122"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179848",
+        "customId": "doors/node/3777179848"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575454,
+          48.4230222
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "265614c9-aa5a-454a-a36c-f6159ea310ba",
+      "properties": {
+        "type": "node",
+        "id": "3777207340",
+        "tags": {
+          "door": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777207340",
+        "customId": "doors/node/3777207340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573628,
+          48.4229296
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c1db3be6-f01f-4510-8c94-175cd37b692f",
+      "properties": {
+        "type": "node",
+        "id": "3777207343",
+        "tags": {
+          "door": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777207343",
+        "customId": "doors/node/3777207343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574472,
+          48.4229606
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "11d36eb7-af83-4939-8039-b8cbb7bca600",
+      "properties": {
+        "type": "node",
+        "id": "3777221944",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1StUp"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777221944",
+        "customId": "doors/node/3777221944"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574217,
+          48.4226967
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a5f43da3-9304-4631-9996-90dbbd8a5289",
+      "properties": {
+        "type": "node",
+        "id": "3777225769",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225769",
+        "customId": "doors/node/3777225769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572855,
+          48.4228125
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "edfa7ba9-9e40-45d6-b757-e7b80cb0ae4b",
+      "properties": {
+        "type": "node",
+        "id": "3777225779",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225779",
+        "customId": "doors/node/3777225779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571117,
+          48.422885
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "405417f5-919a-45d6-93f2-f6226b9aa93f",
+      "properties": {
+        "type": "node",
+        "id": "3777225782",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/124"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225782",
+        "customId": "doors/node/3777225782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573555,
+          48.422927
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "144fe801-5fcb-4e3d-9a58-e7177005877b",
+      "properties": {
+        "type": "node",
+        "id": "3777225783",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225783",
+        "customId": "doors/node/3777225783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957348,
+          48.4229361
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5df8efc7-bf52-4746-b1fa-8f7be7bfaebe",
+      "properties": {
+        "type": "node",
+        "id": "3777225786",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225786",
+        "customId": "doors/node/3777225786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571068,
+          48.422958
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d3b1a289-14d1-4a17-946c-2b39264a7b42",
+      "properties": {
+        "type": "node",
+        "id": "3777225788",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225788",
+        "customId": "doors/node/3777225788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570993,
+          48.4229671
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "89ed18d8-d0f5-4242-a26e-844de6c45d86",
+      "properties": {
+        "type": "node",
+        "id": "3777225792",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225792",
+        "customId": "doors/node/3777225792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573017,
+          48.4229923
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "936f9a65-9a45-40d5-824e-51263e95b207",
+      "properties": {
+        "type": "node",
+        "id": "3778051074",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/133"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051074",
+        "customId": "doors/node/3778051074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957356,
+          48.4227092
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c9d00bc4-d6c3-4b92-b123-d794329dce09",
+      "properties": {
+        "type": "node",
+        "id": "3778051088",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/133"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051088",
+        "customId": "doors/node/3778051088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572925,
+          48.4227839
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e8bba405-aafc-4494-9a76-2581e23dc13e",
+      "properties": {
+        "type": "node",
+        "id": "3778051097",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051097",
+        "customId": "doors/node/3778051097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568727,
+          48.4228081
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d42ea7d6-223f-4946-bc83-dbac81711874",
+      "properties": {
+        "type": "node",
+        "id": "3778051098",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051098",
+        "customId": "doors/node/3778051098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572314,
+          48.4228109
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e3bf8578-aa3c-4059-bcf7-9ca2cd179bb5",
+      "properties": {
+        "type": "node",
+        "id": "3778051101",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1404"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051101",
+        "customId": "doors/node/3778051101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9567973,
+          48.4228148
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "025003ac-61c1-4994-ac31-3bd1d263ab62",
+      "properties": {
+        "type": "node",
+        "id": "3778051104",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051104",
+        "customId": "doors/node/3778051104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572227,
+          48.4228214
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f658126f-bbdf-404e-8217-8dec4eaac6d0",
+      "properties": {
+        "type": "node",
+        "id": "3778051106",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051106",
+        "customId": "doors/node/3778051106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571833,
+          48.4228246
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "056322f5-ca70-4f07-8870-e1ed8c37d6e3",
+      "properties": {
+        "type": "node",
+        "id": "3778051110",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/146"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051110",
+        "customId": "doors/node/3778051110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569128,
+          48.4228355
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "52981615-251d-4119-83c1-3acc4c229595",
+      "properties": {
+        "type": "node",
+        "id": "3778051111",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3778051111",
+        "customId": "doors/node/3778051111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569504,
+          48.4228372
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f919eb3c-03de-40aa-a834-914a88006e32",
+      "properties": {
+        "type": "node",
+        "id": "3779404200",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/234"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404200",
+        "customId": "doors/node/3779404200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573481,
+          48.4227186
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "40d0db73-b363-4f82-bbac-9065c7b3ab50",
+      "properties": {
+        "type": "node",
+        "id": "3779404204",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2206"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404204",
+        "customId": "doors/node/3779404204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574973,
+          48.4229125
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "de5219b8-6826-4b7c-b1a9-9ef5127f8e27",
+      "properties": {
+        "type": "node",
+        "id": "3779404207",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2206"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404207",
+        "customId": "doors/node/3779404207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575539,
+          48.4229329
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "56c476e2-36ba-49e8-902e-316602f1a5d8",
+      "properties": {
+        "type": "node",
+        "id": "3779404208",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/203"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404208",
+        "customId": "doors/node/3779404208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957103,
+          48.4229387
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "02169a9b-3656-4c64-8ca2-b924044d11ad",
+      "properties": {
+        "type": "node",
+        "id": "3779404212",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/124"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404212",
+        "customId": "doors/node/3779404212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574326,
+          48.4229553
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "507bc403-6b47-4a11-9723-2f975a626923",
+      "properties": {
+        "type": "node",
+        "id": "3779404217",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404217",
+        "customId": "doors/node/3779404217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572295,
+          48.4229774
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "824a96a1-ad80-4ba1-a5f2-829e0aceffd4",
+      "properties": {
+        "type": "node",
+        "id": "3779404219",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779404219",
+        "customId": "doors/node/3779404219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957186,
+          48.4230188
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "dc51142c-b0ba-497f-8a4f-f41813642023",
+      "properties": {
+        "type": "node",
+        "id": "3779752409",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779752409",
+        "customId": "doors/node/3779752409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570264,
+          48.4228426
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "8f8c0d29-94b9-4232-9250-65991b3787ed",
+      "properties": {
+        "type": "node",
+        "id": "3779752411",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/243"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779752411",
+        "customId": "doors/node/3779752411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569154,
+          48.4228641
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "2442da84-dc40-4412-bfe8-d3ae63667fb9",
+      "properties": {
+        "type": "node",
+        "id": "3779752413",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/244"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779752413",
+        "customId": "doors/node/3779752413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569302,
+          48.4228694
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5b1531a0-9ec3-4630-9919-25e67069ba29",
+      "properties": {
+        "type": "node",
+        "id": "3779752417",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/246"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779752417",
+        "customId": "doors/node/3779752417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569706,
+          48.4228757
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5800e19c-74bc-4d44-bd91-982cd52e91f9",
+      "properties": {
+        "type": "node",
+        "id": "3779752419",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/247"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3779752419",
+        "customId": "doors/node/3779752419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570495,
+          48.4228811
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "8f6f3564-7370-42d5-8851-afa9a62674eb",
+      "properties": {
+        "type": "node",
+        "id": "7010917685",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/213"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917685",
+        "customId": "doors/node/7010917685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571603,
+          48.42305
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0353fc8c-baff-4f3b-9cf3-249e39a06c9f",
+      "properties": {
+        "type": "node",
+        "id": "7010917686",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/214"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917686",
+        "customId": "doors/node/7010917686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572299,
+          48.4230904
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "2395c035-f9ec-4d0f-86b6-19812f18c5e4",
+      "properties": {
+        "type": "node",
+        "id": "7010917687",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/212"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917687",
+        "customId": "doors/node/7010917687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571989,
+          48.4231282
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1e46654c-d9c4-43f3-a8a9-83ddef79c81a",
+      "properties": {
+        "type": "node",
+        "id": "7010917688",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/211"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917688",
+        "customId": "doors/node/7010917688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571063,
+          48.423114
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "9cba6967-64df-4141-81ae-49a416e8d103",
+      "properties": {
+        "type": "node",
+        "id": "7010917689",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917689",
+        "customId": "doors/node/7010917689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572267,
+          48.4227778
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1d258c98-d99c-4380-af53-47310989eeaa",
+      "properties": {
+        "type": "node",
+        "id": "7010917690",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917690",
+        "customId": "doors/node/7010917690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574577,
+          48.4229897
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "46b63a13-dbf9-4549-862a-7384c6a55fd3",
+      "properties": {
+        "type": "node",
+        "id": "7010917691",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2202"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917691",
+        "customId": "doors/node/7010917691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575541,
+          48.4230254
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "24c9bdcd-f89f-45ab-8b34-5c8e865b4219",
+      "properties": {
+        "type": "node",
+        "id": "7010917706",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2StDn"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917706",
+        "customId": "doors/node/7010917706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574294,
+          48.4227165
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "81472bdc-6700-4f3e-9fba-c780af9f9e58",
+      "properties": {
+        "type": "node",
+        "id": "7010917785",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/202"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917785",
+        "customId": "doors/node/7010917785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957116,
+          48.4229233
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e5944773-2e0f-41d1-9d72-d660d3f83fd1",
+      "properties": {
+        "type": "node",
+        "id": "7010917885",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2203"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917885",
+        "customId": "doors/node/7010917885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575252,
+          48.4229887
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e16cde41-ef97-4dbf-a918-c9909fcaf6ed",
+      "properties": {
+        "type": "node",
+        "id": "7010917886",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1StUp"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7010917886",
+        "customId": "doors/node/7010917886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572288,
+          48.4228795
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "52f0219c-e9da-4c55-85e1-fb2097b99461",
+      "properties": {
+        "type": "node",
+        "id": "7014257785",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/111"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257785",
+        "customId": "doors/node/7014257785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957118,
+          48.4230624
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "b50e819c-affd-477c-9877-ed44e41b046a",
+      "properties": {
+        "type": "node",
+        "id": "7014257786",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257786",
+        "customId": "doors/node/7014257786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571312,
+          48.4230839
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "01a8d950-5821-4bfe-872e-0b4b7f6eabed",
+      "properties": {
+        "type": "node",
+        "id": "7014257787",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/112"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257787",
+        "customId": "doors/node/7014257787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571071,
+          48.4230758
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c9e413b1-f35e-4503-9d9c-c404c7c61ad2",
+      "properties": {
+        "type": "node",
+        "id": "7014257788",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/107"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257788",
+        "customId": "doors/node/7014257788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957227,
+          48.4230893
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6f887f97-63fd-4eeb-a535-55c0dfc8171b",
+      "properties": {
+        "type": "node",
+        "id": "7014257789",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/119"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257789",
+        "customId": "doors/node/7014257789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571483,
+          48.4231024
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "88928ee3-2eab-4441-a739-c96a5221d931",
+      "properties": {
+        "type": "node",
+        "id": "7014257790",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/118"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257790",
+        "customId": "doors/node/7014257790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571443,
+          48.4231072
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5c92f88f-8671-4720-81aa-5c7688e9a782",
+      "properties": {
+        "type": "node",
+        "id": "7014257791",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/114"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257791",
+        "customId": "doors/node/7014257791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957035,
+          48.4231243
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "4874d543-8cc0-4e65-bbf5-4b59a4e144ae",
+      "properties": {
+        "type": "node",
+        "id": "7014257792",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/115"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257792",
+        "customId": "doors/node/7014257792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570695,
+          48.4231328
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "b3c9d482-b519-4729-9de9-297344bf0862",
+      "properties": {
+        "type": "node",
+        "id": "7014257793",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/116"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257793",
+        "customId": "doors/node/7014257793"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571024,
+          48.4231448
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0b0f8c3a-1959-4055-a2ca-31ffea4baec4",
+      "properties": {
+        "type": "node",
+        "id": "7014257885",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/113"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257885",
+        "customId": "doors/node/7014257885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570778,
+          48.4231118
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "979d6b41-3383-409e-8bf6-3b179048b595",
+      "properties": {
+        "type": "node",
+        "id": "7014257886",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257886",
+        "customId": "doors/node/7014257886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571376,
+          48.4230572
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "2db55608-e940-4801-9497-0b23f6d8ecb7",
+      "properties": {
+        "type": "node",
+        "id": "7014257985",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/117"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014257985",
+        "customId": "doors/node/7014257985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571199,
+          48.4231364
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3e51f871-3e73-45e7-9fa8-8cfef8e6acf4",
+      "properties": {
+        "type": "node",
+        "id": "7014699885",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699885",
+        "customId": "doors/node/7014699885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572496,
+          48.4229919
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a33d4dae-468c-47eb-b7b1-311363349729",
+      "properties": {
+        "type": "node",
+        "id": "7014699886",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699886",
+        "customId": "doors/node/7014699886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572998,
+          48.4229485
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "aa8b0077-257e-48a2-ba51-0f7c9c5b11ea",
+      "properties": {
+        "type": "node",
+        "id": "7014699887",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3StDn"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699887",
+        "customId": "doors/node/7014699887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572704,
+          48.4228944
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "93db9cbb-dda9-4afb-bda7-11722fae8014",
+      "properties": {
+        "type": "node",
+        "id": "7014699888",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2StDn"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699888",
+        "customId": "doors/node/7014699888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572706,
+          48.4228942
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "32edc1b3-aa22-4dc1-a539-061c20531fbb",
+      "properties": {
+        "type": "node",
+        "id": "7014699889",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699889",
+        "customId": "doors/node/7014699889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572995,
+          48.4229488
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3ecdda63-4bee-42d2-9eec-ebe485bd9b6d",
+      "properties": {
+        "type": "node",
+        "id": "7014699890",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/301"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699890",
+        "customId": "doors/node/7014699890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572196,
+          48.4229737
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d5092cc5-46ab-40ac-a53f-e2f1455e020e",
+      "properties": {
+        "type": "node",
+        "id": "7014699891",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/311"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699891",
+        "customId": "doors/node/7014699891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571937,
+          48.4230394
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "278bbbbd-42fa-4592-ab17-0b5c2df5f671",
+      "properties": {
+        "type": "node",
+        "id": "7014699892",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699892",
+        "customId": "doors/node/7014699892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571704,
+          48.4230673
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "24891205-ad2b-434e-a812-01e9ccab0817",
+      "properties": {
+        "type": "node",
+        "id": "7014699893",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/319"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699893",
+        "customId": "doors/node/7014699893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572168,
+          48.4230488
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "48076eb8-d048-4758-ad03-0f1e6bdaabb0",
+      "properties": {
+        "type": "node",
+        "id": "7014699894",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/318"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699894",
+        "customId": "doors/node/7014699894"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571948,
+          48.4230755
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c6ec62c3-a27e-4449-8872-99196f958763",
+      "properties": {
+        "type": "node",
+        "id": "7014699895",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/316"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699895",
+        "customId": "doors/node/7014699895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571481,
+          48.4231319
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3d04c1d3-ce85-4fc8-983f-54af62ced86e",
+      "properties": {
+        "type": "node",
+        "id": "7014699896",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3103"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699896",
+        "customId": "doors/node/7014699896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571253,
+          48.4231594
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "315037c3-cb9f-42e7-ae51-c94221524525",
+      "properties": {
+        "type": "node",
+        "id": "7014699897",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699897",
+        "customId": "doors/node/7014699897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571018,
+          48.4231873
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "95e49dc5-0708-4da0-bd2a-5f448dd62550",
+      "properties": {
+        "type": "node",
+        "id": "7014699985",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699985",
+        "customId": "doors/node/7014699985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572874,
+          48.4229634
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c7c13d0b-527e-4c15-90d4-75dc91f60240",
+      "properties": {
+        "type": "node",
+        "id": "7014699986",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/320"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014699986",
+        "customId": "doors/node/7014699986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572394,
+          48.4230215
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "33c6e665-f84b-440e-bf40-2eadf7a21d91",
+      "properties": {
+        "type": "node",
+        "id": "7014700085",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/2Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014700085",
+        "customId": "doors/node/7014700085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572874,
+          48.4229634
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f03d1c41-a37d-4436-894d-175c9212d494",
+      "properties": {
+        "type": "node",
+        "id": "7014700185",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/317"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7014700185",
+        "customId": "doors/node/7014700185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571716,
+          48.4231035
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "be05e2c5-0c50-4b6f-86ce-d1698892a6af",
+      "properties": {
+        "type": "node",
+        "id": "7016742588",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/305"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7016742588",
+        "customId": "doors/node/7016742588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572427,
+          48.4228467
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1e9de745-9b56-41a6-957f-0e5d2212cd97",
+      "properties": {
+        "type": "node",
+        "id": "7016742589",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/307"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7016742589",
+        "customId": "doors/node/7016742589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571326,
+          48.4229033
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5906fff5-0d2c-4659-a004-31a1a95d3ee1",
+      "properties": {
+        "type": "node",
+        "id": "7016783485",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7016783485",
+        "customId": "doors/node/7016783485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957214,
+          48.4228268
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "19e4dfb6-fa05-4ac4-9548-eb5e77a632a4",
+      "properties": {
+        "type": "node",
+        "id": "7017270285",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/340"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270285",
+        "customId": "doors/node/7017270285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572215,
+          48.4227978
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "9791a15d-0eb2-4a32-b4cf-d1ca7394f11d",
+      "properties": {
+        "type": "node",
+        "id": "7017270286",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/350"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270286",
+        "customId": "doors/node/7017270286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570646,
+          48.4229177
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "982b0d25-4c7d-4468-be31-dcf02629cfa2",
+      "properties": {
+        "type": "node",
+        "id": "7017270287",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/339"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270287",
+        "customId": "doors/node/7017270287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572427,
+          48.4227726
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0299bbbe-9078-40c4-84f3-9b5368d1e0e8",
+      "properties": {
+        "type": "node",
+        "id": "7017270288",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/338"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270288",
+        "customId": "doors/node/7017270288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572664,
+          48.4227445
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "05f15c98-cfe0-4f24-af50-5017363b9ece",
+      "properties": {
+        "type": "node",
+        "id": "7017270289",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270289",
+        "customId": "doors/node/7017270289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572367,
+          48.422751
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "22232d22-c0c8-4668-9dc2-1c08f8618668",
+      "properties": {
+        "type": "node",
+        "id": "7017270290",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/336"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270290",
+        "customId": "doors/node/7017270290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573124,
+          48.4226898
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "226ce54d-fbf9-47f1-b6f7-f45b6752dced",
+      "properties": {
+        "type": "node",
+        "id": "7017270385",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270385",
+        "customId": "doors/node/7017270385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571022,
+          48.4229192
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "88fb74bb-d216-4ef8-b439-c38a3ca3cf2d",
+      "properties": {
+        "type": "node",
+        "id": "7017270386",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270386",
+        "customId": "doors/node/7017270386"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572127,
+          48.4227781
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "73d61000-41fd-4d73-90ed-8e3048859e27",
+      "properties": {
+        "type": "node",
+        "id": "7017270387",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/337"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270387",
+        "customId": "doors/node/7017270387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572894,
+          48.4227172
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "51f4362f-aac6-4a28-ab4f-b9c7596d56d1",
+      "properties": {
+        "type": "node",
+        "id": "7017270388",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3305"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270388",
+        "customId": "doors/node/7017270388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573343,
+          48.4226639
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "01bedce1-ed94-410a-8dc2-50a838ecbb30",
+      "properties": {
+        "type": "node",
+        "id": "7017270389",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3304"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270389",
+        "customId": "doors/node/7017270389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573603,
+          48.4226331
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "947a8fd1-5f34-4f2b-9ca4-93af80a9d54d",
+      "properties": {
+        "type": "node",
+        "id": "7017270390",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/312"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270390",
+        "customId": "doors/node/7017270390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571475,
+          48.4230948
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "840a1197-f042-462f-9ec8-a6f23b0af124",
+      "properties": {
+        "type": "node",
+        "id": "7017270391",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/313"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270391",
+        "customId": "doors/node/7017270391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571234,
+          48.4231237
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e46bac6f-7ef6-4683-bd76-568229ab9532",
+      "properties": {
+        "type": "node",
+        "id": "7017270392",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/314"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270392",
+        "customId": "doors/node/7017270392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571006,
+          48.4231508
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a90342f8-9577-4cfb-9941-688ce18ac3dc",
+      "properties": {
+        "type": "node",
+        "id": "7017270393",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270393",
+        "customId": "doors/node/7017270393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570776,
+          48.4231782
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3cf1e340-48a6-4fd9-8ed8-e8f8a7f9c0b0",
+      "properties": {
+        "type": "node",
+        "id": "7017270394",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/332"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270394",
+        "customId": "doors/node/7017270394"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573136,
+          48.4227264
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "ba6e84c2-3dd9-4ce3-bbb2-9afc5124523d",
+      "properties": {
+        "type": "node",
+        "id": "7017270395",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3303"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270395",
+        "customId": "doors/node/7017270395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573728,
+          48.4226564
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "db10ae1b-e381-4353-899c-063b65d7ac38",
+      "properties": {
+        "type": "node",
+        "id": "7017270396",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3301"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270396",
+        "customId": "doors/node/7017270396"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957359,
+          48.4226726
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "7f888138-2483-46d6-ad44-10cb4aa3d8cf",
+      "properties": {
+        "type": "node",
+        "id": "7017270397",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3302"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270397",
+        "customId": "doors/node/7017270397"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574191,
+          48.4226947
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "95839bc5-3f92-4d93-9fe8-37635c45c69f",
+      "properties": {
+        "type": "node",
+        "id": "7017270485",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/431"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270485",
+        "customId": "doors/node/7017270485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572676,
+          48.4227807
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3c4c23f0-2e07-47bc-8652-5bf6a83787a5",
+      "properties": {
+        "type": "node",
+        "id": "7017270486",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/331"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7017270486",
+        "customId": "doors/node/7017270486"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572907,
+          48.4227533
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "663febb7-b48f-4fca-bdb5-f627771d6e50",
+      "properties": {
+        "type": "node",
+        "id": "7025637685",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/349"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637685",
+        "customId": "doors/node/7025637685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570249,
+          48.4229034
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "ae98f833-2904-483c-9d46-cccb3e09c372",
+      "properties": {
+        "type": "node",
+        "id": "7025637686",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/347"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637686",
+        "customId": "doors/node/7025637686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569462,
+          48.4228752
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a819b7e2-172d-42bf-ac6a-c8ac00ac723f",
+      "properties": {
+        "type": "node",
+        "id": "7025637687",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/346"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637687",
+        "customId": "doors/node/7025637687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569067,
+          48.4228609
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e1b18282-46d1-44ba-b92c-352a2d423c0e",
+      "properties": {
+        "type": "node",
+        "id": "7025637688",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637688",
+        "customId": "doors/node/7025637688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568288,
+          48.4228329
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f711f949-1a12-4fdc-b27c-7c8873917660",
+      "properties": {
+        "type": "node",
+        "id": "7025637689",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637689",
+        "customId": "doors/node/7025637689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569985,
+          48.4228713
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6e0c8dd9-bea1-4611-9e81-291bd6ca5c6b",
+      "properties": {
+        "type": "node",
+        "id": "7025637690",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/342"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637690",
+        "customId": "doors/node/7025637690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569598,
+          48.4228574
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "ab0b1ead-05bd-4bc5-8227-e93d3dd36040",
+      "properties": {
+        "type": "node",
+        "id": "7025637691",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/344"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637691",
+        "customId": "doors/node/7025637691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568828,
+          48.4228297
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f61fce2b-ebe2-4a96-b0e7-114bb430a05c",
+      "properties": {
+        "type": "node",
+        "id": "7025637692",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637692",
+        "customId": "doors/node/7025637692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573229,
+          48.4229204
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "b850ed92-87e5-4953-abf4-349a706b3252",
+      "properties": {
+        "type": "node",
+        "id": "7025637693",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3206"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637693",
+        "customId": "doors/node/7025637693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575503,
+          48.4229611
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a71dbe40-85d8-4215-af6e-8e3935eece12",
+      "properties": {
+        "type": "node",
+        "id": "7025637694",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3217"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637694",
+        "customId": "doors/node/7025637694"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9576322,
+          48.4229914
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "fb6681d7-0f93-4261-bc50-4a4bb3f2b5b8",
+      "properties": {
+        "type": "node",
+        "id": "7025637702",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4305"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637702",
+        "customId": "doors/node/7025637702"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573605,
+          48.4226328
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "bad4bde9-16ec-4961-8c55-ad8eec0c3990",
+      "properties": {
+        "type": "node",
+        "id": "7025637785",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/348"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637785",
+        "customId": "doors/node/7025637785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569852,
+          48.4228892
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d792b0e1-a828-427f-acef-3dbde3d3539e",
+      "properties": {
+        "type": "node",
+        "id": "7025637786",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637786",
+        "customId": "doors/node/7025637786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569941,
+          48.4229101
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "cf502dfc-97ac-4a45-9d47-f72fe1cd32cf",
+      "properties": {
+        "type": "node",
+        "id": "7025637787",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637787",
+        "customId": "doors/node/7025637787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570354,
+          48.4229228
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a119295d-8173-443b-ac91-062c8080d380",
+      "properties": {
+        "type": "node",
+        "id": "7025637788",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3402"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637788",
+        "customId": "doors/node/7025637788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568686,
+          48.4228473
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0dcd79d9-dca6-47cf-b8ae-774359562e40",
+      "properties": {
+        "type": "node",
+        "id": "7025637789",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/341"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637789",
+        "customId": "doors/node/7025637789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570394,
+          48.422886
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "effb1790-e51a-41bb-9109-debd0bd43882",
+      "properties": {
+        "type": "node",
+        "id": "7025637790",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637790",
+        "customId": "doors/node/7025637790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573498,
+          48.4229001
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "21144da0-f06e-431a-855f-52d3ccf0818f",
+      "properties": {
+        "type": "node",
+        "id": "7025637791",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3211"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637791",
+        "customId": "doors/node/7025637791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574098,
+          48.4229325
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c47f6862-2575-4518-96c4-945860e5a6a3",
+      "properties": {
+        "type": "node",
+        "id": "7025637792",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3209"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637792",
+        "customId": "doors/node/7025637792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574247,
+          48.4229149
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0fb69755-8c24-4aac-bc13-b9f9d332458b",
+      "properties": {
+        "type": "node",
+        "id": "7025637793",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3208"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637793",
+        "customId": "doors/node/7025637793"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574447,
+          48.4229222
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c42e9de6-f707-4248-8c44-e396d2d12a57",
+      "properties": {
+        "type": "node",
+        "id": "7025637794",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3207"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637794",
+        "customId": "doors/node/7025637794"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575108,
+          48.4229465
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c149ba59-362a-493b-be62-6b6c361e8043",
+      "properties": {
+        "type": "node",
+        "id": "7025637795",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637795",
+        "customId": "doors/node/7025637795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575055,
+          48.4229234
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "55939a6f-3225-425b-9ee2-06458fa9f5eb",
+      "properties": {
+        "type": "node",
+        "id": "7025637796",
+        "tags": {
+          "door": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637796",
+        "customId": "doors/node/7025637796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575431,
+          48.4229375
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "85d37600-1596-4a0c-99f7-b1f8fe4c2ffa",
+      "properties": {
+        "type": "node",
+        "id": "7025637885",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/343"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637885",
+        "customId": "doors/node/7025637885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569211,
+          48.4228435
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f523e377-1d18-4886-ad1a-8c60350f7cbe",
+      "properties": {
+        "type": "node",
+        "id": "7025637886",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3210"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637886",
+        "customId": "doors/node/7025637886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573805,
+          48.4228986
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6b04e644-ba91-4555-afd0-465535799d75",
+      "properties": {
+        "type": "node",
+        "id": "7025637892",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4306"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637892",
+        "customId": "doors/node/7025637892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573361,
+          48.4226618
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "fd079973-3d16-42bd-ad5c-41da1f28266e",
+      "properties": {
+        "type": "node",
+        "id": "7025637985",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/344"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637985",
+        "customId": "doors/node/7025637985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956901,
+          48.4227784
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "b9aac0e8-6382-46ab-9368-04b9e4214095",
+      "properties": {
+        "type": "node",
+        "id": "7025637986",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/436"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637986",
+        "customId": "doors/node/7025637986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573129,
+          48.4226893
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "204e48de-042c-47fd-8c77-75ad1e3f267a",
+      "properties": {
+        "type": "node",
+        "id": "7025637988",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/437"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637988",
+        "customId": "doors/node/7025637988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572902,
+          48.4227162
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0a766072-e12a-4d87-bde2-5e71cbbc6a45",
+      "properties": {
+        "type": "node",
+        "id": "7025637989",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/438"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025637989",
+        "customId": "doors/node/7025637989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572663,
+          48.4227446
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "85b3c17d-6908-44c4-9450-10ac96d7deb3",
+      "properties": {
+        "type": "node",
+        "id": "7025638185",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3218"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7025638185",
+        "customId": "doors/node/7025638185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575914,
+          48.4229763
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e389764b-0de0-4dd1-9789-d1ae48edafb3",
+      "properties": {
+        "type": "node",
+        "id": "7026047093",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/439"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026047093",
+        "customId": "doors/node/7026047093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572426,
+          48.4227727
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5f6f6ca4-209b-441e-a78a-74895179fc65",
+      "properties": {
+        "type": "node",
+        "id": "7026047095",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026047095",
+        "customId": "doors/node/7026047095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572346,
+          48.4227502
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5a13b71e-cd87-4391-b014-399a8baaee1d",
+      "properties": {
+        "type": "node",
+        "id": "7026048988",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026048988",
+        "customId": "doors/node/7026048988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572101,
+          48.4227772
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "2e145da2-16b5-413c-b60a-d5e0e0694822",
+      "properties": {
+        "type": "node",
+        "id": "7026048989",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/440"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026048989",
+        "customId": "doors/node/7026048989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572171,
+          48.4228031
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "15143144-03ca-4b28-9986-15e45a078f13",
+      "properties": {
+        "type": "node",
+        "id": "7026053186",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/405"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026053186",
+        "customId": "doors/node/7026053186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572417,
+          48.4228463
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "91d78d98-155c-4be2-b77e-e833e29c703c",
+      "properties": {
+        "type": "node",
+        "id": "7026098385",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3214"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026098385",
+        "customId": "doors/node/7026098385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575329,
+          48.4230093
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e0fcd5aa-335c-4377-96e1-495f45a995ce",
+      "properties": {
+        "type": "node",
+        "id": "7026098386",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3212"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026098386",
+        "customId": "doors/node/7026098386"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574969,
+          48.4229644
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "71c066ed-b802-415f-8933-9e5d43f6a2b5",
+      "properties": {
+        "type": "node",
+        "id": "7026098387",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3216"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026098387",
+        "customId": "doors/node/7026098387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9576195,
+          48.4230094
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1da064b0-e23f-4913-9fdc-f8a6f0406f44",
+      "properties": {
+        "type": "node",
+        "id": "7026098485",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3215"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026098485",
+        "customId": "doors/node/7026098485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575414,
+          48.4230125
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "78f09903-9a20-4bd9-bf5d-67ccec32207b",
+      "properties": {
+        "type": "node",
+        "id": "7026098585",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3212"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026098585",
+        "customId": "doors/node/7026098585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575352,
+          48.4229785
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f77c0ea0-f3d6-4662-bcff-c242939eb451",
+      "properties": {
+        "type": "node",
+        "id": "7026229388",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/407"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026229388",
+        "customId": "doors/node/7026229388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571347,
+          48.4229009
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "efd0b9aa-9038-4b34-a34b-cc7baf65c015",
+      "properties": {
+        "type": "node",
+        "id": "7026229389",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/450"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026229389",
+        "customId": "doors/node/7026229389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570612,
+          48.4229165
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d90ae973-4c58-4cd9-a5eb-b42e75fdb911",
+      "properties": {
+        "type": "node",
+        "id": "7026229390",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/441"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026229390",
+        "customId": "doors/node/7026229390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570386,
+          48.4228857
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6a6b0d8f-643d-4c8e-9138-58dd100d43ca",
+      "properties": {
+        "type": "node",
+        "id": "7026229391",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4404"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026229391",
+        "customId": "doors/node/7026229391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956831,
+          48.4228337
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "56c25ad8-39f9-4844-ab35-e4e9f0525c4e",
+      "properties": {
+        "type": "node",
+        "id": "7026229392",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026229392",
+        "customId": "doors/node/7026229392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572874,
+          48.4229634
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "02763da5-acb2-4e60-95ce-e09fd3caf6d1",
+      "properties": {
+        "type": "node",
+        "id": "7026246787",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246787",
+        "customId": "doors/node/7026246787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569919,
+          48.4229128
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "72ef579f-8f84-4ecd-858c-c88d143c0a23",
+      "properties": {
+        "type": "node",
+        "id": "7026246788",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/449"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246788",
+        "customId": "doors/node/7026246788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570257,
+          48.4229037
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a07de78d-baac-4bb4-b7e3-f0158ef85a1a",
+      "properties": {
+        "type": "node",
+        "id": "7026246789",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/448"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246789",
+        "customId": "doors/node/7026246789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569862,
+          48.4228895
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "26aa0fc2-37c8-45bb-a830-077dd8b56d6a",
+      "properties": {
+        "type": "node",
+        "id": "7026246790",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246790",
+        "customId": "doors/node/7026246790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569986,
+          48.4228713
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "8a740cab-0a15-4fda-ad15-98be56fdf15b",
+      "properties": {
+        "type": "node",
+        "id": "7026246791",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/442"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246791",
+        "customId": "doors/node/7026246791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569603,
+          48.4228576
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6c9256e3-ee80-4932-9760-f210d7f65535",
+      "properties": {
+        "type": "node",
+        "id": "7026246792",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/447"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246792",
+        "customId": "doors/node/7026246792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569461,
+          48.4228751
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5ab95aa5-8ff5-4f13-acd7-47a0bf56fe0f",
+      "properties": {
+        "type": "node",
+        "id": "7026246794",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4405"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246794",
+        "customId": "doors/node/7026246794"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568683,
+          48.4228471
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c909f595-ee19-41c9-b3ce-78a35e893933",
+      "properties": {
+        "type": "node",
+        "id": "7026246795",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246795",
+        "customId": "doors/node/7026246795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957214,
+          48.4228268
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d87ff002-517c-4697-95e1-387d1cb04a09",
+      "properties": {
+        "type": "node",
+        "id": "7026246796",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246796",
+        "customId": "doors/node/7026246796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572187,
+          48.4229733
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d785ba06-964a-49d4-8599-60e3c10c75b5",
+      "properties": {
+        "type": "node",
+        "id": "7026246797",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246797",
+        "customId": "doors/node/7026246797"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572998,
+          48.4229485
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c4d270aa-a967-4596-b5a8-af3b1dd7f2cd",
+      "properties": {
+        "type": "node",
+        "id": "7026246986",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026246986",
+        "customId": "doors/node/7026246986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570325,
+          48.4229262
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "47362a22-efca-4fb4-b8ab-a328e245e63a",
+      "properties": {
+        "type": "node",
+        "id": "7026247085",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7026247085",
+        "customId": "doors/node/7026247085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571022,
+          48.4229193
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "cc9a6555-f309-45b5-aefd-98970707e65d",
+      "properties": {
+        "type": "node",
+        "id": "7028311886",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4301"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028311886",
+        "customId": "doors/node/7028311886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573431,
+          48.4226915
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1302d2c0-f135-4e3a-997a-14d585e5fee0",
+      "properties": {
+        "type": "node",
+        "id": "7028311887",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4302"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028311887",
+        "customId": "doors/node/7028311887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573585,
+          48.4227043
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1d4da05e-096c-47cb-b589-f892c9279e26",
+      "properties": {
+        "type": "node",
+        "id": "7028311888",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/135"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028311888",
+        "customId": "doors/node/7028311888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572785,
+          48.4227973
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "2498e6d2-9993-46ae-9947-fa48c36a7648",
+      "properties": {
+        "type": "node",
+        "id": "7028311889",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4403"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028311889",
+        "customId": "doors/node/7028311889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569097,
+          48.422768
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "14fc6d16-edd1-4c41-b1c2-7ea2dadf4c21",
+      "properties": {
+        "type": "node",
+        "id": "7028311890",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4402"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028311890",
+        "customId": "doors/node/7028311890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568814,
+          48.4228292
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "9c9e3704-1452-4237-919b-b23794fd6cb5",
+      "properties": {
+        "type": "node",
+        "id": "7028322385",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028322385",
+        "customId": "doors/node/7028322385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569209,
+          48.4228434
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "faad89c7-4540-4897-8a2f-23e5734d751b",
+      "properties": {
+        "type": "node",
+        "id": "7028382787",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/420"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028382787",
+        "customId": "doors/node/7028382787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572391,
+          48.4230218
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "81d237e3-aece-4447-9ecd-16a241e8e7d5",
+      "properties": {
+        "type": "node",
+        "id": "7028382788",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/411"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028382788",
+        "customId": "doors/node/7028382788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957192,
+          48.4230414
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "cff239fc-ccec-418f-b83b-74a263f81705",
+      "properties": {
+        "type": "node",
+        "id": "7028382789",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/417"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028382789",
+        "customId": "doors/node/7028382789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571711,
+          48.4231039
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a6e3d292-1cbe-4813-ab2b-70a52510ab4f",
+      "properties": {
+        "type": "node",
+        "id": "7028400087",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/418"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400087",
+        "customId": "doors/node/7028400087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957194,
+          48.4230762
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "7e83b287-dedd-4508-9888-32b83cb6ebb8",
+      "properties": {
+        "type": "node",
+        "id": "7028400088",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400088",
+        "customId": "doors/node/7028400088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571701,
+          48.4230677
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "bc05da45-7c15-4938-80ec-83cad8b977cd",
+      "properties": {
+        "type": "node",
+        "id": "7028400587",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400587",
+        "customId": "doors/node/7028400587"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572478,
+          48.4230408
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "4e806fca-8a16-4b14-9110-aa7c9824bee1",
+      "properties": {
+        "type": "node",
+        "id": "7028400588",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/419"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400588",
+        "customId": "doors/node/7028400588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572164,
+          48.4230492
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f853cb5d-b673-48a1-ae87-f1a3c8b8a829",
+      "properties": {
+        "type": "node",
+        "id": "7028400589",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/416"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400589",
+        "customId": "doors/node/7028400589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571481,
+          48.4231315
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6d47d5e6-6df5-459e-b939-b47d355883b3",
+      "properties": {
+        "type": "node",
+        "id": "7028400590",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/413"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400590",
+        "customId": "doors/node/7028400590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571238,
+          48.4231232
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3ffab40a-ae0d-4797-be81-3f7ac0242709",
+      "properties": {
+        "type": "node",
+        "id": "7028400591",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4105"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400591",
+        "customId": "doors/node/7028400591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571249,
+          48.4231595
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c24f1e15-0bdd-4d95-b6a2-19e2ad1278a1",
+      "properties": {
+        "type": "node",
+        "id": "7028400592",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400592",
+        "customId": "doors/node/7028400592"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571054,
+          48.4231454
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "205a0af2-ef0f-410c-851c-383244b0babb",
+      "properties": {
+        "type": "node",
+        "id": "7028400593",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400593",
+        "customId": "doors/node/7028400593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570435,
+          48.4231242
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "54fb0ed8-14a1-4245-ba91-5bf74722aacb",
+      "properties": {
+        "type": "node",
+        "id": "7028400594",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4103"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400594",
+        "customId": "doors/node/7028400594"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570852,
+          48.4231698
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5d5205ce-230b-4228-bb99-71d4a7827128",
+      "properties": {
+        "type": "node",
+        "id": "7028400595",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/403"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028400595",
+        "customId": "doors/node/7028400595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573233,
+          48.4229203
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e7679011-bf6a-4a77-9c2d-85ab9c13c3b8",
+      "properties": {
+        "type": "node",
+        "id": "7028402186",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028402186",
+        "customId": "doors/node/7028402186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572501,
+          48.4229912
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "ac235e7e-13e7-4aee-a3bd-2e0e8c99abc9",
+      "properties": {
+        "type": "node",
+        "id": "7028411185",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028411185",
+        "customId": "doors/node/7028411185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572247,
+          48.4230685
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "71741fca-eea7-4a9b-96ae-b9d135c46fe0",
+      "properties": {
+        "type": "node",
+        "id": "7028411285",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/412"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028411285",
+        "customId": "doors/node/7028411285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571471,
+          48.4230953
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0165f661-faa8-447a-8e6a-ea3070741fe4",
+      "properties": {
+        "type": "node",
+        "id": "7028547185",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547185",
+        "customId": "doors/node/7028547185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573498,
+          48.4229001
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "8e322cdc-70fa-456d-b9a2-7ff2679c1a23",
+      "properties": {
+        "type": "node",
+        "id": "7028547186",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547186",
+        "customId": "doors/node/7028547186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575407,
+          48.4229408
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "62716763-1701-4e4d-a43d-f6ab3df3598b",
+      "properties": {
+        "type": "node",
+        "id": "7028547285",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/427"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547285",
+        "customId": "doors/node/7028547285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573769,
+          48.4228973
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "55e32823-59bb-427b-b303-8ea78388964e",
+      "properties": {
+        "type": "node",
+        "id": "7028547286",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/426"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547286",
+        "customId": "doors/node/7028547286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574694,
+          48.4229313
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "983d8ab6-3626-46e8-a9f4-ada97534d0c9",
+      "properties": {
+        "type": "node",
+        "id": "7028547287",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547287",
+        "customId": "doors/node/7028547287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575033,
+          48.4229261
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "2c63b282-6287-4eab-ae92-58491a31d32c",
+      "properties": {
+        "type": "node",
+        "id": "7028547288",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/424"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547288",
+        "customId": "doors/node/7028547288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957575,
+          48.4229702
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f5f5bc9a-736f-40ca-a6eb-70ab3a4cff34",
+      "properties": {
+        "type": "node",
+        "id": "7028547385",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/425"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547385",
+        "customId": "doors/node/7028547385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575094,
+          48.422946
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "69ce0929-a174-4540-96e9-92365ab2daa2",
+      "properties": {
+        "type": "node",
+        "id": "7028547386",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547386",
+        "customId": "doors/node/7028547386"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575105,
+          48.4230052
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "31557846-9d95-4f01-9652-94fb7a370bda",
+      "properties": {
+        "type": "node",
+        "id": "7028547387",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/422"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547387",
+        "customId": "doors/node/7028547387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574879,
+          48.4230079
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1174e72e-71b2-44f3-8739-5dce3825cfd8",
+      "properties": {
+        "type": "node",
+        "id": "7028547388",
+        "tags": {
+          "door": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547388",
+        "customId": "doors/node/7028547388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574509,
+          48.4229369
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "88ecaaf2-d8dc-4e9d-8d0d-a627b1804c03",
+      "properties": {
+        "type": "node",
+        "id": "7028547485",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/423"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547485",
+        "customId": "doors/node/7028547485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575331,
+          48.4229777
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d3acd3f0-76dc-4bdb-856b-ca43fdf3782a",
+      "properties": {
+        "type": "node",
+        "id": "7028547585",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/421"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547585",
+        "customId": "doors/node/7028547585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574411,
+          48.4230007
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "4532c9e7-62b0-4647-bafc-586d81079fef",
+      "properties": {
+        "type": "node",
+        "id": "7028547685",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/429"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7028547685",
+        "customId": "doors/node/7028547685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574407,
+          48.4229703
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "86dd494f-02a1-43d9-a151-21b5e7d59bae",
+      "properties": {
+        "type": "node",
+        "id": "7031237674",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/333"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7031237674",
+        "customId": "doors/node/7031237674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573367,
+          48.422699
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "152c7bcd-24b5-4335-9bd4-6094ac61d80b",
+      "properties": {
+        "type": "node",
+        "id": "7033304686",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/535"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033304686",
+        "customId": "doors/node/7033304686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572903,
+          48.4227161
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "38d1b46c-de46-4964-ae86-50a2312088aa",
+      "properties": {
+        "type": "node",
+        "id": "7033304687",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/536"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033304687",
+        "customId": "doors/node/7033304687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572661,
+          48.4227449
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1daae543-ba58-435d-9bae-044e3682cf98",
+      "properties": {
+        "type": "node",
+        "id": "7033304688",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/538"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033304688",
+        "customId": "doors/node/7033304688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572173,
+          48.4228027
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f26a4da7-e853-4f3a-a796-7fc7e22b0ef3",
+      "properties": {
+        "type": "node",
+        "id": "7033304689",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/541"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033304689",
+        "customId": "doors/node/7033304689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570389,
+          48.4228858
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f795baec-80b2-40e4-bdb8-409096d41d94",
+      "properties": {
+        "type": "node",
+        "id": "7033304690",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/508"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033304690",
+        "customId": "doors/node/7033304690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571149,
+          48.4229358
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1f37b9ec-9baa-48f1-97ca-4715816997fe",
+      "properties": {
+        "type": "node",
+        "id": "7033337785",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/533"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337785",
+        "customId": "doors/node/7033337785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573273,
+          48.4227101
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "684e2427-4c34-4d35-8d4a-f8d150973bd6",
+      "properties": {
+        "type": "node",
+        "id": "7033337786",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/537"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337786",
+        "customId": "doors/node/7033337786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572433,
+          48.4227718
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c56742c7-8dc1-4779-96e3-3455c3a3a5be",
+      "properties": {
+        "type": "node",
+        "id": "7033337787",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/505"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337787",
+        "customId": "doors/node/7033337787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572412,
+          48.4228461
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "9c37aeb4-8b4e-47c5-a14c-9709b8470405",
+      "properties": {
+        "type": "node",
+        "id": "7033337788",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/543"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337788",
+        "customId": "doors/node/7033337788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569981,
+          48.4228712
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f966a324-486e-41fd-89c2-a382f4f57f69",
+      "properties": {
+        "type": "node",
+        "id": "7033337789",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/542"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337789",
+        "customId": "doors/node/7033337789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569585,
+          48.422857
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "79c5c9d2-89ab-4b36-a13d-f97ab73bc4dc",
+      "properties": {
+        "type": "node",
+        "id": "7033337790",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/544"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337790",
+        "customId": "doors/node/7033337790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569199,
+          48.4228433
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "db25ecaf-b2cb-48ce-bfe7-2191f434f9bd",
+      "properties": {
+        "type": "node",
+        "id": "7033337885",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/534"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337885",
+        "customId": "doors/node/7033337885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573138,
+          48.4226881
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "c67c525a-aead-4754-9671-7d7a16987196",
+      "properties": {
+        "type": "node",
+        "id": "7033337886",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337886",
+        "customId": "doors/node/7033337886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572802,
+          48.4226946
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "35123d63-9829-447f-9703-d5353d856ae0",
+      "properties": {
+        "type": "node",
+        "id": "7033337887",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/501"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337887",
+        "customId": "doors/node/7033337887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572193,
+          48.4229736
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "5ddd6293-0aaf-418b-b974-00b5dc0bc0ba",
+      "properties": {
+        "type": "node",
+        "id": "7033337888",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/531"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033337888",
+        "customId": "doors/node/7033337888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572681,
+          48.42278
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "54aa4120-4699-4b3b-b723-18791d607d11",
+      "properties": {
+        "type": "node",
+        "id": "7033338085",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/532"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033338085",
+        "customId": "doors/node/7033338085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957307,
+          48.4227339
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e75f93db-3e4d-48e8-97df-47cee92e304f",
+      "properties": {
+        "type": "node",
+        "id": "7033338086",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033338086",
+        "customId": "doors/node/7033338086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572905,
+          48.4227536
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "db019003-5491-46d4-bc1b-8d4788ab0fea",
+      "properties": {
+        "type": "node",
+        "id": "7033338087",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/507"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033338087",
+        "customId": "doors/node/7033338087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571347,
+          48.4229008
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "780207db-065a-4914-a9a7-b4be148d087e",
+      "properties": {
+        "type": "node",
+        "id": "7033338088",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/545"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7033338088",
+        "customId": "doors/node/7033338088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568781,
+          48.4228278
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "49564283-fcea-4953-aab1-49696006140f",
+      "properties": {
+        "type": "node",
+        "id": "7037917885",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037917885",
+        "customId": "doors/node/7037917885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571022,
+          48.4229193
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "cc7f0786-5b46-49c6-b32a-24580efd04ea",
+      "properties": {
+        "type": "node",
+        "id": "7037917985",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/552"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037917985",
+        "customId": "doors/node/7037917985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570559,
+          48.4229146
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "96c20bbd-9d71-4973-ba81-8900e0c10859",
+      "properties": {
+        "type": "node",
+        "id": "7037917986",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/551"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037917986",
+        "customId": "doors/node/7037917986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569965,
+          48.4228933
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "3a6da691-d79b-4aaa-9d60-e398aab680d2",
+      "properties": {
+        "type": "node",
+        "id": "7037917987",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/550"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037917987",
+        "customId": "doors/node/7037917987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569554,
+          48.4228785
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "75bbabf5-fa1a-4fa0-b07f-ccd65b6ef7a1",
+      "properties": {
+        "type": "node",
+        "id": "7037917988",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/549"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037917988",
+        "customId": "doors/node/7037917988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956915,
+          48.4228639
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "376c3f48-9c75-4b6b-9e29-71cbd6ef7475",
+      "properties": {
+        "type": "node",
+        "id": "7037917989",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037917989",
+        "customId": "doors/node/7037917989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572468,
+          48.4230403
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0b2c6a98-e06d-48b1-b329-2dab7dc5cb0d",
+      "properties": {
+        "type": "node",
+        "id": "7037918085",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/548"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918085",
+        "customId": "doors/node/7037918085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568749,
+          48.4228495
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "ba1b78ae-9f1f-43c8-8502-bcee24d6fcd0",
+      "properties": {
+        "type": "node",
+        "id": "7037918086",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/547"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918086",
+        "customId": "doors/node/7037918086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568281,
+          48.4228327
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "95dc7d4c-8318-48da-8be5-5ec7993cc0bf",
+      "properties": {
+        "type": "node",
+        "id": "7037918087",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918087",
+        "customId": "doors/node/7037918087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572411,
+          48.4230188
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "7d4a1ce3-e09a-44a7-ba85-02e39ea633f4",
+      "properties": {
+        "type": "node",
+        "id": "7037918088",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918088",
+        "customId": "doors/node/7037918088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572174,
+          48.4230476
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a12909d1-dde8-45b6-9f28-1d7dbe2f98c1",
+      "properties": {
+        "type": "node",
+        "id": "7037918089",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5103"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918089",
+        "customId": "doors/node/7037918089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571948,
+          48.4230751
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "406c9b1d-8fbf-412b-81b8-7fcce3898fbb",
+      "properties": {
+        "type": "node",
+        "id": "7037918090",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5105"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918090",
+        "customId": "doors/node/7037918090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571596,
+          48.4231178
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "55e00844-2a42-47d4-bd8c-9d9c5dd8d557",
+      "properties": {
+        "type": "node",
+        "id": "7037918091",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5107"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918091",
+        "customId": "doors/node/7037918091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571176,
+          48.4231687
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6bc9960d-f2f4-4b86-b109-3a6266a6f565",
+      "properties": {
+        "type": "node",
+        "id": "7037918092",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5108"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918092",
+        "customId": "doors/node/7037918092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571024,
+          48.4231871
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "1fd7d0ce-ea6c-4565-a4cb-90b517c3bc2a",
+      "properties": {
+        "type": "node",
+        "id": "7037918093",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5115"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918093",
+        "customId": "doors/node/7037918093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571473,
+          48.4230235
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "59f2f920-5f57-4bfb-b7fc-979eb9eec6b7",
+      "properties": {
+        "type": "node",
+        "id": "7037918094",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5114"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918094",
+        "customId": "doors/node/7037918094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571243,
+          48.4230512
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "d8e6d582-c979-49fa-b5b0-7ea9d218d971",
+      "properties": {
+        "type": "node",
+        "id": "7037918095",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5113"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918095",
+        "customId": "doors/node/7037918095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571087,
+          48.4230697
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "fdef0b3d-723a-4512-a7fd-b0c77d5e622a",
+      "properties": {
+        "type": "node",
+        "id": "7037918096",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5109"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918096",
+        "customId": "doors/node/7037918096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570895,
+          48.4231824
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "b0a46502-aa66-4b5e-857f-83f65a7e27e8",
+      "properties": {
+        "type": "node",
+        "id": "7037918097",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "5110"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918097",
+        "customId": "doors/node/7037918097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570575,
+          48.4231438
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "f8413175-526c-4790-9814-a7d7cc17e096",
+      "properties": {
+        "type": "node",
+        "id": "7037918098",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5111"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918098",
+        "customId": "doors/node/7037918098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570601,
+          48.4231278
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "00547482-c3ea-46f9-82ac-3f5424e42a25",
+      "properties": {
+        "type": "node",
+        "id": "7037918099",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5112"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918099",
+        "customId": "doors/node/7037918099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570833,
+          48.4231001
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "71e090c3-6dd0-4a1e-995a-38db431400ce",
+      "properties": {
+        "type": "node",
+        "id": "7037918185",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5106"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7037918185",
+        "customId": "doors/node/7037918185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571346,
+          48.4231481
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "9e0136b5-d449-4072-adb1-3e7a66fdf1d0",
+      "properties": {
+        "type": "node",
+        "id": "7038366186",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5203"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038366186",
+        "customId": "doors/node/7038366186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957461,
+          48.4229513
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a4d93ae7-2060-41be-ae3d-04da78da9597",
+      "properties": {
+        "type": "node",
+        "id": "7038366187",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038366187",
+        "customId": "doors/node/7038366187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572501,
+          48.4229912
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "ef805256-bd8b-4017-8ae5-645333b1ffe6",
+      "properties": {
+        "type": "node",
+        "id": "7038366188",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038366188",
+        "customId": "doors/node/7038366188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957214,
+          48.4228268
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "13148ab4-e1f6-4f60-bee1-a3b7372cbc88",
+      "properties": {
+        "type": "node",
+        "id": "7038390785",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/524"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038390785",
+        "customId": "doors/node/7038390785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573685,
+          48.4228942
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "517b8006-793b-4ddc-89e8-a67a057edb86",
+      "properties": {
+        "type": "node",
+        "id": "7038390786",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/522"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038390786",
+        "customId": "doors/node/7038390786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574498,
+          48.4229241
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6a7351ae-d66d-4d13-b5e0-b667bc19b74f",
+      "properties": {
+        "type": "node",
+        "id": "7038390787",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038390787",
+        "customId": "doors/node/7038390787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573498,
+          48.4229001
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "44c6bf64-ee2c-40e7-9091-b0efda95e28c",
+      "properties": {
+        "type": "node",
+        "id": "7038390885",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/523"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038390885",
+        "customId": "doors/node/7038390885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957409,
+          48.4229091
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "e26600ea-0319-4718-a654-c6970813e48f",
+      "properties": {
+        "type": "node",
+        "id": "7038390985",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038390985",
+        "customId": "doors/node/7038390985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574763,
+          48.4229371
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "9551aefe-cadb-4cc0-88c2-cac27b70135e",
+      "properties": {
+        "type": "node",
+        "id": "7038390986",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5116"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038390986",
+        "customId": "doors/node/7038390986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571291,
+          48.4231333
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "93c99dc5-590d-42ac-a0d2-13b382877a93",
+      "properties": {
+        "type": "node",
+        "id": "7038391085",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5202"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038391085",
+        "customId": "doors/node/7038391085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573776,
+          48.4229562
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "39d67f71-2134-4aa1-8398-1179e3b210f2",
+      "properties": {
+        "type": "node",
+        "id": "7038391086",
+        "tags": {
+          "door": "yes",
+          "level": "5",
+          "ref": "O27/5201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038391086",
+        "customId": "doors/node/7038391086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957398,
+          48.4229282
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "237f61f0-079f-46a6-8b1c-73d43fc31e59",
+      "properties": {
+        "type": "node",
+        "id": "7038589286",
+        "tags": {
+          "door": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038589286",
+        "customId": "doors/node/7038589286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571014,
+          48.4229757
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "04ecd92a-7cc7-4186-9723-0a50db25e945",
+      "properties": {
+        "type": "node",
+        "id": "7038589288",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/1Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038589288",
+        "customId": "doors/node/7038589288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572877,
+          48.4229631
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "6a6ad76d-e030-46dd-9a5d-2123a0e82eff",
+      "properties": {
+        "type": "node",
+        "id": "7038605786",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/446"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038605786",
+        "customId": "doors/node/7038605786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569063,
+          48.4228608
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a0d16100-2e37-4746-8277-2888fac21696",
+      "properties": {
+        "type": "node",
+        "id": "7038605787",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4304"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7038605787",
+        "customId": "doors/node/7038605787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95737,
+          48.4226596
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "4bdcd526-1476-4416-81f8-72b3920b2be6",
+      "properties": {
+        "type": "node",
+        "id": "7048851686",
+        "tags": {
+          "door": "yes",
+          "level": "3",
+          "ref": "O27/3Ev"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7048851686",
+        "customId": "doors/node/7048851686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573,
+          48.4229483
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "a22e7c6d-0e29-4ea9-931a-cc2f99d7334a",
+      "properties": {
+        "type": "node",
+        "id": "7563633427",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/125"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7563633427",
+        "customId": "doors/node/7563633427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575427,
+          48.4228993
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "cfbc1c37-70b3-4a6b-9793-741dc78990f1",
+      "properties": {
+        "type": "node",
+        "id": "7563633431",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/H20"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7563633431",
+        "customId": "doors/node/7563633431"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574325,
+          48.4227798
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "99ad67d0-6ab2-434c-9047-a5839337ab8c",
+      "properties": {
+        "type": "node",
+        "id": "7563633435",
+        "tags": {
+          "door": "yes",
+          "level": "1",
+          "ref": "O27/131"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7563633435",
+        "customId": "doors/node/7563633435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574525,
+          48.4227676
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "4206ea4a-59ef-4821-9f5a-7803b6214dfe",
+      "properties": {
+        "type": "node",
+        "id": "7563633443",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/H20"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7563633443",
+        "customId": "doors/node/7563633443"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574413,
+          48.422781
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "168286a0-09bd-43b8-828d-9988def3c514",
+      "properties": {
+        "type": "node",
+        "id": "7563731080",
+        "tags": {
+          "door": "yes",
+          "level": "4",
+          "ref": "O27/4303"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7563731080",
+        "customId": "doors/node/7563731080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573552,
+          48.4226771
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "afc62abc-0089-425a-a7bb-a836c23f3b6e",
+      "properties": {
+        "type": "node",
+        "id": "7563745825",
+        "tags": {
+          "door": "yes",
+          "level": "2",
+          "ref": "O27/H20"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/7563745825",
+        "customId": "doors/node/7563745825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574628,
+          48.4227553
+        ]
+      },
+      "feature_type": "doors"
+    },
+    {
+      "type": "Feature",
+      "id": "0ae2c5dd-c288-4564-92e5-1ccd56d337a1",
+      "properties": {
+        "type": "node",
+        "id": "3755622005",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3755622005",
+        "customId": "doors/node/3755622005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95763,
+          48.4230412
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "0b197037-1400-4c8a-8223-542887f3f4d4",
+      "properties": {
+        "type": "node",
+        "id": "3755622005",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3755622005",
+        "customId": "doors/node/3755622005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95763,
+          48.4230412
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "5596f475-ce61-4944-b3a5-32ee4119a323",
+      "properties": {
+        "type": "node",
+        "id": "3777179804",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179804",
+        "customId": "doors/node/3777179804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571601,
+          48.4228309
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "a308f2a7-acc6-4c82-be1b-00e03785cb49",
+      "properties": {
+        "type": "node",
+        "id": "3777179804",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179804",
+        "customId": "doors/node/3777179804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571601,
+          48.4228309
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "222bc30d-9a6b-41fa-a99f-1d43651b90b8",
+      "properties": {
+        "type": "node",
+        "id": "3777179812",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179812",
+        "customId": "doors/node/3777179812"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573539,
+          48.4228648
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "17e94516-364a-4427-bb4e-ae2f71c14722",
+      "properties": {
+        "type": "node",
+        "id": "3777179812",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777179812",
+        "customId": "doors/node/3777179812"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573539,
+          48.4228648
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "c072f254-2760-4d20-b92d-ca9219c3dd6b",
+      "properties": {
+        "type": "node",
+        "id": "3777225791",
+        "tags": {
+          "door": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225791",
+        "customId": "doors/node/3777225791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571919,
+          48.4229899
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "2644ae21-a29a-430a-8e3b-c15a28f8265f",
+      "properties": {
+        "type": "node",
+        "id": "3777225791",
+        "tags": {
+          "door": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777225791",
+        "customId": "doors/node/3777225791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571919,
+          48.4229899
+        ]
+      },
+      "feature_type": "doors",
+      "osmId": "2/undefined"
+    }
+  ],
+  "name": "doors"
+}

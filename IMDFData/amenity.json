@@ -1,0 +1,6357 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ea9ce7f8-ec83-493d-8b86-0073688c3d35",
+      "properties": {
+        "type": "way",
+        "id": 371924979,
+        "tags": {
+          "amenity": "auditorium",
+          "building:levels": "2",
+          "building:part": "yes",
+          "level": "2",
+          "name": "H20"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/371924979",
+        "customId": "amenity/way/371924979",
+        "name": {
+          "en": "H20"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95752915,
+          48.422818500000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "069fc822-0743-497b-a44e-6d87cc3d9524",
+      "properties": {
+        "type": "way",
+        "id": 374340996,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/121"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374340996",
+        "customId": "amenity/way/374340996",
+        "name": {
+          "en": "O27/121"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957453000000001,
+          48.423019
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "37223c1a-63c1-4f15-8ba3-0ccb4fcd844e",
+      "properties": {
+        "type": "way",
+        "id": 374340999,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/122"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374340999",
+        "customId": "amenity/way/374340999",
+        "name": {
+          "en": "O27/122"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957552549999999,
+          48.4230561
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "7e1d4e1b-08d0-42da-9943-b5518997a856",
+      "properties": {
+        "type": "way",
+        "id": 374341002,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/123"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374341002",
+        "customId": "amenity/way/374341002",
+        "name": {
+          "en": "O27/123"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95758975,
+          48.42297645
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3413d29e-444f-4078-a3ce-dc06ca4ee6fe",
+      "properties": {
+        "type": "way",
+        "id": 374341005,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "name": "BECI",
+          "ref": "O27/131",
+          "room": "common"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374341005",
+        "customId": "amenity/way/374341005",
+        "name": {
+          "en": "O27/131"
+        },
+        "alt_name": {
+          "en": "BECI"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95747415,
+          48.4227675
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "050acf7c-ed15-4f02-8bdc-cd89ca13ca19",
+      "properties": {
+        "type": "way",
+        "id": 374344854,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/124"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344854",
+        "customId": "amenity/way/374344854",
+        "name": {
+          "en": "O27/124"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957421400000001,
+          48.422913949999995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e0f241a1-f9e3-44e5-b758-a64047b7d13f",
+      "properties": {
+        "type": "way",
+        "id": 374344855,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/125"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344855",
+        "customId": "amenity/way/374344855",
+        "name": {
+          "en": "O27/125"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957555500000002,
+          48.42287855
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "05134c7e-63df-4d47-8176-22ae273db02d",
+      "properties": {
+        "type": "way",
+        "id": 374415176,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "1",
+          "male": "yes",
+          "ref": "O27/105",
+          "toilets:disposal": "flush",
+          "wheelchair": "no"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415176",
+        "customId": "amenity/way/374415176",
+        "name": {
+          "en": "O27/105"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570537,
+          48.4229308
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ae20871a-e5e5-458c-ab16-872a430a519e",
+      "properties": {
+        "type": "way",
+        "id": 374415177,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/101",
+          "toilets:disposal": "flush",
+          "wheelchair": "no"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415177",
+        "customId": "amenity/way/374415177",
+        "name": {
+          "en": "O27/101"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572134,
+          48.42279175
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "180fbc2d-1757-4c2b-a900-908ee9b4e7fc",
+      "properties": {
+        "type": "way",
+        "id": 374415178,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415178",
+        "customId": "amenity/way/374415178",
+        "name": {
+          "en": "O27/102"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572054,
+          48.422820200000004
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "7059ae08-d9b4-4281-beb4-02cb546d87b2",
+      "properties": {
+        "type": "way",
+        "id": 374415179,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "1",
+          "ref": "103",
+          "toilets:disposal": "flush",
+          "unisex": "yes",
+          "wheelchair": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415179",
+        "customId": "amenity/way/374415179",
+        "name": {
+          "en": "103"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571796,
+          48.42281065
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4a788d1d-2e65-4cbf-b720-4ec2399cb919",
+      "properties": {
+        "type": "way",
+        "id": 374415180,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/135"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415180",
+        "customId": "amenity/way/374415180",
+        "name": {
+          "en": "O27/135"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95725755,
+          48.4228025
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "b3786067-7b6f-4b6b-9f2e-8b864c1101ab",
+      "properties": {
+        "type": "way",
+        "id": 374415181,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/1401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415181",
+        "customId": "amenity/way/374415181",
+        "name": {
+          "en": "O27/1401"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95696035,
+          48.422877850000006
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "63f5b80d-132c-46b1-82cf-ffd1dec0e3cd",
+      "properties": {
+        "type": "way",
+        "id": 374415182,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "1403"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415182",
+        "customId": "amenity/way/374415182",
+        "name": {
+          "en": "1403"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956870349999999,
+          48.4228193
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e4fe3aee-fd60-4f5d-96f5-4d6a91370838",
+      "properties": {
+        "type": "way",
+        "id": 374415183,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/1404"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415183",
+        "customId": "amenity/way/374415183",
+        "name": {
+          "en": "O27/1404"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956834412011847,
+          48.422845182800124
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6887e1c4-4072-462b-8b98-554612b5cee5",
+      "properties": {
+        "type": "way",
+        "id": 374415184,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "1405"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415184",
+        "customId": "amenity/way/374415184",
+        "name": {
+          "en": "1405"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568924,
+          48.4227657
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "08205659-8163-43eb-989c-ba1682706eda",
+      "properties": {
+        "type": "way",
+        "id": 374415185,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "1406"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415185",
+        "customId": "amenity/way/374415185",
+        "name": {
+          "en": "1406"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95694955,
+          48.4227873
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "7571adb0-32ef-422c-8364-f3af49470109",
+      "properties": {
+        "type": "way",
+        "id": 374415186,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/146"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415186",
+        "customId": "amenity/way/374415186",
+        "name": {
+          "en": "O27/146"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568986,
+          48.422830149999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "13d15378-7996-45f7-ab10-4c47c9db58e7",
+      "properties": {
+        "type": "way",
+        "id": 374415189,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "name": "O27/H20"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415189",
+        "customId": "amenity/way/374415189",
+        "name": {
+          "en": "O27/H20"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95752915,
+          48.422801
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "1208f260-23a3-4db9-9dfe-257dbc78a5d9",
+      "properties": {
+        "type": "way",
+        "id": 374415191,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "name": "Südpool",
+          "ref": "O27/133"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415191",
+        "customId": "amenity/way/374415191",
+        "name": {
+          "en": "O27/133"
+        },
+        "alt_name": {
+          "en": "Südpool"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572957,
+          48.422709749999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "46b40b8e-9bd5-4027-92dd-0ee7d490d83e",
+      "properties": {
+        "type": "way",
+        "id": 374438970,
+        "tags": {
+          "indoor": "room",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438970",
+        "customId": "amenity/way/374438970",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95734605,
+          48.4229717
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ae2f3dfc-b2d4-400d-ab25-a178597f532c",
+      "properties": {
+        "type": "way",
+        "id": 374474152,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/2201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374474152",
+        "customId": "amenity/way/374474152",
+        "name": {
+          "en": "O27/2201"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574723,
+          48.4230193
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c165ea80-acb6-4fbd-b1db-5351ea9150ae",
+      "properties": {
+        "type": "way",
+        "id": 374474154,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/2202"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374474154",
+        "customId": "amenity/way/374474154",
+        "name": {
+          "en": "O27/2202"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95756465,
+          48.4230534
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "2f9dcb9f-08c1-49fc-b2b5-4c6a34572186",
+      "properties": {
+        "type": "way",
+        "id": 374474156,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/2203"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374474156",
+        "customId": "amenity/way/374474156",
+        "name": {
+          "en": "O27/2203"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575983,
+          48.422979600000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d012462b-1725-4298-8b0d-f662509a47e7",
+      "properties": {
+        "type": "way",
+        "id": 374546214,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/202",
+          "toilets:disposal": "flush",
+          "wheelchair": "no"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546214",
+        "customId": "amenity/way/374546214",
+        "name": {
+          "en": "O27/202"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570929,
+          48.42290595
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "b73d6aca-cd92-4242-a549-8558e28fca84",
+      "properties": {
+        "type": "way",
+        "id": 374546215,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/1101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546215",
+        "customId": "amenity/way/374546215",
+        "name": {
+          "en": "O27/1101"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572479,
+          48.423009699999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a07f6416-68b8-4d81-82e7-8763fc770052",
+      "properties": {
+        "type": "way",
+        "id": 374546216,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/1102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546216",
+        "customId": "amenity/way/374546216",
+        "name": {
+          "en": "O27/1102"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95721155,
+          48.423052999999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f8788971-2cad-4eeb-ae64-494abc157786",
+      "properties": {
+        "type": "way",
+        "id": 374546217,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546217",
+        "customId": "amenity/way/374546217",
+        "name": {
+          "en": "O27/201"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957212,
+          48.42280409999999
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8ac31c86-5d04-4e01-b447-3a15a4dfd290",
+      "properties": {
+        "type": "way",
+        "id": 374546218,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "2",
+          "male": "yes",
+          "ref": "O27/203",
+          "toilets:disposal": "flush",
+          "wheelchair": "no"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546218",
+        "customId": "amenity/way/374546218",
+        "name": {
+          "en": "O27/203"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570694,
+          48.4229343
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3982f863-2e9f-44a3-a671-6764d355e8c1",
+      "properties": {
+        "type": "way",
+        "id": 374546219,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/2204"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546219",
+        "customId": "amenity/way/374546219",
+        "name": {
+          "en": "O27/2204"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574906,
+          48.4229641
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "96d37842-f023-4e6b-90be-165c0cc454fb",
+      "properties": {
+        "type": "way",
+        "id": 374546220,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/2206"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546220",
+        "customId": "amenity/way/374546220",
+        "name": {
+          "en": "O27/2206"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957514,
+          48.42292995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6881ff2d-fedc-44f4-980b-1ce8d264b983",
+      "properties": {
+        "type": "way",
+        "id": 374546221,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "2205"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546221",
+        "customId": "amenity/way/374546221",
+        "name": {
+          "en": "2205"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95741475,
+          48.422911549999995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d20559f7-48d8-464b-bc40-c067f297c4e3",
+      "properties": {
+        "type": "way",
+        "id": 374546222,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "name": "Nordpool",
+          "ref": "O27/234"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374546222",
+        "customId": "amenity/way/374546222",
+        "name": {
+          "en": "O27/234"
+        },
+        "alt_name": {
+          "en": "Nordpool"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303549999999,
+          48.422700899999995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c20115b5-36d3-439c-ad18-05d210a53243",
+      "properties": {
+        "type": "way",
+        "id": 374580327,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/213"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580327",
+        "customId": "amenity/way/374580327",
+        "name": {
+          "en": "O27/213"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95722795,
+          48.423033149999995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3e4a88ff-1b56-49dd-8b39-4d3e0f6da7fb",
+      "properties": {
+        "type": "way",
+        "id": 374580328,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/243"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580328",
+        "customId": "amenity/way/374580328",
+        "name": {
+          "en": "O27/243"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956884850000002,
+          48.42287025
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3ca5d04d-72ff-41c6-8705-846449a694db",
+      "properties": {
+        "type": "way",
+        "id": 374580329,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/244"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580329",
+        "customId": "amenity/way/374580329",
+        "name": {
+          "en": "O27/244"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95693465,
+          48.4228883
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "aad0e21f-d24f-426a-97d3-39f8309a286a",
+      "properties": {
+        "type": "way",
+        "id": 374580330,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/242"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580330",
+        "customId": "amenity/way/374580330",
+        "name": {
+          "en": "O27/242"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95696405,
+          48.42284185
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4e93ee8c-7493-4699-ad60-36ca1a8040d0",
+      "properties": {
+        "type": "way",
+        "id": 374580331,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/246"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580331",
+        "customId": "amenity/way/374580331",
+        "name": {
+          "en": "O27/246"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569787,
+          48.42289725
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "05bd105a-7243-4f69-bd4b-4324b1269535",
+      "properties": {
+        "type": "way",
+        "id": 374580332,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/247"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580332",
+        "customId": "amenity/way/374580332",
+        "name": {
+          "en": "O27/247"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957026299999999,
+          48.422906
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6e0667ed-23de-45da-8010-40644739a1ec",
+      "properties": {
+        "type": "way",
+        "id": 374580731,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "2202"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374580731",
+        "customId": "amenity/way/374580731",
+        "name": {
+          "en": "2202"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568669,
+          48.422800550000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ce1e3aac-4b2f-4277-b812-ce443f20862b",
+      "properties": {
+        "type": "way",
+        "id": 747004867,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/212;O27/214"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/747004867",
+        "customId": "amenity/way/747004867",
+        "name": {
+          "en": "O27/212;O27/214"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957191550000001,
+          48.42310105
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e199abb3-7d3e-4963-8815-c9f46582c433",
+      "properties": {
+        "type": "way",
+        "id": 747004868,
+        "tags": {
+          "indoor": "room",
+          "level": "2",
+          "ref": "O27/211"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/747004868",
+        "customId": "amenity/way/747004868",
+        "name": {
+          "en": "O27/211"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571222,
+          48.42315955
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "0bc3df9b-2ac0-4ec0-b623-c86166d20278",
+      "properties": {
+        "type": "way",
+        "id": 750112501,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/111"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112501",
+        "customId": "amenity/way/750112501",
+        "name": {
+          "en": "O27/111"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95708955,
+          48.423047
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a5f6d8a3-37d2-45c8-a33c-d131f0e56602",
+      "properties": {
+        "type": "way",
+        "id": 750112502,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/113"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112502",
+        "customId": "amenity/way/750112502",
+        "name": {
+          "en": "O27/113"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95704325,
+          48.423098949999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "39575651-20fc-4ab0-9050-109488c8a052",
+      "properties": {
+        "type": "way",
+        "id": 750112503,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/112"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112503",
+        "customId": "amenity/way/750112503",
+        "name": {
+          "en": "O27/112"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570751,
+          48.423064999999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d1fc31a0-7a2d-47ae-90da-65457a246341",
+      "properties": {
+        "type": "way",
+        "id": 750112504,
+        "tags": {
+          "indoor": "room",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112504",
+        "customId": "amenity/way/750112504",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95715045,
+          48.42308035
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "57654a4c-b5a8-4582-b07c-d6ae8f44bfa4",
+      "properties": {
+        "type": "way",
+        "id": 750112505,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/107"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112505",
+        "customId": "amenity/way/750112505",
+        "name": {
+          "en": "O27/107"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571968,
+          48.423090099999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "17f72927-b012-439d-bdd5-b4cf9fdc9a49",
+      "properties": {
+        "type": "way",
+        "id": 750112506,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/119"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112506",
+        "customId": "amenity/way/750112506",
+        "name": {
+          "en": "O27/119"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957182499999998,
+          48.423107099999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6d899a1f-144e-4da5-8d47-07b44f35b758",
+      "properties": {
+        "type": "way",
+        "id": 750112507,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/118"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112507",
+        "customId": "amenity/way/750112507",
+        "name": {
+          "en": "O27/118"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957168,
+          48.42312435
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3e8b5c00-cab3-42c6-8dba-e2dde9020266",
+      "properties": {
+        "type": "way",
+        "id": 750112508,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/114"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112508",
+        "customId": "amenity/way/750112508",
+        "name": {
+          "en": "O27/114"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956996499999999,
+          48.4231366
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "2dc1f40c-7ee5-4074-8015-29b977535cc6",
+      "properties": {
+        "type": "way",
+        "id": 750112509,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/115"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112509",
+        "customId": "amenity/way/750112509",
+        "name": {
+          "en": "O27/115"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95704235,
+          48.423153
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "89e7cd66-2a44-4eca-a700-32d47e12ed8a",
+      "properties": {
+        "type": "way",
+        "id": 750112510,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/117"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112510",
+        "customId": "amenity/way/750112510",
+        "name": {
+          "en": "O27/117"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957148400000001,
+          48.423147900000004
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "dcd1ec07-4779-45b0-9621-07abce6e1259",
+      "properties": {
+        "type": "way",
+        "id": 750112511,
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/116"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750112511",
+        "customId": "amenity/way/750112511",
+        "name": {
+          "en": "O27/116"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95710545,
+          48.4231768
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d250f0f5-228b-4b0f-b4ae-bea3fc4ecaa3",
+      "properties": {
+        "type": "way",
+        "id": 750184135,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "3",
+          "male": "yes",
+          "ref": "O27/301"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184135",
+        "customId": "amenity/way/750184135",
+        "name": {
+          "en": "O27/301"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95720015,
+          48.4229955
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "457aa562-af2d-4eb1-9595-b4edb85e02ae",
+      "properties": {
+        "type": "way",
+        "id": 750184136,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/320"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184136",
+        "customId": "amenity/way/750184136",
+        "name": {
+          "en": "O27/320"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95727745,
+          48.4230233
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "492894c1-9225-42b4-a3f1-c4ea77f67e0b",
+      "properties": {
+        "type": "way",
+        "id": 750184139,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/307"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184139",
+        "customId": "amenity/way/750184139",
+        "name": {
+          "en": "O27/307"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571033,
+          48.4228895
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f568ed54-d6f8-4b8e-9dfa-f6ab69c20bba",
+      "properties": {
+        "type": "way",
+        "id": 750184140,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/319"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184140",
+        "customId": "amenity/way/750184140",
+        "name": {
+          "en": "O27/319"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572477,
+          48.423058850000004
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a8ff84ad-c77f-4bae-be9b-372be0dd3849",
+      "properties": {
+        "type": "way",
+        "id": 750184141,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/311"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184141",
+        "customId": "amenity/way/750184141",
+        "name": {
+          "en": "O27/311"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957129,
+          48.42303385
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "1298738a-8a0f-4ade-83c4-539722bb1416",
+      "properties": {
+        "type": "way",
+        "id": 750184142,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/318"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184142",
+        "customId": "amenity/way/750184142",
+        "name": {
+          "en": "O27/318"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95722475,
+          48.42308655
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "bb5a2e78-2efe-4837-a051-7249e0cb2209",
+      "properties": {
+        "type": "way",
+        "id": 750184143,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/317"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184143",
+        "customId": "amenity/way/750184143",
+        "name": {
+          "en": "O27/317"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95720175,
+          48.4231143
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "55a37a08-4590-407a-af77-5838b9505bd5",
+      "properties": {
+        "type": "way",
+        "id": 750184144,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/316"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184144",
+        "customId": "amenity/way/750184144",
+        "name": {
+          "en": "O27/316"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95717865,
+          48.4231421
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4ed51bde-aefa-41d9-bc18-fafdde24429c",
+      "properties": {
+        "type": "way",
+        "id": 750184145,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3103"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184145",
+        "customId": "amenity/way/750184145",
+        "name": {
+          "en": "O27/3103"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957155499999999,
+          48.4231698
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ac81bb4b-ee79-4708-bc5a-cdf87d82cab6",
+      "properties": {
+        "type": "way",
+        "id": 750184146,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750184146",
+        "customId": "amenity/way/750184146",
+        "name": {
+          "en": "O27/3102"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571325,
+          48.4231976
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "68efdf57-ed4b-4467-8e09-41c8185efd9d",
+      "properties": {
+        "type": "way",
+        "id": 750420834,
+        "tags": {
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/305"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750420834",
+        "customId": "amenity/way/750420834",
+        "name": {
+          "en": "O27/305"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95726095,
+          48.4228247
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8ea58792-d632-4c94-8b24-e00fbca6e098",
+      "properties": {
+        "type": "way",
+        "id": 750481896,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/340"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481896",
+        "customId": "amenity/way/750481896",
+        "name": {
+          "en": "O27/340"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95718375,
+          48.4227959
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d7367b33-319e-4661-addb-648ee701ce12",
+      "properties": {
+        "type": "way",
+        "id": 750481898,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/350"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481898",
+        "customId": "amenity/way/750481898",
+        "name": {
+          "en": "O27/350"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95705855,
+          48.4229438
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "b109ce5c-a9e9-46d2-8230-2d2f263a4e87",
+      "properties": {
+        "type": "way",
+        "id": 750481899,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/339"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481899",
+        "customId": "amenity/way/750481899",
+        "name": {
+          "en": "O27/339"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95721305,
+          48.422760249999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "2fd1335d-4427-4c6a-be4b-1147922cc2f2",
+      "properties": {
+        "type": "way",
+        "id": 750481907,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/338"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481907",
+        "customId": "amenity/way/750481907",
+        "name": {
+          "en": "O27/338"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572362,
+          48.422732749999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ea14e750-50e7-4e5b-8875-d673c8e49df9",
+      "properties": {
+        "type": "way",
+        "id": 750481908,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/337"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481908",
+        "customId": "amenity/way/750481908",
+        "name": {
+          "en": "O27/337"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572595,
+          48.4227051
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d218de23-4f6d-448e-bddc-fc33cd2969be",
+      "properties": {
+        "type": "way",
+        "id": 750481909,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/336"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481909",
+        "customId": "amenity/way/750481909",
+        "name": {
+          "en": "O27/336"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572827,
+          48.42267755
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "cbcce567-f380-4b32-b325-fbc8d57a8b46",
+      "properties": {
+        "type": "way",
+        "id": 750481910,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3305"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481910",
+        "customId": "amenity/way/750481910",
+        "name": {
+          "en": "O27/3305"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957305850000001,
+          48.42265
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "aff0a686-a8a0-43da-8849-dcb511a38467",
+      "properties": {
+        "type": "way",
+        "id": 750481911,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3304"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481911",
+        "customId": "amenity/way/750481911",
+        "name": {
+          "en": "O27/3304"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957329000000001,
+          48.42262255
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "222cf935-0683-4293-b81b-d298eebe8164",
+      "properties": {
+        "type": "way",
+        "id": 750481912,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3303"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481912",
+        "customId": "amenity/way/750481912",
+        "name": {
+          "en": "O27/3303"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574088,
+          48.42266119999999
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d0c9746e-ec6a-4aba-8e4f-910ce6f179cb",
+      "properties": {
+        "type": "way",
+        "id": 750481913,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/331"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481913",
+        "customId": "amenity/way/750481913",
+        "name": {
+          "en": "O27/331"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573313,
+          48.4227862
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "1c199ae1-ce1c-4592-bf3e-2a63bbd8dc27",
+      "properties": {
+        "type": "way",
+        "id": 750481914,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/312"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481914",
+        "customId": "amenity/way/750481914",
+        "name": {
+          "en": "O27/312"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95709505,
+          48.42307495
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "852bed8e-d92c-4746-a533-0b6ddcee72c0",
+      "properties": {
+        "type": "way",
+        "id": 750481915,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/313"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481915",
+        "customId": "amenity/way/750481915",
+        "name": {
+          "en": "O27/313"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95707195,
+          48.42310275
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6a01a128-049a-458a-8789-6636cc02b061",
+      "properties": {
+        "type": "way",
+        "id": 750481916,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/314"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481916",
+        "customId": "amenity/way/750481916",
+        "name": {
+          "en": "O27/314"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95704845,
+          48.423130900000004
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c43cb3e6-3215-493a-a85b-f92f836ee81d",
+      "properties": {
+        "type": "way",
+        "id": 750481917,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481917",
+        "customId": "amenity/way/750481917",
+        "name": {
+          "en": "O27/3101"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957025,
+          48.42315855
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "47e9f1ab-6ac1-4db7-b275-b042ba79c2e0",
+      "properties": {
+        "type": "way",
+        "id": 750481918,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/332"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481918",
+        "customId": "amenity/way/750481918",
+        "name": {
+          "en": "O27/332"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573659,
+          48.42274555
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "300167f6-b75b-4ebd-a6eb-ad985655823a",
+      "properties": {
+        "type": "way",
+        "id": 750481919,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/333"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481919",
+        "customId": "amenity/way/750481919",
+        "name": {
+          "en": "O27/333"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573891,
+          48.42271785
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "822f9495-28bc-46c6-8324-5f4ba33a9114",
+      "properties": {
+        "type": "way",
+        "id": 750481920,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3301"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481920",
+        "customId": "amenity/way/750481920",
+        "name": {
+          "en": "O27/3301"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957384699999999,
+          48.422688699999995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "85779016-07d6-4db3-a95c-15a840f3ba81",
+      "properties": {
+        "type": "way",
+        "id": 750481921,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3302"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750481921",
+        "customId": "amenity/way/750481921",
+        "name": {
+          "en": "O27/3302"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574541,
+          48.42268765
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "13e7a9a4-838a-4664-b1a4-3af07616455b",
+      "properties": {
+        "type": "way",
+        "id": 750493558,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750493558",
+        "customId": "amenity/way/750493558",
+        "name": {
+          "en": "O27/3201"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957355849999999,
+          48.42293135
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f9e45c14-8eed-4327-8181-81b8fb1ef759",
+      "properties": {
+        "type": "way",
+        "id": 750493590,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/349"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/750493590",
+        "customId": "amenity/way/750493590",
+        "name": {
+          "en": "O27/349"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570076,
+          48.42292535
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "0ba873d4-0c34-4147-aff3-3f7c4d3e68f1",
+      "properties": {
+        "type": "way",
+        "id": 751523775,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/348"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523775",
+        "customId": "amenity/way/751523775",
+        "name": {
+          "en": "O27/348"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569677,
+          48.422910900000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4b906a81-23bb-4006-8205-bc1af689edfe",
+      "properties": {
+        "type": "way",
+        "id": 751523776,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/347"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523776",
+        "customId": "amenity/way/751523776",
+        "name": {
+          "en": "O27/347"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956928,
+          48.4228964
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "9e86bb14-a81c-47e6-b3f3-9646e1941e5c",
+      "properties": {
+        "type": "way",
+        "id": 751523777,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/346"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523777",
+        "customId": "amenity/way/751523777",
+        "name": {
+          "en": "O27/346"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95688915,
+          48.42288235
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a9c905f3-c696-472e-b642-d362755bb1bb",
+      "properties": {
+        "type": "way",
+        "id": 751523778,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3402"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523778",
+        "customId": "amenity/way/751523778",
+        "name": {
+          "en": "O27/3402"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568513,
+          48.4228685
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "5200e479-34a5-4bf5-bceb-7b73ecccb235",
+      "properties": {
+        "type": "way",
+        "id": 751523779,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523779",
+        "customId": "amenity/way/751523779",
+        "name": {
+          "en": "O27/3401"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956813050000001,
+          48.4228546
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e39d4ee3-75d9-444b-b8fd-edeecdec3fb8",
+      "properties": {
+        "type": "way",
+        "id": 751523780,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/341"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523780",
+        "customId": "amenity/way/751523780",
+        "name": {
+          "en": "O27/341"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957048050000001,
+          48.422843549999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3eccde8c-9bc8-4db9-a0dc-a794cdbde9dc",
+      "properties": {
+        "type": "way",
+        "id": 751523784,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/342"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523784",
+        "customId": "amenity/way/751523784",
+        "name": {
+          "en": "O27/342"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569886,
+          48.42282175
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "37be01be-47cd-47cb-91ae-1f3964aa44be",
+      "properties": {
+        "type": "way",
+        "id": 751523786,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/343"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523786",
+        "customId": "amenity/way/751523786",
+        "name": {
+          "en": "O27/343"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569486,
+          48.42280715
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "7e79476c-6b0a-46b2-957d-b34c36ebfda9",
+      "properties": {
+        "type": "way",
+        "id": 751523787,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/344"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523787",
+        "customId": "amenity/way/751523787",
+        "name": {
+          "en": "O27/344"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956911,
+          48.42279335
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "66712d92-309d-419c-b82c-d5f829d7afd4",
+      "properties": {
+        "type": "way",
+        "id": 751523789,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3211"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523789",
+        "customId": "amenity/way/751523789",
+        "name": {
+          "en": "O27/3211"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95741125,
+          48.4229767
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "38a6b079-b3f9-4782-a438-087b47ecd992",
+      "properties": {
+        "type": "way",
+        "id": 751523790,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3210"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523790",
+        "customId": "amenity/way/751523790",
+        "name": {
+          "en": "O27/3210"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95738515,
+          48.4228767
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "1bc1af9c-2306-461e-97e7-93058c835516",
+      "properties": {
+        "type": "way",
+        "id": 751523791,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3209"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523791",
+        "customId": "amenity/way/751523791",
+        "name": {
+          "en": "O27/3209"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574241,
+          48.422891
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "9e922705-aea7-4fb0-9fba-00be96782b18",
+      "properties": {
+        "type": "way",
+        "id": 751523792,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3208"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523792",
+        "customId": "amenity/way/751523792",
+        "name": {
+          "en": "O27/3208"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957475800000001,
+          48.4229097
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "38ba4620-c4cd-408e-9f05-9b95d862bce0",
+      "properties": {
+        "type": "way",
+        "id": 751523793,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3207"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523793",
+        "customId": "amenity/way/751523793",
+        "name": {
+          "en": "O27/3207"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575298,
+          48.4229239
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f6d68b7d-2b81-498a-97b3-9a97d4a017f9",
+      "properties": {
+        "type": "way",
+        "id": 751523794,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3206"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523794",
+        "customId": "amenity/way/751523794",
+        "name": {
+          "en": "O27/3206"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575682,
+          48.4229383
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c0c3916e-fb32-4f50-b782-ae1fe2a06565",
+      "properties": {
+        "type": "way",
+        "id": 751523795,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3218"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523795",
+        "customId": "amenity/way/751523795",
+        "name": {
+          "en": "O27/3218"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9576088,
+          48.422953050000004
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "01469b18-4d8e-49c3-925e-6398507fac5b",
+      "properties": {
+        "type": "way",
+        "id": 751523796,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3217"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751523796",
+        "customId": "amenity/way/751523796",
+        "name": {
+          "en": "O27/3217"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957647999999999,
+          48.422968
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "1e0b205b-7fe1-4d75-a07b-4cf06d0c13a1",
+      "properties": {
+        "type": "way",
+        "id": 751571959,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3214"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751571959",
+        "customId": "amenity/way/751571959",
+        "name": {
+          "en": "O27/3214"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95747905,
+          48.423017599999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "789c9fb2-e748-4bbb-92b6-2a0e441c9a70",
+      "properties": {
+        "type": "way",
+        "id": 751571960,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3215"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751571960",
+        "customId": "amenity/way/751571960",
+        "name": {
+          "en": "O27/3215"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575589,
+          48.42304705
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a781eb32-86bb-438c-bd7d-775c5b7bb5d6",
+      "properties": {
+        "type": "way",
+        "id": 751571961,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3212"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751571961",
+        "customId": "amenity/way/751571961",
+        "name": {
+          "en": "O27/3212"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575018,
+          48.422982000000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "be29ec69-da96-4051-80f5-1a65cdda7671",
+      "properties": {
+        "type": "way",
+        "id": 751571962,
+        "tags": {
+          "indoor": "room",
+          "level": "3",
+          "ref": "O27/3216"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751571962",
+        "customId": "amenity/way/751571962",
+        "name": {
+          "en": "O27/3216"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575924,
+          48.423015449999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "2ca85875-45de-4ac5-8359-b53ebb39fefc",
+      "properties": {
+        "type": "way",
+        "id": 751589142,
+        "tags": {
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/405"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589142",
+        "customId": "amenity/way/751589142",
+        "name": {
+          "en": "O27/405"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95726095,
+          48.4228247
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "fb1dea27-28ec-41a6-b5d6-b4ccfad7d716",
+      "properties": {
+        "type": "way",
+        "id": 751589143,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "4",
+          "male": "yes",
+          "ref": "O27/401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589143",
+        "customId": "amenity/way/751589143",
+        "name": {
+          "en": "O27/401"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95720015,
+          48.4229955
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "14220e18-432a-4892-842c-26cdede1abb7",
+      "properties": {
+        "type": "way",
+        "id": 751589144,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/450"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589144",
+        "customId": "amenity/way/751589144",
+        "name": {
+          "en": "O27/450"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95705855,
+          48.4229438
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3191cf8d-2132-44c8-a96c-13241f647d1f",
+      "properties": {
+        "type": "way",
+        "id": 751589145,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/449"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589145",
+        "customId": "amenity/way/751589145",
+        "name": {
+          "en": "O27/449"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570076,
+          48.42292535
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e85b2081-63a9-428b-b843-6992150aad72",
+      "properties": {
+        "type": "way",
+        "id": 751589146,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/448"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589146",
+        "customId": "amenity/way/751589146",
+        "name": {
+          "en": "O27/448"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569677,
+          48.422910900000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c3ee9970-8cdf-495b-8bd6-a86956070db8",
+      "properties": {
+        "type": "way",
+        "id": 751589147,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/447"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589147",
+        "customId": "amenity/way/751589147",
+        "name": {
+          "en": "O27/447"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956928,
+          48.4228964
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4575a40c-d4e9-4aa4-9dcd-4a634c28a232",
+      "properties": {
+        "type": "way",
+        "id": 751589148,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/446"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589148",
+        "customId": "amenity/way/751589148",
+        "name": {
+          "en": "O27/446"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95688915,
+          48.42288235
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "b27fc31b-0c97-40a7-a758-da0eb4b9ece8",
+      "properties": {
+        "type": "way",
+        "id": 751589149,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4405"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589149",
+        "customId": "amenity/way/751589149",
+        "name": {
+          "en": "O27/4405"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95685125,
+          48.4228685
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4404a4a2-ac13-4644-8d53-748c9ca58d34",
+      "properties": {
+        "type": "way",
+        "id": 751589150,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4404"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589150",
+        "customId": "amenity/way/751589150",
+        "name": {
+          "en": "O27/4404"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956813050000001,
+          48.4228546
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "b4c149b2-87d3-4fa5-b227-1f1db1e129d1",
+      "properties": {
+        "type": "way",
+        "id": 751589151,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/442"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589151",
+        "customId": "amenity/way/751589151",
+        "name": {
+          "en": "O27/442"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569886,
+          48.42282175
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "560cf554-c586-459e-a218-7d0816396264",
+      "properties": {
+        "type": "way",
+        "id": 751589152,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/441"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589152",
+        "customId": "amenity/way/751589152",
+        "name": {
+          "en": "O27/441"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957048050000001,
+          48.422843549999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "eeb663d2-0f5c-4e03-819e-c6a89093bf89",
+      "properties": {
+        "type": "way",
+        "id": 751589153,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/407"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589153",
+        "customId": "amenity/way/751589153",
+        "name": {
+          "en": "O27/407"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571033,
+          48.4228895
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6984630e-3b50-4622-a01e-b245ff75426b",
+      "properties": {
+        "type": "way",
+        "id": 751589154,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/440"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589154",
+        "customId": "amenity/way/751589154",
+        "name": {
+          "en": "O27/440"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95718375,
+          48.4227959
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "58d6ed93-251b-4958-b60a-2278387c0f97",
+      "properties": {
+        "type": "way",
+        "id": 751589155,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/439"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589155",
+        "customId": "amenity/way/751589155",
+        "name": {
+          "en": "O27/439"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95721305,
+          48.422760249999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "7be0b074-26ab-4a4d-8365-4b137eb87873",
+      "properties": {
+        "type": "way",
+        "id": 751589156,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/438"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589156",
+        "customId": "amenity/way/751589156",
+        "name": {
+          "en": "O27/438"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572362,
+          48.422732749999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8ced7f37-35ba-4a27-9b4c-a822375d2ebd",
+      "properties": {
+        "type": "way",
+        "id": 751589157,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/437"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589157",
+        "customId": "amenity/way/751589157",
+        "name": {
+          "en": "O27/437"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572595,
+          48.4227051
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "272ae88a-8fd2-41df-86ff-29536e12b289",
+      "properties": {
+        "type": "way",
+        "id": 751589158,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/436"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589158",
+        "customId": "amenity/way/751589158",
+        "name": {
+          "en": "O27/436"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572827,
+          48.42267755
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e0339b5d-846f-4f09-a6e2-6a1632b5e341",
+      "properties": {
+        "type": "way",
+        "id": 751589159,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4306"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589159",
+        "customId": "amenity/way/751589159",
+        "name": {
+          "en": "O27/4306"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957305850000001,
+          48.42265
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "dd2fdfce-8ffc-460e-b945-b115734751b2",
+      "properties": {
+        "type": "way",
+        "id": 751589161,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4305"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751589161",
+        "customId": "amenity/way/751589161",
+        "name": {
+          "en": "O27/4305"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957329000000001,
+          48.42262255
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c0456a04-0799-44f1-a466-a49ed89b9088",
+      "properties": {
+        "type": "way",
+        "id": 751836509,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/431"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836509",
+        "customId": "amenity/way/751836509",
+        "name": {
+          "en": "O27/431"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573313,
+          48.4227862
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "dccc929d-fb06-4ad7-a824-d134f740eec2",
+      "properties": {
+        "type": "way",
+        "id": 751836511,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4301"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836511",
+        "customId": "amenity/way/751836511",
+        "name": {
+          "en": "O27/4301"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573957,
+          48.42273165
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "79d29a60-d1f9-4a1c-90ff-d65e4c2d2a17",
+      "properties": {
+        "type": "way",
+        "id": 751836512,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4302"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836512",
+        "customId": "amenity/way/751836512",
+        "name": {
+          "en": "O27/4302"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95733985,
+          48.4227257
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c60289fc-f1bd-477e-adac-cfd11cfe5182",
+      "properties": {
+        "type": "way",
+        "id": 751836528,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4303"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836528",
+        "customId": "amenity/way/751836528",
+        "name": {
+          "en": "O27/4303"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957424150000001,
+          48.4226837
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f8749cb9-dc47-4556-856a-f7dcc3e6f335",
+      "properties": {
+        "type": "way",
+        "id": 751836532,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4304"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836532",
+        "customId": "amenity/way/751836532",
+        "name": {
+          "en": "O27/4304"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95739725,
+          48.42265825
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "42fa8283-6adb-40fa-8f79-60c5c6abadf3",
+      "properties": {
+        "type": "way",
+        "id": 751836560,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4403"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836560",
+        "customId": "amenity/way/751836560",
+        "name": {
+          "en": "O27/4403"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95694125,
+          48.42278845
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "9119cb6f-b26e-46a4-9ee9-0879b6e28b28",
+      "properties": {
+        "type": "way",
+        "id": 751836561,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4402"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836561",
+        "customId": "amenity/way/751836561",
+        "name": {
+          "en": "O27/4402"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956891800000001,
+          48.422816749999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "e26e43d8-eff7-4156-8ffb-80252e3d680e",
+      "properties": {
+        "type": "way",
+        "id": 751836562,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4401"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751836562",
+        "customId": "amenity/way/751836562",
+        "name": {
+          "en": "O27/4401"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956929599999999,
+          48.4228307
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8a9ea658-e11b-4a63-8229-888eea9c9a43",
+      "properties": {
+        "type": "way",
+        "id": 751846767,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/420"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846767",
+        "customId": "amenity/way/751846767",
+        "name": {
+          "en": "O27/420"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957277399999999,
+          48.4230233
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "490f4eb5-6e9a-4f1c-aa82-c3239012440b",
+      "properties": {
+        "type": "way",
+        "id": 751846770,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/419"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846770",
+        "customId": "amenity/way/751846770",
+        "name": {
+          "en": "O27/419"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572477,
+          48.423058850000004
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "fd581d57-a6cf-4954-af39-8c311d628ca0",
+      "properties": {
+        "type": "way",
+        "id": 751846771,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/418"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846771",
+        "customId": "amenity/way/751846771",
+        "name": {
+          "en": "O27/418"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957224700000001,
+          48.42308655
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "9db20384-e32e-4a3c-b699-95a84c71e48e",
+      "properties": {
+        "type": "way",
+        "id": 751846772,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/417"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846772",
+        "customId": "amenity/way/751846772",
+        "name": {
+          "en": "O27/417"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95720165,
+          48.42311425
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ec1829ae-76b3-49ef-8dca-e16d057174ed",
+      "properties": {
+        "type": "way",
+        "id": 751846773,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/416"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846773",
+        "customId": "amenity/way/751846773",
+        "name": {
+          "en": "O27/416"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95717865,
+          48.423142049999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8fd36804-6270-4889-a021-4ef74af23206",
+      "properties": {
+        "type": "way",
+        "id": 751846774,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4105"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846774",
+        "customId": "amenity/way/751846774",
+        "name": {
+          "en": "O27/4105"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957155499999999,
+          48.4231698
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "833d7cef-e505-48af-a877-17f809ea9db7",
+      "properties": {
+        "type": "way",
+        "id": 751846775,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4104"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846775",
+        "customId": "amenity/way/751846775",
+        "name": {
+          "en": "O27/4104"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571325,
+          48.4231976
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "39889393-f1ff-493b-94c2-d635c7c2e378",
+      "properties": {
+        "type": "way",
+        "id": 751846776,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/411"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846776",
+        "customId": "amenity/way/751846776",
+        "name": {
+          "en": "O27/411"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957129,
+          48.42303385
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f4ea3dc2-7e77-4ad8-b069-44caa87aff3a",
+      "properties": {
+        "type": "way",
+        "id": 751846777,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/412"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846777",
+        "customId": "amenity/way/751846777",
+        "name": {
+          "en": "O27/412"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95709505,
+          48.42307495
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c5d4405a-19f3-4ffe-9046-d10ba9d7cd91",
+      "properties": {
+        "type": "way",
+        "id": 751846780,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/413"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846780",
+        "customId": "amenity/way/751846780",
+        "name": {
+          "en": "O27/413"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95707195,
+          48.42310275
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "5a564a45-9446-40f3-bca5-747d4f5b3124",
+      "properties": {
+        "type": "way",
+        "id": 751846781,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846781",
+        "customId": "amenity/way/751846781",
+        "name": {
+          "en": "O27/4102"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570071,
+          48.4231332
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c7b3fb01-d67d-435a-8a02-db243e9c05a9",
+      "properties": {
+        "type": "way",
+        "id": 751846782,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4103"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846782",
+        "customId": "amenity/way/751846782",
+        "name": {
+          "en": "O27/4103"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570549,
+          48.4231584
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "755d3bf1-c193-4280-8ed6-1746093bf895",
+      "properties": {
+        "type": "way",
+        "id": 751846783,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/4101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846783",
+        "customId": "amenity/way/751846783",
+        "name": {
+          "en": "O27/4101"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570775,
+          48.42313085
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a460c89f-17c3-4e83-8493-b55a82909c21",
+      "properties": {
+        "type": "way",
+        "id": 751846792,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/403"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751846792",
+        "customId": "amenity/way/751846792",
+        "name": {
+          "en": "O27/403"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957355849999999,
+          48.42293135
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c66a539c-623b-4c4c-8d49-6f9e8ebf9716",
+      "properties": {
+        "type": "way",
+        "id": 751862856,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/429"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862856",
+        "customId": "amenity/way/751862856",
+        "name": {
+          "en": "O27/429"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574014,
+          48.4229731
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c1d5efd9-b82e-4278-85b8-08796a59ca4b",
+      "properties": {
+        "type": "way",
+        "id": 751862857,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/427"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862857",
+        "customId": "amenity/way/751862857",
+        "name": {
+          "en": "O27/427"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957415600000001,
+          48.42288795
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d77f3498-8efc-454e-8fd8-71ea7be3550a",
+      "properties": {
+        "type": "way",
+        "id": 751862858,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/426"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862858",
+        "customId": "amenity/way/751862858",
+        "name": {
+          "en": "O27/426"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957486500000002,
+          48.422913449999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "aed249d6-3083-4096-8a2b-b6cc14b607e0",
+      "properties": {
+        "type": "way",
+        "id": 751862859,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/421"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862859",
+        "customId": "amenity/way/751862859",
+        "name": {
+          "en": "O27/421"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574415,
+          48.42301645
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "05fc5687-818c-4dba-bcc8-03a262e7eb86",
+      "properties": {
+        "type": "way",
+        "id": 751862860,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/422"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862860",
+        "customId": "amenity/way/751862860",
+        "name": {
+          "en": "O27/422"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957508650000001,
+          48.42303065
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c99ab1d7-f8f5-48ba-affa-e07be9173f1f",
+      "properties": {
+        "type": "way",
+        "id": 751862861,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/423"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862861",
+        "customId": "amenity/way/751862861",
+        "name": {
+          "en": "O27/423"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95753675,
+          48.422997
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "782ab7ce-f348-4e3a-b28f-ecef254995b1",
+      "properties": {
+        "type": "way",
+        "id": 751862862,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/425"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862862",
+        "customId": "amenity/way/751862862",
+        "name": {
+          "en": "O27/425"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575298,
+          48.4229241
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a718ed47-4ee4-4c2c-a4b9-ede164289cae",
+      "properties": {
+        "type": "way",
+        "id": 751862863,
+        "tags": {
+          "indoor": "room",
+          "level": "4",
+          "ref": "O27/424"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/751862863",
+        "customId": "amenity/way/751862863",
+        "name": {
+          "en": "O27/424"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95758025,
+          48.42294235
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "fe06a170-2236-4d6b-b8c8-d45511913a01",
+      "properties": {
+        "type": "way",
+        "id": 752627083,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "5",
+          "male": "yes",
+          "ref": "O27/501"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627083",
+        "customId": "amenity/way/752627083",
+        "name": {
+          "en": "O27/501"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95720015,
+          48.4229955
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "28a6c1cc-4304-4fcb-8814-d91482870764",
+      "properties": {
+        "type": "way",
+        "id": 752627084,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/507"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627084",
+        "customId": "amenity/way/752627084",
+        "name": {
+          "en": "O27/507"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571033,
+          48.4228895
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "75e4bd16-f31a-4b75-918e-df69a98dad9d",
+      "properties": {
+        "type": "way",
+        "id": 752627085,
+        "tags": {
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/505"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627085",
+        "customId": "amenity/way/752627085",
+        "name": {
+          "en": "O27/505"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95726095,
+          48.4228247
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a0b35443-1c0d-41dd-9a76-e419bc8744cf",
+      "properties": {
+        "type": "way",
+        "id": 752627086,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/538"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627086",
+        "customId": "amenity/way/752627086",
+        "name": {
+          "en": "O27/538"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95718375,
+          48.4227959
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "2974c7d3-754c-4177-a01e-c68926bb02c2",
+      "properties": {
+        "type": "way",
+        "id": 752627087,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/537"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627087",
+        "customId": "amenity/way/752627087",
+        "name": {
+          "en": "O27/537"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95721305,
+          48.422760249999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "ac6a4451-8e68-4043-8958-2ae9937751ba",
+      "properties": {
+        "type": "way",
+        "id": 752627088,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/536"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627088",
+        "customId": "amenity/way/752627088",
+        "name": {
+          "en": "O27/536"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572362,
+          48.422732749999994
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4e056bc1-1af2-4eef-bc8c-c216efa180ab",
+      "properties": {
+        "type": "way",
+        "id": 752627089,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/535"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627089",
+        "customId": "amenity/way/752627089",
+        "name": {
+          "en": "O27/535"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572595,
+          48.4227051
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "7d3e74d9-616e-46a4-90f8-c532f06b04a2",
+      "properties": {
+        "type": "way",
+        "id": 752627090,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/534"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627090",
+        "customId": "amenity/way/752627090",
+        "name": {
+          "en": "O27/534"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957282800000002,
+          48.42267755
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "eec358f1-2e76-4863-9dd6-52b383fa863a",
+      "properties": {
+        "type": "way",
+        "id": 752627091,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/532"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627091",
+        "customId": "amenity/way/752627091",
+        "name": {
+          "en": "O27/532"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957408800000001,
+          48.422743
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a071f4cc-b718-4bb9-92ae-d6aff61c5b42",
+      "properties": {
+        "type": "way",
+        "id": 752627092,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/531"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627092",
+        "customId": "amenity/way/752627092",
+        "name": {
+          "en": "O27/531"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573313,
+          48.4227862
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8cfecab7-49e2-4349-979c-1b27a8360398",
+      "properties": {
+        "type": "way",
+        "id": 752627093,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/533"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627093",
+        "customId": "amenity/way/752627093",
+        "name": {
+          "en": "O27/533"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95736065,
+          48.42271795
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "eac2f10b-33b5-4683-8c14-a1fd92b3be50",
+      "properties": {
+        "type": "way",
+        "id": 752627094,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/541"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627094",
+        "customId": "amenity/way/752627094",
+        "name": {
+          "en": "O27/541"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95706785,
+          48.4228509
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "05481b59-d6a9-4d76-8ef5-1864d2d55605",
+      "properties": {
+        "type": "way",
+        "id": 752627095,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/543;O27/542"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627095",
+        "customId": "amenity/way/752627095",
+        "name": {
+          "en": "O27/543;O27/542"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957008250000001,
+          48.422828949999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "261df8c5-09fa-443d-a586-8d7bd9077eb9",
+      "properties": {
+        "type": "way",
+        "id": 752627096,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/544"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627096",
+        "customId": "amenity/way/752627096",
+        "name": {
+          "en": "O27/544"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9569486,
+          48.42280715
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "c5e38249-be5b-454b-b2e4-c121a338b00b",
+      "properties": {
+        "type": "way",
+        "id": 752627097,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/545"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627097",
+        "customId": "amenity/way/752627097",
+        "name": {
+          "en": "O27/545"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568984,
+          48.42278865
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "dd5a1f41-8e68-41e0-ba60-4da1cb9548cf",
+      "properties": {
+        "type": "way",
+        "id": 752627098,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/508"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627098",
+        "customId": "amenity/way/752627098",
+        "name": {
+          "en": "O27/508"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957087,
+          48.4229495
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a1bc4748-90d7-4d45-ae25-1817a0e217a6",
+      "properties": {
+        "type": "way",
+        "id": 752627099,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/552"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/752627099",
+        "customId": "amenity/way/752627099",
+        "name": {
+          "en": "O27/552"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957027100000001,
+          48.422932450000005
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8c120863-6388-4db8-bd15-7004345b32ea",
+      "properties": {
+        "type": "way",
+        "id": 753224862,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/551"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224862",
+        "customId": "amenity/way/753224862",
+        "name": {
+          "en": "O27/551"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.956978,
+          48.42291465
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "07b0b3d5-dc22-4f80-82de-771211c20c10",
+      "properties": {
+        "type": "way",
+        "id": 753224863,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/550"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224863",
+        "customId": "amenity/way/753224863",
+        "name": {
+          "en": "O27/550"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95693765,
+          48.42289995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "d186512b-3115-4797-8ad1-7827e7a36099",
+      "properties": {
+        "type": "way",
+        "id": 753224864,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/549"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224864",
+        "customId": "amenity/way/753224864",
+        "name": {
+          "en": "O27/549"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568976,
+          48.42288535
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "35e9a991-7182-4bc3-b82a-5ec26edb3bab",
+      "properties": {
+        "type": "way",
+        "id": 753224865,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/548"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224865",
+        "customId": "amenity/way/753224865",
+        "name": {
+          "en": "O27/548"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9568578,
+          48.422870849999995
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a562f11d-e14d-4964-8ac4-abc043e62b58",
+      "properties": {
+        "type": "way",
+        "id": 753224866,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/547"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224866",
+        "customId": "amenity/way/753224866",
+        "name": {
+          "en": "O27/547"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95681095,
+          48.4228538
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "576d35a4-21a9-4c4a-87fb-ee2603f75566",
+      "properties": {
+        "type": "way",
+        "id": 753224868,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5101"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224868",
+        "customId": "amenity/way/753224868",
+        "name": {
+          "en": "O27/5101"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95727735,
+          48.42302325
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "4099db97-ec26-43c5-9017-0bad9b0a06cb",
+      "properties": {
+        "type": "way",
+        "id": 753224869,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5102"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224869",
+        "customId": "amenity/way/753224869",
+        "name": {
+          "en": "O27/5102"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95724765,
+          48.4230588
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3009e7ec-6762-450f-b222-95fdde1534e1",
+      "properties": {
+        "type": "way",
+        "id": 753224870,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5103"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224870",
+        "customId": "amenity/way/753224870",
+        "name": {
+          "en": "O27/5103"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957224700000001,
+          48.42308645
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a353fe2a-258e-4ae5-9cb1-09d59b6e996b",
+      "properties": {
+        "type": "way",
+        "id": 753224872,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5115"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224872",
+        "customId": "amenity/way/753224872",
+        "name": {
+          "en": "O27/5115"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95711705,
+          48.4230122
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "58f94384-3a7b-45ec-bdc4-8f2d51956de3",
+      "properties": {
+        "type": "way",
+        "id": 753224873,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5105"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224873",
+        "customId": "amenity/way/753224873",
+        "name": {
+          "en": "O27/5105"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9571967,
+          48.4231202
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "12abf01c-989f-4681-9a96-a14600fa4843",
+      "properties": {
+        "type": "way",
+        "id": 753224874,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5106"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224874",
+        "customId": "amenity/way/753224874",
+        "name": {
+          "en": "O27/5106"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95717105,
+          48.423150899999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "18655c17-f37c-4418-a126-16ee849858c7",
+      "properties": {
+        "type": "way",
+        "id": 753224875,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5107"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224875",
+        "customId": "amenity/way/753224875",
+        "name": {
+          "en": "O27/5107"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95715375,
+          48.4231721
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "0bdf0169-c366-48cd-b6b0-aa5a26df4acb",
+      "properties": {
+        "type": "way",
+        "id": 753224877,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5108"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224877",
+        "customId": "amenity/way/753224877",
+        "name": {
+          "en": "O27/5108"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95712965,
+          48.42320165
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f28c4f0a-b53f-491d-aec9-83cdf8b01588",
+      "properties": {
+        "type": "way",
+        "id": 753224880,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5109"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224880",
+        "customId": "amenity/way/753224880",
+        "name": {
+          "en": "O27/5109"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570608,
+          48.42318365
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "16459322-9743-440d-b346-929bb526ca2f",
+      "properties": {
+        "type": "way",
+        "id": 753224881,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5114"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224881",
+        "customId": "amenity/way/753224881",
+        "name": {
+          "en": "O27/5114"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95709415,
+          48.4230399
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "f9ca0fbf-6da2-4ba3-86f0-1830f20e5ade",
+      "properties": {
+        "type": "way",
+        "id": 753224886,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5113"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224886",
+        "customId": "amenity/way/753224886",
+        "name": {
+          "en": "O27/5113"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957074,
+          48.42306405
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "785cd4a9-96ee-406b-b444-03b160f48e77",
+      "properties": {
+        "type": "way",
+        "id": 753224887,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5112"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224887",
+        "customId": "amenity/way/753224887",
+        "name": {
+          "en": "O27/5112"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957053850000001,
+          48.4230882
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "adba4ab3-92b8-4585-a236-4f71b6f3c0c6",
+      "properties": {
+        "type": "way",
+        "id": 753224933,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5111"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224933",
+        "customId": "amenity/way/753224933",
+        "name": {
+          "en": "O27/5111"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95703065,
+          48.423115949999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "31fa74f3-0e63-45fc-9e14-985d12d5f759",
+      "properties": {
+        "type": "way",
+        "id": 753224934,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5110"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753224934",
+        "customId": "amenity/way/753224934",
+        "name": {
+          "en": "O27/5110"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95700895,
+          48.4231539
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "b559011d-adca-4774-b6be-e7824c24b3b2",
+      "properties": {
+        "type": "way",
+        "id": 753288288,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/523"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753288288",
+        "customId": "amenity/way/753288288",
+        "name": {
+          "en": "O27/523"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574241,
+          48.422891
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8e0bc19d-0abb-48cb-8bc4-5f28fb98f074",
+      "properties": {
+        "type": "way",
+        "id": 753288289,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/522"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753288289",
+        "customId": "amenity/way/753288289",
+        "name": {
+          "en": "O27/522"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957475800000001,
+          48.4229097
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3bdc7661-a9ba-4c61-9aec-588c71444588",
+      "properties": {
+        "type": "way",
+        "id": 753288290,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5203"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753288290",
+        "customId": "amenity/way/753288290",
+        "name": {
+          "en": "O27/5203"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95743525,
+          48.42295955
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "2b4ec033-edd4-412f-a800-2ef8c30aea75",
+      "properties": {
+        "type": "way",
+        "id": 753288291,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5202"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753288291",
+        "customId": "amenity/way/753288291",
+        "name": {
+          "en": "O27/5202"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573999,
+          48.4229904
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "730d8781-6417-4fad-9137-4a244765b8a4",
+      "properties": {
+        "type": "way",
+        "id": 753288292,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5201"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753288292",
+        "customId": "amenity/way/753288292",
+        "name": {
+          "en": "O27/5201"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573966,
+          48.4229451
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "114ce33e-5e8a-4218-9db1-4a4ea2bc1473",
+      "properties": {
+        "type": "way",
+        "id": 753288293,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/5116"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753288293",
+        "customId": "amenity/way/753288293",
+        "name": {
+          "en": "O27/5116"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957126,
+          48.42310485
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "42de07c0-f76e-426d-8f41-a32328e3cb0b",
+      "properties": {
+        "type": "way",
+        "id": 753313375,
+        "tags": {
+          "indoor": "room",
+          "level": "5",
+          "ref": "O27/524"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/753313375",
+        "customId": "amenity/way/753313375",
+        "name": {
+          "en": "O27/524"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95738515,
+          48.4228767
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "8a7e5513-ac1f-493b-a427-d5a474df7922",
+      "properties": {
+        "type": "way",
+        "id": 855658627,
+        "tags": {
+          "access": "private",
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/104"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/855658627",
+        "customId": "amenity/way/855658627",
+        "name": {
+          "en": "O27/104"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957106150000001,
+          48.422913199999996
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3c428759-4595-4cc3-8d9f-4295a1d1006f",
+      "properties": {
+        "type": "way",
+        "id": 855658628,
+        "tags": {
+          "access": "private",
+          "indoor": "room",
+          "level": "1",
+          "ref": "O27/144"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/855658628",
+        "customId": "amenity/way/855658628",
+        "name": {
+          "en": "O27/144"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95706385,
+          48.42289755
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6c785ee4-5d93-49c8-83f8-03e7627604c8",
+      "properties": {
+        "type": "node",
+        "id": "3363091681",
+        "tags": {
+          "amenity": "vending_machine",
+          "currency": "EUR",
+          "indoor": "yes",
+          "level": "2",
+          "operator": "Studierendenwerk Ulm",
+          "payment:coins": "yes",
+          "vending": "ice_cream"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3363091681",
+        "customId": "amenity/node/3363091681",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573677,
+          48.4229703
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "6ae32089-ff6f-4cf2-ad7f-542f36684abf",
+      "properties": {
+        "type": "node",
+        "id": "3363210078",
+        "tags": {
+          "amenity": "vending_machine",
+          "currency": "EUR",
+          "indoor": "yes",
+          "level": "2",
+          "operator": "Studierendenwerk Ulm",
+          "payment:coins": "yes",
+          "vending": "drinks"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3363210078",
+        "customId": "amenity/node/3363210078",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9573562,
+          48.4229862
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "07822ada-c26a-4201-b20b-23ee9dedd9db",
+      "properties": {
+        "type": "node",
+        "id": "3756305999",
+        "tags": {
+          "entrance": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3756305999",
+        "customId": "amenity/node/3756305999",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574259,
+          48.4226687
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "26affbc3-a2c4-4442-943f-8b45d6e71df8",
+      "properties": {
+        "type": "node",
+        "id": "3756306010",
+        "tags": {
+          "entrance": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3756306010",
+        "customId": "amenity/node/3756306010",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570533,
+          48.4231304
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "3c71b5f8-9424-4685-94ad-1111526c716f",
+      "properties": {
+        "type": "node",
+        "id": "3759189664",
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "8",
+          "covered": "yes",
+          "level": "2",
+          "operator": "Universität Ulm"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3759189664",
+        "customId": "amenity/node/3759189664",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9570035,
+          48.4231487
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "fff8990b-f35c-43a3-990c-44cf0067f584",
+      "properties": {
+        "type": "node",
+        "id": "3777207336",
+        "tags": {
+          "entrance": "emergency",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "node/3777207336",
+        "customId": "amenity/node/3777207336",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9575264,
+          48.4228984
+        ]
+      },
+      "feature_type": "amenity"
+    },
+    {
+      "type": "Feature",
+      "id": "a97fec7d-6d0a-46ad-a2f6-e2fcef0c7e19",
+      "properties": {
+        "type": "way",
+        "id": 374344853,
+        "tags": {
+          "indoor": "area",
+          "level": "1",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344853",
+        "customId": "amenity/way/374344853",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572302,
+          48.4229108
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "59fbe484-e753-4727-b286-3d4917af43dd",
+      "properties": {
+        "type": "way",
+        "id": 374344853,
+        "tags": {
+          "indoor": "area",
+          "level": "2",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344853",
+        "customId": "amenity/way/374344853",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572302,
+          48.4229108
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "6a500515-5850-4d4b-bc48-a128915dcbf3",
+      "properties": {
+        "type": "way",
+        "id": 374344853,
+        "tags": {
+          "indoor": "area",
+          "level": "3",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344853",
+        "customId": "amenity/way/374344853",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572302,
+          48.4229108
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "3/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "dd669595-d4f1-4658-8d4e-85e76d08e064",
+      "properties": {
+        "type": "way",
+        "id": 374344853,
+        "tags": {
+          "indoor": "area",
+          "level": "4",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344853",
+        "customId": "amenity/way/374344853",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572302,
+          48.4229108
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "4/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "905a2d4b-e951-4a4f-8f42-886f66651a66",
+      "properties": {
+        "type": "way",
+        "id": 374344853,
+        "tags": {
+          "indoor": "area",
+          "level": "5",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374344853",
+        "customId": "amenity/way/374344853",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9572302,
+          48.4229108
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "5/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "2c62907e-2414-4d58-b03f-49b49d62b52b",
+      "properties": {
+        "type": "way",
+        "id": 374346564,
+        "tags": {
+          "indoor": "area",
+          "level": "1",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374346564",
+        "customId": "amenity/way/374346564",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574318,
+          48.42270555
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "5516c420-c43e-4610-8012-40cf188f1fb4",
+      "properties": {
+        "type": "way",
+        "id": 374346564,
+        "tags": {
+          "indoor": "area",
+          "level": "2",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374346564",
+        "customId": "amenity/way/374346564",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9574318,
+          48.42270555
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "e7f3bb01-c0f2-4de1-bc03-b7e8ff161304",
+      "properties": {
+        "type": "way",
+        "id": 374415175,
+        "tags": {
+          "indoor": "area",
+          "level": "1",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415175",
+        "customId": "amenity/way/374415175",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95767735,
+          48.42301015
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "a68bfd80-edeb-41ff-97a3-34e66b10bf8a",
+      "properties": {
+        "type": "way",
+        "id": 374415175,
+        "tags": {
+          "indoor": "area",
+          "level": "2",
+          "stairs": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374415175",
+        "customId": "amenity/way/374415175",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95767735,
+          48.42301015
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "7296c69c-14ad-41bc-a3c0-0f681a2ae0af",
+      "properties": {
+        "type": "way",
+        "id": 374438977,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "0"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438977",
+        "customId": "amenity/way/374438977",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303450000001,
+          48.42296915
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "0/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "ff6c72c6-0f23-42b5-aed2-07d1ef94bf7f",
+      "properties": {
+        "type": "way",
+        "id": 374438977,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438977",
+        "customId": "amenity/way/374438977",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303450000001,
+          48.42296915
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "ed6e4ba6-c163-4cb7-b525-56dbe08ce99a",
+      "properties": {
+        "type": "way",
+        "id": 374438977,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438977",
+        "customId": "amenity/way/374438977",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303450000001,
+          48.42296915
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "1e49ae4d-742b-4281-9c5c-4379d4a8a131",
+      "properties": {
+        "type": "way",
+        "id": 374438977,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438977",
+        "customId": "amenity/way/374438977",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303450000001,
+          48.42296915
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "3/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "f6df364c-ae87-4589-8529-da3b5cf7d859",
+      "properties": {
+        "type": "way",
+        "id": 374438977,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438977",
+        "customId": "amenity/way/374438977",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303450000001,
+          48.42296915
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "4/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "66bf27b0-5a91-41d6-ac74-ec7033545485",
+      "properties": {
+        "type": "way",
+        "id": 374438977,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438977",
+        "customId": "amenity/way/374438977",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.957303450000001,
+          48.42296915
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "5/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "181e43ce-d9a3-4bbb-82d1-43bf8aeed94d",
+      "properties": {
+        "type": "way",
+        "id": 374438979,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "0"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438979",
+        "customId": "amenity/way/374438979",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95731575,
+          48.42295435
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "0/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "5eafc93e-bd77-43ce-8e4c-48906d2b194e",
+      "properties": {
+        "type": "way",
+        "id": 374438979,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "1"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438979",
+        "customId": "amenity/way/374438979",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95731575,
+          48.42295435
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "1/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "9f5f2a17-d128-410c-a3b1-e103a4c2bad5",
+      "properties": {
+        "type": "way",
+        "id": 374438979,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "2"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438979",
+        "customId": "amenity/way/374438979",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95731575,
+          48.42295435
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "2/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "5a723641-dc2c-4c55-9c30-dcaaaf37f79c",
+      "properties": {
+        "type": "way",
+        "id": 374438979,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438979",
+        "customId": "amenity/way/374438979",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95731575,
+          48.42295435
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "3/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "2a915ab7-3991-4779-9eef-0a2b803dd566",
+      "properties": {
+        "type": "way",
+        "id": 374438979,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "4"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438979",
+        "customId": "amenity/way/374438979",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95731575,
+          48.42295435
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "4/undefined"
+    },
+    {
+      "type": "Feature",
+      "id": "7153bda5-aa9d-46f7-821b-acfde0ff9bb8",
+      "properties": {
+        "type": "way",
+        "id": 374438979,
+        "tags": {
+          "highway": "elevator",
+          "indoor": "yes",
+          "level": "5"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/374438979",
+        "customId": "amenity/way/374438979",
+        "name": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95731575,
+          48.42295435
+        ]
+      },
+      "feature_type": "amenity",
+      "osmId": "5/undefined"
+    }
+  ],
+  "name": "amenity"
+}
