@@ -17,21 +17,21 @@ map_to_area ->.area;
 		node[amenity](area.area);
 		way[amenity](area.area);
 		// indoor units
-      	way[indoor~"room|yes"](area.area)(if:is_closed());
+      	// way[indoor~"room|yes"](area.area)(if:is_closed());
 		// elevators
         way[highway="elevator"](area.area);
 		// stairs
         way[stairs=yes](area.area);
-		// entry
-		node[entrance](area.area);
+		// main entries *hint don't include emergency exists thsee should go into the door collection
+		node[entrance=yes](area.area);
 		
-		// doors
-		//node[door][ref](area.area)(if:count_tags() > 0);
+		// doors used to tag rooms
+		node[door][ref](area.area)(if:count_tags() > 0);
 
 	);
 -
   	(
-		// features to exclude e.g. rooms not in building
+		// features to exclude e.g. rooms not completely in building
     	way(id:374418923,374347716,374418922,374580730,372022910);
   	);
 );

@@ -27,7 +27,7 @@
   "homepage": "https://github.com/danielrotaermel/osmtoimdf#readme",
   "dependencies": {
     "@derhuerst/query-overpass": "^2.0.0",
-    "@turf/turf": "^5.1.6",
+    "@turf/turf": "6.2.0-alpha.2",
     "del": "^6.0.0",
     "geojson-dissolve": "^3.1.0",
     "geojson-summary": "^0.5.0",

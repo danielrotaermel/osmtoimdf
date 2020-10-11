@@ -22,6 +22,8 @@ const runQueries = './overpass-queries/runQueries.sh';
 // get geojson from overpass
 // execute(runQueries);
 
+const DEBUG = true
+
 run().catch(err => console.log(err));
 
 // anonymous async function
@@ -54,29 +56,39 @@ async function run() {
     
     // clear dir
     await trash(['/IMDFData/*']);
-    let osmFiles = await readFiles(pathToOsmData);
     
-    var featureCollections = {}
 
-    // read xml files convert to geojson and transform according to imdf
-    for (const osm of osmFiles) {
-            // console.log(osm.content);
-            // console.log(xmldom.parseFromString(osm.content));
-            // featureCollections.push(
-            //     {
-            //         collectionSource: osm.fileName.split(".")[0],
-            //         collection: geojson
-            //     }
-            // )
-            var geojson = osmtogeojson(xmldom.parseFromString(osm.content), {flatProperties: false});
-            const collectionSource = osm.fileName.split(".")[0]
-            
-            geojson = runTransformations(geojson, collectionSource)
-            featureCollections[collectionSource] = geojson
+    if (DEBUG) {
+        // read geojson directly from overpass-queries/geojson-data useful to debug the transformation
+        featureCollections = {}
+        let geojsonFiles = await readFiles(pathToGeoJsonData);
+
+        for (const file of geojsonFiles) {
+                var geojson = JSON.parse(file.content);
+                const collectionSource = file.fileName.split(".")[0]
+
+                geojson = runTransformations(geojson, collectionSource)
+                featureCollections[collectionSource] = geojson
+        }
+    } else {
+        // convert from osm
+        let osmFiles = await readFiles(pathToOsmData);
+
+        var featureCollections = {}
+
+        // read xml files convert to geojson and transform according to imdf
+        for (const osm of osmFiles) {
+                var geojson = osmtogeojson(xmldom.parseFromString(osm.content), {flatProperties: false});
+                const collectionSource = osm.fileName.split(".")[0]
+
+                geojson = runTransformations(geojson, collectionSource)
+                featureCollections[collectionSource] = geojson
+        }
     }
-
+    
     // generate id references across imdf archive
     generateReferences(featureCollections)
+    generateDoors(featureCollections.opening, featureCollections.unit)
     
     // create directory
     if (!fs.existsSync(pathToIMDFArchive)) {
@@ -179,7 +191,9 @@ function runTransformations(featureCollection, collectionSource) {
     featureCollection.features = featureCollection.features.filter(f => !
         ("level" in f.properties.tags && f.properties.tags.level.includes(";")));
 
-
+    
+        
+    
     featureCollection.features.forEach(function(f) {
         const props = f.properties
         const tags = f.properties.tags
@@ -292,6 +306,14 @@ function runTransformations(featureCollection, collectionSource) {
             case "occupant" : 
                 break;
             case "opening" : 
+                f.properties.category = "pedestrian"
+                f.properties.accessibility = null
+                f.properties.access_control = null
+                f.properties.door = null
+                f.properties.name = null
+                f.properties.alt_name = null
+                f.properties.display_point = null
+                
                 break;
             case "relationship" : 
                 break;
@@ -368,31 +390,49 @@ function runTransformations(featureCollection, collectionSource) {
     return featureCollection
 }
 
-function generateDoors(doorPointsFC, intersectingWallsFC) {
+function generateDoors(doors, units) {
     // deep copy
-    let _doorFC = JSON.parse(JSON.stringify(doorPointsFC));
-    let _wallFC = JSON.parse(JSON.stringify(intersectingWallsFC));
+    // let _doorFC = JSON.parse(JSON.stringify(doorPointsFC));
+    // let _wallFC = JSON.parse(JSON.stringify(intersectingWallsFC));
 
-    featureCollection.features = featureCollection.features.filter(f => {
+    // featureCollection.features = featureCollection.features.filter(f => {
+    // });
 
-    });
+    doors.features.forEach(door => {  
+        // if (!"level" in door.properties.tags) {
+        //     return
+        // }
+        
+        units.features.forEach(unit => {
+            // if (door.properties.tags.level === unit.properties.tags.level ) {}
+            if ("ref" in door.properties.tags && "ref" in unit.properties.tags && door.properties.tags.ref === unit.properties.tags.ref) {
+                //   replace geometry with an intersecting unit
+                // create a circle
+                var center = door.geometry.coordinates;
+                    var radius = 0.8/1000;
+                    var options = {steps: 5 ,units: 'kilometers'};
+                    var circle = turf.circle(center, radius, options);
+                    //  console.log(JSON.stringify(circle));
+                    //  console.log(JSON.stringify(unit));
+                     console.log(JSON.stringify(unit));
+                    
+                    // find intersection of pint and circle
+                    // let intersections = turf.lineIntersect(turf.polygon(unit1.geometry.coordinates), turf.polygon(circle1.geometry.coordinates));
+                    let intersections = turf.lineIntersect(unit, circle);
 
-    _doorFC.features.map(function(f, index, arr) {        
-        if ("level" in f.properties.tags && f.properties.tags.level.includes(";")) {
-            // extract features that are on multiple floors
-            let levels = f.properties.tags.level
-            levels.split(";").forEach(level => {
-                 // deep copy
-                 let newFeature = JSON.parse(JSON.stringify(f));
-                 newFeature.properties.tags.level = level
-                // update id
-                newFeature.properties.customId = level + "/" + newFeature.customId;
-                newFeature.id = uuidv4(newFeature.customId);
-                featureCollection.features.push(newFeature)
-            });
-        }
+                    // check that there are only 2 intersections
+                        
+                    // intersections to line
+                    door.geometry = { 
+                        type: "LineString",
+                        coordinates: intersections.features.map(f => { return f.geometry.coordinates})
+                    }
+                }
+            })
         
     });
+
+    doors.features = doors.features.filter(f => f.geometry.type === "LineString" );
 
     // TODO: generate doors 
     // problem doors are points in the context of openstreetmap which is a strange decision in my opinion
@@ -425,8 +465,17 @@ function generateReferences(featureCollections) {
     // get all level_id 
     var levelIds = featureCollections.level.features.map(f => ({ id: f.id, level: f.properties.tags.level}));
 
-    // add level ids to units, fixtures and details
+    // add level ids to units, fixtures, openings and details
     featureCollections.unit.features.forEach(f => {
+        levelIds.forEach(levelId => {
+            if (f.properties.tags.level === levelId.level) {
+                f.properties.level_id = levelId.id
+            }
+        });
+    });
+
+    // add level ids to units, fixtures and details
+    featureCollections.opening.features.forEach(f => {
         levelIds.forEach(levelId => {
             if (f.properties.tags.level === levelId.level) {
                 f.properties.level_id = levelId.id
@@ -648,27 +697,22 @@ function execute(command) {
     child_process.execSync(command, {stdio: 'inherit'});
 }
 
-async function readFiles(dir) {
-    const fileList = fs.readdirSync(dir);
-    console.log(fileList);
-
-    var files = []
-    await Promise.all(fileList.map(async (file) => {
-        if (path.extname(file) != ".xml") return
-        // console.log(file)
-        const filePath = path.join(dir,file)
-      const content = await fsPromises.readFile(filePath, 'utf8')
-      const fileName = path.parse(file).name
-      files.push(
-          {
-              path: filePath,
-              fileName: fileName,
-              content: content
-          }
-      )
+async function readFiles(dir, ignoreHiddenFiles = true) {
+    let fileList = fs.readdirSync(dir);
+    
+    if (ignoreHiddenFiles) {
+        fileList = fileList.filter(f => !f.startsWith("."))
+    }
+    
+    return await Promise.all(fileList.map(async (file) => {
+        let filePath = path.join(dir,file);
+        return {
+            path: filePath,
+            fileName: path.parse(file).name,
+            content: await fsPromises.readFile(filePath, 'utf8')
+        }
     }));
     
-    return files;
 }
 
 // function generateAnchors(featureCollection) {
