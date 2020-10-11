@@ -193,26 +193,54 @@ function runTransformations(featureCollection, collectionSource) {
                 // console.log(getTagsAndTheirPossibleValues(featureCollection, true));
                 // console.log(tags);
                 
-                // name/alt_name
-                if ("ref" in tags && "name" in tags) {
-                    f.properties.name = {
-                        en: tags.ref
-                    }
-                    f.properties.alt_name = {
-                        en: tags.name
-                    }
-                } else if ("name" in tags) {
-                    f.properties.name = {
-                        en: tags.name
-                    }
+                if ("name" in tags && "ref" in tags) {
+                    f.properties.name = { en: tags.name }
+                    f.properties.alt_name = { en: tags.ref }
                 } else if ("ref" in tags) {
-                    f.properties.name = {
-                        en: tags.ref
-                    }
+                    f.properties.name = { en: tags.ref }
                 } else {
                     f.properties.name = null
                 }
 
+                if (tags.indoor === "room") f.properties.category = "room"
+                if (tags.indoor === "corridor") f.properties.category = "walkway"
+                if (tags.indoor === "yes") f.properties.category = "room"
+
+                if (tags.wheelchair === "yes") f.properties.accessibility = "wheelchair"
+
+                if (tags.highway === "elevator") {
+                    f.properties.category = "elevator"
+                    f.properties.name = { en: "Elevator", de: "Aufzug" }
+                }
+
+                if (tags.amenity === "toilets") {
+                    f.properties.category = "restroom"
+                    f.properties.name = { en: "Restroom", de: "Toilette" }
+                }
+
+                if (tags.male === "yes") {
+                    f.properties.category = "restroom.male"
+                    f.properties.name = { en: "Male Restroom", de: "Herrentoilette" }
+                }
+
+                if (tags.female === "yes") {
+                    f.properties.category = "restroom.female"
+                    f.properties.name = { en: "Female Restroom", de: "Damentoilette" }
+                }
+
+                if (tags.unisex === "yes") {
+                    f.properties.category = "restroom.unisex"
+                    f.properties.name = { en: "Unisex Restroom", de: "Unisex-Toilette" }
+
+                }
+
+                if (tags.stairs === "yes") {
+                    f.properties.category = "stairs"
+                    f.properties.name = { en: "Stairs", de: "Treppe" }
+
+                }
+
+                // turn every non point geometry to a point inside the polygon
                 if (geom.type !== "Point") {
                     f.geometry = {
                         type: "Point",
@@ -249,6 +277,17 @@ function runTransformations(featureCollection, collectionSource) {
             case "kiosk" : 
                 break;
             case "level" : 
+                f.properties.restriction = null
+                f.properties.category = "unspecified"
+                f.properties.outdoor = false
+                f.properties.ordinal = parseInt("f.properties.tags.level")
+                f.properties.name = { en: f.properties.tags.name }
+                f.properties.short_name = { en: f.properties.tags.level }
+
+                f.properties.ordinal = f.properties.tags.level
+
+
+                
                 break;
             case "occupant" : 
                 break;
@@ -259,6 +298,64 @@ function runTransformations(featureCollection, collectionSource) {
             case "section" : 
                 break;
             case "unit" : 
+                
+                // var newProperties = {
+                //     name: "name" in tags ? { en: tags.name } : { en: tags.ref },
+                //     name: "ref" in tags ? { en: tags.ref } : "",
+                //     alt_name: f.properties.tags.name !== undefined ? { en: f.properties.tags.name } : ""
+                // }
+                
+                if ("name" in tags && "ref" in tags) {
+                    f.properties.name = { en: tags.name }
+                    f.properties.alt_name = { en: tags.ref }
+                } else if ("ref" in tags) {
+                    f.properties.name = { en: tags.ref }
+                }
+
+                if (tags.indoor === "room") f.properties.category = "room"
+                if (tags.indoor === "corridor") f.properties.category = "walkway"
+                if (tags.indoor === "yes") f.properties.category = "room"
+
+                if (tags.wheelchair === "yes") f.properties.accessibility = "wheelchair"
+
+                if (tags.highway === "elevator") {
+                    f.properties.category = "elevator"
+                    f.properties.name = { en: "Elevator", de: "Aufzug" }
+                }
+
+                if (tags.amenity === "toilets") {
+                    f.properties.category = "restroom"
+                    f.properties.name = { en: "Restroom", de: "Toilette" }
+                }
+
+                if (tags.male === "yes") {
+                    f.properties.category = "restroom.male"
+                    f.properties.name = { en: "Male Restroom", de: "Herrentoilette" }
+                }
+
+                if (tags.female === "yes") {
+                    f.properties.category = "restroom.female"
+                    f.properties.name = { en: "Female Restroom", de: "Damentoilette" }
+                }
+
+                if (tags.unisex === "yes") {
+                    f.properties.category = "restroom.unisex"
+                    f.properties.name = { en: "Unisex Restroom", de: "Unisex-Toilette" }
+
+                }
+
+                if (tags.stairs === "yes") {
+                    f.properties.category = "stairs"
+                    f.properties.name = { en: "Stairs", de: "Treppe" }
+
+                }
+
+                if (tags.stairs === "yes") {
+                    f.properties.category = "stairs"
+                    f.properties.name = { en: "Stairs", de: "Treppe" }
+
+                }
+
                 break;
             case "venue" : 
                 break;
@@ -332,7 +429,7 @@ function generateReferences(featureCollections) {
     featureCollections.unit.features.forEach(f => {
         levelIds.forEach(levelId => {
             if (f.properties.tags.level === levelId.level) {
-                f.level_id = levelId.id
+                f.properties.level_id = levelId.id
             }
         });
     });
@@ -344,53 +441,45 @@ function generateReferences(featureCollections) {
     // https://turfjs.org/docs/#cleanCoords
     
     
+    setCorrelatingBuildingIds(featureCollections.level, featureCollections.building)
 
+    // correlate amenities with units and set the unit_id
+    if ("amenity" in featureCollections) {
+        setCorrelatingUnitIds(featureCollections.amenity, featureCollections.unit)
+    }
 
-    // TODO: correlate amenities with units and set the unit_id
-    // problem no easy way to find where amenities reside in
-    
-    // solution a
-        // get all amenities that were generated from units (type==way)
-            // create a unit_id based on type==way and .properties.id
-        // get all amenities that are not generated from units (type!=way)
-            // find corresponding unit they reside in
-    
-    // solution b
-        // get all units of a level
-        // get all amenities of a level
-        // use const booleanPointInPolygon = require('@turf/boolean-point-in-polygon').featureEach,
-        // turf.booleanPointInPolygon(pt, poly);
-        // to find a unit for each amenity point
+    // correlate amenities with units and set the unit_id
+    if ("anchor" in featureCollections) {
+        setCorrelatingUnitIds(featureCollections.anchor, featureCollections.unit)
+    }
 
-    // solution c
-    // combination of both
-    featureCollections.amenity.features.forEach(amenity => {
-        amenity.properties.unit_ids = []
-        // hacky but I'm tired
-        let smallestArea = Number.MAX_VALUE
-        featureCollections.unit.features.forEach(unit => {
-            // if (amenity.properties.osmId === unit.properties.osmId) {
-            //     amenity.properties.unit_ids.push(unit.id)
-            // }
-            // else 
-            // if unit and anchor share the same level
-            if (amenity.properties.tags.level === unit.properties.tags.level ) {
-                if (turf.booleanPointInPolygon(amenity, unit)) {
-                    // if unit is smaller than the last found one
-                    if (unit.properties._area < smallestArea) {
-                        smallestArea = unit.properties._area
-                        amenity.properties.unit_ids = [unit.id]
-                    }
-                }
-            }
-        });      
+    // featureCollections.amenity.features.forEach(amenity => {
+    //     amenity.properties.unit_ids = []
+    //     // hacky but I'm tired
+    //     let smallestArea = Number.MAX_VALUE
+    //     featureCollections.unit.features.forEach(unit => {
+    //         // if (amenity.properties.osmId === unit.properties.osmId) {
+    //         //     amenity.properties.unit_ids.push(unit.id)
+    //         // }
+    //         // else 
+    //         // unit and amenity should share the same level
+    //         if (amenity.properties.tags.level === unit.properties.tags.level ) {
+    //             if (turf.booleanPointInPolygon(amenity, unit)) {
+    //                 // if unit is smaller than the last found one
+    //                 if (unit.properties._area < smallestArea) {
+    //                     smallestArea = unit.properties._area
+    //                     amenity.properties.unit_ids = [unit.id]
+    //                 }
+    //             }
+    //         }
+    //     });      
         
-        if (amenity.properties.unit_ids.length == 0 ) {
-            amenity.properties.unit_ids = null
-            console.log("INFO: found amenity without unit_ids: " + amenity.properties.osmId)
-            console.log(amenity.properties.tags)
-        }
-    });
+    //     if (amenity.properties.unit_ids.length == 0 ) {
+    //         amenity.properties.unit_ids = null
+    //         console.log("INFO: found amenity without unit_ids: " + amenity.properties.osmId)
+    //         console.log(amenity.properties.tags)
+    //     }
+    // });
 
 
     // find all amenities that occupy more then one floor
@@ -435,6 +524,103 @@ function validateIMDF(params) {
     assert("amenity" in featureCollections, "amenity missing")
     assert("occupant" in featureCollections, "occupant missing")
 }
+
+function setCorrelatingUnitIds(targetCollection, unitCollection) {
+    // TODO: finish this 
+    //  correlate amenities or anchors with units and set the unit_id
+    // problem no easy way to find where amenities reside in
+
+    // solution a
+        // get all amenities that were generated from units (type==way)
+            // create a unit_id based on type==way and .properties.id
+        // get all amenities that are not generated from units (type!=way)
+            // find corresponding unit they reside in
+
+    // solution b
+        // get all units of a level
+        // get all amenities of a level
+        // use const booleanPointInPolygon = require('@turf/boolean-point-in-polygon').featureEach,
+        // turf.booleanPointInPolygon(pt, poly);
+        // to find a unit for each amenity point
+
+    // solution c
+    // combination of both
+
+    targetCollection.features.forEach(amenity => {
+        amenity.properties.unit_ids = []
+        // hacky but I'm tired
+        let smallestArea = Number.MAX_VALUE
+        unitCollection.features.forEach(unit => {
+            // if (amenity.properties.osmId === unit.properties.osmId) {
+            //     amenity.properties.unit_ids.push(unit.id)
+            // }
+            // else 
+            // unit and amenity should share the same level
+            if (amenity.properties.tags.level === unit.properties.tags.level ) {
+                if (turf.booleanPointInPolygon(amenity, unit)) {
+                    // if unit is smaller than the last found one
+                    if (unit.properties._area < smallestArea) {
+                        smallestArea = unit.properties._area
+                        amenity.properties.unit_ids = [unit.id]
+                    }
+                }
+            }
+        });      
+
+        if (amenity.properties.unit_ids.length == 0 ) {
+            amenity.properties.unit_ids = null
+            console.log("INFO: found amenity without unit_ids: " + amenity.properties.osmId)
+            console.log(amenity.properties.tags)
+        }
+    });
+
+}
+
+function setCorrelatingBuildingIds(targetCollection, buildingCollection) {
+    // TODO: finish this 
+    //  correlate amenities or anchors with units and set the unit_id
+    // problem no easy way to find where amenities reside in
+
+    // solution a
+        // get all amenities that were generated from units (type==way)
+            // create a unit_id based on type==way and .properties.id
+        // get all amenities that are not generated from units (type!=way)
+            // find corresponding unit they reside in
+
+    // solution b
+        // get all units of a level
+        // get all amenities of a level
+        // use const booleanPointInPolygon = require('@turf/boolean-point-in-polygon').featureEach,
+        // turf.booleanPointInPolygon(pt, poly);
+        // to find a unit for each amenity point
+
+    // solution c
+    // combination of both
+
+    targetCollection.features.forEach(level => {
+        level.properties.building_ids = []
+        // hacky but I'm tired
+        let smallestArea = Number.MAX_VALUE
+        buildingCollection.features.forEach(building => {
+            level.properties.building_ids = [building.id]
+                if (turf.booleanOverlap(level, building)) {
+                    // if unit is smaller than the last found one
+                    if (building.properties._area < smallestArea) {
+                        smallestArea = building.properties._area
+                        level.properties.building_ids = [building.id]
+                    }
+                }
+        });      
+
+        if (level.properties.building_ids.length == 0 ) {
+            level.properties.building_ids = null
+            console.log("INFO: found level without building_ids: " + level.properties.osmId)
+            console.log(level.properties.tags)
+        }
+    });
+
+}
+
 
 function getTagsAndTheirPossibleValues(featureCollection, excludeEmptyTags) {
     var tagsAndTheirValues = {}

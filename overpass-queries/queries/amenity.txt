@@ -24,6 +24,10 @@ map_to_area ->.area;
         way[stairs=yes](area.area);
 		// entry
 		node[entrance](area.area);
+		
+		// doors
+		//node[door][ref](area.area)(if:count_tags() > 0);
+
 	);
 -
   	(
