@@ -1,5 +1,11 @@
 # Draft: Indoor/Campus Map Feature
 
+
+
+https://wiki.openstreetmap.org/wiki/Simple_Indoor_Tagging
+
+
+
 How we will create custom indoor/campus maps
 
 we will use the imdf spec therefore we have to convert openstreetmap data to imdf

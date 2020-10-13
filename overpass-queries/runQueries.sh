@@ -22,4 +22,12 @@ do
     osmtogeojson -e osm-data/$filename.xml > geojson-data/$filename.json
 done
 
+echo "copying manualy created data"
+for f in manual-data/*.{json,geojson}
+do  
+    echo "    $f"
+    cp $f "./geojson-data/"
+done
+
+
 

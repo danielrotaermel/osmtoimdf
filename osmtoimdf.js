@@ -19,17 +19,93 @@ const pathToIMDFArchive = path.join(__dirname + '/IMDFData/');
 const pathToIMDFArchiveZip = path.join(__dirname + '');
 const runQueries = './overpass-queries/runQueries.sh';
 
+const ADRESS = "address"
+const AMENITY = "amenity"
+const ANCHOR = "anchor"
+const BUILDING = "building"
+const DETAIL = "detail"
+const FIXTURE = "fixture"
+const FOOTPRINT = "footprint"
+const GEOFENCE = "geofence"
+const KIOSK = "kiosk"
+const LEVEL = "level"
+const OCCUPANT = "occupant"
+const OPENING = "opening"
+const RELATIONSHIP = "relationship"
+const SECTION = "section"
+const UNIT = "unit"
+
+// styling convention https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0
+var styleProperties = {
+    // OPTIONAL: default "medium"
+    // specify the size of the marker. sizes
+    // can be different pixel sizes in different
+    // implementations
+    // Value must be one of
+    // "small"
+    // "medium"
+    // "large"
+    "marker-size": "medium",
+
+    // OPTIONAL: default ""
+    // a symbol to position in the center of this icon
+    // if not provided or "", no symbol is overlaid
+    // and only the marker is shown
+    // Allowed values include
+    // - Icon ID
+    // - An integer 0 through 9
+    // - A lowercase character "a" through "z"
+    "marker-symbol": "bus",
+
+    // OPTIONAL: default "7e7e7e"
+    // the marker's color
+    //
+    // value must follow COLOR RULES
+    "marker-color": "#fff",
+
+    // OPTIONAL: default "555555"
+    // the color of a line as part of a polygon, polyline, or
+    // multigeometry
+    //
+    // value must follow COLOR RULES
+    "stroke": "#555555",
+
+    // OPTIONAL: default 1.0
+    // the opacity of the line component of a polygon, polyline, or
+    // multigeometry
+    //
+    // value must be a floating point number greater than or equal to
+    // zero and less or equal to than one
+    "stroke-opacity": 1.0,
+
+    // OPTIONAL: default 2
+    // the width of the line component of a polygon, polyline, or
+    // multigeometry
+    //
+    // value must be a floating point number greater than or equal to 0
+    "stroke-width": 2,
+
+    // OPTIONAL: default "555555"
+    // the color of the interior of a polygon
+    //
+    // value must follow COLOR RULES
+    "fill": "#555555",
+
+    // OPTIONAL: default 0.6
+    // the opacity of the interior of a polygon. Implementations
+    // may choose to set this to 0 for line features.
+    //
+    // value must be a floating point number greater than or equal to
+    // zero and less or equal to than one
+    "fill-opacity": 0.5
+}
+
 // get geojson from overpass
 // execute(runQueries);
 
 const DEBUG = true
 
 run().catch(err => console.log(err));
-
-// anonymous async function
-(async () =>  {
-   console.log("use await here");
-})
 
 async function run() {
     // let queries = await readFiles(pathToQueries)
@@ -82,15 +158,38 @@ async function run() {
                 const collectionSource = osm.fileName.split(".")[0]
 
                 geojson = runTransformations(geojson, collectionSource)
+
                 featureCollections[collectionSource] = geojson
         }
     }
     
+    // sort units for correct display
+    if ("unit" in featureCollections) {
+
+        const sortByRoomtype = {
+          corridor  : 0, 
+          area : 1,
+          room  : 2, 
+          yes  : 3, 
+          undefined : 4
+        }
+
+        featureCollections.unit.features = featureCollections.unit.features.sort(
+          (a, b) => sortByRoomtype[a.properties.tags.indoor] - sortByRoomtype[b.properties.tags.indoor]
+        )
+    }
+
+    
+
     // generate id references across imdf archive
     generateReferences(featureCollections)
-    generateDoors(featureCollections.opening, featureCollections.unit)
+
+    // generate doors
+    if ("opening" in featureCollections) {
+        generateDoors(featureCollections.opening, featureCollections.unit)
+    }
     
-    // create directory
+    // create imdf directory
     if (!fs.existsSync(pathToIMDFArchive)) {
         fs.mkdirSync(pathToIMDFArchive, 0744);
     }
@@ -144,8 +243,9 @@ async function run() {
   
 }
 
+
 function runTransformations(featureCollection, collectionSource) {
-    console.log(collectionSource);
+    console.log("INFO: Transforming " + collectionSource);
     featureCollection.name = collectionSource
 
     // console.log(getTagsAndTheirPossibleValues(featureCollection, false));
@@ -191,29 +291,30 @@ function runTransformations(featureCollection, collectionSource) {
     featureCollection.features = featureCollection.features.filter(f => !
         ("level" in f.properties.tags && f.properties.tags.level.includes(";")));
 
-    
-        
-    
     featureCollection.features.forEach(function(f) {
         const props = f.properties
         const tags = f.properties.tags
         const geom = f.geometry
+        const featureType = f.feature_type
 
         // TODO: create displaypoints for Building Fixture Geofence Kiosk Opening Level Section Unit Venue
-        switch (collectionSource) {
-            case "address" : 
+        switch (featureType) {
+            case ADRESS : 
                 break;
-            case "amenity" : 
+            case AMENITY : 
                 // console.log(getTagsAndTheirPossibleValues(featureCollection, true));
                 // console.log(tags);
+
+                // set default values
+                f.properties.name = null
+                f.properties.alt_name = null
+                f.properties.category = "unspecified"
                 
                 if ("name" in tags && "ref" in tags) {
                     f.properties.name = { en: tags.name }
                     f.properties.alt_name = { en: tags.ref }
                 } else if ("ref" in tags) {
                     f.properties.name = { en: tags.ref }
-                } else {
-                    f.properties.name = null
                 }
 
                 if (tags.indoor === "room") f.properties.category = "room"
@@ -263,10 +364,12 @@ function runTransformations(featureCollection, collectionSource) {
                 }
 
 
+
+
                 break;
-            case "anchor" : 
+            case ANCHOR : 
                 break;
-            case "building" : 
+            case BUILDING : 
                 // name/alt_name
                 if ("name" in tags) {
                     f.properties.name = {
@@ -277,35 +380,34 @@ function runTransformations(featureCollection, collectionSource) {
                 }
 
                 break;
-            case "detail" : 
+            case DETAIL : 
                 break;
-            case "fixture" : 
+            case FIXTURE : 
                 break;
-            case "footprint" : 
+            case FOOTPRINT : 
                 // TODO: generate footprints from building outlines by converting multipolygons to polygons (only keep first in geom array https://turfjs.org/docs/#flatten)
                 // use turf https://turfjs.org/docs/#dissolve or https://turfjs.org/docs/#union to merge the resulting poligons
                 break;
-            case "geofence" : 
+            case GEOFENCE : 
                 // https://register.apple.com/resources/imdf/Glossary/#geofence
                 break;
-            case "kiosk" : 
+            case KIOSK : 
                 break;
-            case "level" : 
+            case LEVEL : 
                 f.properties.restriction = null
                 f.properties.category = "unspecified"
                 f.properties.outdoor = false
-                f.properties.ordinal = parseInt("f.properties.tags.level")
+                f.properties.ordinal = parseInt(f.properties.tags.level)
                 f.properties.name = { en: f.properties.tags.name }
                 f.properties.short_name = { en: f.properties.tags.level }
 
-                f.properties.ordinal = f.properties.tags.level
 
 
                 
                 break;
-            case "occupant" : 
+            case OCCUPANT : 
                 break;
-            case "opening" : 
+            case OPENING : 
                 f.properties.category = "pedestrian"
                 f.properties.accessibility = null
                 f.properties.access_control = null
@@ -315,11 +417,11 @@ function runTransformations(featureCollection, collectionSource) {
                 f.properties.display_point = null
                 
                 break;
-            case "relationship" : 
+            case RELATIONSHIP : 
                 break;
-            case "section" : 
+            case SECTION : 
                 break;
-            case "unit" : 
+            case UNIT : 
                 
                 // var newProperties = {
                 //     name: "name" in tags ? { en: tags.name } : { en: tags.ref },
@@ -338,7 +440,7 @@ function runTransformations(featureCollection, collectionSource) {
                 if (tags.indoor === "corridor") f.properties.category = "walkway"
                 if (tags.indoor === "yes") f.properties.category = "room"
 
-                if (tags.wheelchair === "yes") f.properties.accessibility = "wheelchair"
+                if (tags.wheelchair === "yes") f.properties.accessibility = "Wheelchair"
 
                 if (tags.highway === "elevator") {
                     f.properties.category = "elevator"
@@ -379,7 +481,7 @@ function runTransformations(featureCollection, collectionSource) {
                 }
 
                 break;
-            case "venue" : 
+            case VENUE : 
                 break;
             default:
                 break;
@@ -409,20 +511,14 @@ function generateDoors(doors, units) {
                 //   replace geometry with an intersecting unit
                 // create a circle
                 var center = door.geometry.coordinates;
-                    var radius = 0.8/1000;
+                    var radius = 0.6/1000;
                     var options = {steps: 5 ,units: 'kilometers'};
-                    var circle = turf.circle(center, radius, options);
-                    //  console.log(JSON.stringify(circle));
-                    //  console.log(JSON.stringify(unit));
-                     console.log(JSON.stringify(unit));
-                    
-                    // find intersection of pint and circle
-                    // let intersections = turf.lineIntersect(turf.polygon(unit1.geometry.coordinates), turf.polygon(circle1.geometry.coordinates));
+                    var circle = turf.circle(center, radius, options);                    
+                    // find intersection of units and circles
                     let intersections = turf.lineIntersect(unit, circle);
-
                     // check that there are only 2 intersections
-                        
-                    // intersections to line
+                    if (intersections.features.length !== 2) { return }
+                    // replace door geometry with the intersections as a linestring
                     door.geometry = { 
                         type: "LineString",
                         coordinates: intersections.features.map(f => { return f.geometry.coordinates})
@@ -432,6 +528,7 @@ function generateDoors(doors, units) {
         
     });
 
+    // remove feature that's not a linestring
     doors.features = doors.features.filter(f => f.geometry.type === "LineString" );
 
     // TODO: generate doors 
@@ -466,22 +563,27 @@ function generateReferences(featureCollections) {
     var levelIds = featureCollections.level.features.map(f => ({ id: f.id, level: f.properties.tags.level}));
 
     // add level ids to units, fixtures, openings and details
-    featureCollections.unit.features.forEach(f => {
-        levelIds.forEach(levelId => {
-            if (f.properties.tags.level === levelId.level) {
-                f.properties.level_id = levelId.id
-            }
+    if ("unit" in featureCollections) {
+        featureCollections.unit.features.forEach(f => {
+            levelIds.forEach(levelId => {
+                if (f.properties.tags.level === levelId.level) {
+                    f.properties.level_id = levelId.id
+                }
+            });
         });
-    });
+    }
 
     // add level ids to units, fixtures and details
-    featureCollections.opening.features.forEach(f => {
-        levelIds.forEach(levelId => {
-            if (f.properties.tags.level === levelId.level) {
-                f.properties.level_id = levelId.id
-            }
+    if ("opening" in featureCollections) {
+        featureCollections.opening.features.forEach(f => {
+            levelIds.forEach(levelId => {
+                if (f.properties.tags.level === levelId.level) {
+                    f.properties.level_id = levelId.id
+                }
+            });
         });
-    });
+    }
+    
 
     // IDEA: on device routing
     // https://turfjs.org/docs/#shortestPath
@@ -652,7 +754,8 @@ function setCorrelatingBuildingIds(targetCollection, buildingCollection) {
         let smallestArea = Number.MAX_VALUE
         buildingCollection.features.forEach(building => {
             level.properties.building_ids = [building.id]
-                if (turf.booleanOverlap(level, building)) {
+                if (turf.booleanOverlap(turf.flatten(level), turf.flatten(building))) {
+                // if (turf.booleanContains(level, building)) {
                     // if unit is smaller than the last found one
                     if (building.properties._area < smallestArea) {
                         smallestArea = building.properties._area

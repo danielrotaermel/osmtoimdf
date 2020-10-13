@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "926f1db1-c201-4151-bc66-404fcf33dc27",
+      "id": "f2f8e6e5-8448-447d-8cc6-7fbe6fdab8c4",
       "properties": {
         "type": "relation",
         "id": 11501969,
@@ -17,7 +17,21 @@
         "relations": [],
         "meta": {},
         "osmId": "relation/11501969",
-        "customId": "level/relation/11501969"
+        "customId": "level/relation/11501969",
+        "_area": 2323.9578092546108,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 2,
+        "name": {
+          "en": "level 2"
+        },
+        "short_name": {
+          "en": "2"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -122,10 +136,6 @@
             [
               9.9567876,
               48.4228263
-            ],
-            [
-              9.9567973,
-              48.4228148
             ],
             [
               9.9568031,
@@ -301,11 +311,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c8fdab87-5c94-4a48-8f33-b6ca7d794dc8"
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
     },
     {
       "type": "Feature",
-      "id": "f59ac254-4969-4988-a864-92a4c0e449ba",
+      "id": "83952a81-50d2-47ad-84c9-9327b89f9ac5",
       "properties": {
         "type": "relation",
         "id": 11504592,
@@ -319,7 +329,21 @@
         "relations": [],
         "meta": {},
         "osmId": "relation/11504592",
-        "customId": "level/relation/11504592"
+        "customId": "level/relation/11504592",
+        "_area": 2324.7998108812158,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 1,
+        "name": {
+          "en": "level 1"
+        },
+        "short_name": {
+          "en": "1"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -400,10 +424,6 @@
             [
               9.9567876,
               48.4228263
-            ],
-            [
-              9.9567973,
-              48.4228148
             ],
             [
               9.9568031,
@@ -623,11 +643,292 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c8fdab87-5c94-4a48-8f33-b6ca7d794dc8"
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
     },
     {
       "type": "Feature",
-      "id": "1cafe1b9-99a6-44bd-adc3-ac2b078271de",
+      "id": "3b337875-4023-4fb5-913f-dc2abe398304",
+      "properties": {
+        "type": "relation",
+        "id": 11722665,
+        "tags": {
+          "access": "private",
+          "indoor": "level",
+          "level": "0",
+          "name": "level 0",
+          "type": "multipolygon",
+          "wall": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "relation/11722665",
+        "customId": "level/relation/11722665",
+        "_area": 2399.0464253053965,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 0,
+        "name": {
+          "en": "level 0"
+        },
+        "short_name": {
+          "en": "0"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.9575963,
+              48.4231044
+            ],
+            [
+              9.9573727,
+              48.4230224
+            ],
+            [
+              9.9573147,
+              48.4230343
+            ],
+            [
+              9.9571522,
+              48.423235
+            ],
+            [
+              9.9571348,
+              48.4232285
+            ],
+            [
+              9.9571314,
+              48.4232325
+            ],
+            [
+              9.9569461,
+              48.4231636
+            ],
+            [
+              9.9569497,
+              48.4231594
+            ],
+            [
+              9.956938,
+              48.4231551
+            ],
+            [
+              9.9569816,
+              48.4231035
+            ],
+            [
+              9.9569767,
+              48.4230881
+            ],
+            [
+              9.9569933,
+              48.4230698
+            ],
+            [
+              9.9570147,
+              48.4230642
+            ],
+            [
+              9.9570595,
+              48.4230112
+            ],
+            [
+              9.9570454,
+              48.4229735
+            ],
+            [
+              9.9567519,
+              48.4228682
+            ],
+            [
+              9.9567638,
+              48.4228542
+            ],
+            [
+              9.9567876,
+              48.4228263
+            ],
+            [
+              9.9568031,
+              48.422808
+            ],
+            [
+              9.9568115,
+              48.4227982
+            ],
+            [
+              9.95682,
+              48.4227882
+            ],
+            [
+              9.9568368,
+              48.4227685
+            ],
+            [
+              9.9568432,
+              48.4227609
+            ],
+            [
+              9.9568589,
+              48.4227425
+            ],
+            [
+              9.956869,
+              48.4227306
+            ],
+            [
+              9.9568751,
+              48.4227235
+            ],
+            [
+              9.9570117,
+              48.4227726
+            ],
+            [
+              9.957073,
+              48.4227946
+            ],
+            [
+              9.9571423,
+              48.4227836
+            ],
+            [
+              9.95726,
+              48.4226426
+            ],
+            [
+              9.9573059,
+              48.4225876
+            ],
+            [
+              9.9574489,
+              48.422641
+            ],
+            [
+              9.9575184,
+              48.4226666
+            ],
+            [
+              9.9574985,
+              48.4226903
+            ],
+            [
+              9.9575047,
+              48.4227041
+            ],
+            [
+              9.9574919,
+              48.4227192
+            ],
+            [
+              9.9575077,
+              48.4227251
+            ],
+            [
+              9.9575133,
+              48.4227395
+            ],
+            [
+              9.9575512,
+              48.422733
+            ],
+            [
+              9.957606,
+              48.4227513
+            ],
+            [
+              9.9576326,
+              48.4228157
+            ],
+            [
+              9.9576013,
+              48.4228515
+            ],
+            [
+              9.9575937,
+              48.4228531
+            ],
+            [
+              9.9576024,
+              48.4228665
+            ],
+            [
+              9.9575833,
+              48.4229031
+            ],
+            [
+              9.957556,
+              48.422904
+            ],
+            [
+              9.9577154,
+              48.4229633
+            ],
+            [
+              9.9575963,
+              48.4231044
+            ]
+          ],
+          [
+            [
+              9.9573977,
+              48.4227891
+            ],
+            [
+              9.9573795,
+              48.4228107
+            ],
+            [
+              9.9573946,
+              48.4228567
+            ],
+            [
+              9.9575229,
+              48.4229026
+            ],
+            [
+              9.9575264,
+              48.4228984
+            ],
+            [
+              9.9575296,
+              48.4228946
+            ],
+            [
+              9.9575086,
+              48.422869
+            ],
+            [
+              9.9574508,
+              48.4228476
+            ],
+            [
+              9.9574446,
+              48.4228254
+            ],
+            [
+              9.9574384,
+              48.4228035
+            ],
+            [
+              9.9573977,
+              48.4227891
+            ]
+          ]
+        ]
+      },
+      "feature_type": "level",
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+    },
+    {
+      "type": "Feature",
+      "id": "c5e4a6dd-9919-4f7b-be42-dddb685c652b",
       "properties": {
         "type": "way",
         "id": 371943318,
@@ -640,7 +941,21 @@
         "relations": [],
         "meta": {},
         "osmId": "way/371943318",
-        "customId": "level/way/371943318"
+        "customId": "level/way/371943318",
+        "_area": 2142.5698666832945,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 3,
+        "name": {
+          "en": "level 3"
+        },
+        "short_name": {
+          "en": "3"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -693,10 +1008,6 @@
             [
               9.9574646,
               48.4227096
-            ],
-            [
-              9.9574544,
-              48.4227215
             ],
             [
               9.9574529,
@@ -823,10 +1134,6 @@
               48.4228263
             ],
             [
-              9.9567973,
-              48.4228148
-            ],
-            [
               9.9568031,
               48.422808
             ],
@@ -878,11 +1185,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c8fdab87-5c94-4a48-8f33-b6ca7d794dc8"
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
     },
     {
       "type": "Feature",
-      "id": "cd328dd5-8647-4f71-bb04-aaaa1a7f8ce7",
+      "id": "58703b43-9504-4b3c-87c7-557b4505a54f",
       "properties": {
         "type": "way",
         "id": 372012206,
@@ -895,7 +1202,21 @@
         "relations": [],
         "meta": {},
         "osmId": "way/372012206",
-        "customId": "level/way/372012206"
+        "customId": "level/way/372012206",
+        "_area": 1752.9291472999055,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 5,
+        "name": {
+          "en": "level 5"
+        },
+        "short_name": {
+          "en": "5"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -970,10 +1291,6 @@
               48.4228263
             ],
             [
-              9.9567973,
-              48.4228148
-            ],
-            [
               9.9568031,
               48.422808
             ],
@@ -1024,10 +1341,6 @@
             [
               9.95726,
               48.4226426
-            ],
-            [
-              9.9573552,
-              48.4226771
             ],
             [
               9.95746,
@@ -1081,11 +1394,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c8fdab87-5c94-4a48-8f33-b6ca7d794dc8"
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
     },
     {
       "type": "Feature",
-      "id": "0b3619dd-df77-4b97-a6b5-7044a979e5f0",
+      "id": "ec3beade-c376-4ad4-82b2-1d211a636f60",
       "properties": {
         "type": "way",
         "id": 372169405,
@@ -1097,7 +1410,21 @@
         "relations": [],
         "meta": {},
         "osmId": "way/372169405",
-        "customId": "level/way/372169405"
+        "customId": "level/way/372169405",
+        "_area": 2036.198530896303,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 4,
+        "name": {
+          "en": "level 4"
+        },
+        "short_name": {
+          "en": "4"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1134,10 +1461,6 @@
             [
               9.9574646,
               48.4227096
-            ],
-            [
-              9.9574544,
-              48.4227215
             ],
             [
               9.9574529,
@@ -1243,11 +1566,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c8fdab87-5c94-4a48-8f33-b6ca7d794dc8"
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
     },
     {
       "type": "Feature",
-      "id": "5913c081-21ac-4953-922c-bd9c364013f9",
+      "id": "667da971-2bf8-4747-bd88-2bec0eb179a7",
       "properties": {
         "type": "way",
         "id": 836921216,
@@ -1260,7 +1583,21 @@
         "relations": [],
         "meta": {},
         "osmId": "way/836921216",
-        "customId": "level/way/836921216"
+        "customId": "level/way/836921216",
+        "_area": 579.3576379473294,
+        "restriction": null,
+        "category": "unspecified",
+        "outdoor": false,
+        "ordinal": 6,
+        "name": {
+          "en": "level 6"
+        },
+        "short_name": {
+          "en": "6"
+        },
+        "building_ids": [
+          "8264c055-e947-4a36-8857-53d7b0e054fe"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1290,7 +1627,7 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c8fdab87-5c94-4a48-8f33-b6ca7d794dc8"
+      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
     }
   ],
   "name": "level"

@@ -1,168 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
+<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-08T13:25:03Z"/>
+<meta osm_base="2020-10-13T19:41:03Z"/>
 
-  <way id="24754015">
-    <bounds minlat="48.4254928" minlon="9.9426876" maxlat="48.4263384" maxlon="9.9437681"/>
-    <nd ref="269010863" lat="48.4261410" lon="9.9426876"/>
-    <nd ref="269010866" lat="48.4263384" lon="9.9432139"/>
-    <nd ref="790305569" lat="48.4262722" lon="9.9432703"/>
-    <nd ref="790305565" lat="48.4259891" lon="9.9435133"/>
-    <nd ref="790305608" lat="48.4258147" lon="9.9436628"/>
-    <nd ref="269010865" lat="48.4256910" lon="9.9437681"/>
-    <nd ref="269010864" lat="48.4254928" lon="9.9432398"/>
-    <nd ref="269010863" lat="48.4261410" lon="9.9426876"/>
-    <tag k="access" v="private"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="parking"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="name" v="BWK Ulm"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="parking" v="multi-storey"/>
-    <tag k="source" v="extrapolation"/>
-    <tag k="stories" v="3"/>
-  </way>
-  <way id="24832409">
-    <bounds minlat="48.4239361" minlon="9.9507111" maxlat="48.4245363" maxlon="9.9519058"/>
-    <nd ref="269775183" lat="48.4239361" lon="9.9509527"/>
-    <nd ref="269775184" lat="48.4242931" lon="9.9519058"/>
-    <nd ref="2401748850" lat="48.4244764" lon="9.9517499"/>
-    <nd ref="2401748849" lat="48.4244657" lon="9.9517213"/>
-    <nd ref="269775185" lat="48.4245363" lon="9.9516612"/>
-    <nd ref="2516021526" lat="48.4242613" lon="9.9509273"/>
-    <nd ref="269775186" lat="48.4241803" lon="9.9507111"/>
-    <nd ref="5185290694" lat="48.4241364" lon="9.9507485"/>
-    <nd ref="6044892785" lat="48.4239983" lon="9.9508660"/>
-    <nd ref="2401748852" lat="48.4239795" lon="9.9508819"/>
-    <nd ref="2401748851" lat="48.4239891" lon="9.9509076"/>
-    <nd ref="5185290695" lat="48.4239716" lon="9.9509224"/>
-    <nd ref="269775183" lat="48.4239361" lon="9.9509527"/>
-    <tag k="access" v="public"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="16"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="parking"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="capacity" v="365"/>
-    <tag k="capacity:disabled" v="yes"/>
-    <tag k="fee" v="yes"/>
-    <tag k="name" v="P20"/>
-    <tag k="opening_hours" v="Mo-Su,PH 00:00-23:59"/>
-    <tag k="operator" v="T.S.U. GmbH"/>
-    <tag k="parking" v="multi-storey"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-    <tag k="start_date" v="2004"/>
-    <tag k="toilets:wheelchair" v="no"/>
-    <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="28691196">
-    <bounds minlat="48.4238350" minlon="9.9407413" maxlat="48.4243250" maxlon="9.9415438"/>
-    <nd ref="315365821" lat="48.4243250" lon="9.9413083"/>
-    <nd ref="315365822" lat="48.4241148" lon="9.9407413"/>
-    <nd ref="5122306821" lat="48.4239039" lon="9.9409188"/>
-    <nd ref="315365823" lat="48.4238350" lon="9.9409768"/>
-    <nd ref="315365824" lat="48.4240452" lon="9.9415438"/>
-    <nd ref="5122306622" lat="48.4242470" lon="9.9413739"/>
-    <nd ref="315365821" lat="48.4243250" lon="9.9413083"/>
-    <tag k="access" v="private"/>
-    <tag k="addr:housenumber" v="11"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="parking"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="parking" v="multi-storey"/>
-    <tag k="roof:levels" v="0"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="32486909">
-    <bounds minlat="48.4242953" minlon="9.9392884" maxlat="48.4248745" maxlon="9.9404923"/>
-    <nd ref="3277635462" lat="48.4244733" lon="9.9392884"/>
-    <nd ref="3277635561" lat="48.4242953" lon="9.9394301"/>
-    <nd ref="2052183610" lat="48.4246965" lon="9.9404923"/>
-    <nd ref="365260531" lat="48.4248745" lon="9.9403553"/>
-    <nd ref="3277635462" lat="48.4244733" lon="9.9392884"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="ScanPlus"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="33214480">
-    <bounds minlat="48.4242874" minlon="9.9376292" maxlat="48.4245516" maxlon="9.9380079"/>
-    <nd ref="376775214" lat="48.4245516" lon="9.9378600"/>
-    <nd ref="376775239" lat="48.4243704" lon="9.9380079"/>
-    <nd ref="376775266" lat="48.4242874" lon="9.9377771"/>
-    <nd ref="376775293" lat="48.4244687" lon="9.9376292"/>
-    <nd ref="376775214" lat="48.4245516" lon="9.9378600"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="1"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Wilhelm-Runge-Straße"/>
-    <tag k="building" v="service"/>
-    <tag k="name" v="Vodafone Mobile Switching Center"/>
-  </way>
-  <way id="36788580">
-    <bounds minlat="48.4256529" minlon="9.9435132" maxlat="48.4264749" maxlon="9.9446845"/>
-    <nd ref="427697656" lat="48.4256529" lon="9.9440227"/>
-    <nd ref="4899198670" lat="48.4257324" lon="9.9439565"/>
-    <nd ref="427697659" lat="48.4262655" lon="9.9435132"/>
-    <nd ref="427697661" lat="48.4264749" lon="9.9440851"/>
-    <nd ref="4899198658" lat="48.4263093" lon="9.9442229"/>
-    <nd ref="4899198659" lat="48.4263422" lon="9.9443128"/>
-    <nd ref="427697664" lat="48.4258953" lon="9.9446845"/>
-    <nd ref="7125466725" lat="48.4258477" lon="9.9445545"/>
-    <nd ref="427697656" lat="48.4256529" lon="9.9440227"/>
-    <tag k="access" v="military"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="parking"/>
-  </way>
-  <way id="45272283">
-    <bounds minlat="48.4197690" minlon="9.9500300" maxlat="48.4198395" maxlon="9.9501501"/>
-    <nd ref="574955094" lat="48.4198375" lon="9.9501501"/>
-    <nd ref="574955096" lat="48.4197790" lon="9.9501419"/>
-    <nd ref="574955073" lat="48.4197690" lon="9.9501005"/>
-    <nd ref="574955060" lat="48.4197833" lon="9.9500659"/>
-    <nd ref="574955066" lat="48.4198035" lon="9.9500660"/>
-    <nd ref="574955067" lat="48.4198015" lon="9.9500361"/>
-    <nd ref="574955071" lat="48.4198395" lon="9.9500300"/>
-    <nd ref="574955094" lat="48.4198375" lon="9.9501501"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Blockhaus"/>
-  </way>
-  <way id="46725402">
-    <bounds minlat="48.4192148" minlon="9.9504146" maxlat="48.4193332" maxlon="9.9505281"/>
-    <nd ref="597325631" lat="48.4193267" lon="9.9504146"/>
-    <nd ref="597325629" lat="48.4193332" lon="9.9505147"/>
-    <nd ref="597325632" lat="48.4192208" lon="9.9505281"/>
-    <nd ref="597325630" lat="48.4192148" lon="9.9504304"/>
-    <nd ref="597325631" lat="48.4193267" lon="9.9504146"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Wachhaus"/>
-  </way>
-  <way id="46731572">
-    <bounds minlat="48.4199484" minlon="9.9502970" maxlat="48.4199991" maxlon="9.9503718"/>
-    <nd ref="597380142" lat="48.4199960" lon="9.9503146"/>
-    <nd ref="597380141" lat="48.4199991" lon="9.9503399"/>
-    <nd ref="597380143" lat="48.4199937" lon="9.9503584"/>
-    <nd ref="597380137" lat="48.4199860" lon="9.9503681"/>
-    <nd ref="597380144" lat="48.4199673" lon="9.9503718"/>
-    <nd ref="597380138" lat="48.4199549" lon="9.9503610"/>
-    <nd ref="597380146" lat="48.4199484" lon="9.9503435"/>
-    <nd ref="597380145" lat="48.4199503" lon="9.9503168"/>
-    <nd ref="597380140" lat="48.4199652" lon="9.9502970"/>
-    <nd ref="597380139" lat="48.4199857" lon="9.9502996"/>
-    <nd ref="597380142" lat="48.4199960" lon="9.9503146"/>
-    <tag k="building" v="yes"/>
-    <tag k="height" v="3"/>
-    <tag k="name" v="Zisterne"/>
-    <tag k="water_tank:volume" v="55000"/>
-  </way>
   <way id="46852105">
     <bounds minlat="48.4181497" minlon="9.9379964" maxlat="48.4185759" maxlon="9.9382149"/>
     <nd ref="598332647" lat="48.4181497" lon="9.9382108"/>
@@ -177,723 +17,6 @@
     <tag k="old_name" v="Hochschule Ulm"/>
     <tag k="roof:levels" v="0"/>
     <tag k="start_date" v="2014"/>
-  </way>
-  <way id="47148816">
-    <bounds minlat="48.4276702" minlon="9.9570605" maxlat="48.4283733" maxlon="9.9583991"/>
-    <nd ref="601058176" lat="48.4283452" lon="9.9573781"/>
-    <nd ref="6317875800" lat="48.4283311" lon="9.9574286"/>
-    <nd ref="6317875801" lat="48.4283733" lon="9.9574736"/>
-    <nd ref="6317875804" lat="48.4283537" lon="9.9575441"/>
-    <nd ref="6317875811" lat="48.4283019" lon="9.9575342"/>
-    <nd ref="6317875810" lat="48.4282810" lon="9.9576148"/>
-    <nd ref="6317875805" lat="48.4283216" lon="9.9576585"/>
-    <nd ref="6317875806" lat="48.4283018" lon="9.9577293"/>
-    <nd ref="6317875809" lat="48.4282508" lon="9.9577185"/>
-    <nd ref="6317875808" lat="48.4282275" lon="9.9578013"/>
-    <nd ref="6317875807" lat="48.4282690" lon="9.9578468"/>
-    <nd ref="6317875802" lat="48.4282494" lon="9.9579166"/>
-    <nd ref="601058183" lat="48.4281977" lon="9.9579058"/>
-    <nd ref="601058182" lat="48.4281825" lon="9.9579554"/>
-    <nd ref="601058185" lat="48.4279562" lon="9.9578069"/>
-    <nd ref="5321872847" lat="48.4279529" lon="9.9578236"/>
-    <nd ref="6320348449" lat="48.4279482" lon="9.9578399"/>
-    <nd ref="6317875824" lat="48.4279427" lon="9.9578592"/>
-    <nd ref="601058184" lat="48.4277901" lon="9.9583991"/>
-    <nd ref="6317875820" lat="48.4277012" lon="9.9583418"/>
-    <nd ref="6317875819" lat="48.4277083" lon="9.9583064"/>
-    <nd ref="601058140" lat="48.4276702" lon="9.9582823"/>
-    <nd ref="6317875818" lat="48.4277678" lon="9.9579343"/>
-    <nd ref="6317875817" lat="48.4278073" lon="9.9579611"/>
-    <nd ref="6317875816" lat="48.4278493" lon="9.9578155"/>
-    <nd ref="601058172" lat="48.4278109" lon="9.9577911"/>
-    <nd ref="6317875825" lat="48.4278245" lon="9.9577432"/>
-    <nd ref="6320348447" lat="48.4278867" lon="9.9575165"/>
-    <nd ref="6317875815" lat="48.4280185" lon="9.9570605"/>
-    <nd ref="6317875814" lat="48.4281173" lon="9.9571246"/>
-    <nd ref="6317875813" lat="48.4281261" lon="9.9570959"/>
-    <nd ref="6317875812" lat="48.4281555" lon="9.9571138"/>
-    <nd ref="6317875823" lat="48.4281334" lon="9.9571879"/>
-    <nd ref="6320359673" lat="48.4281247" lon="9.9572174"/>
-    <nd ref="601058174" lat="48.4281208" lon="9.9572305"/>
-    <nd ref="601058176" lat="48.4283452" lon="9.9573781"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housename" v="Sporthalle Ulm Nord"/>
-    <tag k="addr:housenumber" v="51"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Talstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="leisure" v="sports_centre"/>
-    <tag k="name" v="Sporthalle Ulm Nord"/>
-    <tag k="source" v="Maps4BW"/>
-    <tag k="sport" v="multi"/>
-    <tag k="toilets:wheelchair" v="yes"/>
-    <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="51818809">
-    <bounds minlat="48.4198753" minlon="9.9460655" maxlat="48.4210512" maxlon="9.9473866"/>
-    <nd ref="661072391" lat="48.4203131" lon="9.9473866"/>
-    <nd ref="1681617186" lat="48.4206057" lon="9.9471295"/>
-    <nd ref="1681617188" lat="48.4206272" lon="9.9471105"/>
-    <nd ref="3657405826" lat="48.4210512" lon="9.9467394"/>
-    <nd ref="3657405825" lat="48.4210085" lon="9.9466328"/>
-    <nd ref="661072410" lat="48.4209939" lon="9.9466417"/>
-    <nd ref="661072426" lat="48.4207810" lon="9.9460655"/>
-    <nd ref="661072446" lat="48.4207116" lon="9.9461236"/>
-    <nd ref="661072465" lat="48.4208995" lon="9.9466298"/>
-    <nd ref="661072468" lat="48.4206133" lon="9.9468731"/>
-    <nd ref="1681617185" lat="48.4204151" lon="9.9463687"/>
-    <nd ref="1681617183" lat="48.4203942" lon="9.9463877"/>
-    <nd ref="661072493" lat="48.4201093" lon="9.9466312"/>
-    <nd ref="661072494" lat="48.4202248" lon="9.9469298"/>
-    <nd ref="661072496" lat="48.4204464" lon="9.9467440"/>
-    <nd ref="661072498" lat="48.4205261" lon="9.9469432"/>
-    <nd ref="661072500" lat="48.4203026" lon="9.9471398"/>
-    <nd ref="1681617182" lat="48.4203257" lon="9.9472047"/>
-    <nd ref="3657404015" lat="48.4202782" lon="9.9472541"/>
-    <nd ref="3657404014" lat="48.4202425" lon="9.9472032"/>
-    <nd ref="1681617179" lat="48.4202532" lon="9.9471886"/>
-    <nd ref="661072501" lat="48.4199270" lon="9.9467223"/>
-    <nd ref="661072503" lat="48.4198753" lon="9.9467859"/>
-    <nd ref="661072391" lat="48.4203131" lon="9.9473866"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="43"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="university"/>
-    <tag k="building:colour" v="green"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="51819209">
-    <bounds minlat="48.4187929" minlon="9.9441345" maxlat="48.4201158" maxlon="9.9458289"/>
-    <nd ref="661076895" lat="48.4200728" lon="9.9441345"/>
-    <nd ref="1052006584" lat="48.4187929" lon="9.9452526"/>
-    <nd ref="903872091" lat="48.4188420" lon="9.9453216"/>
-    <nd ref="904969296" lat="48.4192034" lon="9.9458289"/>
-    <nd ref="2385123026" lat="48.4192222" lon="9.9458017"/>
-    <nd ref="661076898" lat="48.4192416" lon="9.9457737"/>
-    <nd ref="903872050" lat="48.4189507" lon="9.9453536"/>
-    <nd ref="903872053" lat="48.4189145" lon="9.9454097"/>
-    <nd ref="661076899" lat="48.4188613" lon="9.9453358"/>
-    <nd ref="903872051" lat="48.4191727" lon="9.9450568"/>
-    <nd ref="903872047" lat="48.4192038" lon="9.9451272"/>
-    <nd ref="661076900" lat="48.4194623" lon="9.9449035"/>
-    <nd ref="661076901" lat="48.4195247" lon="9.9450618"/>
-    <nd ref="661076902" lat="48.4193619" lon="9.9452029"/>
-    <nd ref="661076903" lat="48.4194997" lon="9.9455675"/>
-    <nd ref="2385123017" lat="48.4196102" lon="9.9454713"/>
-    <nd ref="661076904" lat="48.4196685" lon="9.9454205"/>
-    <nd ref="903872056" lat="48.4195686" lon="9.9451488"/>
-    <nd ref="903872084" lat="48.4195739" lon="9.9451396"/>
-    <nd ref="903872054" lat="48.4195882" lon="9.9451290"/>
-    <nd ref="903872086" lat="48.4195232" lon="9.9449605"/>
-    <nd ref="661076905" lat="48.4194919" lon="9.9448708"/>
-    <nd ref="661076906" lat="48.4197486" lon="9.9446550"/>
-    <nd ref="1187175443" lat="48.4199466" lon="9.9451724"/>
-    <nd ref="661076908" lat="48.4200033" lon="9.9451115"/>
-    <nd ref="903872083" lat="48.4198051" lon="9.9445974"/>
-    <nd ref="661076909" lat="48.4197838" lon="9.9445363"/>
-    <nd ref="661076910" lat="48.4201158" lon="9.9442598"/>
-    <nd ref="661076895" lat="48.4200728" lon="9.9441345"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="47"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="university"/>
-    <tag k="building:colour" v="blue"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="51819602">
-    <bounds minlat="48.4208867" minlon="9.9487432" maxlat="48.4211054" maxlon="9.9490169"/>
-    <nd ref="1187175363" lat="48.4210748" lon="9.9488110"/>
-    <nd ref="661081208" lat="48.4211054" lon="9.9488933"/>
-    <nd ref="1187175485" lat="48.4210054" lon="9.9489779"/>
-    <nd ref="1187175455" lat="48.4209958" lon="9.9489523"/>
-    <nd ref="661081209" lat="48.4209194" lon="9.9490169"/>
-    <nd ref="661081210" lat="48.4208867" lon="9.9489291"/>
-    <nd ref="1187175381" lat="48.4209672" lon="9.9488609"/>
-    <nd ref="1187175428" lat="48.4209536" lon="9.9488243"/>
-    <nd ref="661081206" lat="48.4210496" lon="9.9487432"/>
-    <nd ref="1187175409" lat="48.4210621" lon="9.9487768"/>
-    <nd ref="1187175363" lat="48.4210748" lon="9.9488110"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="red"/>
-    <tag k="building:levels" v="7"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="76823477">
-    <bounds minlat="48.4187348" minlon="9.9452213" maxlat="48.4212390" maxlon="9.9488005"/>
-    <nd ref="904969296" lat="48.4192034" lon="9.9458289"/>
-    <nd ref="903872091" lat="48.4188420" lon="9.9453216"/>
-    <nd ref="1052006584" lat="48.4187929" lon="9.9452526"/>
-    <nd ref="1187175351" lat="48.4187705" lon="9.9452213"/>
-    <nd ref="1187175491" lat="48.4187348" lon="9.9452791"/>
-    <nd ref="661076897" lat="48.4196219" lon="9.9465316"/>
-    <nd ref="1187175406" lat="48.4196372" lon="9.9465531"/>
-    <nd ref="3367340681" lat="48.4203335" lon="9.9475520"/>
-    <nd ref="3367340686" lat="48.4208625" lon="9.9483189"/>
-    <nd ref="1187175505" lat="48.4211247" lon="9.9486901"/>
-    <nd ref="1187175397" lat="48.4211418" lon="9.9487196"/>
-    <nd ref="1187175347" lat="48.4211976" lon="9.9488005"/>
-    <nd ref="3367340691" lat="48.4212199" lon="9.9487727"/>
-    <nd ref="1187175471" lat="48.4212390" lon="9.9487408"/>
-    <nd ref="1187183707" lat="48.4212318" lon="9.9487304"/>
-    <nd ref="1187183710" lat="48.4212021" lon="9.9486942"/>
-    <nd ref="3367340687" lat="48.4208989" lon="9.9482601"/>
-    <nd ref="3657404020" lat="48.4208080" lon="9.9481214"/>
-    <nd ref="661072135" lat="48.4208238" lon="9.9481057"/>
-    <nd ref="661072179" lat="48.4203907" lon="9.9475237"/>
-    <nd ref="1187175378" lat="48.4203848" lon="9.9474885"/>
-    <nd ref="661072391" lat="48.4203131" lon="9.9473866"/>
-    <nd ref="661072503" lat="48.4198753" lon="9.9467859"/>
-    <nd ref="3367340678" lat="48.4198114" lon="9.9466850"/>
-    <nd ref="661072514" lat="48.4197271" lon="9.9465758"/>
-    <nd ref="904969290" lat="48.4192979" lon="9.9459732"/>
-    <nd ref="904969296" lat="48.4192034" lon="9.9458289"/>
-    <tag k="building" v="university"/>
-    <tag k="building:colour" v="green"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="layer" v="1"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="93586315">
-    <bounds minlat="48.4239168" minlon="9.9396052" maxlat="48.4244254" maxlon="9.9405349"/>
-    <nd ref="1085574702" lat="48.4241179" lon="9.9396052"/>
-    <nd ref="1085574628" lat="48.4239828" lon="9.9397176"/>
-    <nd ref="1085574611" lat="48.4240472" lon="9.9398935"/>
-    <nd ref="1085574704" lat="48.4239168" lon="9.9400020"/>
-    <nd ref="1085574678" lat="48.4240232" lon="9.9402926"/>
-    <nd ref="1085574547" lat="48.4241245" lon="9.9402083"/>
-    <nd ref="1085574523" lat="48.4240901" lon="9.9401143"/>
-    <nd ref="1085574586" lat="48.4241460" lon="9.9400679"/>
-    <nd ref="1085574556" lat="48.4243170" lon="9.9405349"/>
-    <nd ref="1085574659" lat="48.4244254" lon="9.9404447"/>
-    <nd ref="1085574702" lat="48.4241179" lon="9.9396052"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="13"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="93586316">
-    <bounds minlat="48.4190299" minlon="9.9341787" maxlat="48.4194819" maxlon="9.9348742"/>
-    <nd ref="2381101143" lat="48.4194274" lon="9.9344398"/>
-    <nd ref="2381101070" lat="48.4193872" lon="9.9343852"/>
-    <nd ref="2381101102" lat="48.4193601" lon="9.9343534"/>
-    <nd ref="2381101118" lat="48.4193365" lon="9.9343283"/>
-    <nd ref="2381101138" lat="48.4193064" lon="9.9342998"/>
-    <nd ref="2381101083" lat="48.4192747" lon="9.9342735"/>
-    <nd ref="2381101122" lat="48.4192383" lon="9.9342475"/>
-    <nd ref="2381101130" lat="48.4191983" lon="9.9342237"/>
-    <nd ref="2381101150" lat="48.4191676" lon="9.9342085"/>
-    <nd ref="2381101155" lat="48.4191256" lon="9.9341919"/>
-    <nd ref="2381101086" lat="48.4190801" lon="9.9341787"/>
-    <nd ref="2381101135" lat="48.4190699" lon="9.9342158"/>
-    <nd ref="2381101085" lat="48.4190591" lon="9.9342639"/>
-    <nd ref="2381101140" lat="48.4190470" lon="9.9343286"/>
-    <nd ref="2381101147" lat="48.4190384" lon="9.9343926"/>
-    <nd ref="2381101066" lat="48.4190325" lon="9.9344612"/>
-    <nd ref="2381101099" lat="48.4190299" lon="9.9345358"/>
-    <nd ref="2381101080" lat="48.4190306" lon="9.9345923"/>
-    <nd ref="2381101063" lat="48.4190329" lon="9.9346402"/>
-    <nd ref="2381101084" lat="48.4190364" lon="9.9346833"/>
-    <nd ref="2381101129" lat="48.4190415" lon="9.9347291"/>
-    <nd ref="2381101082" lat="48.4190490" lon="9.9347792"/>
-    <nd ref="2381101119" lat="48.4190591" lon="9.9348331"/>
-    <nd ref="2381101120" lat="48.4190689" lon="9.9348742"/>
-    <nd ref="2381101090" lat="48.4190840" lon="9.9348719"/>
-    <nd ref="2381101107" lat="48.4191257" lon="9.9348607"/>
-    <nd ref="2381101113" lat="48.4191664" lon="9.9348455"/>
-    <nd ref="2381101111" lat="48.4192203" lon="9.9348184"/>
-    <nd ref="2381101115" lat="48.4192640" lon="9.9347900"/>
-    <nd ref="2381101154" lat="48.4192951" lon="9.9347655"/>
-    <nd ref="2381101064" lat="48.4193034" lon="9.9347588"/>
-    <nd ref="1085574548" lat="48.4193164" lon="9.9347483"/>
-    <nd ref="2381101137" lat="48.4193414" lon="9.9347242"/>
-    <nd ref="2381101073" lat="48.4193631" lon="9.9347015"/>
-    <nd ref="2381101139" lat="48.4193820" lon="9.9346800"/>
-    <nd ref="2381101121" lat="48.4194151" lon="9.9346380"/>
-    <nd ref="2381101109" lat="48.4194500" lon="9.9345868"/>
-    <nd ref="2381101141" lat="48.4194819" lon="9.9345305"/>
-    <nd ref="2381101065" lat="48.4194766" lon="9.9345218"/>
-    <nd ref="2381101106" lat="48.4194469" lon="9.9344700"/>
-    <nd ref="2381101143" lat="48.4194274" lon="9.9344398"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="14"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="landuse" v="commercial"/>
-    <tag k="name" v="Energon"/>
-    <tag k="roof:colour" v="white"/>
-    <tag k="start_date" v="2000"/>
-    <tag k="website" v="http://www.energon-ulm.de/"/>
-    <tag k="wikipedia" v="de:Energon"/>
-  </way>
-  <way id="93586317">
-    <bounds minlat="48.4243103" minlon="9.9405394" maxlat="48.4246403" maxlon="9.9412117"/>
-    <nd ref="1085574618" lat="48.4243797" lon="9.9412117"/>
-    <nd ref="1085574693" lat="48.4246403" lon="9.9409895"/>
-    <nd ref="1085574714" lat="48.4244713" lon="9.9405394"/>
-    <nd ref="2556721483" lat="48.4244179" lon="9.9405850"/>
-    <nd ref="2556721481" lat="48.4244443" lon="9.9406552"/>
-    <nd ref="1085574641" lat="48.4243391" lon="9.9407448"/>
-    <nd ref="2556721479" lat="48.4244123" lon="9.9409400"/>
-    <nd ref="2556721477" lat="48.4243103" lon="9.9410270"/>
-    <nd ref="1085574618" lat="48.4243797" lon="9.9412117"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="9"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Technologie-Förderungs-Unternehmen TFU"/>
-    <tag k="start_date" v="2003"/>
-  </way>
-  <way id="93586318">
-    <bounds minlat="48.4233563" minlon="9.9387664" maxlat="48.4240493" maxlon="9.9397779"/>
-    <nd ref="1085574607" lat="48.4238215" lon="9.9387664"/>
-    <nd ref="1085574584" lat="48.4238974" lon="9.9389663"/>
-    <nd ref="1085574695" lat="48.4238384" lon="9.9390172"/>
-    <nd ref="1085574516" lat="48.4239142" lon="9.9392169"/>
-    <nd ref="1085574721" lat="48.4239694" lon="9.9391693"/>
-    <nd ref="1085574689" lat="48.4240493" lon="9.9393797"/>
-    <nd ref="1085574638" lat="48.4235875" lon="9.9397779"/>
-    <nd ref="1085574579" lat="48.4235123" lon="9.9395798"/>
-    <nd ref="1085574698" lat="48.4235613" lon="9.9395375"/>
-    <nd ref="1085574597" lat="48.4234894" lon="9.9393481"/>
-    <nd ref="1085574648" lat="48.4234407" lon="9.9393900"/>
-    <nd ref="1085574711" lat="48.4233563" lon="9.9391677"/>
-    <nd ref="1085574607" lat="48.4238215" lon="9.9387664"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="15"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="green"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="93586319">
-    <bounds minlat="48.4209454" minlon="9.9346726" maxlat="48.4214741" maxlon="9.9355482"/>
-    <nd ref="1085574719" lat="48.4214741" lon="9.9347299"/>
-    <nd ref="1085574534" lat="48.4213002" lon="9.9346729"/>
-    <nd ref="1085574593" lat="48.4212894" lon="9.9347477"/>
-    <nd ref="1085574515" lat="48.4210603" lon="9.9346726"/>
-    <nd ref="1085574582" lat="48.4209454" lon="9.9354689"/>
-    <nd ref="1085574553" lat="48.4211573" lon="9.9355383"/>
-    <nd ref="1085574645" lat="48.4211649" lon="9.9354856"/>
-    <nd ref="1085574622" lat="48.4213561" lon="9.9355482"/>
-    <nd ref="1085574719" lat="48.4214741" lon="9.9347299"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="10"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="name" v="Continental / Elektrobit Automotive GmbH"/>
-    <tag k="old_name" v="Nokia"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="96746561">
-    <bounds minlat="48.4224124" minlon="9.9367814" maxlat="48.4233235" maxlon="9.9382811"/>
-    <nd ref="2931062039" lat="48.4230489" lon="9.9375671"/>
-    <nd ref="1120279282" lat="48.4228647" lon="9.9379037"/>
-    <nd ref="2052183581" lat="48.4227359" lon="9.9377430"/>
-    <nd ref="2052183585" lat="48.4228801" lon="9.9374566"/>
-    <nd ref="2052183584" lat="48.4228062" lon="9.9373690"/>
-    <nd ref="2052183578" lat="48.4226791" lon="9.9376005"/>
-    <nd ref="6512547848" lat="48.4226408" lon="9.9375549"/>
-    <nd ref="6512547849" lat="48.4226559" lon="9.9375240"/>
-    <nd ref="2052183574" lat="48.4225714" lon="9.9374208"/>
-    <nd ref="2052183576" lat="48.4226817" lon="9.9372250"/>
-    <nd ref="2052183575" lat="48.4225936" lon="9.9371190"/>
-    <nd ref="2052183573" lat="48.4225332" lon="9.9372416"/>
-    <nd ref="2052183565" lat="48.4224164" lon="9.9370983"/>
-    <nd ref="2052183566" lat="48.4224345" lon="9.9370718"/>
-    <nd ref="1120279290" lat="48.4224124" lon="9.9370444"/>
-    <nd ref="2052183569" lat="48.4224848" lon="9.9369157"/>
-    <nd ref="2052183567" lat="48.4224469" lon="9.9368745"/>
-    <nd ref="2052183572" lat="48.4224904" lon="9.9367814"/>
-    <nd ref="316099703" lat="48.4227623" lon="9.9370620"/>
-    <nd ref="2052183590" lat="48.4231066" lon="9.9374963"/>
-    <nd ref="2931062032" lat="48.4230760" lon="9.9375462"/>
-    <nd ref="2931062033" lat="48.4231606" lon="9.9376615"/>
-    <nd ref="2931062034" lat="48.4231926" lon="9.9376132"/>
-    <nd ref="6512547847" lat="48.4232398" lon="9.9376930"/>
-    <nd ref="6512547846" lat="48.4232620" lon="9.9376689"/>
-    <nd ref="2931062035" lat="48.4233235" lon="9.9377809"/>
-    <nd ref="2931062036" lat="48.4229515" lon="9.9382811"/>
-    <nd ref="2931062037" lat="48.4228357" lon="9.9380988"/>
-    <nd ref="2931062038" lat="48.4231392" lon="9.9376870"/>
-    <nd ref="2931062039" lat="48.4230489" lon="9.9375671"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="24"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="industrial"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="roof:levels" v="0"/>
-  </way>
-  <way id="96746562">
-    <bounds minlat="48.4227687" minlon="9.9362349" maxlat="48.4230803" maxlon="9.9367461"/>
-    <nd ref="1120279252" lat="48.4229346" lon="9.9362349"/>
-    <nd ref="1120279295" lat="48.4227687" lon="9.9365928"/>
-    <nd ref="1120279305" lat="48.4229144" lon="9.9367461"/>
-    <nd ref="1120279260" lat="48.4230803" lon="9.9363882"/>
-    <nd ref="1120279252" lat="48.4229346" lon="9.9362349"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="6"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Witec"/>
-    <tag k="start_date" v="2009"/>
-  </way>
-  <way id="96746563">
-    <bounds minlat="48.4232407" minlon="9.9365444" maxlat="48.4237377" maxlon="9.9373239"/>
-    <nd ref="1120279310" lat="48.4235975" lon="9.9365444"/>
-    <nd ref="1120279271" lat="48.4232407" lon="9.9371299"/>
-    <nd ref="1120279279" lat="48.4233809" lon="9.9373239"/>
-    <nd ref="1120279243" lat="48.4237377" lon="9.9367384"/>
-    <nd ref="1120279310" lat="48.4235975" lon="9.9365444"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="4"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Bosch Rexroth - Kunden- und Innovationszentrum"/>
-  </way>
-  <way id="96747067">
-    <bounds minlat="48.4235379" minlon="9.9400195" maxlat="48.4239700" maxlon="9.9408288"/>
-    <nd ref="1120289655" lat="48.4239700" lon="9.9406687"/>
-    <nd ref="1120289638" lat="48.4237241" lon="9.9400195"/>
-    <nd ref="1120289657" lat="48.4235379" lon="9.9401796"/>
-    <nd ref="5122306324" lat="48.4236297" lon="9.9404219"/>
-    <nd ref="5122301428" lat="48.4236642" lon="9.9405130"/>
-    <nd ref="1120289647" lat="48.4237838" lon="9.9408288"/>
-    <nd ref="1120289655" lat="48.4239700" lon="9.9406687"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="17"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Philips GmbH U-L-M Photonics"/>
-  </way>
-  <way id="98681114">
-    <bounds minlat="48.4252787" minlon="9.9592390" maxlat="48.4256206" maxlon="9.9596450"/>
-    <nd ref="1141685575" lat="48.4255572" lon="9.9592390"/>
-    <nd ref="1141685643" lat="48.4256206" lon="9.9594081"/>
-    <nd ref="1141685549" lat="48.4253421" lon="9.9596450"/>
-    <nd ref="1141685582" lat="48.4252787" lon="9.9594758"/>
-    <nd ref="1141685575" lat="48.4255572" lon="9.9592390"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="98681118">
-    <bounds minlat="48.4258429" minlon="9.9568918" maxlat="48.4267802" maxlon="9.9578336"/>
-    <nd ref="1141685641" lat="48.4267802" lon="9.9573516"/>
-    <nd ref="1141685589" lat="48.4267020" lon="9.9571447"/>
-    <nd ref="1141685630" lat="48.4266204" lon="9.9572147"/>
-    <nd ref="1141685537" lat="48.4265442" lon="9.9570131"/>
-    <nd ref="1141685647" lat="48.4264653" lon="9.9570809"/>
-    <nd ref="1141685648" lat="48.4263938" lon="9.9568918"/>
-    <nd ref="1141685563" lat="48.4258429" lon="9.9573646"/>
-    <nd ref="1141685586" lat="48.4259306" lon="9.9575967"/>
-    <nd ref="1141685603" lat="48.4259912" lon="9.9577570"/>
-    <nd ref="1141685531" lat="48.4261071" lon="9.9576575"/>
-    <nd ref="1141685633" lat="48.4261411" lon="9.9576284"/>
-    <nd ref="1141685552" lat="48.4262187" lon="9.9578336"/>
-    <nd ref="1141685641" lat="48.4267802" lon="9.9573516"/>
-    <tag k="access" v="yes"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="5"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="parking"/>
-    <tag k="capacity" v="540"/>
-    <tag k="capacity:parent" v="no"/>
-    <tag k="capacity:women" v="no"/>
-    <tag k="fee" v="yes"/>
-    <tag k="name" v="P40"/>
-    <tag k="operator" v="PBW"/>
-    <tag k="park_ride" v="yes"/>
-    <tag k="parking" v="multi-storey"/>
-  </way>
-  <way id="98681121">
-    <bounds minlat="48.4256612" minlon="9.9589727" maxlat="48.4259061" maxlon="9.9593741"/>
-    <nd ref="1141685592" lat="48.4258211" lon="9.9589727"/>
-    <nd ref="1141685550" lat="48.4258728" lon="9.9591232"/>
-    <nd ref="1141685583" lat="48.4258955" lon="9.9592551"/>
-    <nd ref="1141685612" lat="48.4259061" lon="9.9593480"/>
-    <nd ref="1141685628" lat="48.4258247" lon="9.9593741"/>
-    <nd ref="1141685535" lat="48.4258064" lon="9.9593314"/>
-    <nd ref="1141685573" lat="48.4257734" lon="9.9593419"/>
-    <nd ref="1141685596" lat="48.4257585" lon="9.9593091"/>
-    <nd ref="1141685564" lat="48.4257283" lon="9.9592205"/>
-    <nd ref="1141685587" lat="48.4256612" lon="9.9590730"/>
-    <nd ref="1141685604" lat="48.4257477" lon="9.9589969"/>
-    <nd ref="1141685634" lat="48.4257631" lon="9.9590247"/>
-    <nd ref="1141685592" lat="48.4258211" lon="9.9589727"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="6"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Weiterbildungszentrum Brennstoffzelle Ulm e.V."/>
-    <tag k="url" v="http://www.wbzu.de/wbzu.html"/>
-  </way>
-  <way id="98681128">
-    <bounds minlat="48.4254978" minlon="9.9595168" maxlat="48.4258338" maxlon="9.9599922"/>
-    <nd ref="1141685627" lat="48.4257281" lon="9.9595168"/>
-    <nd ref="1141685578" lat="48.4254978" lon="9.9597201"/>
-    <nd ref="1141685609" lat="48.4256035" lon="9.9599922"/>
-    <nd ref="1141685528" lat="48.4258338" lon="9.9597889"/>
-    <nd ref="1141685627" lat="48.4257281" lon="9.9595168"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="8"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Zentrum für Sonnenenergie und Wasserstoff-Forschung"/>
-  </way>
-  <way id="99275615">
-    <bounds minlat="48.4252090" minlon="9.9506749" maxlat="48.4260660" maxlon="9.9520904"/>
-    <nd ref="1148284885" lat="48.4259362" lon="9.9513064"/>
-    <nd ref="1148284691" lat="48.4260660" lon="9.9516626"/>
-    <nd ref="1148284938" lat="48.4255493" lon="9.9520904"/>
-    <nd ref="1148284567" lat="48.4253899" lon="9.9516532"/>
-    <nd ref="1148284789" lat="48.4256591" lon="9.9514304"/>
-    <nd ref="1148284438" lat="48.4256033" lon="9.9512775"/>
-    <nd ref="1148284659" lat="48.4253235" lon="9.9515092"/>
-    <nd ref="1148284899" lat="48.4252090" lon="9.9511951"/>
-    <nd ref="1148284524" lat="48.4253299" lon="9.9510950"/>
-    <nd ref="1148284757" lat="48.4252815" lon="9.9509621"/>
-    <nd ref="1148284398" lat="48.4256284" lon="9.9506749"/>
-    <nd ref="1148284613" lat="48.4258766" lon="9.9513557"/>
-    <nd ref="1148284885" lat="48.4259362" lon="9.9513064"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="5"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="99275616">
-    <bounds minlat="48.4257085" minlon="9.9523694" maxlat="48.4260808" maxlon="9.9532054"/>
-    <nd ref="1148284584" lat="48.4259385" lon="9.9525558"/>
-    <nd ref="1148284826" lat="48.4258943" lon="9.9525921"/>
-    <nd ref="1148284465" lat="48.4260808" lon="9.9531093"/>
-    <nd ref="1148284676" lat="48.4259635" lon="9.9532054"/>
-    <nd ref="1148284925" lat="48.4257085" lon="9.9524981"/>
-    <nd ref="1148284552" lat="48.4258656" lon="9.9523694"/>
-    <nd ref="1148284584" lat="48.4259385" lon="9.9525558"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="4"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Fuhrpark"/>
-  </way>
-  <way id="99275619">
-    <bounds minlat="48.4266407" minlon="9.9516871" maxlat="48.4267837" maxlon="9.9519013"/>
-    <nd ref="1148284480" lat="48.4267802" lon="9.9517613"/>
-    <nd ref="2450925266" lat="48.4267837" lon="9.9517984"/>
-    <nd ref="1148284901" lat="48.4267729" lon="9.9518515"/>
-    <nd ref="2450925262" lat="48.4267564" lon="9.9518794"/>
-    <nd ref="1148284702" lat="48.4267267" lon="9.9519002"/>
-    <nd ref="2450925253" lat="48.4267018" lon="9.9519013"/>
-    <nd ref="1148284854" lat="48.4266751" lon="9.9518868"/>
-    <nd ref="2450925271" lat="48.4266564" lon="9.9518622"/>
-    <nd ref="1148284532" lat="48.4266441" lon="9.9518279"/>
-    <nd ref="2450925293" lat="48.4266407" lon="9.9517908"/>
-    <nd ref="1148284365" lat="48.4266462" lon="9.9517528"/>
-    <nd ref="2450925287" lat="48.4266597" lon="9.9517213"/>
-    <nd ref="1148284761" lat="48.4266827" lon="9.9516963"/>
-    <nd ref="2450925243" lat="48.4267068" lon="9.9516871"/>
-    <nd ref="1148284445" lat="48.4267391" lon="9.9516947"/>
-    <nd ref="2450925289" lat="48.4267602" lon="9.9517146"/>
-    <nd ref="1148284480" lat="48.4267802" lon="9.9517613"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="99275620">
-    <bounds minlat="48.4267259" minlon="9.9519285" maxlat="48.4268655" maxlon="9.9521377"/>
-    <nd ref="1148284862" lat="48.4268655" lon="9.9520286"/>
-    <nd ref="2450925310" lat="48.4268622" lon="9.9520649"/>
-    <nd ref="1148284671" lat="48.4268428" lon="9.9521105"/>
-    <nd ref="2450925252" lat="48.4268223" lon="9.9521300"/>
-    <nd ref="1148284495" lat="48.4267906" lon="9.9521377"/>
-    <nd ref="2450925273" lat="48.4267671" lon="9.9521287"/>
-    <nd ref="1148284617" lat="48.4267446" lon="9.9521045"/>
-    <nd ref="2450925272" lat="48.4267314" lon="9.9520738"/>
-    <nd ref="1148284918" lat="48.4267259" lon="9.9520366"/>
-    <nd ref="2450925258" lat="48.4267292" lon="9.9520004"/>
-    <nd ref="1148284725" lat="48.4267412" lon="9.9519668"/>
-    <nd ref="2450925268" lat="48.4267594" lon="9.9519427"/>
-    <nd ref="1148284537" lat="48.4267853" lon="9.9519285"/>
-    <nd ref="2450925298" lat="48.4268096" lon="9.9519294"/>
-    <nd ref="1148284808" lat="48.4268387" lon="9.9519496"/>
-    <nd ref="2450925240" lat="48.4268549" lon="9.9519767"/>
-    <nd ref="1148284862" lat="48.4268655" lon="9.9520286"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="99275623">
-    <bounds minlat="48.4247391" minlon="9.9526143" maxlat="48.4249370" maxlon="9.9528675"/>
-    <nd ref="1148284594" lat="48.4248904" lon="9.9526143"/>
-    <nd ref="1148284416" lat="48.4247391" lon="9.9527377"/>
-    <nd ref="1148284637" lat="48.4247857" lon="9.9528675"/>
-    <nd ref="1148284874" lat="48.4249370" lon="9.9527441"/>
-    <nd ref="1148284594" lat="48.4248904" lon="9.9526143"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="1"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="roof:colour" v="black"/>
-    <tag k="roof:levels" v="1"/>
-    <tag k="roof:shape" v="gabled"/>
-  </way>
-  <way id="99275625">
-    <bounds minlat="48.4245734" minlon="9.9524439" maxlat="48.4247728" maxlon="9.9526954"/>
-    <nd ref="1148284827" lat="48.4247277" lon="9.9524439"/>
-    <nd ref="1148284466" lat="48.4247728" lon="9.9525671"/>
-    <nd ref="1148284677" lat="48.4246185" lon="9.9526954"/>
-    <nd ref="1148284928" lat="48.4245734" lon="9.9525722"/>
-    <nd ref="1148284827" lat="48.4247277" lon="9.9524439"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="12"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="roof:colour" v="black"/>
-    <tag k="roof:levels" v="1"/>
-    <tag k="roof:shape" v="gabled"/>
-  </way>
-  <way id="99275629">
-    <bounds minlat="48.4245313" minlon="9.9522945" maxlat="48.4247681" maxlon="9.9525722"/>
-    <nd ref="1148284669" lat="48.4247254" lon="9.9522945"/>
-    <nd ref="1148284492" lat="48.4245313" lon="9.9524560"/>
-    <nd ref="1148284928" lat="48.4245734" lon="9.9525722"/>
-    <nd ref="1148284827" lat="48.4247277" lon="9.9524439"/>
-    <nd ref="1148284377" lat="48.4247681" lon="9.9524110"/>
-    <nd ref="1148284669" lat="48.4247254" lon="9.9522945"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="roof:colour" v="black"/>
-    <tag k="roof:levels" v="1"/>
-    <tag k="roof:shape" v="gabled"/>
-  </way>
-  <way id="99275630">
-    <bounds minlat="48.4268581" minlon="9.9491275" maxlat="48.4274861" maxlon="9.9501340"/>
-    <nd ref="1148284556" lat="48.4274861" lon="9.9494655"/>
-    <nd ref="1148284391" lat="48.4274837" lon="9.9497021"/>
-    <nd ref="1148284599" lat="48.4271572" lon="9.9496946"/>
-    <nd ref="1148284846" lat="48.4269877" lon="9.9501340"/>
-    <nd ref="1148284478" lat="48.4268581" lon="9.9500063"/>
-    <nd ref="1148284699" lat="48.4270425" lon="9.9495594"/>
-    <nd ref="1148284944" lat="48.4269154" lon="9.9492139"/>
-    <nd ref="1148284569" lat="48.4270276" lon="9.9491275"/>
-    <nd ref="1148284801" lat="48.4271472" lon="9.9494618"/>
-    <nd ref="1148284556" lat="48.4274861" lon="9.9494655"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Truppenunterkunft"/>
-  </way>
-  <way id="99275631">
-    <bounds minlat="48.4260365" minlon="9.9509811" maxlat="48.4264548" maxlon="9.9515676"/>
-    <nd ref="1148284587" lat="48.4263297" lon="9.9509811"/>
-    <nd ref="1148284409" lat="48.4264548" lon="9.9513261"/>
-    <nd ref="1148284622" lat="48.4261616" lon="9.9515676"/>
-    <nd ref="1148284865" lat="48.4260365" lon="9.9512226"/>
-    <nd ref="1148284587" lat="48.4263297" lon="9.9509811"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="7"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="KIZ-Magazin"/>
-  </way>
-  <way id="99275636">
-    <bounds minlat="48.4260026" minlon="9.9518236" maxlat="48.4266356" maxlon="9.9527024"/>
-    <nd ref="1148284743" lat="48.4263790" lon="9.9518236"/>
-    <nd ref="1148284566" lat="48.4266356" lon="9.9525147"/>
-    <nd ref="1148284786" lat="48.4264014" lon="9.9527024"/>
-    <nd ref="1148284555" lat="48.4262543" lon="9.9522893"/>
-    <nd ref="1148284778" lat="48.4261073" lon="9.9524020"/>
-    <nd ref="1148284423" lat="48.4260026" lon="9.9521203"/>
-    <nd ref="1148284743" lat="48.4263790" lon="9.9518236"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="8"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Technische Versorgungsbetriebe"/>
-  </way>
-  <way id="99275639">
-    <bounds minlat="48.4244343" minlon="9.9520872" maxlat="48.4246247" maxlon="9.9523390"/>
-    <nd ref="1148284527" lat="48.4245755" lon="9.9520872"/>
-    <nd ref="1148284946" lat="48.4244343" lon="9.9522042"/>
-    <nd ref="1148284571" lat="48.4244835" lon="9.9523390"/>
-    <nd ref="1148284804" lat="48.4246247" lon="9.9522220"/>
-    <nd ref="1148284527" lat="48.4245755" lon="9.9520872"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="14"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="amenity" v="kindergarten"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="name" v="Kinderkrippe &quot;Flohzirkus&quot;"/>
-    <tag k="roof:colour" v="black"/>
-    <tag k="roof:levels" v="1"/>
-    <tag k="roof:shape" v="gabled"/>
-  </way>
-  <way id="99275640">
-    <bounds minlat="48.4248053" minlon="9.9517764" maxlat="48.4252061" maxlon="9.9526242"/>
-    <nd ref="1148284394" lat="48.4249385" lon="9.9517764"/>
-    <nd ref="1148284791" lat="48.4248053" lon="9.9518861"/>
-    <nd ref="1148284441" lat="48.4250729" lon="9.9526242"/>
-    <nd ref="1148284660" lat="48.4252061" lon="9.9525145"/>
-    <nd ref="1148284394" lat="48.4249385" lon="9.9517764"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="3"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="amenity" v="kindergarten"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="red"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="name" v="Kindertagesstätte"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="start_date" v="2006"/>
-  </way>
-  <way id="99275642">
-    <bounds minlat="48.4264417" minlon="9.9516975" maxlat="48.4267980" maxlon="9.9523596"/>
-    <nd ref="1148284728" lat="48.4265958" lon="9.9516975"/>
-    <nd ref="1148284554" lat="48.4267980" lon="9.9522589"/>
-    <nd ref="1148284777" lat="48.4266748" lon="9.9523596"/>
-    <nd ref="1148284420" lat="48.4265874" lon="9.9521170"/>
-    <nd ref="1148284640" lat="48.4265565" lon="9.9521423"/>
-    <nd ref="1148284880" lat="48.4264417" lon="9.9518236"/>
-    <nd ref="1148284728" lat="48.4265958" lon="9.9516975"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="10"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
   </way>
   <way id="101177773">
     <bounds minlat="48.4232052" minlon="9.9574699" maxlat="48.4234598" maxlon="9.9579081"/>
@@ -913,52 +36,6 @@
     <tag k="start_date" v="2005"/>
     <tag k="wheelchair" v="yes"/>
   </way>
-  <way id="101930148">
-    <bounds minlat="48.4250849" minlon="9.9609749" maxlat="48.4256210" maxlon="9.9618761"/>
-    <nd ref="1176806616" lat="48.4254308" lon="9.9614063"/>
-    <nd ref="1305817045" lat="48.4256210" lon="9.9612491"/>
-    <nd ref="1305817044" lat="48.4255514" lon="9.9610578"/>
-    <nd ref="2444183791" lat="48.4253559" lon="9.9612194"/>
-    <nd ref="1176806619" lat="48.4252668" lon="9.9609749"/>
-    <nd ref="1176806622" lat="48.4251375" lon="9.9610818"/>
-    <nd ref="1305817046" lat="48.4252240" lon="9.9613195"/>
-    <nd ref="1305817050" lat="48.4250849" lon="9.9614345"/>
-    <nd ref="1305817051" lat="48.4251572" lon="9.9616331"/>
-    <nd ref="2385159795" lat="48.4251871" lon="9.9616083"/>
-    <nd ref="1305817053" lat="48.4253006" lon="9.9615146"/>
-    <nd ref="1176806630" lat="48.4254322" lon="9.9618761"/>
-    <nd ref="1176806638" lat="48.4255626" lon="9.9617683"/>
-    <nd ref="1176806616" lat="48.4254308" lon="9.9614063"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="10"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="DRK Blutspendedienst Baden-Württemberg"/>
-  </way>
-  <way id="102795708">
-    <bounds minlat="48.4216077" minlon="9.9429476" maxlat="48.4218927" maxlon="9.9433390"/>
-    <nd ref="1187175479" lat="48.4218099" lon="9.9429476"/>
-    <nd ref="1187175399" lat="48.4218927" lon="9.9431610"/>
-    <nd ref="1187175358" lat="48.4216904" lon="9.9433390"/>
-    <nd ref="1187175507" lat="48.4216077" lon="9.9431257"/>
-    <nd ref="1187175479" lat="48.4218099" lon="9.9429476"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="102795712">
-    <bounds minlat="48.4220134" minlon="9.9426129" maxlat="48.4222861" maxlon="9.9429858"/>
-    <nd ref="1187175469" lat="48.4222084" lon="9.9426129"/>
-    <nd ref="1187175489" lat="48.4222861" lon="9.9428184"/>
-    <nd ref="1187175459" lat="48.4220911" lon="9.9429858"/>
-    <nd ref="1187175414" lat="48.4220134" lon="9.9427804"/>
-    <nd ref="1187175469" lat="48.4222084" lon="9.9426129"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
   <way id="102796917">
     <bounds minlat="48.4212021" minlon="9.9486027" maxlat="48.4213255" maxlon="9.9487304"/>
     <nd ref="1187183710" lat="48.4212021" lon="9.9486942"/>
@@ -975,152 +52,6 @@
     <tag k="building:min_level" v="2"/>
     <tag k="layer" v="1"/>
     <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="111321155">
-    <bounds minlat="48.4209854" minlon="9.9396448" maxlat="48.4216498" maxlon="9.9403503"/>
-    <nd ref="1268598340" lat="48.4215762" lon="9.9397422"/>
-    <nd ref="1268598373" lat="48.4216498" lon="9.9399480"/>
-    <nd ref="1268598348" lat="48.4211556" lon="9.9403503"/>
-    <nd ref="1268598408" lat="48.4210895" lon="9.9401682"/>
-    <nd ref="1268598397" lat="48.4212059" lon="9.9400782"/>
-    <nd ref="1268598384" lat="48.4211869" lon="9.9400286"/>
-    <nd ref="1268598376" lat="48.4211402" lon="9.9400573"/>
-    <nd ref="1268598356" lat="48.4210973" lon="9.9400671"/>
-    <nd ref="1268598410" lat="48.4210459" lon="9.9400419"/>
-    <nd ref="2298858425" lat="48.4210208" lon="9.9400039"/>
-    <nd ref="2298858424" lat="48.4209965" lon="9.9399477"/>
-    <nd ref="2298858423" lat="48.4209872" lon="9.9398944"/>
-    <nd ref="2298858422" lat="48.4209854" lon="9.9398214"/>
-    <nd ref="1268598395" lat="48.4210078" lon="9.9397526"/>
-    <nd ref="1268598378" lat="48.4210466" lon="9.9396991"/>
-    <nd ref="2298858426" lat="48.4210953" lon="9.9396698"/>
-    <nd ref="1268598359" lat="48.4211435" lon="9.9396657"/>
-    <nd ref="1268598420" lat="48.4211876" lon="9.9396881"/>
-    <nd ref="1268598406" lat="48.4212215" lon="9.9397292"/>
-    <nd ref="1268598394" lat="48.4213349" lon="9.9396448"/>
-    <nd ref="1268598374" lat="48.4213920" lon="9.9398073"/>
-    <nd ref="1268598353" lat="48.4213318" lon="9.9398599"/>
-    <nd ref="1268598409" lat="48.4213540" lon="9.9399220"/>
-    <nd ref="1268598340" lat="48.4215762" lon="9.9397422"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="10"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Wilhelm-Runge-Straße"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="name" v="Kantine"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="111414969">
-    <bounds minlat="48.4200268" minlon="9.9343040" maxlat="48.4205121" maxlon="9.9353188"/>
-    <nd ref="1269409974" lat="48.4205121" lon="9.9343091"/>
-    <nd ref="2052183553" lat="48.4203417" lon="9.9343040"/>
-    <nd ref="2052183552" lat="48.4203412" lon="9.9343429"/>
-    <nd ref="1269409993" lat="48.4200392" lon="9.9343338"/>
-    <nd ref="1269409925" lat="48.4200268" lon="9.9352712"/>
-    <nd ref="2052183551" lat="48.4203267" lon="9.9352802"/>
-    <nd ref="2052183550" lat="48.4203262" lon="9.9353136"/>
-    <nd ref="3749006390" lat="48.4204465" lon="9.9353172"/>
-    <nd ref="1269409954" lat="48.4204987" lon="9.9353188"/>
-    <nd ref="1269409974" lat="48.4205121" lon="9.9343091"/>
-    <tag k="access" v="private"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="parking"/>
-    <tag k="building:colour" v="blue"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Parkhaus Energon"/>
-    <tag k="opening_hours" v="Mo-Fr 06:00-21:00"/>
-    <tag k="parking" v="multi-storey"/>
-    <tag k="roof:colour" v="white"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="114077976">
-    <bounds minlat="48.4243816" minlon="9.9474597" maxlat="48.4256200" maxlon="9.9489102"/>
-    <nd ref="2556745468" lat="48.4249980" lon="9.9484704"/>
-    <nd ref="1292908649" lat="48.4251121" lon="9.9487738"/>
-    <nd ref="1292908630" lat="48.4249524" lon="9.9489102"/>
-    <nd ref="1292908644" lat="48.4248235" lon="9.9485675"/>
-    <nd ref="1292908623" lat="48.4245208" lon="9.9488261"/>
-    <nd ref="1292908636" lat="48.4243816" lon="9.9484562"/>
-    <nd ref="5999966489" lat="48.4247368" lon="9.9481528"/>
-    <nd ref="5999966487" lat="48.4247533" lon="9.9481387"/>
-    <nd ref="5999966383" lat="48.4247720" lon="9.9481228"/>
-    <nd ref="1292908637" lat="48.4250011" lon="9.9479270"/>
-    <nd ref="1292908648" lat="48.4248704" lon="9.9475797"/>
-    <nd ref="3841667868" lat="48.4249301" lon="9.9475287"/>
-    <nd ref="1292908628" lat="48.4250124" lon="9.9474597"/>
-    <nd ref="1292908638" lat="48.4251781" lon="9.9479084"/>
-    <nd ref="1292908655" lat="48.4255052" lon="9.9476341"/>
-    <nd ref="1292908645" lat="48.4256200" lon="9.9479451"/>
-    <nd ref="1292908624" lat="48.4254931" lon="9.9480515"/>
-    <nd ref="2556745459" lat="48.4250741" lon="9.9484054"/>
-    <nd ref="2556745468" lat="48.4249980" lon="9.9484704"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="40"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Oberer Eselsberg"/>
-    <tag k="amenity" v="hospital"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="9"/>
-    <tag k="contact:phone" v="+49 731 17100"/>
-    <tag k="emergency" v="yes"/>
-    <tag k="name" v="Bundeswehrkrankenhaus Ulm"/>
-    <tag k="operator" v="Bundeswehr"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="short_name" v="BWK Ulm"/>
-    <tag k="start_date" v="1980"/>
-    <tag k="wheelchair" v="yes"/>
-    <tag k="wikidata" v="Q1009277"/>
-  </way>
-  <way id="114077977">
-    <bounds minlat="48.4264786" minlon="9.9481440" maxlat="48.4270636" maxlon="9.9489977"/>
-    <nd ref="1292908646" lat="48.4268669" lon="9.9481440"/>
-    <nd ref="1292908622" lat="48.4270636" lon="9.9486644"/>
-    <nd ref="1292908651" lat="48.4266754" lon="9.9489977"/>
-    <nd ref="1292908650" lat="48.4264786" lon="9.9484772"/>
-    <nd ref="1292908646" lat="48.4268669" lon="9.9481440"/>
-    <tag k="access" v="private"/>
-    <tag k="amenity" v="pharmacy"/>
-    <tag k="building" v="yes"/>
-    <tag k="dispensing" v="yes"/>
-    <tag k="healthcare" v="pharmacy"/>
-    <tag k="name" v="Krankenhausapotheke"/>
-  </way>
-  <way id="114077978">
-    <bounds minlat="48.4259642" minlon="9.9467317" maxlat="48.4268360" maxlon="9.9483544"/>
-    <nd ref="1292908626" lat="48.4263633" lon="9.9467317"/>
-    <nd ref="2574898964" lat="48.4265701" lon="9.9472868"/>
-    <nd ref="2574898968" lat="48.4266405" lon="9.9472272"/>
-    <nd ref="2574898915" lat="48.4267859" lon="9.9476176"/>
-    <nd ref="2574898979" lat="48.4267095" lon="9.9476822"/>
-    <nd ref="1292908657" lat="48.4268360" lon="9.9480218"/>
-    <nd ref="1292908635" lat="48.4264429" lon="9.9483544"/>
-    <nd ref="1292908659" lat="48.4259642" lon="9.9470693"/>
-    <nd ref="1292908626" lat="48.4263633" lon="9.9467317"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Versorgungsgebäude"/>
-  </way>
-  <way id="114077979">
-    <bounds minlat="48.4241500" minlon="9.9468067" maxlat="48.4245533" maxlon="9.9474800"/>
-    <nd ref="1292908641" lat="48.4243726" lon="9.9468067"/>
-    <nd ref="4485959497" lat="48.4244373" lon="9.9469809"/>
-    <nd ref="1292908654" lat="48.4245533" lon="9.9472906"/>
-    <nd ref="5999966486" lat="48.4244793" lon="9.9473536"/>
-    <nd ref="5999966488" lat="48.4244440" lon="9.9473835"/>
-    <nd ref="1292908643" lat="48.4243306" lon="9.9474800"/>
-    <nd ref="4485959499" lat="48.4242889" lon="9.9473685"/>
-    <nd ref="1292908640" lat="48.4241500" lon="9.9469946"/>
-    <nd ref="1292908641" lat="48.4243726" lon="9.9468067"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="2"/>
-    <tag k="emergency" v="ambulance_station"/>
-    <tag k="name" v="Rettungswache BWK Ulm"/>
-    <tag k="operator" v="Bundeswehr"/>
   </way>
   <way id="115626014">
     <bounds minlat="48.4257891" minlon="9.9626890" maxlat="48.4262345" maxlon="9.9634391"/>
@@ -1210,638 +141,19 @@
     <tag k="name" v="Helmholtzstraße 18"/>
     <tag k="source" v="Map4Bw"/>
   </way>
-  <way id="115626017">
-    <bounds minlat="48.4254787" minlon="9.9619127" maxlat="48.4258274" maxlon="9.9624339"/>
-    <nd ref="1305816997" lat="48.4254787" lon="9.9621008"/>
-    <nd ref="1305816999" lat="48.4257061" lon="9.9619127"/>
-    <nd ref="1305817001" lat="48.4258274" lon="9.9622458"/>
-    <nd ref="1305817003" lat="48.4256001" lon="9.9624339"/>
-    <nd ref="1305816997" lat="48.4254787" lon="9.9621008"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="12"/>
+  <way id="153595159">
+    <bounds minlat="48.4179138" minlon="9.9424613" maxlat="48.4196880" maxlon="9.9443221"/>
+    <nd ref="1662486525" lat="48.4194647" lon="9.9424613"/>
+    <nd ref="1662486528" lat="48.4196880" lon="9.9430585"/>
+    <nd ref="1662486523" lat="48.4181230" lon="9.9443221"/>
+    <nd ref="1662486512" lat="48.4179138" lon="9.9437669"/>
+    <nd ref="1662486525" lat="48.4194647" lon="9.9424613"/>
+    <tag k="addr:housenumber" v="1-3"/>
     <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Institut für Lasertechnologien in der Medizin und Meßtechnik"/>
-    <tag k="source" v="Bing"/>
-    <tag k="wikidata" v="Q1664908"/>
-  </way>
-  <way id="116933216">
-    <bounds minlat="48.4235540" minlon="9.9249641" maxlat="48.4240218" maxlon="9.9256411"/>
-    <nd ref="1317141432" lat="48.4240218" lon="9.9253283"/>
-    <nd ref="1317141422" lat="48.4237205" lon="9.9249641"/>
-    <nd ref="1317141428" lat="48.4235540" lon="9.9252769"/>
-    <nd ref="1317141405" lat="48.4238553" lon="9.9256411"/>
-    <nd ref="1317141432" lat="48.4240218" lon="9.9253283"/>
-    <tag k="building" v="barn"/>
-  </way>
-  <way id="120076447">
-    <bounds minlat="48.4248447" minlon="9.9528262" maxlat="48.4254264" maxlon="9.9538630"/>
-    <nd ref="1347266366" lat="48.4253586" lon="9.9528262"/>
-    <nd ref="2450925242" lat="48.4253264" lon="9.9528534"/>
-    <nd ref="2382090755" lat="48.4250285" lon="9.9531056"/>
-    <nd ref="2382090757" lat="48.4249401" lon="9.9531194"/>
-    <nd ref="2382090756" lat="48.4249548" lon="9.9531680"/>
-    <nd ref="1347266369" lat="48.4248447" lon="9.9532612"/>
-    <nd ref="1347266372" lat="48.4250690" lon="9.9538630"/>
-    <nd ref="1747472343" lat="48.4251960" lon="9.9537555"/>
-    <nd ref="1747472341" lat="48.4250395" lon="9.9533356"/>
-    <nd ref="1347266378" lat="48.4254264" lon="9.9530081"/>
-    <nd ref="1347266366" lat="48.4253586" lon="9.9528262"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="2"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="amenity" v="kindergarten"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Kindergarten Universität"/>
-    <tag k="start_date" v="2011"/>
-  </way>
-  <way id="120183539">
-    <bounds minlat="48.4251142" minlon="9.9377224" maxlat="48.4253466" maxlon="9.9380730"/>
-    <nd ref="1348161427" lat="48.4252809" lon="9.9377224"/>
-    <nd ref="1348161429" lat="48.4253466" lon="9.9379743"/>
-    <nd ref="1348161434" lat="48.4251799" lon="9.9380730"/>
-    <nd ref="1348161433" lat="48.4251142" lon="9.9378212"/>
-    <nd ref="1348161427" lat="48.4252809" lon="9.9377224"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Trafostation Science Park III"/>
-    <tag k="start_date" v="2011"/>
-  </way>
-  <way id="120183540">
-    <bounds minlat="48.4232039" minlon="9.9380313" maxlat="48.4234871" maxlon="9.9384420"/>
-    <nd ref="1348161441" lat="48.4232039" lon="9.9382922"/>
-    <nd ref="1348161438" lat="48.4232922" lon="9.9384420"/>
-    <nd ref="1348161431" lat="48.4234871" lon="9.9381811"/>
-    <nd ref="1348161439" lat="48.4233988" lon="9.9380313"/>
-    <nd ref="1348161441" lat="48.4232039" lon="9.9382922"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="26"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="hotel"/>
-    <tag k="building:levels" v="5"/>
-    <tag k="name" v="iQ-Hotel"/>
-    <tag k="roof:levels" v="0"/>
-    <tag k="start_date" v="2012"/>
-    <tag k="tourism" v="hotel"/>
-    <tag k="website" v="http://www.iq-hotels.de"/>
-  </way>
-  <way id="128881976">
-    <bounds minlat="48.4198553" minlon="9.9418487" maxlat="48.4200554" maxlon="9.9421153"/>
-    <nd ref="1423021784" lat="48.4199222" lon="9.9418487"/>
-    <nd ref="1831840141" lat="48.4199625" lon="9.9419614"/>
-    <nd ref="1831840145" lat="48.4200102" lon="9.9419227"/>
-    <nd ref="1831840148" lat="48.4200554" lon="9.9420489"/>
-    <nd ref="1831840143" lat="48.4199736" lon="9.9421153"/>
-    <nd ref="1831840139" lat="48.4199460" lon="9.9420380"/>
-    <nd ref="1423021787" lat="48.4199131" lon="9.9420647"/>
-    <nd ref="1423021785" lat="48.4198553" lon="9.9419031"/>
-    <nd ref="1423021784" lat="48.4199222" lon="9.9418487"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="int_name" v="Daimler Gate"/>
-    <tag k="name" v="Daimler Pforte"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="155799508">
-    <bounds minlat="48.4206057" minlon="9.9471105" maxlat="48.4206968" maxlon="9.9473377"/>
-    <nd ref="1681617188" lat="48.4206272" lon="9.9471105"/>
-    <nd ref="3367340685" lat="48.4206705" lon="9.9472311"/>
-    <nd ref="1681617190" lat="48.4206968" lon="9.9473177"/>
-    <nd ref="1681617189" lat="48.4206807" lon="9.9473377"/>
-    <nd ref="3367340684" lat="48.4206497" lon="9.9472479"/>
-    <nd ref="1681617186" lat="48.4206057" lon="9.9471295"/>
-    <nd ref="1681617188" lat="48.4206272" lon="9.9471105"/>
-    <tag k="building" v="university"/>
-    <tag k="building:colour" v="green"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="building:min_level" v="2"/>
-    <tag k="layer" v="1"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="155799510">
-    <bounds minlat="48.4202647" minlon="9.9460944" maxlat="48.4204151" maxlon="9.9463877"/>
-    <nd ref="1681617180" lat="48.4202868" lon="9.9460944"/>
-    <nd ref="3367340680" lat="48.4203424" lon="9.9462264"/>
-    <nd ref="1681617185" lat="48.4204151" lon="9.9463687"/>
-    <nd ref="1681617183" lat="48.4203942" lon="9.9463877"/>
-    <nd ref="3367340679" lat="48.4203184" lon="9.9462442"/>
-    <nd ref="1681617176" lat="48.4202647" lon="9.9461135"/>
-    <nd ref="1681617180" lat="48.4202868" lon="9.9460944"/>
-    <tag k="building" v="university"/>
-    <tag k="building:colour" v="green"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="building:min_level" v="2"/>
-    <tag k="layer" v="1"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="161049855">
-    <bounds minlat="48.4252081" minlon="9.9443800" maxlat="48.4255305" maxlon="9.9449057"/>
-    <nd ref="1730518749" lat="48.4252081" lon="9.9445364"/>
-    <nd ref="1730518756" lat="48.4253927" lon="9.9443800"/>
-    <nd ref="1730518750" lat="48.4255305" lon="9.9447492"/>
-    <nd ref="1730518748" lat="48.4253459" lon="9.9449057"/>
-    <nd ref="3118021595" lat="48.4252493" lon="9.9446468"/>
-    <nd ref="1730518749" lat="48.4252081" lon="9.9445364"/>
-    <tag k="building" v="yes"/>
-    <tag k="levels" v="5"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="166171743">
-    <bounds minlat="48.4205940" minlon="9.9535513" maxlat="48.4209105" maxlon="9.9541510"/>
-    <nd ref="1776506997" lat="48.4207457" lon="9.9535513"/>
-    <nd ref="1776507008" lat="48.4209105" lon="9.9540333"/>
-    <nd ref="1776507001" lat="48.4207588" lon="9.9541510"/>
-    <nd ref="1776506988" lat="48.4205940" lon="9.9536690"/>
-    <nd ref="1776506997" lat="48.4207457" lon="9.9535513"/>
-    <tag k="building" v="hospital"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Klinik für Psychotherapie und Psychosomatische Medizin"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-    <tag k="start_date" v="2012"/>
-    <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="166171745">
-    <bounds minlat="48.4222716" minlon="9.9528449" maxlat="48.4225004" maxlon="9.9531552"/>
-    <nd ref="1776507275" lat="48.4224339" lon="9.9528449"/>
-    <nd ref="1776507279" lat="48.4225004" lon="9.9530295"/>
-    <nd ref="1776507265" lat="48.4223466" lon="9.9531552"/>
-    <nd ref="1776507255" lat="48.4222799" lon="9.9529698"/>
-    <nd ref="1776507257" lat="48.4222996" lon="9.9529539"/>
-    <nd ref="1776507252" lat="48.4222716" lon="9.9528774"/>
-    <nd ref="1776507258" lat="48.4223019" lon="9.9528537"/>
-    <nd ref="1776507262" lat="48.4223308" lon="9.9529282"/>
-    <nd ref="1776507275" lat="48.4224339" lon="9.9528449"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="name" v="Hörsaal Chirurgie"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="172261263">
-    <bounds minlat="48.4197931" minlon="9.9416834" maxlat="48.4199222" maxlon="9.9419031"/>
-    <nd ref="1423021784" lat="48.4199222" lon="9.9418487"/>
-    <nd ref="1831840137" lat="48.4198668" lon="9.9416834"/>
-    <nd ref="1831840131" lat="48.4197931" lon="9.9417436"/>
-    <nd ref="1423021785" lat="48.4198553" lon="9.9419031"/>
-    <nd ref="1423021784" lat="48.4199222" lon="9.9418487"/>
-    <tag k="building" v="roof"/>
-    <tag k="layer" v="1"/>
-  </way>
-  <way id="179943586">
-    <bounds minlat="48.4199510" minlon="9.9443343" maxlat="48.4201937" maxlon="9.9446391"/>
-    <nd ref="1903934882" lat="48.4201396" lon="9.9443343"/>
-    <nd ref="3798205875" lat="48.4199774" lon="9.9444602"/>
-    <nd ref="1903934876" lat="48.4199510" lon="9.9444808"/>
-    <nd ref="3798205876" lat="48.4199783" lon="9.9445608"/>
-    <nd ref="1903934880" lat="48.4200051" lon="9.9446391"/>
-    <nd ref="1903934883" lat="48.4201937" lon="9.9444927"/>
-    <nd ref="1903934882" lat="48.4201396" lon="9.9443343"/>
-    <tag k="building" v="university"/>
-    <tag k="name" v="Lehrgebäude für Wirtschaftswissenschaften und Psychologie"/>
-    <tag k="start_date" v="2013"/>
-  </way>
-  <way id="187656103">
-    <bounds minlat="48.4231379" minlon="9.9595864" maxlat="48.4235878" maxlon="9.9602818"/>
-    <nd ref="601058152" lat="48.4235878" lon="9.9600598"/>
-    <nd ref="1982855521" lat="48.4234208" lon="9.9595864"/>
-    <nd ref="1982855526" lat="48.4233923" lon="9.9596104"/>
-    <nd ref="601058146" lat="48.4231379" lon="9.9598179"/>
-    <nd ref="601058147" lat="48.4231714" lon="9.9599109"/>
-    <nd ref="601058148" lat="48.4231676" lon="9.9599830"/>
-    <nd ref="601058149" lat="48.4232085" lon="9.9600135"/>
-    <nd ref="601058151" lat="48.4233061" lon="9.9602818"/>
-    <nd ref="601058152" lat="48.4235878" lon="9.9600598"/>
-    <tag k="building" v="greenhouse"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="name" v="Gewächshäuser"/>
-  </way>
-  <way id="187656106">
-    <bounds minlat="48.4234208" minlon="9.9595133" maxlat="48.4237723" maxlon="9.9603240"/>
-    <nd ref="601058155" lat="48.4237723" lon="9.9602509"/>
-    <nd ref="602685366" lat="48.4235820" lon="9.9597113"/>
-    <nd ref="601058145" lat="48.4235122" lon="9.9595133"/>
-    <nd ref="1982855513" lat="48.4234651" lon="9.9595510"/>
-    <nd ref="1982855521" lat="48.4234208" lon="9.9595864"/>
-    <nd ref="601058152" lat="48.4235878" lon="9.9600598"/>
-    <nd ref="601058156" lat="48.4236810" lon="9.9603240"/>
-    <nd ref="601058155" lat="48.4237723" lon="9.9602509"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="name" v="Botanischer Garten, Verwaltung"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="187656108">
-    <bounds minlat="48.4235861" minlon="9.9592837" maxlat="48.4236497" maxlon="9.9593849"/>
-    <nd ref="1982855515" lat="48.4236227" lon="9.9592837"/>
-    <nd ref="1982855529" lat="48.4235861" lon="9.9593166"/>
-    <nd ref="1982855522" lat="48.4236132" lon="9.9593849"/>
-    <nd ref="1982855518" lat="48.4236497" lon="9.9593520"/>
-    <nd ref="1982855515" lat="48.4236227" lon="9.9592837"/>
-    <tag k="building" v="roof"/>
-  </way>
-  <way id="194712143">
-    <bounds minlat="48.4247773" minlon="9.9401649" maxlat="48.4253730" maxlon="9.9408579"/>
-    <nd ref="2052183617" lat="48.4253637" lon="9.9403947"/>
-    <nd ref="2052183616" lat="48.4252910" lon="9.9402168"/>
-    <nd ref="2052183614" lat="48.4252795" lon="9.9401649"/>
-    <nd ref="2052183611" lat="48.4247773" lon="9.9405828"/>
-    <nd ref="365260526" lat="48.4248646" lon="9.9408579"/>
-    <nd ref="2052183618" lat="48.4253730" lon="9.9404364"/>
-    <nd ref="2052183617" lat="48.4253637" lon="9.9403947"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Nokia Networks"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="194712144">
-    <bounds minlat="48.4249399" minlon="9.9390448" maxlat="48.4255890" maxlon="9.9404392"/>
-    <nd ref="2052183616" lat="48.4252910" lon="9.9402168"/>
-    <nd ref="2052183617" lat="48.4253637" lon="9.9403947"/>
-    <nd ref="2052183619" lat="48.4254036" lon="9.9403707"/>
-    <nd ref="2052183620" lat="48.4254357" lon="9.9404392"/>
-    <nd ref="365260527" lat="48.4255890" lon="9.9402937"/>
-    <nd ref="365260528" lat="48.4250806" lon="9.9390448"/>
-    <nd ref="365260529" lat="48.4249399" lon="9.9391723"/>
-    <nd ref="365260530" lat="48.4253396" lon="9.9401790"/>
-    <nd ref="2052183616" lat="48.4252910" lon="9.9402168"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Nokia Networks"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="194712157">
-    <bounds minlat="48.4223685" minlon="9.9340118" maxlat="48.4224713" maxlon="9.9341529"/>
-    <nd ref="2052183563" lat="48.4223685" lon="9.9341167"/>
-    <nd ref="2052183564" lat="48.4223982" lon="9.9340118"/>
-    <nd ref="2052183571" lat="48.4224713" lon="9.9340548"/>
-    <nd ref="2052183568" lat="48.4224427" lon="9.9341529"/>
-    <nd ref="2052183563" lat="48.4223685" lon="9.9341167"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Trinkwasserhochbehälter"/>
-  </way>
-  <way id="197805657">
-    <bounds minlat="48.4240278" minlon="9.9436379" maxlat="48.4241522" maxlon="9.9439034"/>
-    <nd ref="2079981934" lat="48.4240699" lon="9.9436379"/>
-    <nd ref="2079981945" lat="48.4241522" lon="9.9438694"/>
-    <nd ref="2079981937" lat="48.4241102" lon="9.9439034"/>
-    <nd ref="2079981935" lat="48.4240278" lon="9.9436718"/>
-    <nd ref="2079981934" lat="48.4240699" lon="9.9436379"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="217513347">
-    <bounds minlat="48.4220689" minlon="9.9592969" maxlat="48.4221615" maxlon="9.9595517"/>
-    <nd ref="2267947957" lat="48.4221276" lon="9.9592969"/>
-    <nd ref="2267947956" lat="48.4221526" lon="9.9593210"/>
-    <nd ref="2267947966" lat="48.4221615" lon="9.9593747"/>
-    <nd ref="2267947984" lat="48.4221348" lon="9.9594712"/>
-    <nd ref="2267947985" lat="48.4221348" lon="9.9595517"/>
-    <nd ref="2267947968" lat="48.4221152" lon="9.9595517"/>
-    <nd ref="2267947982" lat="48.4221045" lon="9.9594954"/>
-    <nd ref="2267947952" lat="48.4220689" lon="9.9594042"/>
-    <nd ref="2267947954" lat="48.4220707" lon="9.9593371"/>
-    <nd ref="2267947958" lat="48.4221045" lon="9.9592969"/>
-    <nd ref="2267947957" lat="48.4221276" lon="9.9592969"/>
-    <tag k="building" v="roof"/>
-    <tag k="start_date" v="2001"/>
-  </way>
-  <way id="218007598">
-    <bounds minlat="48.4260128" minlon="9.9534149" maxlat="48.4261248" maxlon="9.9535919"/>
-    <nd ref="2273174904" lat="48.4261248" lon="9.9535316"/>
-    <nd ref="2273174850" lat="48.4260805" lon="9.9534149"/>
-    <nd ref="2273174867" lat="48.4260128" lon="9.9534793"/>
-    <nd ref="2273174921" lat="48.4260520" lon="9.9535919"/>
-    <nd ref="2273174904" lat="48.4261248" lon="9.9535316"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="218007600">
-    <bounds minlat="48.4262741" minlon="9.9531775" maxlat="48.4263996" maxlon="9.9533822"/>
-    <nd ref="2273174903" lat="48.4263996" lon="9.9533124"/>
-    <nd ref="2273174918" lat="48.4263559" lon="9.9531775"/>
-    <nd ref="2273174902" lat="48.4262741" lon="9.9532439"/>
-    <nd ref="2273174869" lat="48.4263160" lon="9.9533822"/>
-    <nd ref="2273174903" lat="48.4263996" lon="9.9533124"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="218007603">
-    <bounds minlat="48.4261343" minlon="9.9533183" maxlat="48.4262295" maxlon="9.9534845"/>
-    <nd ref="2273174908" lat="48.4262295" lon="9.9534361"/>
-    <nd ref="2273174852" lat="48.4261855" lon="9.9533183"/>
-    <nd ref="2273174910" lat="48.4261343" lon="9.9533641"/>
-    <nd ref="2273174915" lat="48.4261769" lon="9.9534845"/>
-    <nd ref="2273174908" lat="48.4262295" lon="9.9534361"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="218007605">
-    <bounds minlat="48.4264548" minlon="9.9530877" maxlat="48.4265521" maxlon="9.9532566"/>
-    <nd ref="2273174854" lat="48.4265521" lon="9.9532110"/>
-    <nd ref="2273174898" lat="48.4265112" lon="9.9530877"/>
-    <nd ref="2273174911" lat="48.4264548" lon="9.9531381"/>
-    <nd ref="2273174853" lat="48.4264898" lon="9.9532566"/>
-    <nd ref="2273174854" lat="48.4265521" lon="9.9532110"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="218007607">
-    <bounds minlat="48.4270256" minlon="9.9509485" maxlat="48.4271703" maxlon="9.9512123"/>
-    <nd ref="2273174862" lat="48.4270256" lon="9.9510572"/>
-    <nd ref="2273174865" lat="48.4270875" lon="9.9509485"/>
-    <nd ref="2273174876" lat="48.4271217" lon="9.9509776"/>
-    <nd ref="2273174896" lat="48.4271471" lon="9.9510141"/>
-    <nd ref="2450925269" lat="48.4271585" lon="9.9510391"/>
-    <nd ref="2273174909" lat="48.4271644" lon="9.9510519"/>
-    <nd ref="2273174895" lat="48.4271697" lon="9.9510948"/>
-    <nd ref="2273174893" lat="48.4271703" lon="9.9511398"/>
-    <nd ref="2273174919" lat="48.4271680" lon="9.9511806"/>
-    <nd ref="2273174913" lat="48.4271632" lon="9.9512123"/>
-    <nd ref="2273174871" lat="48.4270808" lon="9.9512048"/>
-    <nd ref="2273174862" lat="48.4270256" lon="9.9510572"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Spitzgrabenwehr"/>
-  </way>
-  <way id="218007608">
-    <bounds minlat="48.4256076" minlon="9.9498765" maxlat="48.4257316" maxlon="9.9499951"/>
-    <nd ref="2273174875" lat="48.4257316" lon="9.9499361"/>
-    <nd ref="2273174912" lat="48.4256533" lon="9.9498797"/>
-    <nd ref="2273174897" lat="48.4256307" lon="9.9498765"/>
-    <nd ref="2273174859" lat="48.4256141" lon="9.9498985"/>
-    <nd ref="2273174874" lat="48.4256076" lon="9.9499329"/>
-    <nd ref="2273174855" lat="48.4256462" lon="9.9499951"/>
-    <nd ref="2273174875" lat="48.4257316" lon="9.9499361"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Linke Schultergrabenwehr"/>
-  </way>
-  <way id="218007609">
-    <bounds minlat="48.4268586" minlon="9.9534659" maxlat="48.4269526" maxlon="9.9536831"/>
-    <nd ref="2273174860" lat="48.4269526" lon="9.9534659"/>
-    <nd ref="2273174906" lat="48.4269384" lon="9.9536563"/>
-    <nd ref="2273174863" lat="48.4269259" lon="9.9536831"/>
-    <nd ref="2273174917" lat="48.4269063" lon="9.9536831"/>
-    <nd ref="2273174889" lat="48.4268868" lon="9.9536670"/>
-    <nd ref="2273174868" lat="48.4268586" lon="9.9535197"/>
-    <nd ref="2273174860" lat="48.4269526" lon="9.9534659"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Rechte Schultergrabenwehr"/>
-  </way>
-  <way id="224174384">
-    <bounds minlat="48.4232242" minlon="9.9591521" maxlat="48.4233678" maxlon="9.9594189"/>
-    <nd ref="2329988383" lat="48.4233678" lon="9.9593645"/>
-    <nd ref="2329988381" lat="48.4232879" lon="9.9591521"/>
-    <nd ref="2329988380" lat="48.4232242" lon="9.9592065"/>
-    <nd ref="2329988382" lat="48.4233040" lon="9.9594189"/>
-    <nd ref="2329988383" lat="48.4233678" lon="9.9593645"/>
-    <tag k="amenity" v="biergarten"/>
-    <tag k="building" v="yes"/>
-    <tag k="food" v="yes"/>
-    <tag k="name" v="Biergarten am Botanicum"/>
-    <tag k="wheelchair" v="limited"/>
-  </way>
-  <way id="226919842">
-    <bounds minlat="48.4199663" minlon="9.9483883" maxlat="48.4200731" maxlon="9.9485118"/>
-    <nd ref="2356463355" lat="48.4200197" lon="9.9485059"/>
-    <nd ref="2356463461" lat="48.4200522" lon="9.9485118"/>
-    <nd ref="2356463539" lat="48.4200731" lon="9.9484178"/>
-    <nd ref="2356463426" lat="48.4200520" lon="9.9483986"/>
-    <nd ref="2356463388" lat="48.4200233" lon="9.9483883"/>
-    <nd ref="2356463358" lat="48.4199912" lon="9.9483936"/>
-    <nd ref="2356463436" lat="48.4199663" lon="9.9484070"/>
-    <nd ref="2356463654" lat="48.4199877" lon="9.9485063"/>
-    <nd ref="2356463355" lat="48.4200197" lon="9.9485059"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Frontgrabenwehr"/>
-  </way>
-  <way id="226919843">
-    <bounds minlat="48.4193380" minlon="9.9487350" maxlat="48.4194413" maxlon="9.9488496"/>
-    <nd ref="2356463374" lat="48.4194394" lon="9.9487879"/>
-    <nd ref="2356463613" lat="48.4194394" lon="9.9488202"/>
-    <nd ref="2356463450" lat="48.4194394" lon="9.9488496"/>
-    <nd ref="2356463468" lat="48.4193669" lon="9.9488417"/>
-    <nd ref="2356463463" lat="48.4193486" lon="9.9488255"/>
-    <nd ref="2356463493" lat="48.4193380" lon="9.9488013"/>
-    <nd ref="2356463401" lat="48.4193469" lon="9.9487718"/>
-    <nd ref="2356463458" lat="48.4193789" lon="9.9487611"/>
-    <nd ref="2356463619" lat="48.4194413" lon="9.9487350"/>
-    <nd ref="2356463374" lat="48.4194394" lon="9.9487879"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="linke Schultergrabenwehr"/>
-  </way>
-  <way id="226919845">
-    <bounds minlat="48.4199467" minlon="9.9498802" maxlat="48.4200291" maxlon="9.9500084"/>
-    <nd ref="2356463419" lat="48.4200253" lon="9.9498802"/>
-    <nd ref="2356463465" lat="48.4200291" lon="9.9499843"/>
-    <nd ref="2356463454" lat="48.4199721" lon="9.9500084"/>
-    <nd ref="2356463474" lat="48.4199467" lon="9.9498957"/>
-    <nd ref="2356463419" lat="48.4200253" lon="9.9498802"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Kehlgrabenwehr"/>
-  </way>
-  <way id="226919848">
-    <bounds minlat="48.4205736" minlon="9.9487860" maxlat="48.4206717" maxlon="9.9489061"/>
-    <nd ref="2356463490" lat="48.4205787" lon="9.9488496"/>
-    <nd ref="2356463405" lat="48.4205834" lon="9.9488783"/>
-    <nd ref="2356463456" lat="48.4205880" lon="9.9489061"/>
-    <nd ref="2356463430" lat="48.4206592" lon="9.9488900"/>
-    <nd ref="2356463560" lat="48.4206717" lon="9.9488712"/>
-    <nd ref="2356463553" lat="48.4206717" lon="9.9488470"/>
-    <nd ref="2356463503" lat="48.4206588" lon="9.9488308"/>
-    <nd ref="2356463667" lat="48.4205736" lon="9.9487860"/>
-    <nd ref="2356463490" lat="48.4205787" lon="9.9488496"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Rechte Schultergrabenwehr"/>
-  </way>
-  <way id="229514591">
-    <bounds minlat="48.4214339" minlon="9.9431951" maxlat="48.4216366" maxlon="9.9436240"/>
-    <nd ref="2381017331" lat="48.4216366" lon="9.9435727"/>
-    <nd ref="2381017275" lat="48.4214935" lon="9.9431951"/>
-    <nd ref="2381017256" lat="48.4214339" lon="9.9432464"/>
-    <nd ref="2381017235" lat="48.4215770" lon="9.9436240"/>
-    <nd ref="2381017331" lat="48.4216366" lon="9.9435727"/>
-    <tag k="building" v="garages"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="229514604">
-    <bounds minlat="48.4222271" minlon="9.9418842" maxlat="48.4225583" maxlon="9.9425346"/>
-    <nd ref="2381017223" lat="48.4223518" lon="9.9418842"/>
-    <nd ref="2381017260" lat="48.4223612" lon="9.9419091"/>
-    <nd ref="2381017363" lat="48.4225583" lon="9.9424269"/>
-    <nd ref="2381017325" lat="48.4224337" lon="9.9425346"/>
-    <nd ref="2381017277" lat="48.4222271" lon="9.9419919"/>
-    <nd ref="2381017223" lat="48.4223518" lon="9.9418842"/>
-    <tag k="access" v="private"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="229528587">
-    <bounds minlat="48.4205806" minlon="9.9382662" maxlat="48.4212764" maxlon="9.9394437"/>
-    <nd ref="1268598351" lat="48.4210259" lon="9.9382662"/>
-    <nd ref="1268598387" lat="48.4212764" lon="9.9389237"/>
-    <nd ref="1268598369" lat="48.4212335" lon="9.9389607"/>
-    <nd ref="1268598342" lat="48.4212686" lon="9.9390528"/>
-    <nd ref="1268598407" lat="48.4208166" lon="9.9394437"/>
-    <nd ref="1268598396" lat="48.4207318" lon="9.9392212"/>
-    <nd ref="1268598377" lat="48.4207814" lon="9.9391783"/>
-    <nd ref="1268598355" lat="48.4205806" lon="9.9386514"/>
-    <nd ref="2381133675" lat="48.4208781" lon="9.9383940"/>
-    <nd ref="2381133667" lat="48.4208660" lon="9.9383624"/>
-    <nd ref="2381133627" lat="48.4209733" lon="9.9382696"/>
-    <nd ref="2381133664" lat="48.4209853" lon="9.9383013"/>
-    <nd ref="1268598351" lat="48.4210259" lon="9.9382662"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Daimler"/>
-    <tag k="roof:colour" v="green"/>
-  </way>
-  <way id="229528592">
-    <bounds minlat="48.4199966" minlon="9.9387617" maxlat="48.4206933" maxlon="9.9399318"/>
-    <nd ref="2381133649" lat="48.4203841" lon="9.9388040"/>
-    <nd ref="1268598411" lat="48.4204296" lon="9.9387637"/>
-    <nd ref="1268598358" lat="48.4206814" lon="9.9394095"/>
-    <nd ref="1268598390" lat="48.4206509" lon="9.9394366"/>
-    <nd ref="1268598418" lat="48.4206933" lon="9.9395454"/>
-    <nd ref="1830523893" lat="48.4203173" lon="9.9398782"/>
-    <nd ref="1268598372" lat="48.4202569" lon="9.9399318"/>
-    <nd ref="2381133633" lat="48.4202404" lon="9.9398895"/>
-    <nd ref="2381133656" lat="48.4202236" lon="9.9399044"/>
-    <nd ref="2381133629" lat="48.4201649" lon="9.9397537"/>
-    <nd ref="2381133645" lat="48.4201816" lon="9.9397389"/>
-    <nd ref="2381133666" lat="48.4202156" lon="9.9397088"/>
-    <nd ref="1268598392" lat="48.4199966" lon="9.9391471"/>
-    <nd ref="2381133678" lat="48.4203104" lon="9.9388692"/>
-    <nd ref="2381133636" lat="48.4202939" lon="9.9388270"/>
-    <nd ref="2381133658" lat="48.4203676" lon="9.9387617"/>
-    <nd ref="2381133649" lat="48.4203841" lon="9.9388040"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Daimler"/>
-    <tag k="roof:colour" v="green"/>
-  </way>
-  <way id="229973348">
-    <bounds minlat="48.4207718" minlon="9.9411285" maxlat="48.4223250" maxlon="9.9429081"/>
-    <nd ref="2385107856" lat="48.4208683" lon="9.9422411"/>
-    <nd ref="2385107742" lat="48.4207718" lon="9.9423233"/>
-    <nd ref="2385107819" lat="48.4209442" lon="9.9427833"/>
-    <nd ref="2385107771" lat="48.4210407" lon="9.9427012"/>
-    <nd ref="2385107731" lat="48.4211111" lon="9.9428890"/>
-    <nd ref="2385107869" lat="48.4211650" lon="9.9428431"/>
-    <nd ref="2385107729" lat="48.4211601" lon="9.9428299"/>
-    <nd ref="2385107747" lat="48.4212198" lon="9.9427791"/>
-    <nd ref="2385107764" lat="48.4210347" lon="9.9422850"/>
-    <nd ref="1187175424" lat="48.4210547" lon="9.9421791"/>
-    <nd ref="1187175346" lat="48.4211629" lon="9.9420771"/>
-    <nd ref="1187175442" lat="48.4212343" lon="9.9421056"/>
-    <nd ref="2381017313" lat="48.4212671" lon="9.9421992"/>
-    <nd ref="2381017353" lat="48.4213074" lon="9.9421663"/>
-    <nd ref="2381017265" lat="48.4213344" lon="9.9422434"/>
-    <nd ref="2381017327" lat="48.4213017" lon="9.9422714"/>
-    <nd ref="1187175400" lat="48.4213362" lon="9.9423632"/>
-    <nd ref="2385107719" lat="48.4212798" lon="9.9424110"/>
-    <nd ref="2385107748" lat="48.4213272" lon="9.9425389"/>
-    <nd ref="1187175429" lat="48.4213837" lon="9.9424914"/>
-    <nd ref="1187175388" lat="48.4215378" lon="9.9429081"/>
-    <nd ref="1187175349" lat="48.4219026" lon="9.9426021"/>
-    <nd ref="1187175484" lat="48.4216669" lon="9.9419640"/>
-    <nd ref="1187175453" lat="48.4214068" lon="9.9421821"/>
-    <nd ref="1187175407" lat="48.4213093" lon="9.9419316"/>
-    <nd ref="1187175476" lat="48.4213274" lon="9.9418468"/>
-    <nd ref="1187175436" lat="48.4216203" lon="9.9415976"/>
-    <nd ref="1187175501" lat="48.4216880" lon="9.9416181"/>
-    <nd ref="1187175462" lat="48.4217537" lon="9.9418024"/>
-    <nd ref="1187175415" lat="48.4218655" lon="9.9417112"/>
-    <nd ref="1187175366" lat="48.4218300" lon="9.9416070"/>
-    <nd ref="1187175439" lat="48.4218481" lon="9.9415235"/>
-    <nd ref="1187175393" lat="48.4219676" lon="9.9414218"/>
-    <nd ref="1187175422" lat="48.4220278" lon="9.9414496"/>
-    <nd ref="1187175375" lat="48.4222115" lon="9.9419389"/>
-    <nd ref="1187175341" lat="48.4223250" lon="9.9418547"/>
-    <nd ref="1187175382" lat="48.4220543" lon="9.9411285"/>
-    <nd ref="1187175420" lat="48.4217331" lon="9.9414018"/>
-    <nd ref="1187175487" lat="48.4216633" lon="9.9413735"/>
-    <nd ref="1187175457" lat="48.4215815" lon="9.9411496"/>
-    <nd ref="1187175411" lat="48.4214647" lon="9.9412475"/>
-    <nd ref="1187175364" lat="48.4215169" lon="9.9413811"/>
-    <nd ref="1187175438" lat="48.4215025" lon="9.9414765"/>
-    <nd ref="1187175390" lat="48.4213263" lon="9.9416295"/>
-    <nd ref="1187175463" lat="48.4212624" lon="9.9416009"/>
-    <nd ref="1187175419" lat="48.4211094" lon="9.9412037"/>
-    <nd ref="1187175368" lat="48.4209993" lon="9.9412960"/>
-    <nd ref="1187175522" lat="48.4211839" lon="9.9417824"/>
-    <nd ref="1187175395" lat="48.4211686" lon="9.9418822"/>
-    <nd ref="1187175356" lat="48.4208389" lon="9.9421627"/>
-    <nd ref="2385107856" lat="48.4208683" lon="9.9422411"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="11"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Wilhelm-Runge-Straße"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="company" v="Daimler AG, Daimler TSS, United Monolithic Semiconductors"/>
-    <tag k="name" v="Daimler"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="229973355">
-    <bounds minlat="48.4219107" minlon="9.9424826" maxlat="48.4220501" maxlon="9.9426804"/>
-    <nd ref="2385107722" lat="48.4219533" lon="9.9426804"/>
-    <nd ref="2385107756" lat="48.4219107" lon="9.9425612"/>
-    <nd ref="2385107780" lat="48.4220075" lon="9.9424826"/>
-    <nd ref="2385107795" lat="48.4220501" lon="9.9426018"/>
-    <nd ref="2385107722" lat="48.4219533" lon="9.9426804"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="white"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="company" v="United Monolithic Semiconductors"/>
-    <tag k="landuse" v="commercial"/>
-    <tag k="roof:colour" v="#808080"/>
-  </way>
-  <way id="229975651">
-    <bounds minlat="48.4203907" minlon="9.9469593" maxlat="48.4213882" maxlon="9.9481057"/>
-    <nd ref="661072119" lat="48.4213882" lon="9.9476473"/>
-    <nd ref="3657404024" lat="48.4208775" lon="9.9480781"/>
-    <nd ref="3657404023" lat="48.4208705" lon="9.9480589"/>
-    <nd ref="661072135" lat="48.4208238" lon="9.9481057"/>
-    <nd ref="661072179" lat="48.4203907" lon="9.9475237"/>
-    <nd ref="661072201" lat="48.4204295" lon="9.9474726"/>
-    <nd ref="3657404016" lat="48.4204554" lon="9.9475044"/>
-    <nd ref="3657404017" lat="48.4204671" lon="9.9474962"/>
-    <nd ref="661072212" lat="48.4207738" lon="9.9479398"/>
-    <nd ref="3657404018" lat="48.4207653" lon="9.9479537"/>
-    <nd ref="3657404019" lat="48.4207984" lon="9.9480051"/>
-    <nd ref="661072229" lat="48.4208505" lon="9.9479489"/>
-    <nd ref="3657404022" lat="48.4208300" lon="9.9478975"/>
-    <nd ref="3657404021" lat="48.4208211" lon="9.9478975"/>
-    <nd ref="661072232" lat="48.4206265" lon="9.9473886"/>
-    <nd ref="1681617189" lat="48.4206807" lon="9.9473377"/>
-    <nd ref="1681617190" lat="48.4206968" lon="9.9473177"/>
-    <nd ref="661072257" lat="48.4208940" lon="9.9478286"/>
-    <nd ref="661072270" lat="48.4211653" lon="9.9475955"/>
-    <nd ref="3657405827" lat="48.4211732" lon="9.9476133"/>
-    <nd ref="3657405828" lat="48.4212127" lon="9.9475769"/>
-    <nd ref="2385123021" lat="48.4212352" lon="9.9476310"/>
-    <nd ref="2385123022" lat="48.4213251" lon="9.9475521"/>
-    <nd ref="2385123018" lat="48.4212661" lon="9.9474081"/>
-    <nd ref="2385123029" lat="48.4211741" lon="9.9474843"/>
-    <nd ref="661072282" lat="48.4210148" lon="9.9470574"/>
-    <nd ref="661072293" lat="48.4211305" lon="9.9469593"/>
-    <nd ref="661072119" lat="48.4213882" lon="9.9476473"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="41"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="university"/>
-    <tag k="building:colour" v="blue"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="roof:colour" v="#808080"/>
+    <tag k="addr:street" v="Manfred-Börner-Straße"/>
+    <tag k="landuse" v="residential"/>
+    <tag k="name" v="Studentenwohnanlage „Upper West Side“"/>
+    <tag k="operator" v="Studentenwerk Ulm"/>
   </way>
   <way id="229977298">
     <bounds minlat="48.4248882" minlon="9.9626250" maxlat="48.4253146" maxlon="9.9633138"/>
@@ -1918,369 +230,6 @@
     <tag k="operator" v="Universität Ulm"/>
     <tag k="source" v="Bing"/>
   </way>
-  <way id="229980276">
-    <bounds minlat="48.4249802" minlon="9.9614345" maxlat="48.4252293" maxlon="9.9618493"/>
-    <nd ref="2385159805" lat="48.4252293" lon="9.9617242"/>
-    <nd ref="2385159804" lat="48.4250878" lon="9.9618412"/>
-    <nd ref="2385159764" lat="48.4250756" lon="9.9618077"/>
-    <nd ref="2385159792" lat="48.4250253" lon="9.9618493"/>
-    <nd ref="2385159749" lat="48.4249802" lon="9.9617254"/>
-    <nd ref="2385159754" lat="48.4250296" lon="9.9616864"/>
-    <nd ref="2385159748" lat="48.4250346" lon="9.9616993"/>
-    <nd ref="2385159785" lat="48.4250837" lon="9.9616566"/>
-    <nd ref="2385159803" lat="48.4250787" lon="9.9616436"/>
-    <nd ref="2385159750" lat="48.4250193" lon="9.9614887"/>
-    <nd ref="1305817050" lat="48.4250849" lon="9.9614345"/>
-    <nd ref="1305817051" lat="48.4251572" lon="9.9616331"/>
-    <nd ref="2385159795" lat="48.4251871" lon="9.9616083"/>
-    <nd ref="2385159805" lat="48.4252293" lon="9.9617242"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="229980277">
-    <bounds minlat="48.4247479" minlon="9.9612247" maxlat="48.4250837" maxlon="9.9617836"/>
-    <nd ref="2385159744" lat="48.4247573" lon="9.9613647"/>
-    <nd ref="2385159800" lat="48.4249180" lon="9.9612247"/>
-    <nd ref="2385159750" lat="48.4250193" lon="9.9614887"/>
-    <nd ref="2385159803" lat="48.4250787" lon="9.9616436"/>
-    <nd ref="2385159785" lat="48.4250837" lon="9.9616566"/>
-    <nd ref="2385159748" lat="48.4250346" lon="9.9616993"/>
-    <nd ref="2385159754" lat="48.4250296" lon="9.9616864"/>
-    <nd ref="2385159749" lat="48.4249802" lon="9.9617254"/>
-    <nd ref="2385159763" lat="48.4249180" lon="9.9617836"/>
-    <nd ref="2385159774" lat="48.4247805" lon="9.9614254"/>
-    <nd ref="2385159786" lat="48.4247712" lon="9.9614335"/>
-    <nd ref="2385159753" lat="48.4247479" lon="9.9613729"/>
-    <nd ref="2385159744" lat="48.4247573" lon="9.9613647"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="5"/>
-  </way>
-  <way id="229980278">
-    <bounds minlat="48.4245344" minlon="9.9612602" maxlat="48.4249265" maxlon="9.9621156"/>
-    <nd ref="2385159761" lat="48.4246524" lon="9.9612602"/>
-    <nd ref="2385159809" lat="48.4249265" lon="9.9620188"/>
-    <nd ref="2385159743" lat="48.4248085" lon="9.9621156"/>
-    <nd ref="2385159790" lat="48.4245344" lon="9.9613570"/>
-    <nd ref="2385159761" lat="48.4246524" lon="9.9612602"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="229982071">
-    <bounds minlat="48.4255957" minlon="9.9601845" maxlat="48.4258931" maxlon="9.9605490"/>
-    <nd ref="2385175249" lat="48.4258931" lon="9.9603446"/>
-    <nd ref="2385175244" lat="48.4256567" lon="9.9605490"/>
-    <nd ref="2385175254" lat="48.4255957" lon="9.9603889"/>
-    <nd ref="2385175275" lat="48.4258321" lon="9.9601845"/>
-    <nd ref="2385175249" lat="48.4258931" lon="9.9603446"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="8/2"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="229982072">
-    <bounds minlat="48.4252927" minlon="9.9607428" maxlat="48.4255205" maxlon="9.9609600"/>
-    <nd ref="2385175264" lat="48.4252963" lon="9.9609171"/>
-    <nd ref="2385175263" lat="48.4252927" lon="9.9608045"/>
-    <nd ref="2385175304" lat="48.4253248" lon="9.9608125"/>
-    <nd ref="2385175255" lat="48.4253995" lon="9.9607428"/>
-    <nd ref="2385175218" lat="48.4255205" lon="9.9607642"/>
-    <nd ref="2385175241" lat="48.4255205" lon="9.9608662"/>
-    <nd ref="2385175262" lat="48.4254048" lon="9.9609600"/>
-    <nd ref="2385175264" lat="48.4252963" lon="9.9609171"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="229982076">
-    <bounds minlat="48.4248054" minlon="9.9595282" maxlat="48.4253345" maxlon="9.9600440"/>
-    <nd ref="2385175297" lat="48.4251295" lon="9.9598224"/>
-    <nd ref="2385175259" lat="48.4252105" lon="9.9600420"/>
-    <nd ref="2385175276" lat="48.4252266" lon="9.9600285"/>
-    <nd ref="2385175310" lat="48.4252323" lon="9.9600440"/>
-    <nd ref="2385175278" lat="48.4253102" lon="9.9599787"/>
-    <nd ref="2385175229" lat="48.4253045" lon="9.9599632"/>
-    <nd ref="2385175222" lat="48.4253345" lon="9.9599382"/>
-    <nd ref="2385175238" lat="48.4252535" lon="9.9597186"/>
-    <nd ref="2385175237" lat="48.4251832" lon="9.9595282"/>
-    <nd ref="2385175272" lat="48.4248054" lon="9.9598447"/>
-    <nd ref="2385175308" lat="48.4248703" lon="9.9600206"/>
-    <nd ref="2385175286" lat="48.4249181" lon="9.9599805"/>
-    <nd ref="2385175261" lat="48.4249235" lon="9.9599950"/>
-    <nd ref="2385175250" lat="48.4251012" lon="9.9598461"/>
-    <nd ref="2385175283" lat="48.4250958" lon="9.9598317"/>
-    <nd ref="2385175235" lat="48.4251241" lon="9.9598080"/>
-    <nd ref="2385175297" lat="48.4251295" lon="9.9598224"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="8/1"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Zentrum für Biomedizinische Forschung"/>
-  </way>
-  <way id="229982078">
-    <bounds minlat="48.4255444" minlon="9.9609699" maxlat="48.4257042" maxlon="9.9612491"/>
-    <nd ref="2385175246" lat="48.4256277" lon="9.9609699"/>
-    <nd ref="2385175266" lat="48.4257042" lon="9.9611803"/>
-    <nd ref="2385175277" lat="48.4256380" lon="9.9612350"/>
-    <nd ref="1305817045" lat="48.4256210" lon="9.9612491"/>
-    <nd ref="1305817044" lat="48.4255514" lon="9.9610578"/>
-    <nd ref="2385175225" lat="48.4255444" lon="9.9610387"/>
-    <nd ref="2385175246" lat="48.4256277" lon="9.9609699"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="229982079">
-    <bounds minlat="48.4249889" minlon="9.9599664" maxlat="48.4254097" maxlon="9.9604549"/>
-    <nd ref="1141685546" lat="48.4253249" lon="9.9599664"/>
-    <nd ref="2385175278" lat="48.4253102" lon="9.9599787"/>
-    <nd ref="2385175310" lat="48.4252323" lon="9.9600440"/>
-    <nd ref="2385175220" lat="48.4252110" lon="9.9600618"/>
-    <nd ref="2385175265" lat="48.4250223" lon="9.9602198"/>
-    <nd ref="2385175239" lat="48.4250406" lon="9.9602695"/>
-    <nd ref="2385175224" lat="48.4249889" lon="9.9603128"/>
-    <nd ref="2385175247" lat="48.4250371" lon="9.9604433"/>
-    <nd ref="2385175309" lat="48.4250661" lon="9.9604190"/>
-    <nd ref="2385175260" lat="48.4250794" lon="9.9604549"/>
-    <nd ref="2385175307" lat="48.4252815" lon="9.9602856"/>
-    <nd ref="2385175256" lat="48.4252684" lon="9.9602503"/>
-    <nd ref="2385175234" lat="48.4252969" lon="9.9602264"/>
-    <nd ref="2385175252" lat="48.4253151" lon="9.9602757"/>
-    <nd ref="1141685562" lat="48.4254097" lon="9.9601965"/>
-    <nd ref="1141685546" lat="48.4253249" lon="9.9599664"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="8/1"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="233965014">
-    <bounds minlat="48.4243698" minlon="9.9546348" maxlat="48.4246171" maxlon="9.9550243"/>
-    <nd ref="2422740309" lat="48.4245189" lon="9.9546356"/>
-    <nd ref="2422740310" lat="48.4245192" lon="9.9547043"/>
-    <nd ref="2422740305" lat="48.4243698" lon="9.9547055"/>
-    <nd ref="2422740306" lat="48.4243709" lon="9.9550243"/>
-    <nd ref="2422740308" lat="48.4244552" lon="9.9550236"/>
-    <nd ref="2422740307" lat="48.4244547" lon="9.9548707"/>
-    <nd ref="2422740311" lat="48.4245198" lon="9.9548702"/>
-    <nd ref="2422740312" lat="48.4245200" lon="9.9549264"/>
-    <nd ref="2422740314" lat="48.4246171" lon="9.9549256"/>
-    <nd ref="2490486127" lat="48.4246166" lon="9.9547857"/>
-    <nd ref="2422740313" lat="48.4246161" lon="9.9546348"/>
-    <nd ref="2422740309" lat="48.4245189" lon="9.9546356"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="7"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="email" v="med.dekanat@uni-ulm.de"/>
-    <tag k="name" v="Medizinische Fakultät"/>
-    <tag k="roof:colour" v="black"/>
-    <tag k="website" v="https://www.uni-ulm.de/med/fakultaet.html"/>
-  </way>
-  <way id="233965015">
-    <bounds minlat="48.4247454" minlon="9.9545645" maxlat="48.4250279" maxlon="9.9550956"/>
-    <nd ref="2422740317" lat="48.4247914" lon="9.9547843"/>
-    <nd ref="2422740316" lat="48.4247459" lon="9.9547847"/>
-    <nd ref="2422740315" lat="48.4247454" lon="9.9546338"/>
-    <nd ref="2422740320" lat="48.4248506" lon="9.9546329"/>
-    <nd ref="2422740319" lat="48.4248504" lon="9.9545659"/>
-    <nd ref="3366908674" lat="48.4249343" lon="9.9545652"/>
-    <nd ref="2422740323" lat="48.4250266" lon="9.9545645"/>
-    <nd ref="2422740324" lat="48.4250279" lon="9.9549154"/>
-    <nd ref="2422740321" lat="48.4249453" lon="9.9549161"/>
-    <nd ref="2422740322" lat="48.4249460" lon="9.9550944"/>
-    <nd ref="2422740318" lat="48.4247925" lon="9.9550956"/>
-    <nd ref="2422740317" lat="48.4247914" lon="9.9547843"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="5"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="fax" v="+49 731 / 50-22074"/>
-    <tag k="name" v="Department für Geisteswissenschaften"/>
-    <tag k="opening_hours" v="Mo-Fr 09:00-12:00; Tu 09:00-12:00, 14:00-16:00"/>
-    <tag k="phone" v="+49 731 / 50-24444"/>
-    <tag k="roof:colour" v="black"/>
-    <tag k="website" v="https://www.uni-ulm.de/studium/studienberatung/zentrale-studienberatung.html"/>
-  </way>
-  <way id="238627475">
-    <bounds minlat="48.4235261" minlon="9.9467369" maxlat="48.4236679" maxlon="9.9469535"/>
-    <nd ref="2464361363" lat="48.4236193" lon="9.9467369"/>
-    <nd ref="2464361319" lat="48.4236679" lon="9.9468833"/>
-    <nd ref="2464361357" lat="48.4235747" lon="9.9469535"/>
-    <nd ref="2464361282" lat="48.4235261" lon="9.9468070"/>
-    <nd ref="2464361363" lat="48.4236193" lon="9.9467369"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="238627476">
-    <bounds minlat="48.4238864" minlon="9.9476967" maxlat="48.4243752" maxlon="9.9483529"/>
-    <nd ref="2464361290" lat="48.4242424" lon="9.9476967"/>
-    <nd ref="2464361313" lat="48.4238864" lon="9.9480064"/>
-    <nd ref="2633889340" lat="48.4239676" lon="9.9482183"/>
-    <nd ref="2464361370" lat="48.4240191" lon="9.9483529"/>
-    <nd ref="2464361416" lat="48.4243752" lon="9.9480432"/>
-    <nd ref="4485959498" lat="48.4243511" lon="9.9479805"/>
-    <nd ref="4485964292" lat="48.4242974" lon="9.9478402"/>
-    <nd ref="2464361290" lat="48.4242424" lon="9.9476967"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="start_date" v="2012"/>
-  </way>
-  <way id="238627478">
-    <bounds minlat="48.4236080" minlon="9.9463125" maxlat="48.4238174" maxlon="9.9466417"/>
-    <nd ref="2464361411" lat="48.4237594" lon="9.9463125"/>
-    <nd ref="2464361277" lat="48.4238174" lon="9.9463925"/>
-    <nd ref="2464361322" lat="48.4236660" lon="9.9466417"/>
-    <nd ref="2464361295" lat="48.4236080" lon="9.9465617"/>
-    <nd ref="2464361411" lat="48.4237594" lon="9.9463125"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="239182906">
-    <bounds minlat="48.4232952" minlon="9.9591182" maxlat="48.4234114" maxlon="9.9593613"/>
-    <nd ref="2469946283" lat="48.4234114" lon="9.9593291"/>
-    <nd ref="2469946280" lat="48.4233727" lon="9.9593613"/>
-    <nd ref="2469946303" lat="48.4232952" lon="9.9591505"/>
-    <nd ref="2469946300" lat="48.4233339" lon="9.9591182"/>
-    <nd ref="2469946283" lat="48.4234114" lon="9.9593291"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="241399816">
-    <bounds minlat="48.4243605" minlon="9.9550517" maxlat="48.4246222" maxlon="9.9551404"/>
-    <nd ref="2490486128" lat="48.4246219" lon="9.9550517"/>
-    <nd ref="2490486129" lat="48.4246222" lon="9.9551383"/>
-    <nd ref="2490486126" lat="48.4243608" lon="9.9551404"/>
-    <nd ref="2490486125" lat="48.4243605" lon="9.9550538"/>
-    <nd ref="2490486128" lat="48.4246219" lon="9.9550517"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="243095490">
-    <bounds minlat="48.4220987" minlon="9.9490852" maxlat="48.4222980" maxlon="9.9493675"/>
-    <nd ref="2505313933" lat="48.4222980" lon="9.9492575"/>
-    <nd ref="2505313931" lat="48.4222380" lon="9.9490852"/>
-    <nd ref="2505313928" lat="48.4220987" lon="9.9491952"/>
-    <nd ref="2505313930" lat="48.4221586" lon="9.9493675"/>
-    <nd ref="2505313933" lat="48.4222980" lon="9.9492575"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2012"/>
-  </way>
-  <way id="248963893">
-    <bounds minlat="48.4216647" minlon="9.9544722" maxlat="48.4218857" maxlon="9.9547269"/>
-    <nd ref="2556689684" lat="48.4216647" lon="9.9546336"/>
-    <nd ref="2556689685" lat="48.4218499" lon="9.9544722"/>
-    <nd ref="2556689686" lat="48.4218857" lon="9.9545655"/>
-    <nd ref="2556689687" lat="48.4217005" lon="9.9547269"/>
-    <nd ref="2556689684" lat="48.4216647" lon="9.9546336"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2011"/>
-  </way>
-  <way id="248968508">
-    <bounds minlat="48.4269148" minlon="9.9470987" maxlat="48.4271914" maxlon="9.9474574"/>
-    <nd ref="2556735696" lat="48.4269148" lon="9.9472718"/>
-    <nd ref="2556735707" lat="48.4271236" lon="9.9470987"/>
-    <nd ref="2556735704" lat="48.4271914" lon="9.9472844"/>
-    <nd ref="2556735709" lat="48.4269826" lon="9.9474574"/>
-    <nd ref="2556735696" lat="48.4269148" lon="9.9472718"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="248968510">
-    <bounds minlat="48.4265939" minlon="9.9460828" maxlat="48.4273102" maxlon="9.9471138"/>
-    <nd ref="427687907" lat="48.4265939" lon="9.9464949"/>
-    <nd ref="427687909" lat="48.4270996" lon="9.9460828"/>
-    <nd ref="427687912" lat="48.4273102" lon="9.9466697"/>
-    <nd ref="2556735706" lat="48.4271376" lon="9.9468103"/>
-    <nd ref="2556735702" lat="48.4271605" lon="9.9468740"/>
-    <nd ref="2556735679" lat="48.4268663" lon="9.9471138"/>
-    <nd ref="2556735694" lat="48.4268399" lon="9.9470405"/>
-    <nd ref="2556735683" lat="48.4268011" lon="9.9470722"/>
-    <nd ref="7125466721" lat="48.4267849" lon="9.9470272"/>
-    <nd ref="7125466718" lat="48.4268590" lon="9.9469667"/>
-    <nd ref="7125466717" lat="48.4268439" lon="9.9469247"/>
-    <nd ref="7125466722" lat="48.4267698" lon="9.9469852"/>
-    <nd ref="7125466723" lat="48.4266693" lon="9.9467049"/>
-    <nd ref="7125466720" lat="48.4267398" lon="9.9466475"/>
-    <nd ref="7125466719" lat="48.4267222" lon="9.9465986"/>
-    <nd ref="7125466724" lat="48.4266517" lon="9.9466561"/>
-    <nd ref="427687907" lat="48.4265939" lon="9.9464949"/>
-    <tag k="access" v="private"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Mitarbeiterparkplatz"/>
-  </way>
-  <way id="248969148">
-    <bounds minlat="48.4250741" minlon="9.9477288" maxlat="48.4260810" maxlon="9.9490544"/>
-    <nd ref="4480175127" lat="48.4258840" lon="9.9478786"/>
-    <nd ref="4480175114" lat="48.4259867" lon="9.9481556"/>
-    <nd ref="4480175120" lat="48.4260633" lon="9.9483621"/>
-    <nd ref="1292908625" lat="48.4260810" lon="9.9484162"/>
-    <nd ref="2556745486" lat="48.4253108" lon="9.9490544"/>
-    <nd ref="2556745459" lat="48.4250741" lon="9.9484054"/>
-    <nd ref="1292908624" lat="48.4254931" lon="9.9480515"/>
-    <nd ref="1292908639" lat="48.4255195" lon="9.9481227"/>
-    <nd ref="1292908621" lat="48.4259872" lon="9.9477288"/>
-    <nd ref="4480175115" lat="48.4259954" lon="9.9477508"/>
-    <nd ref="4480175128" lat="48.4260032" lon="9.9477718"/>
-    <nd ref="4480175111" lat="48.4259787" lon="9.9477925"/>
-    <nd ref="4480175155" lat="48.4260038" lon="9.9478603"/>
-    <nd ref="2633889333" lat="48.4259860" lon="9.9478753"/>
-    <nd ref="4480175108" lat="48.4259627" lon="9.9478123"/>
-    <nd ref="4480175127" lat="48.4258840" lon="9.9478786"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="black"/>
-    <tag k="building:levels" v="2"/>
-    <tag k="name" v="Behandlung, Untersuchung"/>
-    <tag k="roof:colour" v="green"/>
-  </way>
-  <way id="248969154">
-    <bounds minlat="48.4259931" minlon="9.9474200" maxlat="48.4261211" maxlon="9.9476785"/>
-    <nd ref="2556745492" lat="48.4260394" lon="9.9474200"/>
-    <nd ref="2556745494" lat="48.4261211" lon="9.9476393"/>
-    <nd ref="2556745477" lat="48.4260747" lon="9.9476785"/>
-    <nd ref="4480175131" lat="48.4260551" lon="9.9476259"/>
-    <nd ref="2556745473" lat="48.4259931" lon="9.9474592"/>
-    <nd ref="2556745492" lat="48.4260394" lon="9.9474200"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="254801215">
-    <bounds minlat="48.4243713" minlon="9.9375456" maxlat="48.4243832" maxlon="9.9375635"/>
-    <nd ref="2606035711" lat="48.4243761" lon="9.9375457"/>
-    <nd ref="2606035707" lat="48.4243742" lon="9.9375468"/>
-    <nd ref="2606035718" lat="48.4243726" lon="9.9375488"/>
-    <nd ref="2606035716" lat="48.4243716" lon="9.9375516"/>
-    <nd ref="2606035712" lat="48.4243713" lon="9.9375546"/>
-    <nd ref="2606035720" lat="48.4243718" lon="9.9375582"/>
-    <nd ref="2606035706" lat="48.4243730" lon="9.9375608"/>
-    <nd ref="2606035724" lat="48.4243746" lon="9.9375627"/>
-    <nd ref="2606035709" lat="48.4243766" lon="9.9375635"/>
-    <nd ref="2606035722" lat="48.4243783" lon="9.9375634"/>
-    <nd ref="2606035713" lat="48.4243802" lon="9.9375623"/>
-    <nd ref="2606035704" lat="48.4243818" lon="9.9375603"/>
-    <nd ref="2606035710" lat="48.4243829" lon="9.9375576"/>
-    <nd ref="2606035703" lat="48.4243832" lon="9.9375538"/>
-    <nd ref="2606035723" lat="48.4243827" lon="9.9375508"/>
-    <nd ref="2606035721" lat="48.4243815" lon="9.9375482"/>
-    <nd ref="2606035719" lat="48.4243798" lon="9.9375464"/>
-    <nd ref="2606035708" lat="48.4243778" lon="9.9375456"/>
-    <nd ref="2606035711" lat="48.4243761" lon="9.9375457"/>
-    <tag k="building" v="yes"/>
-    <tag k="height" v="87.8"/>
-  </way>
-  <way id="257948471">
-    <bounds minlat="48.4259860" minlon="9.9478384" maxlat="48.4262456" maxlon="9.9484774"/>
-    <nd ref="2633889333" lat="48.4259860" lon="9.9478753"/>
-    <nd ref="2633889318" lat="48.4262004" lon="9.9484774"/>
-    <nd ref="2633889335" lat="48.4262456" lon="9.9484408"/>
-    <nd ref="2633889310" lat="48.4260313" lon="9.9478384"/>
-    <nd ref="4480175155" lat="48.4260038" lon="9.9478603"/>
-    <nd ref="2633889333" lat="48.4259860" lon="9.9478753"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Stabsgruppe"/>
-  </way>
   <way id="261483432">
     <bounds minlat="48.4181381" minlon="9.9382108" maxlat="48.4185731" maxlon="9.9400434"/>
     <nd ref="598332646" lat="48.4183376" lon="9.9382126"/>
@@ -2317,177 +266,6 @@
     <tag k="roof:levels" v="0"/>
     <tag k="start_date" v="1997"/>
   </way>
-  <way id="306976821">
-    <bounds minlat="48.4239436" minlon="9.9437946" maxlat="48.4240418" maxlon="9.9439824"/>
-    <nd ref="3120136388" lat="48.4240418" lon="9.9439470"/>
-    <nd ref="3120136383" lat="48.4239990" lon="9.9439824"/>
-    <nd ref="3120136413" lat="48.4239436" lon="9.9438300"/>
-    <nd ref="3120136420" lat="48.4239865" lon="9.9437946"/>
-    <nd ref="3120136388" lat="48.4240418" lon="9.9439470"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="306976824">
-    <bounds minlat="48.4236847" minlon="9.9439781" maxlat="48.4252310" maxlon="9.9457060"/>
-    <nd ref="1573199442" lat="48.4245801" lon="9.9449092"/>
-    <nd ref="1730181435" lat="48.4244943" lon="9.9449811"/>
-    <nd ref="2385107741" lat="48.4243246" lon="9.9451234"/>
-    <nd ref="2385107833" lat="48.4244654" lon="9.9455045"/>
-    <nd ref="2385107839" lat="48.4242251" lon="9.9457060"/>
-    <nd ref="2385107815" lat="48.4240721" lon="9.9452919"/>
-    <nd ref="2385107718" lat="48.4239716" lon="9.9453762"/>
-    <nd ref="7117185376" lat="48.4239289" lon="9.9452606"/>
-    <nd ref="7117193425" lat="48.4238867" lon="9.9451463"/>
-    <nd ref="2385107849" lat="48.4238385" lon="9.9450160"/>
-    <nd ref="2385107775" lat="48.4239825" lon="9.9448953"/>
-    <nd ref="7117185384" lat="48.4239286" lon="9.9447493"/>
-    <nd ref="6696094586" lat="48.4237842" lon="9.9443582"/>
-    <nd ref="7117185377" lat="48.4237769" lon="9.9443385"/>
-    <nd ref="6696094885" lat="48.4237624" lon="9.9442995"/>
-    <nd ref="6696094985" lat="48.4237573" lon="9.9443037"/>
-    <nd ref="3120136418" lat="48.4237661" lon="9.9443281"/>
-    <nd ref="3120136381" lat="48.4237244" lon="9.9443620"/>
-    <nd ref="3120136405" lat="48.4236847" lon="9.9442511"/>
-    <nd ref="6696090586" lat="48.4237014" lon="9.9442375"/>
-    <nd ref="3120136414" lat="48.4237265" lon="9.9442171"/>
-    <nd ref="6696094886" lat="48.4237492" lon="9.9442804"/>
-    <nd ref="6696095085" lat="48.4237541" lon="9.9442764"/>
-    <nd ref="1573199438" lat="48.4237432" lon="9.9442472"/>
-    <nd ref="1573199411" lat="48.4240640" lon="9.9439781"/>
-    <nd ref="1573199352" lat="48.4243211" lon="9.9446744"/>
-    <nd ref="1573199412" lat="48.4244013" lon="9.9446072"/>
-    <nd ref="1573199410" lat="48.4243059" lon="9.9443489"/>
-    <nd ref="1573199357" lat="48.4244883" lon="9.9441959"/>
-    <nd ref="1573199439" lat="48.4245837" lon="9.9444542"/>
-    <nd ref="1573199348" lat="48.4246565" lon="9.9443932"/>
-    <nd ref="1573199351" lat="48.4246923" lon="9.9444903"/>
-    <nd ref="2385107835" lat="48.4247910" lon="9.9444075"/>
-    <nd ref="2385107724" lat="48.4248320" lon="9.9445185"/>
-    <nd ref="1573199467" lat="48.4247316" lon="9.9446027"/>
-    <nd ref="1573199408" lat="48.4247557" lon="9.9446682"/>
-    <nd ref="1730181460" lat="48.4247045" lon="9.9447112"/>
-    <nd ref="1730181467" lat="48.4247309" lon="9.9447827"/>
-    <nd ref="2385107843" lat="48.4247527" lon="9.9447786"/>
-    <nd ref="1730181428" lat="48.4247968" lon="9.9449090"/>
-    <nd ref="2385107813" lat="48.4248166" lon="9.9449177"/>
-    <nd ref="2385107823" lat="48.4248240" lon="9.9449118"/>
-    <nd ref="2385107777" lat="48.4248317" lon="9.9449058"/>
-    <nd ref="2385107863" lat="48.4248526" lon="9.9449658"/>
-    <nd ref="2385107817" lat="48.4248732" lon="9.9449495"/>
-    <nd ref="2385107862" lat="48.4248389" lon="9.9448517"/>
-    <nd ref="1573199468" lat="48.4251238" lon="9.9446258"/>
-    <nd ref="1730518759" lat="48.4251576" lon="9.9447229"/>
-    <nd ref="2385107721" lat="48.4252310" lon="9.9449319"/>
-    <nd ref="2385107867" lat="48.4251240" lon="9.9450169"/>
-    <nd ref="2385107768" lat="48.4251533" lon="9.9451006"/>
-    <nd ref="2385107766" lat="48.4249756" lon="9.9452419"/>
-    <nd ref="2385107773" lat="48.4249640" lon="9.9452087"/>
-    <nd ref="2385107851" lat="48.4248474" lon="9.9453014"/>
-    <nd ref="1730181465" lat="48.4247569" lon="9.9450414"/>
-    <nd ref="2385107829" lat="48.4248212" lon="9.9449906"/>
-    <nd ref="1730181425" lat="48.4248216" lon="9.9449903"/>
-    <nd ref="2385107827" lat="48.4248094" lon="9.9449567"/>
-    <nd ref="1573199441" lat="48.4247565" lon="9.9449428"/>
-    <nd ref="2385107793" lat="48.4246843" lon="9.9450071"/>
-    <nd ref="2385107784" lat="48.4246698" lon="9.9449680"/>
-    <nd ref="2385107858" lat="48.4246152" lon="9.9450099"/>
-    <nd ref="1573199442" lat="48.4245801" lon="9.9449092"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="45"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Oberer Eselsberg"/>
-    <tag k="building" v="hospital"/>
-    <tag k="building:levels" v="6"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="start_date" v="1984"/>
-    <tag k="toilets:wheelchair" v="yes"/>
-    <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="306976825">
-    <bounds minlat="48.4238770" minlon="9.9435916" maxlat="48.4239531" maxlon="9.9437265"/>
-    <nd ref="3120136410" lat="48.4238770" lon="9.9436233"/>
-    <nd ref="3120136391" lat="48.4239183" lon="9.9435916"/>
-    <nd ref="3120136412" lat="48.4239531" lon="9.9436948"/>
-    <nd ref="3120136411" lat="48.4239118" lon="9.9437265"/>
-    <nd ref="3120136410" lat="48.4238770" lon="9.9436233"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="306976826">
-    <bounds minlat="48.4231956" minlon="9.9436593" maxlat="48.4233565" maxlon="9.9438817"/>
-    <nd ref="3120136396" lat="48.4233093" lon="9.9436593"/>
-    <nd ref="3120136415" lat="48.4233565" lon="9.9437837"/>
-    <nd ref="3120136387" lat="48.4232428" lon="9.9438817"/>
-    <nd ref="3120136393" lat="48.4231956" lon="9.9437573"/>
-    <nd ref="3120136396" lat="48.4233093" lon="9.9436593"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="45/1"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Oberer Eselsberg"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="314264454">
-    <bounds minlat="48.4241680" minlon="9.9454325" maxlat="48.4246342" maxlon="9.9459771"/>
-    <nd ref="2385107839" lat="48.4242251" lon="9.9457060"/>
-    <nd ref="2385107841" lat="48.4241680" lon="9.9457540"/>
-    <nd ref="1573199440" lat="48.4242504" lon="9.9459771"/>
-    <nd ref="2056689041" lat="48.4243777" lon="9.9458704"/>
-    <nd ref="3780143859" lat="48.4243935" lon="9.9459133"/>
-    <nd ref="2385107786" lat="48.4244100" lon="9.9459580"/>
-    <nd ref="2385107831" lat="48.4245244" lon="9.9458621"/>
-    <nd ref="2056688972" lat="48.4244925" lon="9.9457757"/>
-    <nd ref="1573199343" lat="48.4246342" lon="9.9456569"/>
-    <nd ref="3657683105" lat="48.4245985" lon="9.9455602"/>
-    <nd ref="2385107854" lat="48.4245513" lon="9.9454325"/>
-    <nd ref="2385107833" lat="48.4244654" lon="9.9455045"/>
-    <nd ref="2385107839" lat="48.4242251" lon="9.9457060"/>
-    <tag k="building" v="hospital"/>
-    <tag k="building:levels" v="6"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="start_date" v="2012"/>
-    <tag k="toilets:wheelchair" v="yes"/>
-    <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="318882472">
-    <bounds minlat="48.4235483" minlon="9.9604652" maxlat="48.4237140" maxlon="9.9606836"/>
-    <nd ref="3252766488" lat="48.4236714" lon="9.9604652"/>
-    <nd ref="3252766489" lat="48.4235483" lon="9.9605702"/>
-    <nd ref="3252766490" lat="48.4235909" lon="9.9606836"/>
-    <nd ref="3252766491" lat="48.4237140" lon="9.9605785"/>
-    <nd ref="3252766488" lat="48.4236714" lon="9.9604652"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="321050428">
-    <bounds minlat="48.4239916" minlon="9.9383116" maxlat="48.4244741" maxlon="9.9394301"/>
-    <nd ref="3277635462" lat="48.4244733" lon="9.9392884"/>
-    <nd ref="365260533" lat="48.4242870" lon="9.9387497"/>
-    <nd ref="376777309" lat="48.4244741" lon="9.9385974"/>
-    <nd ref="365260524" lat="48.4243663" lon="9.9383116"/>
-    <nd ref="365260525" lat="48.4239916" lon="9.9386237"/>
-    <nd ref="3277635561" lat="48.4242953" lon="9.9394301"/>
-    <nd ref="3277635462" lat="48.4244733" lon="9.9392884"/>
-    <tag k="building" v="office"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Takata"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-    <tag k="start_date" v="2000"/>
-  </way>
-  <way id="323476095">
-    <bounds minlat="48.4258313" minlon="9.9521675" maxlat="48.4260939" maxlon="9.9526370"/>
-    <nd ref="1148284773" lat="48.4258313" lon="9.9522744"/>
-    <nd ref="1148284552" lat="48.4258656" lon="9.9523694"/>
-    <nd ref="1148284584" lat="48.4259385" lon="9.9525558"/>
-    <nd ref="1148284376" lat="48.4259678" lon="9.9526370"/>
-    <nd ref="1148284721" lat="48.4260939" lon="9.9525337"/>
-    <nd ref="1148284916" lat="48.4259618" lon="9.9521675"/>
-    <nd ref="1148284773" lat="48.4258313" lon="9.9522744"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="6"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Staudingerstraße"/>
-    <tag k="building" v="yes"/>
-  </way>
   <way id="323480822">
     <bounds minlat="48.4228889" minlon="9.9576149" maxlat="48.4232377" maxlon="9.9581795"/>
     <nd ref="7563731069" lat="48.4228889" lon="9.9578539"/>
@@ -2507,7 +285,6 @@
     <nd ref="7563633392" lat="48.4230672" lon="9.9576358"/>
     <nd ref="3367196701" lat="48.4230592" lon="9.9576149"/>
     <nd ref="7563633390" lat="48.4230506" lon="9.9576221"/>
-    <nd ref="3755622005" lat="48.4230412" lon="9.9576300"/>
     <nd ref="3777179849" lat="48.4230309" lon="9.9576387"/>
     <nd ref="3755614359" lat="48.4230240" lon="9.9576445"/>
     <nd ref="1148284383" lat="48.4229843" lon="9.9576778"/>
@@ -2522,56 +299,6 @@
     <tag k="building:levels" v="2"/>
     <tag k="name" v="O28"/>
     <tag k="operator" v="Universität Ulm"/>
-  </way>
-  <way id="329782185">
-    <bounds minlat="48.4206440" minlon="9.9510039" maxlat="48.4217392" maxlon="9.9521044"/>
-    <nd ref="3367291751" lat="48.4211381" lon="9.9520885"/>
-    <nd ref="3367291724" lat="48.4206440" lon="9.9518719"/>
-    <nd ref="3367291725" lat="48.4206601" lon="9.9517842"/>
-    <nd ref="3367291727" lat="48.4207010" lon="9.9517991"/>
-    <nd ref="3367291730" lat="48.4207716" lon="9.9514090"/>
-    <nd ref="3367291728" lat="48.4207320" lon="9.9513866"/>
-    <nd ref="3367291729" lat="48.4207543" lon="9.9513026"/>
-    <nd ref="3367291733" lat="48.4208175" lon="9.9513287"/>
-    <nd ref="3367291732" lat="48.4208138" lon="9.9513549"/>
-    <nd ref="3367291762" lat="48.4212102" lon="9.9515173"/>
-    <nd ref="3367291765" lat="48.4212449" lon="9.9513549"/>
-    <nd ref="3367291760" lat="48.4211978" lon="9.9513362"/>
-    <nd ref="3367291767" lat="48.4212635" lon="9.9510039"/>
-    <nd ref="3367291772" lat="48.4213068" lon="9.9510282"/>
-    <nd ref="3367291770" lat="48.4212907" lon="9.9511159"/>
-    <nd ref="3367291773" lat="48.4213142" lon="9.9511197"/>
-    <nd ref="3367291774" lat="48.4213266" lon="9.9510618"/>
-    <nd ref="3367291779" lat="48.4213688" lon="9.9510786"/>
-    <nd ref="3367291778" lat="48.4213576" lon="9.9511533"/>
-    <nd ref="3367291780" lat="48.4213750" lon="9.9511607"/>
-    <nd ref="3367291783" lat="48.4213898" lon="9.9510767"/>
-    <nd ref="3367291789" lat="48.4214319" lon="9.9510917"/>
-    <nd ref="3367291788" lat="48.4214245" lon="9.9511234"/>
-    <nd ref="3367295204" lat="48.4215038" lon="9.9511551"/>
-    <nd ref="3367295196" lat="48.4214542" lon="9.9514277"/>
-    <nd ref="3367291768" lat="48.4212771" lon="9.9513530"/>
-    <nd ref="3367291766" lat="48.4212474" lon="9.9515135"/>
-    <nd ref="3367295193" lat="48.4214418" lon="9.9515901"/>
-    <nd ref="3367291790" lat="48.4214332" lon="9.9516647"/>
-    <nd ref="3367295195" lat="48.4214532" lon="9.9516711"/>
-    <nd ref="3367295197" lat="48.4214741" lon="9.9516778"/>
-    <nd ref="3367295199" lat="48.4214815" lon="9.9516237"/>
-    <nd ref="3367295231" lat="48.4216871" lon="9.9516983"/>
-    <nd ref="3367295240" lat="48.4217169" lon="9.9517282"/>
-    <nd ref="3367295242" lat="48.4217392" lon="9.9517786"/>
-    <nd ref="3367295239" lat="48.4217156" lon="9.9519018"/>
-    <nd ref="3367291785" lat="48.4214059" lon="9.9517786"/>
-    <nd ref="3367291784" lat="48.4213985" lon="9.9518421"/>
-    <nd ref="3367295205" lat="48.4215071" lon="9.9519772"/>
-    <nd ref="3367295198" lat="48.4214786" lon="9.9520332"/>
-    <nd ref="3367291787" lat="48.4214183" lon="9.9519242"/>
-    <nd ref="3367291763" lat="48.4212238" lon="9.9520922"/>
-    <nd ref="3367291758" lat="48.4211842" lon="9.9519839"/>
-    <nd ref="3367291753" lat="48.4211662" lon="9.9521044"/>
-    <nd ref="3367291751" lat="48.4211381" lon="9.9520885"/>
-    <tag k="building" v="hospital"/>
-    <tag k="name" v="Strahlentherapie"/>
   </way>
   <way id="329782186">
     <bounds minlat="48.4224889" minlon="9.9526078" maxlat="48.4231071" maxlon="9.9535879"/>
@@ -2728,22 +455,6 @@
     <tag k="smoking" v="no"/>
     <tag k="website" v="http://www.studentenwerk-ulm.de/hochschulgastronomie/mensen-und-cafeterien.html#c124945"/>
     <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="329782191">
-    <bounds minlat="48.4212890" minlon="9.9519580" maxlat="48.4217065" maxlon="9.9526150"/>
-    <nd ref="3367295236" lat="48.4217065" lon="9.9524234"/>
-    <nd ref="3367295194" lat="48.4214525" lon="9.9526150"/>
-    <nd ref="3367291769" lat="48.4212890" lon="9.9521633"/>
-    <nd ref="3367291791" lat="48.4214340" lon="9.9519580"/>
-    <nd ref="3367295198" lat="48.4214786" lon="9.9520332"/>
-    <nd ref="3367295220" lat="48.4216210" lon="9.9522386"/>
-    <nd ref="3367295227" lat="48.4216708" lon="9.9523202"/>
-    <nd ref="3367295236" lat="48.4217065" lon="9.9524234"/>
-    <tag k="amenity" v="restaurant"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Mitarbeitercasino Uniklinik Ulm"/>
-    <tag k="opening_hours" v="Mo-Fr 07:00-16:30"/>
-    <tag k="website" v="https://www.uniklinik-ulm.de/service/anreiselageplan/oberer-eselsberg/wo-finde-ich.html"/>
   </way>
   <way id="329782192">
     <bounds minlat="48.4222168" minlon="9.9537738" maxlat="48.4229016" maxlon="9.9548464"/>
@@ -2909,7 +620,6 @@
     <nd ref="3758604564" lat="48.4225265" lon="9.9559603"/>
     <nd ref="3758585352" lat="48.4225329" lon="9.9559775"/>
     <nd ref="3754879725" lat="48.4224976" lon="9.9560072"/>
-    <nd ref="3778051061" lat="48.4224579" lon="9.9560407"/>
     <nd ref="3778082719" lat="48.4224298" lon="9.9560644"/>
     <nd ref="3755023429" lat="48.4224213" lon="9.9560715"/>
     <nd ref="3755023428" lat="48.4224158" lon="9.9560566"/>
@@ -2957,7 +667,6 @@
     <nd ref="3778051091" lat="48.4227882" lon="9.9568200"/>
     <nd ref="3754717381" lat="48.4227982" lon="9.9568115"/>
     <nd ref="3758604571" lat="48.4228080" lon="9.9568031"/>
-    <nd ref="3778051101" lat="48.4228148" lon="9.9567973"/>
     <nd ref="3778082749" lat="48.4228263" lon="9.9567876"/>
     <nd ref="3758592139" lat="48.4228542" lon="9.9567638"/>
     <nd ref="3302845088" lat="48.4228682" lon="9.9567519"/>
@@ -2965,258 +674,6 @@
     <tag k="building:levels" v="5"/>
     <tag k="name" v="O26"/>
     <tag k="operator" v="Universität Ulm"/>
-  </way>
-  <way id="329782197">
-    <bounds minlat="48.4213472" minlon="9.9546267" maxlat="48.4215367" maxlon="9.9548544"/>
-    <nd ref="3367295210" lat="48.4215367" lon="9.9547331"/>
-    <nd ref="3367295203" lat="48.4214995" lon="9.9546267"/>
-    <nd ref="3367291775" lat="48.4213472" lon="9.9547499"/>
-    <nd ref="3367291782" lat="48.4213843" lon="9.9548544"/>
-    <nd ref="3367295210" lat="48.4215367" lon="9.9547331"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="340353924">
-    <bounds minlat="48.4198510" minlon="9.9497211" maxlat="48.4203162" maxlon="9.9499139"/>
-    <nd ref="3475689443" lat="48.4203104" lon="9.9497211"/>
-    <nd ref="3475689444" lat="48.4203162" lon="9.9498217"/>
-    <nd ref="2356463419" lat="48.4200253" lon="9.9498802"/>
-    <nd ref="2356463474" lat="48.4199467" lon="9.9498957"/>
-    <nd ref="3475689445" lat="48.4198598" lon="9.9499139"/>
-    <nd ref="3475529426" lat="48.4198510" lon="9.9498086"/>
-    <nd ref="3475689443" lat="48.4203104" lon="9.9497211"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="371321901">
-    <bounds minlat="48.4214309" minlon="9.9354562" maxlat="48.4215157" maxlon="9.9356720"/>
-    <nd ref="3748983996" lat="48.4214724" lon="9.9354562"/>
-    <nd ref="3748983997" lat="48.4215157" lon="9.9354772"/>
-    <nd ref="3748983998" lat="48.4214742" lon="9.9356720"/>
-    <nd ref="3748983999" lat="48.4214309" lon="9.9356511"/>
-    <nd ref="3748983996" lat="48.4214724" lon="9.9354562"/>
-    <tag k="building" v="service"/>
-  </way>
-  <way id="380865189">
-    <bounds minlat="48.4260812" minlon="9.9445459" maxlat="48.4261764" maxlon="9.9446895"/>
-    <nd ref="3841667876" lat="48.4260812" lon="9.9445907"/>
-    <nd ref="3841667878" lat="48.4261001" lon="9.9446488"/>
-    <nd ref="3841667879" lat="48.4261197" lon="9.9446325"/>
-    <nd ref="3841667881" lat="48.4261387" lon="9.9446895"/>
-    <nd ref="3841667885" lat="48.4261650" lon="9.9446681"/>
-    <nd ref="3841667884" lat="48.4261549" lon="9.9446376"/>
-    <nd ref="3841667888" lat="48.4261718" lon="9.9446233"/>
-    <nd ref="3841667889" lat="48.4261764" lon="9.9445953"/>
-    <nd ref="3841667887" lat="48.4261701" lon="9.9445734"/>
-    <nd ref="3841667882" lat="48.4261501" lon="9.9445892"/>
-    <nd ref="3841667880" lat="48.4261360" lon="9.9445459"/>
-    <nd ref="3841667876" lat="48.4260812" lon="9.9445907"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Wachhäuschen"/>
-  </way>
-  <way id="390188894">
-    <bounds minlat="48.4223492" minlon="9.9358779" maxlat="48.4226571" maxlon="9.9363420"/>
-    <nd ref="3933512175" lat="48.4225403" lon="9.9363420"/>
-    <nd ref="3933512176" lat="48.4223492" lon="9.9361663"/>
-    <nd ref="3933512177" lat="48.4224659" lon="9.9358779"/>
-    <nd ref="3933512185" lat="48.4226015" lon="9.9360025"/>
-    <nd ref="3933512178" lat="48.4226571" lon="9.9360536"/>
-    <nd ref="3933512175" lat="48.4225403" lon="9.9363420"/>
-    <tag k="addr:housenumber" v="8"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="390188895">
-    <bounds minlat="48.4225932" minlon="9.9354367" maxlat="48.4228997" maxlon="9.9358982"/>
-    <nd ref="3933512179" lat="48.4228997" lon="9.9356119"/>
-    <nd ref="3933512180" lat="48.4227091" lon="9.9354367"/>
-    <nd ref="3933512181" lat="48.4225932" lon="9.9357230"/>
-    <nd ref="3933512186" lat="48.4226817" lon="9.9358044"/>
-    <nd ref="3933512182" lat="48.4227838" lon="9.9358982"/>
-    <nd ref="3933512179" lat="48.4228997" lon="9.9356119"/>
-    <tag k="addr:housenumber" v="8"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="AMA Instruments"/>
-    <tag k="website" v="http://www.ama-instruments.com"/>
-  </way>
-  <way id="390188896">
-    <bounds minlat="48.4226015" minlon="9.9358044" maxlat="48.4227838" maxlon="9.9360536"/>
-    <nd ref="3933512182" lat="48.4227838" lon="9.9358982"/>
-    <nd ref="6512547851" lat="48.4227214" lon="9.9360525"/>
-    <nd ref="6512547850" lat="48.4226748" lon="9.9360098"/>
-    <nd ref="3933512178" lat="48.4226571" lon="9.9360536"/>
-    <nd ref="3933512185" lat="48.4226015" lon="9.9360025"/>
-    <nd ref="3933512186" lat="48.4226817" lon="9.9358044"/>
-    <nd ref="3933512182" lat="48.4227838" lon="9.9358982"/>
-    <tag k="addr:housenumber" v="8"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="430446849">
-    <bounds minlat="48.4267137" minlon="9.9447870" maxlat="48.4269156" maxlon="9.9450068"/>
-    <nd ref="4297205936" lat="48.4267936" lon="9.9449648"/>
-    <nd ref="4297205946" lat="48.4269156" lon="9.9448757"/>
-    <nd ref="4297205935" lat="48.4268863" lon="9.9447870"/>
-    <nd ref="4297205968" lat="48.4267137" lon="9.9449163"/>
-    <nd ref="4297205958" lat="48.4267324" lon="9.9449750"/>
-    <nd ref="4297205956" lat="48.4267444" lon="9.9450068"/>
-    <nd ref="4297205936" lat="48.4267936" lon="9.9449648"/>
-    <tag k="building" v="yes"/>
-    <tag k="emergency" v="ambulance_station"/>
-    <tag k="name" v="Luftrettungszentrum BWK Ulm"/>
-    <tag k="operator" v="ADAC Luftrettung"/>
-    <tag k="website" v="http://www.traumateam.de/"/>
-    <tag k="wikipedia" v="de:Christoph 22"/>
-  </way>
-  <way id="430446852">
-    <bounds minlat="48.4267936" minlon="9.9448592" maxlat="48.4270200" maxlon="9.9452091"/>
-    <nd ref="4297205936" lat="48.4267936" lon="9.9449648"/>
-    <nd ref="4297205931" lat="48.4268855" lon="9.9452091"/>
-    <nd ref="4297205954" lat="48.4270200" lon="9.9451078"/>
-    <nd ref="4297205941" lat="48.4269375" lon="9.9448592"/>
-    <nd ref="4297205946" lat="48.4269156" lon="9.9448757"/>
-    <nd ref="4297205936" lat="48.4267936" lon="9.9449648"/>
-    <tag k="building" v="hangar"/>
-  </way>
-  <way id="431147831">
-    <bounds minlat="48.4253015" minlon="9.9361221" maxlat="48.4256531" maxlon="9.9364806"/>
-    <nd ref="4303956383" lat="48.4256068" lon="9.9361221"/>
-    <nd ref="4303956384" lat="48.4253015" lon="9.9363078"/>
-    <nd ref="4303956385" lat="48.4253479" lon="9.9364806"/>
-    <nd ref="4303956386" lat="48.4256531" lon="9.9362950"/>
-    <nd ref="4303956383" lat="48.4256068" lon="9.9361221"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="4"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Wolfgang-Paul-Straße"/>
-    <tag k="building" v="commercial"/>
-    <tag k="building:levels" v="2"/>
-    <tag k="name" v="Elektrobit Automotive GmbH / Beamtec"/>
-    <tag k="source" v="Maps4BW"/>
-  </way>
-  <way id="451040066">
-    <bounds minlat="48.4256077" minlon="9.9345427" maxlat="48.4260432" maxlon="9.9353780"/>
-    <nd ref="4478939101" lat="48.4258501" lon="9.9345427"/>
-    <nd ref="4478939102" lat="48.4256077" lon="9.9346925"/>
-    <nd ref="7233491804" lat="48.4257942" lon="9.9353780"/>
-    <nd ref="6292003986" lat="48.4258498" lon="9.9353436"/>
-    <nd ref="6291993098" lat="48.4258564" lon="9.9353675"/>
-    <nd ref="4478939104" lat="48.4260432" lon="9.9352522"/>
-    <nd ref="4478939101" lat="48.4258501" lon="9.9345427"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="2"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Max-Born-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="name" v="Naturspeicher GmbH"/>
-    <tag k="office" v="company"/>
-  </way>
-  <way id="451179831">
-    <bounds minlat="48.4259641" minlon="9.9474592" maxlat="48.4260551" maxlon="9.9476504"/>
-    <nd ref="2556745473" lat="48.4259931" lon="9.9474592"/>
-    <nd ref="4480175154" lat="48.4259641" lon="9.9474837"/>
-    <nd ref="4480175125" lat="48.4260262" lon="9.9476504"/>
-    <nd ref="4480175131" lat="48.4260551" lon="9.9476259"/>
-    <nd ref="2556745473" lat="48.4259931" lon="9.9474592"/>
-    <tag k="building" v="roof"/>
-    <tag k="layer" v="1"/>
-  </way>
-  <way id="451179835">
-    <bounds minlat="48.4257808" minlon="9.9477656" maxlat="48.4258274" maxlon="9.9478289"/>
-    <nd ref="4480175107" lat="48.4257936" lon="9.9478289"/>
-    <nd ref="4480175118" lat="48.4258274" lon="9.9478015"/>
-    <nd ref="4480175145" lat="48.4258146" lon="9.9477656"/>
-    <nd ref="4480175126" lat="48.4257808" lon="9.9477930"/>
-    <nd ref="4480175107" lat="48.4257936" lon="9.9478289"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="451179836">
-    <bounds minlat="48.4256683" minlon="9.9478558" maxlat="48.4257235" maxlon="9.9479254"/>
-    <nd ref="4480175134" lat="48.4256808" lon="9.9479254"/>
-    <nd ref="4480175143" lat="48.4257235" lon="9.9478893"/>
-    <nd ref="4480175144" lat="48.4257110" lon="9.9478558"/>
-    <nd ref="4480175153" lat="48.4256683" lon="9.9478920"/>
-    <nd ref="4480175134" lat="48.4256808" lon="9.9479254"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="451571789">
-    <bounds minlat="48.4228521" minlon="9.9491747" maxlat="48.4229294" maxlon="9.9492781"/>
-    <nd ref="4483936436" lat="48.4229087" lon="9.9491747"/>
-    <nd ref="4483936430" lat="48.4229294" lon="9.9492302"/>
-    <nd ref="4483936417" lat="48.4228728" lon="9.9492781"/>
-    <nd ref="4483936404" lat="48.4228521" lon="9.9492226"/>
-    <nd ref="4483936436" lat="48.4229087" lon="9.9491747"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="451571800">
-    <bounds minlat="48.4238104" minlon="9.9495627" maxlat="48.4243600" maxlon="9.9498732"/>
-    <nd ref="4483936401" lat="48.4243561" lon="9.9495871"/>
-    <nd ref="4483936439" lat="48.4238673" lon="9.9495627"/>
-    <nd ref="4483936413" lat="48.4238104" lon="9.9498732"/>
-    <nd ref="4483936440" lat="48.4243600" lon="9.9498413"/>
-    <nd ref="4483936401" lat="48.4243561" lon="9.9495871"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="20"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="yes"/>
-    <tag k="source" v="survey"/>
-    <tag k="start_date" v="2015"/>
-  </way>
-  <way id="451571805">
-    <bounds minlat="48.4241411" minlon="9.9488329" maxlat="48.4242319" maxlon="9.9489690"/>
-    <nd ref="4483936423" lat="48.4242103" lon="9.9488427"/>
-    <nd ref="4483936418" lat="48.4242221" lon="9.9488585"/>
-    <nd ref="4483936410" lat="48.4242296" lon="9.9488794"/>
-    <nd ref="4483936443" lat="48.4242319" lon="9.9489029"/>
-    <nd ref="4483936408" lat="48.4242287" lon="9.9489261"/>
-    <nd ref="4483936427" lat="48.4242193" lon="9.9489483"/>
-    <nd ref="4483936416" lat="48.4242066" lon="9.9489624"/>
-    <nd ref="4483936402" lat="48.4241914" lon="9.9489690"/>
-    <nd ref="4483936438" lat="48.4241757" lon="9.9489674"/>
-    <nd ref="4483936437" lat="48.4241625" lon="9.9489591"/>
-    <nd ref="4483936419" lat="48.4241508" lon="9.9489432"/>
-    <nd ref="4483936424" lat="48.4241433" lon="9.9489223"/>
-    <nd ref="4483936429" lat="48.4241411" lon="9.9488987"/>
-    <nd ref="4483936425" lat="48.4241450" lon="9.9488732"/>
-    <nd ref="4483936405" lat="48.4241538" lon="9.9488535"/>
-    <nd ref="4483936412" lat="48.4241666" lon="9.9488395"/>
-    <nd ref="4483936407" lat="48.4241818" lon="9.9488329"/>
-    <nd ref="4483936415" lat="48.4241975" lon="9.9488346"/>
-    <nd ref="4483936423" lat="48.4242103" lon="9.9488427"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="451574311">
-    <bounds minlat="48.4224148" minlon="9.9524438" maxlat="48.4226042" maxlon="9.9526803"/>
-    <nd ref="4483958507" lat="48.4224148" lon="9.9525672"/>
-    <nd ref="4483958509" lat="48.4224759" lon="9.9525176"/>
-    <nd ref="4483958499" lat="48.4225626" lon="9.9524438"/>
-    <nd ref="2171973851" lat="48.4226042" lon="9.9525571"/>
-    <nd ref="2505313937" lat="48.4225173" lon="9.9526303"/>
-    <nd ref="4483958502" lat="48.4225162" lon="9.9526312"/>
-    <nd ref="2171973831" lat="48.4224579" lon="9.9526803"/>
-    <nd ref="4483958507" lat="48.4224148" lon="9.9525672"/>
-    <tag k="building" v="roof"/>
-    <tag k="layer" v="1"/>
-  </way>
-  <way id="451778277">
-    <bounds minlat="48.4241621" minlon="9.9468906" maxlat="48.4248066" maxlon="9.9479805"/>
-    <nd ref="4485959497" lat="48.4244373" lon="9.9469809"/>
-    <nd ref="4485959495" lat="48.4245432" lon="9.9468906"/>
-    <nd ref="4485959500" lat="48.4248066" lon="9.9475923"/>
-    <nd ref="4485959498" lat="48.4243511" lon="9.9479805"/>
-    <nd ref="4485964292" lat="48.4242974" lon="9.9478402"/>
-    <nd ref="2464361290" lat="48.4242424" lon="9.9476967"/>
-    <nd ref="4485959496" lat="48.4241621" lon="9.9474766"/>
-    <nd ref="4485959499" lat="48.4242889" lon="9.9473685"/>
-    <nd ref="1292908643" lat="48.4243306" lon="9.9474800"/>
-    <nd ref="5999966488" lat="48.4244440" lon="9.9473835"/>
-    <nd ref="5999966486" lat="48.4244793" lon="9.9473536"/>
-    <nd ref="1292908654" lat="48.4245533" lon="9.9472906"/>
-    <nd ref="4485959497" lat="48.4244373" lon="9.9469809"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="description" v="Gebäudedach ist gleichzeitig Terrasse"/>
-    <tag k="name" v="Casino"/>
   </way>
   <way id="460602804">
     <bounds minlat="48.4235023" minlon="9.9550646" maxlat="48.4240727" maxlon="9.9559246"/>
@@ -3236,206 +693,6 @@
     <tag k="name" v="M26"/>
     <tag k="operator" v="Universität Ulm"/>
   </way>
-  <way id="497385533">
-    <bounds minlat="48.4220392" minlon="9.9355508" maxlat="48.4222855" maxlon="9.9360169"/>
-    <nd ref="4889515359" lat="48.4222855" lon="9.9356430"/>
-    <nd ref="4889515360" lat="48.4221612" lon="9.9355508"/>
-    <nd ref="4889515361" lat="48.4220392" lon="9.9359247"/>
-    <nd ref="4889515362" lat="48.4221635" lon="9.9360169"/>
-    <nd ref="4889515359" lat="48.4222855" lon="9.9356430"/>
-    <tag k="building" v="office"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Mercatis"/>
-    <tag k="roof:levels" v="0"/>
-  </way>
-  <way id="498525892">
-    <bounds minlat="48.4264770" minlon="9.9437422" maxlat="48.4266092" maxlon="9.9439281"/>
-    <nd ref="4899198650" lat="48.4264770" lon="9.9438176"/>
-    <nd ref="4899198652" lat="48.4265167" lon="9.9439281"/>
-    <nd ref="4899198643" lat="48.4266092" lon="9.9438527"/>
-    <nd ref="4899198668" lat="48.4265695" lon="9.9437422"/>
-    <nd ref="4899198650" lat="48.4264770" lon="9.9438176"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="498531034">
-    <bounds minlat="48.4257253" minlon="9.9435114" maxlat="48.4258705" maxlon="9.9436925"/>
-    <nd ref="4899269784" lat="48.4258134" lon="9.9435114"/>
-    <nd ref="4899269768" lat="48.4258384" lon="9.9435749"/>
-    <nd ref="4899269771" lat="48.4258553" lon="9.9435599"/>
-    <nd ref="4899269754" lat="48.4258705" lon="9.9435987"/>
-    <nd ref="4899269777" lat="48.4257656" lon="9.9436925"/>
-    <nd ref="4899269779" lat="48.4257253" lon="9.9435902"/>
-    <nd ref="4899269755" lat="48.4257762" lon="9.9435447"/>
-    <nd ref="4899269784" lat="48.4258134" lon="9.9435114"/>
-    <tag k="building" v="roof"/>
-  </way>
-  <way id="498531036">
-    <bounds minlat="48.4255839" minlon="9.9430906" maxlat="48.4257024" maxlon="9.9432737"/>
-    <nd ref="4899269789" lat="48.4256808" lon="9.9430906"/>
-    <nd ref="4899269787" lat="48.4257024" lon="9.9431442"/>
-    <nd ref="4899269782" lat="48.4256800" lon="9.9431648"/>
-    <nd ref="4899269769" lat="48.4256970" lon="9.9432068"/>
-    <nd ref="4899269763" lat="48.4256601" lon="9.9432407"/>
-    <nd ref="4899269774" lat="48.4256242" lon="9.9432737"/>
-    <nd ref="4899269790" lat="48.4255839" lon="9.9431699"/>
-    <nd ref="4899269789" lat="48.4256808" lon="9.9430906"/>
-    <tag k="building" v="roof"/>
-    <tag k="layer" v="1"/>
-  </way>
-  <way id="501961173">
-    <bounds minlat="48.4180121" minlon="9.9436652" maxlat="48.4184902" maxlon="9.9442666"/>
-    <nd ref="4925905471" lat="48.4183828" lon="9.9436652"/>
-    <nd ref="4925905475" lat="48.4184902" lon="9.9439545"/>
-    <nd ref="4925905474" lat="48.4181195" lon="9.9442666"/>
-    <nd ref="4925905470" lat="48.4180121" lon="9.9439772"/>
-    <nd ref="4925905471" lat="48.4183828" lon="9.9436652"/>
-    <tag k="building" v="dormitory"/>
-    <tag k="building:levels" v="1"/>
-  </way>
-  <way id="501961174">
-    <bounds minlat="48.4179391" minlon="9.9434683" maxlat="48.4183828" maxlon="9.9439772"/>
-    <nd ref="4925905470" lat="48.4180121" lon="9.9439772"/>
-    <nd ref="4925905473" lat="48.4179391" lon="9.9437804"/>
-    <nd ref="4925905472" lat="48.4183098" lon="9.9434683"/>
-    <nd ref="4925905471" lat="48.4183828" lon="9.9436652"/>
-    <nd ref="4925905470" lat="48.4180121" lon="9.9439772"/>
-    <tag k="addr:housenumber" v="5"/>
-    <tag k="addr:street" v="Manfred-Börner-Straße"/>
-    <tag k="building" v="dormitory"/>
-    <tag k="building:levels" v="5"/>
-  </way>
-  <way id="526822570">
-    <bounds minlat="48.4231691" minlon="9.9400331" maxlat="48.4237027" maxlon="9.9410212"/>
-    <nd ref="5122306323" lat="48.4235743" lon="9.9404680"/>
-    <nd ref="5122306325" lat="48.4234149" lon="9.9400331"/>
-    <nd ref="5122301430" lat="48.4231691" lon="9.9402377"/>
-    <nd ref="5122301429" lat="48.4234563" lon="9.9410212"/>
-    <nd ref="5122306326" lat="48.4237027" lon="9.9408161"/>
-    <nd ref="5122306426" lat="48.4236086" lon="9.9405593"/>
-    <nd ref="5122301428" lat="48.4236642" lon="9.9405130"/>
-    <nd ref="5122306324" lat="48.4236297" lon="9.9404219"/>
-    <nd ref="5122306323" lat="48.4235743" lon="9.9404680"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Pilotlinie VCSEL"/>
-  </way>
-  <way id="530513302">
-    <bounds minlat="48.4252210" minlon="9.9313531" maxlat="48.4259710" maxlon="9.9331091"/>
-    <nd ref="5151461113" lat="48.4259710" lon="9.9316861"/>
-    <nd ref="5151461114" lat="48.4258655" lon="9.9313531"/>
-    <nd ref="5151461115" lat="48.4252210" lon="9.9318187"/>
-    <nd ref="6060989218" lat="48.4256320" lon="9.9331091"/>
-    <nd ref="6060989216" lat="48.4256901" lon="9.9328566"/>
-    <nd ref="6060989215" lat="48.4256410" lon="9.9327887"/>
-    <nd ref="6060989214" lat="48.4256199" lon="9.9327022"/>
-    <nd ref="6060989213" lat="48.4256227" lon="9.9326218"/>
-    <nd ref="6060989212" lat="48.4256416" lon="9.9325555"/>
-    <nd ref="6060989211" lat="48.4256837" lon="9.9324919"/>
-    <nd ref="6060989210" lat="48.4257044" lon="9.9324751"/>
-    <nd ref="6060989217" lat="48.4257683" lon="9.9324572"/>
-    <nd ref="5151461113" lat="48.4259710" lon="9.9316861"/>
-    <tag k="building" v="yes"/>
-    <tag k="name" v="Sartorius Stedim Cellca"/>
-    <tag k="operator" v="Sartorius Stedim Cellca"/>
-  </way>
-  <way id="534298830">
-    <bounds minlat="48.4216470" minlon="9.9521179" maxlat="48.4217989" maxlon="9.9523334"/>
-    <nd ref="5182044677" lat="48.4217463" lon="9.9521179"/>
-    <nd ref="3367295222" lat="48.4216470" lon="9.9521975"/>
-    <nd ref="3367295226" lat="48.4216706" lon="9.9522031"/>
-    <nd ref="3367295235" lat="48.4217015" lon="9.9522740"/>
-    <nd ref="3367295233" lat="48.4216958" lon="9.9522970"/>
-    <nd ref="5182044676" lat="48.4217107" lon="9.9523334"/>
-    <nd ref="5182044675" lat="48.4217989" lon="9.9522588"/>
-    <nd ref="5182044677" lat="48.4217463" lon="9.9521179"/>
-    <tag k="building" v="roof"/>
-    <tag k="building:part" v="yes"/>
-  </way>
-  <way id="534768440">
-    <bounds minlat="48.4236418" minlon="9.9517716" maxlat="48.4237241" maxlon="9.9518689"/>
-    <nd ref="5185436977" lat="48.4237088" lon="9.9517716"/>
-    <nd ref="5185436976" lat="48.4236418" lon="9.9518272"/>
-    <nd ref="5185436975" lat="48.4236570" lon="9.9518689"/>
-    <nd ref="5185436974" lat="48.4237241" lon="9.9518132"/>
-    <nd ref="5185436977" lat="48.4237088" lon="9.9517716"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2010"/>
-  </way>
-  <way id="602488095">
-    <bounds minlat="48.4217626" minlon="9.9353651" maxlat="48.4219734" maxlon="9.9358304"/>
-    <nd ref="5722533708" lat="48.4219734" lon="9.9354277"/>
-    <nd ref="5722533709" lat="48.4218704" lon="9.9358304"/>
-    <nd ref="5722533710" lat="48.4217626" lon="9.9357678"/>
-    <nd ref="5722533711" lat="48.4218656" lon="9.9353651"/>
-    <nd ref="5722533708" lat="48.4219734" lon="9.9354277"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="8/2"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="retail"/>
-    <tag k="building:levels" v="3"/>
-    <tag k="smoking" v="outside"/>
-  </way>
-  <way id="606428505">
-    <bounds minlat="48.4230395" minlon="9.9523057" maxlat="48.4231059" maxlon="9.9523923"/>
-    <nd ref="5749684983" lat="48.4230894" lon="9.9523057"/>
-    <nd ref="5749684986" lat="48.4231059" lon="9.9523504"/>
-    <nd ref="5749684975" lat="48.4230560" lon="9.9523923"/>
-    <nd ref="5749684968" lat="48.4230395" lon="9.9523476"/>
-    <nd ref="5749684983" lat="48.4230894" lon="9.9523057"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2010"/>
-  </way>
-  <way id="606428508">
-    <bounds minlat="48.4233454" minlon="9.9520472" maxlat="48.4234147" maxlon="9.9521302"/>
-    <nd ref="5749684978" lat="48.4234011" lon="9.9520472"/>
-    <nd ref="5749684969" lat="48.4234147" lon="9.9520873"/>
-    <nd ref="5749684964" lat="48.4233591" lon="9.9521302"/>
-    <nd ref="5749684971" lat="48.4233454" lon="9.9520901"/>
-    <nd ref="5749684978" lat="48.4234011" lon="9.9520472"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2010"/>
-  </way>
-  <way id="606428511">
-    <bounds minlat="48.4227840" minlon="9.9526215" maxlat="48.4228552" maxlon="9.9527073"/>
-    <nd ref="5749684987" lat="48.4228410" lon="9.9526215"/>
-    <nd ref="5749684985" lat="48.4228552" lon="9.9526644"/>
-    <nd ref="5749684970" lat="48.4227983" lon="9.9527073"/>
-    <nd ref="5749684967" lat="48.4227840" lon="9.9526644"/>
-    <nd ref="5749684987" lat="48.4228410" lon="9.9526215"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2010"/>
-  </way>
-  <way id="606428513">
-    <bounds minlat="48.4231213" minlon="9.9522604" maxlat="48.4231617" maxlon="9.9523264"/>
-    <nd ref="5749684984" lat="48.4231447" lon="9.9522604"/>
-    <nd ref="5749684993" lat="48.4231617" lon="9.9523070"/>
-    <nd ref="5749684982" lat="48.4231384" lon="9.9523264"/>
-    <nd ref="5749684965" lat="48.4231213" lon="9.9522798"/>
-    <nd ref="5749684984" lat="48.4231447" lon="9.9522604"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2010"/>
-  </way>
-  <way id="606774047">
-    <bounds minlat="48.4247149" minlon="9.9600881" maxlat="48.4248439" maxlon="9.9603576"/>
-    <nd ref="5752065510" lat="48.4247573" lon="9.9600881"/>
-    <nd ref="5752065508" lat="48.4248439" lon="9.9603219"/>
-    <nd ref="5752065509" lat="48.4248015" lon="9.9603576"/>
-    <nd ref="5752065511" lat="48.4247149" lon="9.9601238"/>
-    <nd ref="5752065510" lat="48.4247573" lon="9.9600881"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2012"/>
-  </way>
-  <way id="636253010">
-    <bounds minlat="48.4244440" minlon="9.9473536" maxlat="48.4247720" maxlon="9.9481528"/>
-    <nd ref="5999966489" lat="48.4247368" lon="9.9481528"/>
-    <nd ref="5999966488" lat="48.4244440" lon="9.9473835"/>
-    <nd ref="5999966486" lat="48.4244793" lon="9.9473536"/>
-    <nd ref="5999966383" lat="48.4247720" lon="9.9481228"/>
-    <nd ref="5999966487" lat="48.4247533" lon="9.9481387"/>
-    <nd ref="5999966489" lat="48.4247368" lon="9.9481528"/>
-    <tag k="building" v="roof"/>
-    <tag k="start_date" v="2016"/>
-  </way>
   <way id="639028574">
     <bounds minlat="48.4241198" minlon="9.9564814" maxlat="48.4245384" maxlon="9.9570738"/>
     <nd ref="6021868868" lat="48.4245384" lon="9.9568357"/>
@@ -3447,345 +704,6 @@
     <tag k="construction" v="yes"/>
     <tag k="name" v="M28"/>
   </way>
-  <way id="644457638">
-    <bounds minlat="48.4257786" minlon="9.9354692" maxlat="48.4259973" maxlon="9.9359923"/>
-    <nd ref="6060989222" lat="48.4259973" lon="9.9359359"/>
-    <nd ref="7233491802" lat="48.4259277" lon="9.9359796"/>
-    <nd ref="6060989221" lat="48.4259075" lon="9.9359923"/>
-    <nd ref="7233491803" lat="48.4257786" lon="9.9355261"/>
-    <nd ref="6060989219" lat="48.4258682" lon="9.9354692"/>
-    <nd ref="7233491799" lat="48.4258947" lon="9.9355650"/>
-    <nd ref="6060989222" lat="48.4259973" lon="9.9359359"/>
-    <tag k="building" v="commercial"/>
-    <tag k="fixme" v="exact shape"/>
-  </way>
-  <way id="674622196">
-    <bounds minlat="48.4279427" minlon="9.9571879" maxlat="48.4284109" maxlon="9.9580321"/>
-    <nd ref="6317875821" lat="48.4284109" lon="9.9573681"/>
-    <nd ref="6317875822" lat="48.4282172" lon="9.9580321"/>
-    <nd ref="6317875824" lat="48.4279427" lon="9.9578592"/>
-    <nd ref="6320348449" lat="48.4279482" lon="9.9578399"/>
-    <nd ref="5321872847" lat="48.4279529" lon="9.9578236"/>
-    <nd ref="601058185" lat="48.4279562" lon="9.9578069"/>
-    <nd ref="601058182" lat="48.4281825" lon="9.9579554"/>
-    <nd ref="601058183" lat="48.4281977" lon="9.9579058"/>
-    <nd ref="6317875802" lat="48.4282494" lon="9.9579166"/>
-    <nd ref="6317875807" lat="48.4282690" lon="9.9578468"/>
-    <nd ref="6317875808" lat="48.4282275" lon="9.9578013"/>
-    <nd ref="6317875809" lat="48.4282508" lon="9.9577185"/>
-    <nd ref="6317875806" lat="48.4283018" lon="9.9577293"/>
-    <nd ref="6317875805" lat="48.4283216" lon="9.9576585"/>
-    <nd ref="6317875810" lat="48.4282810" lon="9.9576148"/>
-    <nd ref="6317875811" lat="48.4283019" lon="9.9575342"/>
-    <nd ref="6317875804" lat="48.4283537" lon="9.9575441"/>
-    <nd ref="6317875801" lat="48.4283733" lon="9.9574736"/>
-    <nd ref="6317875800" lat="48.4283311" lon="9.9574286"/>
-    <nd ref="601058176" lat="48.4283452" lon="9.9573781"/>
-    <nd ref="601058174" lat="48.4281208" lon="9.9572305"/>
-    <nd ref="6320359673" lat="48.4281247" lon="9.9572174"/>
-    <nd ref="6317875823" lat="48.4281334" lon="9.9571879"/>
-    <nd ref="6317875821" lat="48.4284109" lon="9.9573681"/>
-    <tag k="building" v="roof"/>
-    <tag k="layer" v="1"/>
-  </way>
-  <way id="677096151">
-    <bounds minlat="48.4210621" minlon="9.9486901" maxlat="48.4211418" maxlon="9.9488110"/>
-    <nd ref="1187175363" lat="48.4210748" lon="9.9488110"/>
-    <nd ref="1187175409" lat="48.4210621" lon="9.9487768"/>
-    <nd ref="1187175505" lat="48.4211247" lon="9.9486901"/>
-    <nd ref="1187175397" lat="48.4211418" lon="9.9487196"/>
-    <nd ref="1187175363" lat="48.4210748" lon="9.9488110"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="building" v="university"/>
-    <tag k="building:levels" v="2"/>
-    <tag k="building:material" v="glass"/>
-    <tag k="building:min_level" v="1"/>
-    <tag k="layer" v="1"/>
-    <tag k="roof:colour" v="#C0C0C0"/>
-  </way>
-  <way id="685046657">
-    <bounds minlat="48.4256799" minlon="9.9549946" maxlat="48.4257619" maxlon="9.9552055"/>
-    <nd ref="6418901228" lat="48.4257406" lon="9.9549946"/>
-    <nd ref="6418901227" lat="48.4257619" lon="9.9551904"/>
-    <nd ref="6418901226" lat="48.4257012" lon="9.9552055"/>
-    <nd ref="6418901225" lat="48.4256799" lon="9.9550097"/>
-    <nd ref="6418901228" lat="48.4257406" lon="9.9549946"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="6"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="712167513">
-    <bounds minlat="48.4230983" minlon="9.9437825" maxlat="48.4233076" maxlon="9.9441793"/>
-    <nd ref="6696085191" lat="48.4231848" lon="9.9437825"/>
-    <nd ref="6696087185" lat="48.4230983" lon="9.9438574"/>
-    <nd ref="6696086891" lat="48.4232211" lon="9.9441793"/>
-    <nd ref="6696086987" lat="48.4233076" lon="9.9441044"/>
-    <nd ref="6696085191" lat="48.4231848" lon="9.9437825"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2019"/>
-  </way>
-  <way id="712167514">
-    <bounds minlat="48.4233163" minlon="9.9442791" maxlat="48.4236020" maxlon="9.9447600"/>
-    <nd ref="6696085193" lat="48.4234770" lon="9.9442791"/>
-    <nd ref="6696094487" lat="48.4234941" lon="9.9443271"/>
-    <nd ref="6696094486" lat="48.4235263" lon="9.9443007"/>
-    <nd ref="6696094485" lat="48.4235583" lon="9.9443891"/>
-    <nd ref="6696094585" lat="48.4235493" lon="9.9443965"/>
-    <nd ref="6696094385" lat="48.4235257" lon="9.9444157"/>
-    <nd ref="6696086892" lat="48.4236020" lon="9.9446298"/>
-    <nd ref="6696085192" lat="48.4234414" lon="9.9447600"/>
-    <nd ref="6696086988" lat="48.4233163" lon="9.9444093"/>
-    <nd ref="6770539775" lat="48.4234356" lon="9.9443127"/>
-    <nd ref="6696085193" lat="48.4234770" lon="9.9442791"/>
-    <tag k="beds" v="51"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:levels" v="4"/>
-    <tag k="name" v="Klinikhotel Recover"/>
-    <tag k="operator" v="RKU"/>
-    <tag k="rooms" v="51"/>
-    <tag k="start_date" v="2019"/>
-    <tag k="tourism" v="hotel"/>
-    <tag k="wheelchair" v="yes"/>
-  </way>
-  <way id="730882453">
-    <bounds minlat="48.4190256" minlon="9.9391474" maxlat="48.4191122" maxlon="9.9392528"/>
-    <nd ref="6845521423" lat="48.4191122" lon="9.9391489"/>
-    <nd ref="6845521422" lat="48.4191114" lon="9.9392528"/>
-    <nd ref="6845521421" lat="48.4190256" lon="9.9392513"/>
-    <nd ref="6845521420" lat="48.4190263" lon="9.9391474"/>
-    <nd ref="6845521423" lat="48.4191122" lon="9.9391489"/>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="54"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="751938204">
-    <bounds minlat="48.4216390" minlon="9.9498906" maxlat="48.4220360" maxlon="9.9504906"/>
-    <nd ref="7029171609" lat="48.4218835" lon="9.9498906"/>
-    <nd ref="7029171608" lat="48.4216390" lon="9.9501171"/>
-    <nd ref="7029171607" lat="48.4217915" lon="9.9504906"/>
-    <nd ref="7029171606" lat="48.4220360" lon="9.9502641"/>
-    <nd ref="7029171609" lat="48.4218835" lon="9.9498906"/>
-    <tag k="building" v="yes"/>
-    <tag k="note" v="Umriss geschätzt"/>
-    <tag k="start_date" v="2019"/>
-  </way>
-  <way id="761749719">
-    <bounds minlat="48.4237559" minlon="9.9443385" maxlat="48.4239286" maxlon="9.9447669"/>
-    <nd ref="7117193422" lat="48.4239083" lon="9.9447669"/>
-    <nd ref="7117185368" lat="48.4237559" lon="9.9443542"/>
-    <nd ref="7117185377" lat="48.4237769" lon="9.9443385"/>
-    <nd ref="7117185384" lat="48.4239286" lon="9.9447493"/>
-    <nd ref="7117193414" lat="48.4239187" lon="9.9447579"/>
-    <nd ref="7117193422" lat="48.4239083" lon="9.9447669"/>
-    <tag k="building" v="yes"/>
-    <tag k="start_date" v="2019"/>
-  </way>
-  <way id="761749723">
-    <bounds minlat="48.4237719" minlon="9.9456505" maxlat="48.4238692" maxlon="9.9457821"/>
-    <nd ref="7117193443" lat="48.4237984" lon="9.9457821"/>
-    <nd ref="7117193394" lat="48.4238692" lon="9.9457251"/>
-    <nd ref="7117193399" lat="48.4238427" lon="9.9456505"/>
-    <nd ref="7117193435" lat="48.4237719" lon="9.9457075"/>
-    <nd ref="7117193443" lat="48.4237984" lon="9.9457821"/>
-    <tag k="building" v="garages"/>
-  </way>
-  <way id="762922000">
-    <bounds minlat="48.4222375" minlon="9.9537308" maxlat="48.4224946" maxlon="9.9540108"/>
-    <nd ref="3367295269" lat="48.4222375" lon="9.9538316"/>
-    <nd ref="3367295274" lat="48.4222554" lon="9.9538768"/>
-    <nd ref="3367295278" lat="48.4222862" lon="9.9539620"/>
-    <nd ref="3367295281" lat="48.4223044" lon="9.9540108"/>
-    <nd ref="7128983117" lat="48.4223380" lon="9.9539844"/>
-    <nd ref="3367295293" lat="48.4223556" lon="9.9539706"/>
-    <nd ref="3367295295" lat="48.4223618" lon="9.9539870"/>
-    <nd ref="3761402641" lat="48.4223704" lon="9.9539797"/>
-    <nd ref="3367295304" lat="48.4223843" lon="9.9539679"/>
-    <nd ref="3761402652" lat="48.4223986" lon="9.9539557"/>
-    <nd ref="3367295315" lat="48.4224946" lon="9.9538742"/>
-    <nd ref="940404971" lat="48.4224560" lon="9.9538230"/>
-    <nd ref="3367295307" lat="48.4224370" lon="9.9537719"/>
-    <nd ref="7128983128" lat="48.4223879" lon="9.9538118"/>
-    <nd ref="7128983121" lat="48.4223593" lon="9.9537308"/>
-    <nd ref="3367295284" lat="48.4223252" lon="9.9537595"/>
-    <nd ref="3367295269" lat="48.4222375" lon="9.9538316"/>
-    <tag k="building" v="roof"/>
-  </way>
-  <way id="775327975">
-    <bounds minlat="48.4247415" minlon="9.9367424" maxlat="48.4252200" maxlon="9.9376399"/>
-    <nd ref="7233466582" lat="48.4249794" lon="9.9367424"/>
-    <nd ref="7233466581" lat="48.4252200" lon="9.9374583"/>
-    <nd ref="7233466580" lat="48.4249820" lon="9.9376399"/>
-    <nd ref="7233466579" lat="48.4247415" lon="9.9369240"/>
-    <nd ref="7233466582" lat="48.4249794" lon="9.9367424"/>
-    <tag k="building" v="office"/>
-    <tag k="note" v="Lage und Umriss geschätzt"/>
-  </way>
-  <way id="775327976">
-    <bounds minlat="48.4260004" minlon="9.9355352" maxlat="48.4261245" maxlon="9.9356706"/>
-    <nd ref="7233491789" lat="48.4260853" lon="9.9355382"/>
-    <nd ref="7233466583" lat="48.4260999" lon="9.9355352"/>
-    <nd ref="7233466584" lat="48.4261136" lon="9.9355437"/>
-    <nd ref="7233491785" lat="48.4261225" lon="9.9355612"/>
-    <nd ref="7233491786" lat="48.4261245" lon="9.9355832"/>
-    <nd ref="7233491787" lat="48.4261189" lon="9.9356037"/>
-    <nd ref="7233491788" lat="48.4261072" lon="9.9356173"/>
-    <nd ref="7233491790" lat="48.4260223" lon="9.9356706"/>
-    <nd ref="7233491794" lat="48.4260004" lon="9.9355915"/>
-    <nd ref="7233491789" lat="48.4260853" lon="9.9355382"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="775327977">
-    <bounds minlat="48.4259456" minlon="9.9355915" maxlat="48.4260410" maxlon="9.9357726"/>
-    <nd ref="7233491794" lat="48.4260004" lon="9.9355915"/>
-    <nd ref="7233491790" lat="48.4260223" lon="9.9356706"/>
-    <nd ref="7233491793" lat="48.4260410" lon="9.9357381"/>
-    <nd ref="7233491792" lat="48.4259862" lon="9.9357726"/>
-    <nd ref="7233491791" lat="48.4259456" lon="9.9356259"/>
-    <nd ref="7233491794" lat="48.4260004" lon="9.9355915"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="775327978">
-    <bounds minlat="48.4258682" minlon="9.9353387" maxlat="48.4261081" maxlon="9.9355650"/>
-    <nd ref="6060989219" lat="48.4258682" lon="9.9354692"/>
-    <nd ref="7233491797" lat="48.4260757" lon="9.9353387"/>
-    <nd ref="7233491798" lat="48.4261081" lon="9.9354556"/>
-    <nd ref="7233491795" lat="48.4259575" lon="9.9355502"/>
-    <nd ref="7233491796" lat="48.4259517" lon="9.9355291"/>
-    <nd ref="7233491799" lat="48.4258947" lon="9.9355650"/>
-    <nd ref="6060989219" lat="48.4258682" lon="9.9354692"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="775327979">
-    <bounds minlat="48.4259277" minlon="9.9359359" maxlat="48.4260442" maxlon="9.9361493"/>
-    <nd ref="7233491802" lat="48.4259277" lon="9.9359796"/>
-    <nd ref="6060989222" lat="48.4259973" lon="9.9359359"/>
-    <nd ref="7233491801" lat="48.4260442" lon="9.9361056"/>
-    <nd ref="7233491800" lat="48.4259746" lon="9.9361493"/>
-    <nd ref="7233491802" lat="48.4259277" lon="9.9359796"/>
-    <tag k="building" v="yes"/>
-  </way>
-  <way id="775331272">
-    <bounds minlat="48.4181546" minlon="9.9402573" maxlat="48.4188540" maxlon="9.9413308"/>
-    <nd ref="7233497762" lat="48.4185953" lon="9.9402573"/>
-    <nd ref="7233497761" lat="48.4188540" lon="9.9409651"/>
-    <nd ref="7233497760" lat="48.4184132" lon="9.9413308"/>
-    <nd ref="7233497759" lat="48.4181546" lon="9.9406229"/>
-    <nd ref="7233497762" lat="48.4185953" lon="9.9402573"/>
-    <tag k="building" v="construction"/>
-  </way>
-  <relation id="367880">
-    <bounds minlat="48.4222888" minlon="9.9483112" maxlat="48.4229543" maxlon="9.9493747"/>
-    <member type="way" ref="46787117" role="inner">
-      <nd lat="48.4228093" lon="9.9489543"/>
-      <nd lat="48.4227284" lon="9.9487445"/>
-      <nd lat="48.4225862" lon="9.9488690"/>
-      <nd lat="48.4226671" lon="9.9490788"/>
-      <nd lat="48.4228093" lon="9.9489543"/>
-    </member>
-    <member type="way" ref="46787116" role="outer">
-      <nd lat="48.4226619" lon="9.9483112"/>
-      <nd lat="48.4229044" lon="9.9489471"/>
-      <nd lat="48.4229543" lon="9.9490697"/>
-      <nd lat="48.4228705" lon="9.9491431"/>
-      <nd lat="48.4226059" lon="9.9493747"/>
-      <nd lat="48.4225355" lon="9.9491924"/>
-      <nd lat="48.4225267" lon="9.9491691"/>
-      <nd lat="48.4226304" lon="9.9490783"/>
-      <nd lat="48.4225702" lon="9.9489220"/>
-      <nd lat="48.4223686" lon="9.9490984"/>
-      <nd lat="48.4222888" lon="9.9488914"/>
-      <nd lat="48.4225253" lon="9.9486844"/>
-      <nd lat="48.4225614" lon="9.9487780"/>
-      <nd lat="48.4226392" lon="9.9487099"/>
-      <nd lat="48.4225300" lon="9.9484267"/>
-      <nd lat="48.4226619" lon="9.9483112"/>
-    </member>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="29"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="yes"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="name" v="Verwaltung Uniklinik Ulm"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="start_date" v="2001"/>
-    <tag k="type" v="multipolygon"/>
-  </relation>
-  <relation id="367881">
-    <bounds minlat="48.4217173" minlon="9.9495783" maxlat="48.4238443" maxlon="9.9527007"/>
-    <member type="way" ref="46787113" role="outer">
-      <nd lat="48.4219078" lon="9.9506010"/>
-      <nd lat="48.4222040" lon="9.9513956"/>
-      <nd lat="48.4223328" lon="9.9512865"/>
-      <nd lat="48.4220366" lon="9.9504920"/>
-      <nd lat="48.4222157" lon="9.9503404"/>
-      <nd lat="48.4225130" lon="9.9511340"/>
-      <nd lat="48.4226326" lon="9.9510328"/>
-      <nd lat="48.4223364" lon="9.9502382"/>
-      <nd lat="48.4225200" lon="9.9500828"/>
-      <nd lat="48.4228162" lon="9.9508773"/>
-      <nd lat="48.4229372" lon="9.9507749"/>
-      <nd lat="48.4226410" lon="9.9499803"/>
-      <nd lat="48.4228336" lon="9.9498173"/>
-      <nd lat="48.4231298" lon="9.9506118"/>
-      <nd lat="48.4232425" lon="9.9505164"/>
-      <nd lat="48.4229463" lon="9.9497219"/>
-      <nd lat="48.4231159" lon="9.9495783"/>
-      <nd lat="48.4235060" lon="9.9506288"/>
-      <nd lat="48.4238284" lon="9.9514914"/>
-      <nd lat="48.4238443" lon="9.9515340"/>
-      <nd lat="48.4224464" lon="9.9527007"/>
-      <nd lat="48.4217173" lon="9.9507623"/>
-      <nd lat="48.4219078" lon="9.9506010"/>
-    </member>
-    <member type="way" ref="46787119" role="inner">
-      <nd lat="48.4226669" lon="9.9515422"/>
-      <nd lat="48.4228800" lon="9.9521181"/>
-      <nd lat="48.4229996" lon="9.9520176"/>
-      <nd lat="48.4227865" lon="9.9514417"/>
-      <nd lat="48.4226669" lon="9.9515422"/>
-    </member>
-    <member type="way" ref="147144811" role="inner">
-      <nd lat="48.4223599" lon="9.9518080"/>
-      <nd lat="48.4225759" lon="9.9523932"/>
-      <nd lat="48.4227086" lon="9.9522820"/>
-      <nd lat="48.4224926" lon="9.9516968"/>
-      <nd lat="48.4223599" lon="9.9518080"/>
-    </member>
-    <member type="way" ref="147144812" role="inner">
-      <nd lat="48.4230164" lon="9.9513837"/>
-      <nd lat="48.4231655" lon="9.9517976"/>
-      <nd lat="48.4232905" lon="9.9516953"/>
-      <nd lat="48.4231414" lon="9.9512814"/>
-      <nd lat="48.4230164" lon="9.9513837"/>
-    </member>
-    <member type="way" ref="147144810" role="inner">
-      <nd lat="48.4232827" lon="9.9510368"/>
-      <nd lat="48.4234873" lon="9.9515966"/>
-      <nd lat="48.4236088" lon="9.9514958"/>
-      <nd lat="48.4234042" lon="9.9509360"/>
-      <nd lat="48.4232827" lon="9.9510368"/>
-    </member>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:country" v="DE"/>
-    <tag k="addr:housenumber" v="23"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Albert-Einstein-Allee"/>
-    <tag k="building" v="hospital"/>
-    <tag k="building:colour" v="#C0C0C0"/>
-    <tag k="building:levels" v="2"/>
-    <tag k="name" v="Chirurgie"/>
-    <tag k="roof:colour" v="#808080"/>
-    <tag k="source" v="http://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezVI/%C3%B6ffentlich/v-1/20120413_lageplan_kliniken_oe.pdf"/>
-    <tag k="start_date" v="2013"/>
-    <tag k="type" v="multipolygon"/>
-  </relation>
   <relation id="444096">
     <bounds minlat="48.4192979" minlon="9.9450846" maxlat="48.4206782" maxlon="9.9468918"/>
     <member type="way" ref="51818837" role="outer">
@@ -3852,37 +770,239 @@
     <tag k="building" v="university"/>
     <tag k="type" v="multipolygon"/>
   </relation>
-  <relation id="1958603">
-    <bounds minlat="48.4190296" minlon="9.9362515" maxlat="48.4196960" maxlon="9.9376429"/>
-    <member type="way" ref="144764659" role="outer">
-      <nd lat="48.4190363" lon="9.9362515"/>
-      <nd lat="48.4191350" lon="9.9362525"/>
-      <nd lat="48.4196960" lon="9.9362587"/>
-      <nd lat="48.4196956" lon="9.9362806"/>
-      <nd lat="48.4196925" lon="9.9369884"/>
-      <nd lat="48.4196893" lon="9.9376429"/>
-      <nd lat="48.4194101" lon="9.9376398"/>
-      <nd lat="48.4192608" lon="9.9376382"/>
-      <nd lat="48.4190296" lon="9.9376357"/>
-      <nd lat="48.4190363" lon="9.9362515"/>
+  <relation id="444113">
+    <bounds minlat="48.4187348" minlon="9.9441345" maxlat="48.4217940" maxlon="9.9490212"/>
+    <member type="node" ref="127498398" role="" lat="48.4206167" lon="9.9470045"/>
+    <member type="way" ref="51819209" role="">
+      <nd lat="48.4200728" lon="9.9441345"/>
+      <nd lat="48.4187929" lon="9.9452526"/>
+      <nd lat="48.4188420" lon="9.9453216"/>
+      <nd lat="48.4192034" lon="9.9458289"/>
+      <nd lat="48.4192222" lon="9.9458017"/>
+      <nd lat="48.4192416" lon="9.9457737"/>
+      <nd lat="48.4189507" lon="9.9453536"/>
+      <nd lat="48.4189145" lon="9.9454097"/>
+      <nd lat="48.4188613" lon="9.9453358"/>
+      <nd lat="48.4191727" lon="9.9450568"/>
+      <nd lat="48.4192038" lon="9.9451272"/>
+      <nd lat="48.4194623" lon="9.9449035"/>
+      <nd lat="48.4195247" lon="9.9450618"/>
+      <nd lat="48.4193619" lon="9.9452029"/>
+      <nd lat="48.4194997" lon="9.9455675"/>
+      <nd lat="48.4196102" lon="9.9454713"/>
+      <nd lat="48.4196685" lon="9.9454205"/>
+      <nd lat="48.4195686" lon="9.9451488"/>
+      <nd lat="48.4195739" lon="9.9451396"/>
+      <nd lat="48.4195882" lon="9.9451290"/>
+      <nd lat="48.4195232" lon="9.9449605"/>
+      <nd lat="48.4194919" lon="9.9448708"/>
+      <nd lat="48.4197486" lon="9.9446550"/>
+      <nd lat="48.4199466" lon="9.9451724"/>
+      <nd lat="48.4200033" lon="9.9451115"/>
+      <nd lat="48.4198051" lon="9.9445974"/>
+      <nd lat="48.4197838" lon="9.9445363"/>
+      <nd lat="48.4201158" lon="9.9442598"/>
+      <nd lat="48.4200728" lon="9.9441345"/>
     </member>
-    <member type="way" ref="144764665" role="inner">
-      <nd lat="48.4191894" lon="9.9364026"/>
-      <nd lat="48.4191882" lon="9.9366407"/>
-      <nd lat="48.4195246" lon="9.9366443"/>
-      <nd lat="48.4195257" lon="9.9364063"/>
-      <nd lat="48.4191894" lon="9.9364026"/>
+    <member type="way" ref="179943586" role="">
+      <nd lat="48.4201396" lon="9.9443343"/>
+      <nd lat="48.4199774" lon="9.9444602"/>
+      <nd lat="48.4199510" lon="9.9444808"/>
+      <nd lat="48.4199783" lon="9.9445608"/>
+      <nd lat="48.4200051" lon="9.9446391"/>
+      <nd lat="48.4201937" lon="9.9444927"/>
+      <nd lat="48.4201396" lon="9.9443343"/>
     </member>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="16"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Lise-Meitner-Straße"/>
-    <tag k="building" v="office"/>
-    <tag k="building:levels" v="1"/>
-    <tag k="name" v="LTG Ulm GmbH"/>
-    <tag k="start_date" v="2012"/>
-    <tag k="type" v="multipolygon"/>
-    <tag k="url" v="http://www.bmgmis.de"/>
+    <member type="way" ref="51818837" role="">
+      <nd lat="48.4204093" lon="9.9450846"/>
+      <nd lat="48.4205402" lon="9.9454373"/>
+      <nd lat="48.4206782" lon="9.9457578"/>
+      <nd lat="48.4202868" lon="9.9460944"/>
+      <nd lat="48.4202647" lon="9.9461135"/>
+      <nd lat="48.4197271" lon="9.9465758"/>
+      <nd lat="48.4192979" lon="9.9459732"/>
+      <nd lat="48.4193439" lon="9.9459071"/>
+      <nd lat="48.4196668" lon="9.9463485"/>
+      <nd lat="48.4196692" lon="9.9463151"/>
+      <nd lat="48.4196769" lon="9.9462691"/>
+      <nd lat="48.4196900" lon="9.9462450"/>
+      <nd lat="48.4197119" lon="9.9462181"/>
+      <nd lat="48.4197299" lon="9.9462044"/>
+      <nd lat="48.4197473" lon="9.9461912"/>
+      <nd lat="48.4197715" lon="9.9461826"/>
+      <nd lat="48.4197976" lon="9.9461862"/>
+      <nd lat="48.4198151" lon="9.9461967"/>
+      <nd lat="48.4198323" lon="9.9462057"/>
+      <nd lat="48.4198142" lon="9.9462756"/>
+      <nd lat="48.4198614" lon="9.9463405"/>
+      <nd lat="48.4199278" lon="9.9462853"/>
+      <nd lat="48.4197032" lon="9.9457026"/>
+      <nd lat="48.4197704" lon="9.9456380"/>
+      <nd lat="48.4199721" lon="9.9461609"/>
+      <nd lat="48.4202726" lon="9.9458894"/>
+      <nd lat="48.4202070" lon="9.9457230"/>
+      <nd lat="48.4200663" lon="9.9453658"/>
+      <nd lat="48.4204093" lon="9.9450846"/>
+    </member>
+    <member type="way" ref="51818809" role="">
+      <nd lat="48.4203131" lon="9.9473866"/>
+      <nd lat="48.4206057" lon="9.9471295"/>
+      <nd lat="48.4206272" lon="9.9471105"/>
+      <nd lat="48.4210512" lon="9.9467394"/>
+      <nd lat="48.4210085" lon="9.9466328"/>
+      <nd lat="48.4209939" lon="9.9466417"/>
+      <nd lat="48.4207810" lon="9.9460655"/>
+      <nd lat="48.4207116" lon="9.9461236"/>
+      <nd lat="48.4208995" lon="9.9466298"/>
+      <nd lat="48.4206133" lon="9.9468731"/>
+      <nd lat="48.4204151" lon="9.9463687"/>
+      <nd lat="48.4203942" lon="9.9463877"/>
+      <nd lat="48.4201093" lon="9.9466312"/>
+      <nd lat="48.4202248" lon="9.9469298"/>
+      <nd lat="48.4204464" lon="9.9467440"/>
+      <nd lat="48.4205261" lon="9.9469432"/>
+      <nd lat="48.4203026" lon="9.9471398"/>
+      <nd lat="48.4203257" lon="9.9472047"/>
+      <nd lat="48.4202782" lon="9.9472541"/>
+      <nd lat="48.4202425" lon="9.9472032"/>
+      <nd lat="48.4202532" lon="9.9471886"/>
+      <nd lat="48.4199270" lon="9.9467223"/>
+      <nd lat="48.4198753" lon="9.9467859"/>
+      <nd lat="48.4203131" lon="9.9473866"/>
+    </member>
+    <member type="way" ref="229975651" role="">
+      <nd lat="48.4213882" lon="9.9476473"/>
+      <nd lat="48.4208775" lon="9.9480781"/>
+      <nd lat="48.4208705" lon="9.9480589"/>
+      <nd lat="48.4208238" lon="9.9481057"/>
+      <nd lat="48.4203907" lon="9.9475237"/>
+      <nd lat="48.4204295" lon="9.9474726"/>
+      <nd lat="48.4204554" lon="9.9475044"/>
+      <nd lat="48.4204671" lon="9.9474962"/>
+      <nd lat="48.4207738" lon="9.9479398"/>
+      <nd lat="48.4207653" lon="9.9479537"/>
+      <nd lat="48.4207984" lon="9.9480051"/>
+      <nd lat="48.4208505" lon="9.9479489"/>
+      <nd lat="48.4208300" lon="9.9478975"/>
+      <nd lat="48.4208211" lon="9.9478975"/>
+      <nd lat="48.4206265" lon="9.9473886"/>
+      <nd lat="48.4206807" lon="9.9473377"/>
+      <nd lat="48.4206968" lon="9.9473177"/>
+      <nd lat="48.4208940" lon="9.9478286"/>
+      <nd lat="48.4211653" lon="9.9475955"/>
+      <nd lat="48.4211732" lon="9.9476133"/>
+      <nd lat="48.4212127" lon="9.9475769"/>
+      <nd lat="48.4212352" lon="9.9476310"/>
+      <nd lat="48.4213251" lon="9.9475521"/>
+      <nd lat="48.4212661" lon="9.9474081"/>
+      <nd lat="48.4211741" lon="9.9474843"/>
+      <nd lat="48.4210148" lon="9.9470574"/>
+      <nd lat="48.4211305" lon="9.9469593"/>
+      <nd lat="48.4213882" lon="9.9476473"/>
+    </member>
+    <member type="way" ref="46731574" role="">
+      <nd lat="48.4217940" lon="9.9487431"/>
+      <nd lat="48.4215773" lon="9.9481605"/>
+      <nd lat="48.4212756" lon="9.9484152"/>
+      <nd lat="48.4212473" lon="9.9484394"/>
+      <nd lat="48.4213088" lon="9.9486027"/>
+      <nd lat="48.4213255" lon="9.9486468"/>
+      <nd lat="48.4214647" lon="9.9490212"/>
+      <nd lat="48.4217940" lon="9.9487431"/>
+    </member>
+    <member type="way" ref="677096151" role="">
+      <nd lat="48.4210748" lon="9.9488110"/>
+      <nd lat="48.4210621" lon="9.9487768"/>
+      <nd lat="48.4211247" lon="9.9486901"/>
+      <nd lat="48.4211418" lon="9.9487196"/>
+      <nd lat="48.4210748" lon="9.9488110"/>
+    </member>
+    <member type="way" ref="51819602" role="">
+      <nd lat="48.4210748" lon="9.9488110"/>
+      <nd lat="48.4211054" lon="9.9488933"/>
+      <nd lat="48.4210054" lon="9.9489779"/>
+      <nd lat="48.4209958" lon="9.9489523"/>
+      <nd lat="48.4209194" lon="9.9490169"/>
+      <nd lat="48.4208867" lon="9.9489291"/>
+      <nd lat="48.4209672" lon="9.9488609"/>
+      <nd lat="48.4209536" lon="9.9488243"/>
+      <nd lat="48.4210496" lon="9.9487432"/>
+      <nd lat="48.4210621" lon="9.9487768"/>
+      <nd lat="48.4210748" lon="9.9488110"/>
+    </member>
+    <member type="way" ref="66767258" role="">
+      <nd lat="48.4194626" lon="9.9466832"/>
+      <nd lat="48.4194311" lon="9.9466189"/>
+      <nd lat="48.4193985" lon="9.9466626"/>
+      <nd lat="48.4193876" lon="9.9467155"/>
+      <nd lat="48.4193876" lon="9.9467737"/>
+      <nd lat="48.4193960" lon="9.9468140"/>
+      <nd lat="48.4194169" lon="9.9468569"/>
+      <nd lat="48.4194356" lon="9.9468757"/>
+      <nd lat="48.4194640" lon="9.9468887"/>
+      <nd lat="48.4194904" lon="9.9468918"/>
+      <nd lat="48.4195149" lon="9.9468898"/>
+      <nd lat="48.4195484" lon="9.9468739"/>
+      <nd lat="48.4195738" lon="9.9468448"/>
+      <nd lat="48.4195880" lon="9.9468081"/>
+      <nd lat="48.4195982" lon="9.9467489"/>
+      <nd lat="48.4195955" lon="9.9467045"/>
+      <nd lat="48.4195867" lon="9.9466738"/>
+      <nd lat="48.4195571" lon="9.9466311"/>
+      <nd lat="48.4196372" lon="9.9465531"/>
+      <nd lat="48.4196219" lon="9.9465316"/>
+      <nd lat="48.4194626" lon="9.9466832"/>
+    </member>
+    <member type="way" ref="76823477" role="">
+      <nd lat="48.4192034" lon="9.9458289"/>
+      <nd lat="48.4188420" lon="9.9453216"/>
+      <nd lat="48.4187929" lon="9.9452526"/>
+      <nd lat="48.4187705" lon="9.9452213"/>
+      <nd lat="48.4187348" lon="9.9452791"/>
+      <nd lat="48.4196219" lon="9.9465316"/>
+      <nd lat="48.4196372" lon="9.9465531"/>
+      <nd lat="48.4203335" lon="9.9475520"/>
+      <nd lat="48.4208625" lon="9.9483189"/>
+      <nd lat="48.4211247" lon="9.9486901"/>
+      <nd lat="48.4211418" lon="9.9487196"/>
+      <nd lat="48.4211976" lon="9.9488005"/>
+      <nd lat="48.4212199" lon="9.9487727"/>
+      <nd lat="48.4212390" lon="9.9487408"/>
+      <nd lat="48.4212318" lon="9.9487304"/>
+      <nd lat="48.4212021" lon="9.9486942"/>
+      <nd lat="48.4208989" lon="9.9482601"/>
+      <nd lat="48.4208080" lon="9.9481214"/>
+      <nd lat="48.4208238" lon="9.9481057"/>
+      <nd lat="48.4203907" lon="9.9475237"/>
+      <nd lat="48.4203848" lon="9.9474885"/>
+      <nd lat="48.4203131" lon="9.9473866"/>
+      <nd lat="48.4198753" lon="9.9467859"/>
+      <nd lat="48.4198114" lon="9.9466850"/>
+      <nd lat="48.4197271" lon="9.9465758"/>
+      <nd lat="48.4192979" lon="9.9459732"/>
+      <nd lat="48.4192034" lon="9.9458289"/>
+    </member>
+    <member type="way" ref="155799508" role="">
+      <nd lat="48.4206272" lon="9.9471105"/>
+      <nd lat="48.4206705" lon="9.9472311"/>
+      <nd lat="48.4206968" lon="9.9473177"/>
+      <nd lat="48.4206807" lon="9.9473377"/>
+      <nd lat="48.4206497" lon="9.9472479"/>
+      <nd lat="48.4206057" lon="9.9471295"/>
+      <nd lat="48.4206272" lon="9.9471105"/>
+    </member>
+    <member type="way" ref="155799510" role="">
+      <nd lat="48.4202868" lon="9.9460944"/>
+      <nd lat="48.4203424" lon="9.9462264"/>
+      <nd lat="48.4204151" lon="9.9463687"/>
+      <nd lat="48.4203942" lon="9.9463877"/>
+      <nd lat="48.4203184" lon="9.9462442"/>
+      <nd lat="48.4202647" lon="9.9461135"/>
+      <nd lat="48.4202868" lon="9.9460944"/>
+    </member>
+    <tag k="name" v="Uni-West"/>
+    <tag k="site" v="university"/>
+    <tag k="type" v="site"/>
   </relation>
   <relation id="2085572">
     <bounds minlat="48.4219353" minlon="9.9545904" maxlat="48.4221746" maxlon="9.9549416"/>
@@ -3929,208 +1049,6 @@
     <tag k="roof:shape" v="gabled"/>
     <tag k="type" v="multipolygon"/>
   </relation>
-  <relation id="2598285">
-    <bounds minlat="48.4184359" minlon="9.9430633" maxlat="48.4189869" maxlon="9.9438616"/>
-    <member type="way" ref="192223606" role="outer">
-      <nd lat="48.4189869" lon="9.9435495"/>
-      <nd lat="48.4186162" lon="9.9438616"/>
-      <nd lat="48.4184359" lon="9.9433754"/>
-      <nd lat="48.4188065" lon="9.9430633"/>
-      <nd lat="48.4189869" lon="9.9435495"/>
-    </member>
-    <member type="way" ref="192942193" role="inner">
-      <nd lat="48.4187554" lon="9.9433122"/>
-      <nd lat="48.4185837" lon="9.9434573"/>
-      <nd lat="48.4186467" lon="9.9436265"/>
-      <nd lat="48.4188184" lon="9.9434814"/>
-      <nd lat="48.4187554" lon="9.9433122"/>
-    </member>
-    <tag k="addr:housenumber" v="3"/>
-    <tag k="addr:street" v="Manfred-Börner-Straße"/>
-    <tag k="building" v="dormitory"/>
-    <tag k="start_date" v="2013"/>
-    <tag k="type" v="multipolygon"/>
-  </relation>
-  <relation id="2598286">
-    <bounds minlat="48.4190929" minlon="9.9425094" maxlat="48.4196439" maxlon="9.9433078"/>
-    <member type="way" ref="192223607" role="outer">
-      <nd lat="48.4196439" lon="9.9429956"/>
-      <nd lat="48.4192733" lon="9.9433078"/>
-      <nd lat="48.4190929" lon="9.9428216"/>
-      <nd lat="48.4194636" lon="9.9425094"/>
-      <nd lat="48.4196439" lon="9.9429956"/>
-    </member>
-    <member type="way" ref="192942192" role="inner">
-      <nd lat="48.4194536" lon="9.9427285"/>
-      <nd lat="48.4192834" lon="9.9428755"/>
-      <nd lat="48.4193464" lon="9.9430412"/>
-      <nd lat="48.4195167" lon="9.9428943"/>
-      <nd lat="48.4194536" lon="9.9427285"/>
-    </member>
-    <tag k="addr:housenumber" v="1"/>
-    <tag k="addr:street" v="Manfred-Börner-Straße"/>
-    <tag k="building" v="dormitory"/>
-    <tag k="start_date" v="2013"/>
-    <tag k="type" v="multipolygon"/>
-  </relation>
-  <relation id="4078966">
-    <bounds minlat="48.4261956" minlon="9.9595593" maxlat="48.4266466" maxlon="9.9602974"/>
-    <member type="way" ref="305661919" role="outer">
-      <nd lat="48.4265135" lon="9.9595593"/>
-      <nd lat="48.4261956" lon="9.9598339"/>
-      <nd lat="48.4262040" lon="9.9600471"/>
-      <nd lat="48.4262139" lon="9.9602974"/>
-      <nd lat="48.4266466" lon="9.9599199"/>
-      <nd lat="48.4265135" lon="9.9595593"/>
-    </member>
-    <member type="way" ref="305825448" role="inner">
-      <nd lat="48.4265307" lon="9.9598003"/>
-      <nd lat="48.4265004" lon="9.9597176"/>
-      <nd lat="48.4262740" lon="9.9599086"/>
-      <nd lat="48.4263044" lon="9.9599913"/>
-      <nd lat="48.4265307" lon="9.9598003"/>
-    </member>
-    <tag k="addr:city" v="Ulm"/>
-    <tag k="addr:housenumber" v="11"/>
-    <tag k="addr:postcode" v="89081"/>
-    <tag k="addr:street" v="Helmholtzstraße"/>
-    <tag k="amenity" v="research_institute"/>
-    <tag k="building" v="yes"/>
-    <tag k="contact:phone" v="+49 731 50 34001"/>
-    <tag k="contact:website" v="http://www.hiu-batteries.de"/>
-    <tag k="name" v="Helmholtz Institut Ulm"/>
-    <tag k="name:en" v="Helmholtz Institute Ulm"/>
-    <tag k="office" v="research"/>
-    <tag k="short_name" v="HIU"/>
-    <tag k="start_date" v="2013"/>
-    <tag k="type" v="multipolygon"/>
-  </relation>
-  <relation id="5378158">
-    <bounds minlat="48.4208543" minlon="9.9519772" maxlat="48.4225691" maxlon="9.9546144"/>
-    <member type="way" ref="329782189" role="outer">
-      <nd lat="48.4222375" lon="9.9538316"/>
-      <nd lat="48.4220709" lon="9.9539561"/>
-      <nd lat="48.4220715" lon="9.9539884"/>
-      <nd lat="48.4220220" lon="9.9540314"/>
-      <nd lat="48.4219984" lon="9.9540295"/>
-      <nd lat="48.4218684" lon="9.9541415"/>
-      <nd lat="48.4219377" lon="9.9543188"/>
-      <nd lat="48.4217631" lon="9.9544663"/>
-      <nd lat="48.4216672" lon="9.9542400"/>
-      <nd lat="48.4216918" lon="9.9542110"/>
-      <nd lat="48.4216742" lon="9.9541793"/>
-      <nd lat="48.4215656" lon="9.9542823"/>
-      <nd lat="48.4215992" lon="9.9543647"/>
-      <nd lat="48.4216346" lon="9.9543386"/>
-      <nd lat="48.4216614" lon="9.9544288"/>
-      <nd lat="48.4216763" lon="9.9544290"/>
-      <nd lat="48.4217127" lon="9.9545122"/>
-      <nd lat="48.4215851" lon="9.9546144"/>
-      <nd lat="48.4215071" lon="9.9543965"/>
-      <nd lat="48.4215393" lon="9.9543610"/>
-      <nd lat="48.4215306" lon="9.9543125"/>
-      <nd lat="48.4214934" lon="9.9543367"/>
-      <nd lat="48.4214114" lon="9.9540975"/>
-      <nd lat="48.4215323" lon="9.9539972"/>
-      <nd lat="48.4215201" lon="9.9539549"/>
-      <nd lat="48.4214903" lon="9.9539734"/>
-      <nd lat="48.4213166" lon="9.9535206"/>
-      <nd lat="48.4212996" lon="9.9534760"/>
-      <nd lat="48.4210120" lon="9.9536989"/>
-      <nd lat="48.4209419" lon="9.9536857"/>
-      <nd lat="48.4209244" lon="9.9537596"/>
-      <nd lat="48.4208859" lon="9.9537464"/>
-      <nd lat="48.4209016" lon="9.9536381"/>
-      <nd lat="48.4208543" lon="9.9535299"/>
-      <nd lat="48.4210803" lon="9.9533451"/>
-      <nd lat="48.4211048" lon="9.9532738"/>
-      <nd lat="48.4211662" lon="9.9529175"/>
-      <nd lat="48.4211977" lon="9.9529095"/>
-      <nd lat="48.4212047" lon="9.9528699"/>
-      <nd lat="48.4211784" lon="9.9528277"/>
-      <nd lat="48.4210120" lon="9.9524053"/>
-      <nd lat="48.4210716" lon="9.9523604"/>
-      <nd lat="48.4210926" lon="9.9523684"/>
-      <nd lat="48.4211381" lon="9.9520885"/>
-      <nd lat="48.4211662" lon="9.9521044"/>
-      <nd lat="48.4211312" lon="9.9523195"/>
-      <nd lat="48.4211819" lon="9.9523684"/>
-      <nd lat="48.4211679" lon="9.9524502"/>
-      <nd lat="48.4212345" lon="9.9524634"/>
-      <nd lat="48.4213554" lon="9.9527987"/>
-      <nd lat="48.4213501" lon="9.9528541"/>
-      <nd lat="48.4213834" lon="9.9529333"/>
-      <nd lat="48.4217655" lon="9.9526120"/>
-      <nd lat="48.4217065" lon="9.9524234"/>
-      <nd lat="48.4216708" lon="9.9523202"/>
-      <nd lat="48.4216210" lon="9.9522386"/>
-      <nd lat="48.4214786" lon="9.9520332"/>
-      <nd lat="48.4215071" lon="9.9519772"/>
-      <nd lat="48.4216470" lon="9.9521975"/>
-      <nd lat="48.4216706" lon="9.9522031"/>
-      <nd lat="48.4216888" lon="9.9522343"/>
-      <nd lat="48.4217015" lon="9.9522740"/>
-      <nd lat="48.4216958" lon="9.9522970"/>
-      <nd lat="48.4217107" lon="9.9523334"/>
-      <nd lat="48.4217375" lon="9.9523991"/>
-      <nd lat="48.4220596" lon="9.9521340"/>
-      <nd lat="48.4222218" lon="9.9525839"/>
-      <nd lat="48.4223554" lon="9.9524776"/>
-      <nd lat="48.4223861" lon="9.9525566"/>
-      <nd lat="48.4222441" lon="9.9526754"/>
-      <nd lat="48.4223019" lon="9.9528537"/>
-      <nd lat="48.4222716" lon="9.9528774"/>
-      <nd lat="48.4221717" lon="9.9529623"/>
-      <nd lat="48.4221388" lon="9.9529871"/>
-      <nd lat="48.4223098" lon="9.9534220"/>
-      <nd lat="48.4223903" lon="9.9533525"/>
-      <nd lat="48.4224889" lon="9.9532587"/>
-      <nd lat="48.4225220" lon="9.9533475"/>
-      <nd lat="48.4225588" lon="9.9534465"/>
-      <nd lat="48.4225691" lon="9.9534741"/>
-      <nd lat="48.4224481" lon="9.9535684"/>
-      <nd lat="48.4224432" lon="9.9536226"/>
-      <nd lat="48.4224618" lon="9.9536431"/>
-      <nd lat="48.4224518" lon="9.9537588"/>
-      <nd lat="48.4224370" lon="9.9537719"/>
-      <nd lat="48.4223879" lon="9.9538118"/>
-      <nd lat="48.4223593" lon="9.9537308"/>
-      <nd lat="48.4223252" lon="9.9537595"/>
-      <nd lat="48.4222375" lon="9.9538316"/>
-    </member>
-    <member type="way" ref="361244062" role="inner">
-      <nd lat="48.4220942" lon="9.9534838"/>
-      <nd lat="48.4219496" lon="9.9536208"/>
-      <nd lat="48.4219068" lon="9.9535967"/>
-      <nd lat="48.4218484" lon="9.9534745"/>
-      <nd lat="48.4218104" lon="9.9534536"/>
-      <nd lat="48.4217841" lon="9.9534730"/>
-      <nd lat="48.4217330" lon="9.9534646"/>
-      <nd lat="48.4217120" lon="9.9534194"/>
-      <nd lat="48.4216273" lon="9.9534932"/>
-      <nd lat="48.4215448" lon="9.9532691"/>
-      <nd lat="48.4219000" lon="9.9529578"/>
-      <nd lat="48.4220942" lon="9.9534838"/>
-    </member>
-    <member type="way" ref="361244063" role="inner">
-      <nd lat="48.4218411" lon="9.9537217"/>
-      <nd lat="48.4217688" lon="9.9537921"/>
-      <nd lat="48.4217220" lon="9.9537767"/>
-      <nd lat="48.4216914" lon="9.9536842"/>
-      <nd lat="48.4217038" lon="9.9536655"/>
-      <nd lat="48.4217469" lon="9.9536864"/>
-      <nd lat="48.4217607" lon="9.9537206"/>
-      <nd lat="48.4218104" lon="9.9537294"/>
-      <nd lat="48.4218257" lon="9.9537140"/>
-      <nd lat="48.4218411" lon="9.9537217"/>
-    </member>
-    <tag k="building" v="hospital"/>
-    <tag k="building:levels" v="5"/>
-    <tag k="name" v="Medizinische Klinik"/>
-    <tag k="roof:levels" v="1"/>
-    <tag k="type" v="multipolygon"/>
-    <tag k="wheelchair" v="yes"/>
-  </relation>
   <relation id="5523241">
     <bounds minlat="48.4225876" minlon="9.9567519" maxlat="48.4232350" maxlon="9.9577154"/>
     <member type="way" ref="323480823" role="outer">
@@ -4164,7 +1082,7 @@
       <nd lat="48.4227882" lon="9.9568200"/>
       <nd lat="48.4227982" lon="9.9568115"/>
       <nd lat="48.4228080" lon="9.9568031"/>
-      <nd lat="48.4228148" lon="9.9567973"/>
+      <nd lat="48.4228142" lon="9.9567979"/>
       <nd lat="48.4228263" lon="9.9567876"/>
       <nd lat="48.4228542" lon="9.9567638"/>
       <nd lat="48.4228682" lon="9.9567519"/>
@@ -4353,7 +1271,7 @@
     <tag k="alt_name:en" v="Faculty of Science"/>
     <tag k="building" v="yes"/>
     <tag k="name" v="N27"/>
-    <tag k="operator" v="Univeristät Ulm"/>
+    <tag k="operator" v="Universität Ulm"/>
     <tag k="type" v="multipolygon"/>
   </relation>
 

@@ -1,8 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
+<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-08T13:24:03Z" areas="2020-10-08T12:19:02Z"/>
+<meta osm_base="2020-10-13T19:41:03Z" areas="2020-10-13T18:58:02Z"/>
 
+  <node id="927939191" lat="48.4228246" lon="9.9534152">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Cafeteria B"/>
+    <tag k="opening_hours" v="Mo-Fr 08:45 - 14:00"/>
+    <tag k="operator" v="Studentenwerk Ulm"/>
+    <tag k="smoking:outside" v="yes"/>
+    <tag k="website" v="http://www.studentenwerk-ulm.de/hochschulgastronomie/mensen-und-cafeterien.html#c124945"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="938360746" lat="48.4222863" lon="9.9553225">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="1148284443" lat="48.4231591" lon="9.9580531">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="1148284747" lat="48.4234943" lon="9.9568376">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="1302605249" lat="48.4217944" lon="9.9555572">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="building"/>
+    <tag k="capacity" v="80"/>
+    <tag k="covered" v="yes"/>
+    <tag k="level" v="1"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-21:00"/>
+  </node>
+  <node id="1302605253" lat="48.4220216" lon="9.9554160">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="diet:vegan" v="no"/>
+    <tag k="diet:vegetarian" v="yes"/>
+    <tag k="level" v="3"/>
+    <tag k="name" v="Uni Bistro"/>
+    <tag k="opening_hours" v="Mo-Th 11:00-18:30; Fr 11:00-14:00"/>
+    <tag k="operator" v="Studentenwerk Ulm"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="smoking" v="no"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://www.studentenwerk-ulm.de/hochschulgastronomie/mensen-und-cafeterien.html#c124945"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1532782378" lat="48.4222740" lon="9.9558558">
+    <tag k="amenity" v="cafe"/>
+    <tag k="diet:vegetarian" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Southside"/>
+    <tag k="opening_hours" v="Mo-Th 07:30-18:00; Fr 07:30-17:00"/>
+    <tag k="operator" v="Studentenwerk Ulm"/>
+    <tag k="smoking" v="no"/>
+    <tag k="website" v="http://www.studentenwerk-ulm.de/hochschulgastronomie/mensen-und-cafeterien.html#c124945"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1676624253" lat="48.4226630" lon="9.9550150">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="6"/>
+  </node>
+  <node id="2078702665" lat="48.4228639" lon="9.9541440">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="24"/>
+    <tag k="covered" v="yes"/>
+    <tag k="operator" v="Universität Ulm"/>
+  </node>
+  <node id="2390487847" lat="48.4217719" lon="9.9554571">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="1"/>
+    <tag k="operator" v="StuVe"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="payment:notes" v="no"/>
+    <tag k="vending" v="bicycle_tube"/>
+  </node>
+  <node id="2992347606" lat="48.4232580" lon="9.9535898">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="operator" v="Universität Ulm"/>
+  </node>
   <node id="3363091681" lat="48.4229703" lon="9.9573677">
     <tag k="amenity" v="vending_machine"/>
     <tag k="currency" v="EUR"/>
@@ -21,6 +105,126 @@
     <tag k="payment:coins" v="yes"/>
     <tag k="vending" v="drinks"/>
   </node>
+  <node id="3363210079" lat="48.4224367" lon="9.9558606">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Flaschenrücknahme"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purse" v="yes"/>
+    <tag k="ref" v="710063"/>
+    <tag k="vending" v="bottle_return"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3363210080" lat="48.4224321" lon="9.9558469">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Colaautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="710040"/>
+    <tag k="vending" v="drinks"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3363210081" lat="48.4224266" lon="9.9558358">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency" v="EUR"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Kaffeautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="710058"/>
+    <tag k="vending" v="coffee"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3363210082" lat="48.4224442" lon="9.9558777">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Snackautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="vending" v="food"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3363210083" lat="48.4222106" lon="9.9555465">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Colaautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purse" v="yes"/>
+    <tag k="ref" v="710066"/>
+    <tag k="vending" v="drinks"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3363210084" lat="48.4222162" lon="9.9555628">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Eisautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="vending" v="ice_cream"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3366908627" lat="48.4229086" lon="9.9562908">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3366908634" lat="48.4232686" lon="9.9575286">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3367196700" lat="48.4230034" lon="9.9577289">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="1"/>
+  </node>
+  <node id="3367196702" lat="48.4230780" lon="9.9576639">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3367196745" lat="48.4252803" lon="9.9630996">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3367196746" lat="48.4252845" lon="9.9622802">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3367196754" lat="48.4253816" lon="9.9634828">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3367196774" lat="48.4255633" lon="9.9632705">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3367196896" lat="48.4258104" lon="9.9631381">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3367291721" lat="48.4231908" lon="9.9548383">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Eingang Ost"/>
+  </node>
+  <node id="3367295304" lat="48.4223843" lon="9.9539679">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3367295350" lat="48.4226424" lon="9.9546739">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3367295372" lat="48.4226843" lon="9.9548847">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3367295445" lat="48.4232372" lon="9.9548027">
+    <tag k="access" v="no"/>
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3367295463" lat="48.4237114" lon="9.9571178">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
   <node id="3756305999" lat="48.4226687" lon="9.9574259">
     <tag k="entrance" v="yes"/>
     <tag k="level" v="1"/>
@@ -28,6 +232,14 @@
   <node id="3756306010" lat="48.4231304" lon="9.9570533">
     <tag k="entrance" v="yes"/>
     <tag k="level" v="2"/>
+  </node>
+  <node id="3758585356" lat="48.4228322" lon="9.9561688">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3758585358" lat="48.4226305" lon="9.9568095">
+    <tag k="entrance" v="yes"/>
+    <tag k="name" v="Rampe A"/>
   </node>
   <node id="3759189664" lat="48.4231487" lon="9.9570035">
     <tag k="amenity" v="bicycle_parking"/>
@@ -37,10 +249,472 @@
     <tag k="level" v="2"/>
     <tag k="operator" v="Universität Ulm"/>
   </node>
-  <node id="3777207336" lat="48.4228984" lon="9.9575264">
-    <tag k="entrance" v="emergency"/>
+  <node id="3759189668" lat="48.4233182" lon="9.9569070">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="operator" v="Universität Ulm"/>
+  </node>
+  <node id="3759189669" lat="48.4238833" lon="9.9570495">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="yes"/>
+    <tag k="operator" v="Universität Ulm"/>
+  </node>
+  <node id="3759358500" lat="48.4229373" lon="9.9552620">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3759358502" lat="48.4232930" lon="9.9560397">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3759462451" lat="48.4230467" lon="9.9559496">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3760065522" lat="48.4229147" lon="9.9556333">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3760129161" lat="48.4217839" lon="9.9554855">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3760147808" lat="48.4225220" lon="9.9559501">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3760232356" lat="48.4220653" lon="9.9556214">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Eingang Süd"/>
+  </node>
+  <node id="3761402627" lat="48.4222828" lon="9.9545719">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3761402645" lat="48.4223849" lon="9.9540793">
+    <tag k="entrance" v="yes"/>
     <tag k="level" v="1"/>
   </node>
+  <node id="3761404074" lat="48.4224844" lon="9.9545473">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="1"/>
+  </node>
+  <node id="3761678656" lat="48.4230577" lon="9.9535890">
+    <tag k="entrance" v="yes"/>
+    <tag k="name" v="Eingang Nord"/>
+  </node>
+  <node id="3761679268" lat="48.4232160" lon="9.9536582">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3761765641" lat="48.4229575" lon="9.9537871">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="3762710264" lat="48.4226679" lon="9.9532796">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3762710287" lat="48.4228899" lon="9.9540370">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3762710297" lat="48.4229382" lon="9.9539980">
+    <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3798205875" lat="48.4199774" lon="9.9444602">
+    <tag k="entrance" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910655564" lat="48.4222131" lon="9.9555547">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Cola-Automat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purse" v="yes"/>
+    <tag k="ref" v="710069"/>
+    <tag k="vending" v="bottle_return"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910766251" lat="48.4222177" lon="9.9555666">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Kaffeeautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref" v="710068"/>
+    <tag k="vending" v="coffee"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910766252" lat="48.4224410" lon="9.9558696">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Flaschenrücknahme"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="710062"/>
+    <tag k="vending" v="bottle_return"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910784071" lat="48.4224480" lon="9.9558839">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Süßigkeitenautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purse" v="yes"/>
+    <tag k="ref" v="710065"/>
+    <tag k="vending" v="sweets"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910784072" lat="48.4224510" lon="9.9558924">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Eissautomat"/>
+    <tag k="operator" v="Studierendenwerk ulm"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="vending" v="ice_cream"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910801792" lat="48.4237473" lon="9.9574154">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="operator" v="studierendenwerk-Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref" v="stw-ulm-vend-710067"/>
+    <tag k="vending" v="drinks"/>
+  </node>
+  <node id="4910801793" lat="48.4237312" lon="9.9574303">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="operator" v="Studierendenwerk-ulm"/>
+    <tag k="payment:girocard" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="ref" v="stw-ulm-vend-710041"/>
+    <tag k="vending" v="bottle_return"/>
+  </node>
+  <node id="4910839580" lat="48.4229453" lon="9.9538507">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Colaautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="ref" v="710070"/>
+    <tag k="vending" v="drinks"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910839581" lat="48.4229434" lon="9.9538534">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Eisautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="vending" v="ice_cream"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910839582" lat="48.4229421" lon="9.9538553">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Snackautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="710076"/>
+    <tag k="vending" v="food"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4910839583" lat="48.4229408" lon="9.9538580">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Kaffeeautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="710075"/>
+    <tag k="vending" v="coffee"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4912062258" lat="48.4194419" lon="9.9430881">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Süßigkeitenautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835056"/>
+    <tag k="vending" v="sweets"/>
+  </node>
+  <node id="4912062259" lat="48.4194340" lon="9.9431019">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Flaschenrücknahme"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835058"/>
+    <tag k="vending" v="bottle_return"/>
+  </node>
+  <node id="4912062260" lat="48.4188100" lon="9.9436228">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Süßigkeitenautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835055"/>
+    <tag k="vending" v="sweets"/>
+  </node>
+  <node id="4912062261" lat="48.4187993" lon="9.9436411">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Colaautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835057"/>
+    <tag k="vending" v="drinks"/>
+  </node>
+  <node id="4912062262" lat="48.4184409" lon="9.9437741">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="fixme" v="position: item is probably inside one of the buildings"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Getränkeautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835052"/>
+    <tag k="vending" v="drinks"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4912062263" lat="48.4184366" lon="9.9437793">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="fixme" v="position: item is probably inside one of the buildings"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Snackautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835051"/>
+    <tag k="vending" v="food"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4912062264" lat="48.4184344" lon="9.9437827">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="fixme" v="position: item is probably inside one of the buildings"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Kaffeeautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="835053"/>
+    <tag k="vending" v="coffee"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4912857711" lat="48.4221259" lon="9.9554444">
+    <tag k="amenity" v="upvalue_terminal"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="EC-Aufwerter"/>
+    <tag k="operator" v="Studierendenwerk  Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref" v="61023"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4912857712" lat="48.4223346" lon="9.9558830">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Burger Bar"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914243087" lat="48.4229029" lon="9.9537503">
+    <tag k="amenity" v="upvalue_terminal"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="EC-Aufwerter"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref" v="71021"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914243088" lat="48.4221654" lon="9.9555560">
+    <tag k="amenity" v="upvalue_terminal"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="EC-Aufwerter"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:girocard" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="ref" v="61022"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914572753" lat="48.4200104" lon="9.9445141">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="Snackautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purse" v="yes"/>
+    <tag k="ref" v="614057"/>
+    <tag k="vending" v="Snacks"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914572754" lat="48.4200200" lon="9.9445292">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="Kaffeeautomat"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="614058"/>
+    <tag k="vending" v="coffee"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914642504" lat="48.4250968" lon="9.9630603">
+    <tag k="amenity" v="upvalue_terminal"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="EC-Aufwerter"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref" v="71520"/>
+  </node>
+  <node id="4914642505" lat="48.4251168" lon="9.9631166">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Kaffeemaschine"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="715051"/>
+    <tag k="vending" v="coffee"/>
+  </node>
+  <node id="4914647442" lat="48.4220460" lon="9.9554483">
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="3"/>
+    <tag k="name" v="Kaffeemaschine"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="ref" v="611051"/>
+    <tag k="vending" v="coffee"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914688377" lat="48.4195058" lon="9.9427460">
+    <tag k="amenity" v="upvalue_terminal"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="EC-Aufwerter"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914688378" lat="48.4184345" lon="9.9437692">
+    <tag k="amenity" v="upvalue_terminal"/>
+    <tag k="currency:EUR" v="yes"/>
+    <tag k="fixme" v="position: item is probably inside one of the buildings"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="EC-Aufwerter"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref" v="83531"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4914971230" lat="48.4250884" lon="9.9630022">
+    <tag k="amenity" v="cafe"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Cafeteria"/>
+    <tag k="operator" v="Studierendenwerk Ulm"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:electronic_purses" v="yes"/>
+    <tag k="takeaway" v="yes"/>
+  </node>
+  <node id="4926004456" lat="48.4181354" lon="9.9441598">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="fixme" v="name; operator"/>
+  </node>
+  <node id="7206880628" lat="48.4181847" lon="9.9436362">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="name" v="Kinderkrippe &quot;Flohzirkus&quot;"/>
+  </node>
+  <way id="329763819">
+    <bounds minlat="48.4228889" minlon="9.9577340" maxlat="48.4230670" maxlon="9.9579524"/>
+    <nd ref="7563622872" lat="48.4230114" lon="9.9577503"/>
+    <nd ref="3755622004" lat="48.4230208" lon="9.9577420"/>
+    <nd ref="3754707937" lat="48.4230301" lon="9.9577340"/>
+    <nd ref="3755614361" lat="48.4230485" lon="9.9577832"/>
+    <nd ref="3366908630" lat="48.4230670" lon="9.9578329"/>
+    <nd ref="3755622008" lat="48.4230546" lon="9.9578433"/>
+    <nd ref="3755614362" lat="48.4230508" lon="9.9578465"/>
+    <nd ref="3755622006" lat="48.4230450" lon="9.9578514"/>
+    <nd ref="3755622001" lat="48.4229635" lon="9.9579197"/>
+    <nd ref="3755621999" lat="48.4229401" lon="9.9579393"/>
+    <nd ref="3366908626" lat="48.4229245" lon="9.9579524"/>
+    <nd ref="7563731069" lat="48.4228889" lon="9.9578539"/>
+    <nd ref="3755621998" lat="48.4229272" lon="9.9578215"/>
+    <nd ref="3755622002" lat="48.4230083" lon="9.9577529"/>
+    <nd ref="7563622872" lat="48.4230114" lon="9.9577503"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H21"/>
+  </way>
+  <way id="329763820">
+    <bounds minlat="48.4229245" minlon="9.9578329" maxlat="48.4231519" maxlon="9.9581795"/>
+    <nd ref="3366908630" lat="48.4230670" lon="9.9578329"/>
+    <nd ref="3755614364" lat="48.4230826" lon="9.9578743"/>
+    <nd ref="3755614367" lat="48.4230980" lon="9.9579155"/>
+    <nd ref="3755614365" lat="48.4230900" lon="9.9579222"/>
+    <nd ref="3755614371" lat="48.4231106" lon="9.9579795"/>
+    <nd ref="3755614372" lat="48.4231192" lon="9.9579722"/>
+    <nd ref="3755614375" lat="48.4231353" lon="9.9580151"/>
+    <nd ref="3366908631" lat="48.4231519" lon="9.9580594"/>
+    <nd ref="7996151953" lat="48.4230509" lon="9.9581453"/>
+    <nd ref="7563633386" lat="48.4230106" lon="9.9581795"/>
+    <nd ref="3366908626" lat="48.4229245" lon="9.9579524"/>
+    <nd ref="3755621999" lat="48.4229401" lon="9.9579393"/>
+    <nd ref="3755622001" lat="48.4229635" lon="9.9579197"/>
+    <nd ref="3755622006" lat="48.4230450" lon="9.9578514"/>
+    <nd ref="3755614362" lat="48.4230508" lon="9.9578465"/>
+    <nd ref="3755622008" lat="48.4230546" lon="9.9578433"/>
+    <nd ref="3366908630" lat="48.4230670" lon="9.9578329"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H22"/>
+  </way>
+  <way id="329779606">
+    <bounds minlat="48.4249898" minlon="9.9626991" maxlat="48.4262169" maxlon="9.9640446"/>
+    <nd ref="3367196909" lat="48.4260632" lon="9.9626991"/>
+    <nd ref="3367196915" lat="48.4262169" lon="9.9631254"/>
+    <nd ref="3367196902" lat="48.4258872" lon="9.9633875"/>
+    <nd ref="3367196785" lat="48.4256733" lon="9.9635604"/>
+    <nd ref="3367196780" lat="48.4256454" lon="9.9634867"/>
+    <nd ref="3367196762" lat="48.4254219" lon="9.9636691"/>
+    <nd ref="1305816967" lat="48.4254683" lon="9.9637909"/>
+    <nd ref="1305816968" lat="48.4251726" lon="9.9640446"/>
+    <nd ref="3367196726" lat="48.4249898" lon="9.9635862"/>
+    <nd ref="3367196909" lat="48.4260632" lon="9.9626991"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="fee" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="P45"/>
+    <tag k="operator" v="PBW"/>
+    <tag k="parking" v="underground"/>
+  </way>
   <way id="371924979">
     <bounds minlat="48.4227330" minlon="9.9574257" maxlat="48.4229040" maxlon="9.9576326"/>
     <nd ref="7563633409" lat="48.4228035" lon="9.9574384"/>
@@ -49,7 +723,6 @@
     <nd ref="7563633411" lat="48.4228690" lon="9.9575086"/>
     <nd ref="7563633412" lat="48.4228855" lon="9.9575216"/>
     <nd ref="7563633413" lat="48.4228946" lon="9.9575296"/>
-    <nd ref="7563633427" lat="48.4228993" lon="9.9575427"/>
     <nd ref="7563633420" lat="48.4229040" lon="9.9575560"/>
     <nd ref="7563633416" lat="48.4229031" lon="9.9575833"/>
     <nd ref="7563633415" lat="48.4228665" lon="9.9576024"/>
@@ -61,9 +734,6 @@
     <nd ref="3367295376" lat="48.4227395" lon="9.9575133"/>
     <nd ref="7563745826" lat="48.4227444" lon="9.9574839"/>
     <nd ref="7563745827" lat="48.4227412" lon="9.9574746"/>
-    <nd ref="7563745825" lat="48.4227553" lon="9.9574628"/>
-    <nd ref="7563633435" lat="48.4227676" lon="9.9574525"/>
-    <nd ref="7563633443" lat="48.4227810" lon="9.9574413"/>
     <nd ref="7563633434" lat="48.4227991" lon="9.9574257"/>
     <nd ref="7563633409" lat="48.4228035" lon="9.9574384"/>
     <tag k="amenity" v="auditorium"/>
@@ -72,12 +742,169 @@
     <tag k="level" v="2"/>
     <tag k="name" v="H20"/>
   </way>
+  <way id="372022911">
+    <bounds minlat="48.4230683" minlon="9.9576575" maxlat="48.4231467" maxlon="9.9577806"/>
+    <nd ref="3755614363" lat="48.4230683" lon="9.9576986"/>
+    <nd ref="7563731072" lat="48.4230856" lon="9.9576838"/>
+    <nd ref="7563622879" lat="48.4231163" lon="9.9576575"/>
+    <nd ref="3755614376" lat="48.4231467" lon="9.9577399"/>
+    <nd ref="3755614368" lat="48.4230989" lon="9.9577806"/>
+    <nd ref="3755614366" lat="48.4230910" lon="9.9577593"/>
+    <nd ref="3755614363" lat="48.4230683" lon="9.9576986"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2001"/>
+  </way>
+  <way id="372022912">
+    <bounds minlat="48.4230989" minlon="9.9577399" maxlat="48.4231769" maxlon="9.9578617"/>
+    <nd ref="3755614368" lat="48.4230989" lon="9.9577806"/>
+    <nd ref="3755614376" lat="48.4231467" lon="9.9577399"/>
+    <nd ref="3755614380" lat="48.4231769" lon="9.9578217"/>
+    <nd ref="3755614373" lat="48.4231292" lon="9.9578617"/>
+    <nd ref="3755614369" lat="48.4231066" lon="9.9578012"/>
+    <nd ref="3755614368" lat="48.4230989" lon="9.9577806"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2002"/>
+  </way>
+  <way id="372022913">
+    <bounds minlat="48.4231292" minlon="9.9578217" maxlat="48.4232075" maxlon="9.9579446"/>
+    <nd ref="3755614373" lat="48.4231292" lon="9.9578617"/>
+    <nd ref="3755614377" lat="48.4231522" lon="9.9579234"/>
+    <nd ref="3755614378" lat="48.4231601" lon="9.9579446"/>
+    <nd ref="3755614382" lat="48.4232075" lon="9.9579045"/>
+    <nd ref="3755614380" lat="48.4231769" lon="9.9578217"/>
+    <nd ref="3755614373" lat="48.4231292" lon="9.9578617"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2003"/>
+  </way>
+  <way id="372022914">
+    <bounds minlat="48.4231601" minlon="9.9579045" maxlat="48.4232377" maxlon="9.9580254"/>
+    <nd ref="3755614378" lat="48.4231601" lon="9.9579446"/>
+    <nd ref="3755614379" lat="48.4231672" lon="9.9579636"/>
+    <nd ref="3755614381" lat="48.4231902" lon="9.9580254"/>
+    <nd ref="7563731071" lat="48.4232377" lon="9.9579854"/>
+    <nd ref="3755614382" lat="48.4232075" lon="9.9579045"/>
+    <nd ref="3755614378" lat="48.4231601" lon="9.9579446"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2004"/>
+  </way>
+  <way id="372024078">
+    <bounds minlat="48.4229272" minlon="9.9577529" maxlat="48.4230450" maxlon="9.9579197"/>
+    <nd ref="3755622002" lat="48.4230083" lon="9.9577529"/>
+    <nd ref="3755622003" lat="48.4230126" lon="9.9577646"/>
+    <nd ref="3755622006" lat="48.4230450" lon="9.9578514"/>
+    <nd ref="3755622001" lat="48.4229635" lon="9.9579197"/>
+    <nd ref="3755622000" lat="48.4229569" lon="9.9579019"/>
+    <nd ref="3755621998" lat="48.4229272" lon="9.9578215"/>
+    <nd ref="3755622002" lat="48.4230083" lon="9.9577529"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="1002"/>
+  </way>
+  <way id="372024079">
+    <bounds minlat="48.4228889" minlon="9.9578215" maxlat="48.4229635" maxlon="9.9579524"/>
+    <nd ref="3755621998" lat="48.4229272" lon="9.9578215"/>
+    <nd ref="7563731069" lat="48.4228889" lon="9.9578539"/>
+    <nd ref="3366908626" lat="48.4229245" lon="9.9579524"/>
+    <nd ref="3755621999" lat="48.4229401" lon="9.9579393"/>
+    <nd ref="3755622001" lat="48.4229635" lon="9.9579197"/>
+    <nd ref="3755622000" lat="48.4229569" lon="9.9579019"/>
+    <nd ref="3755621998" lat="48.4229272" lon="9.9578215"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="1003"/>
+  </way>
+  <way id="372024080">
+    <bounds minlat="48.4230301" minlon="9.9576575" maxlat="48.4232377" maxlon="9.9580594"/>
+    <nd ref="3754707937" lat="48.4230301" lon="9.9577340"/>
+    <nd ref="3755622007" lat="48.4230491" lon="9.9577164"/>
+    <nd ref="3755614363" lat="48.4230683" lon="9.9576986"/>
+    <nd ref="7563731072" lat="48.4230856" lon="9.9576838"/>
+    <nd ref="7563622879" lat="48.4231163" lon="9.9576575"/>
+    <nd ref="7563731071" lat="48.4232377" lon="9.9579854"/>
+    <nd ref="3366908631" lat="48.4231519" lon="9.9580594"/>
+    <nd ref="3366908630" lat="48.4230670" lon="9.9578329"/>
+    <nd ref="3754707937" lat="48.4230301" lon="9.9577340"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="Smiley-Pool"/>
+  </way>
+  <way id="372455292">
+    <bounds minlat="48.4225691" minlon="9.9555422" maxlat="48.4227569" maxlon="9.9558003"/>
+    <nd ref="3755917072" lat="48.4226406" lon="9.9555587"/>
+    <nd ref="3760129190" lat="48.4226980" lon="9.9555422"/>
+    <nd ref="3760129191" lat="48.4227485" lon="9.9556770"/>
+    <nd ref="3760129192" lat="48.4227569" lon="9.9556994"/>
+    <nd ref="3367295362" lat="48.4226867" lon="9.9558003"/>
+    <nd ref="3778051073" lat="48.4226646" lon="9.9557854"/>
+    <nd ref="3755792429" lat="48.4226412" lon="9.9557697"/>
+    <nd ref="3367295342" lat="48.4226009" lon="9.9557837"/>
+    <nd ref="3760129183" lat="48.4225691" lon="9.9557014"/>
+    <nd ref="3760129186" lat="48.4226052" lon="9.9556922"/>
+    <nd ref="3760129187" lat="48.4226105" lon="9.9556298"/>
+    <nd ref="3760129184" lat="48.4225992" lon="9.9556277"/>
+    <nd ref="3760129185" lat="48.4226039" lon="9.9555694"/>
+    <nd ref="3755917072" lat="48.4226406" lon="9.9555587"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="building:part" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H2"/>
+  </way>
+  <way id="372455295">
+    <bounds minlat="48.4224268" minlon="9.9556650" maxlat="48.4226148" maxlon="9.9559212"/>
+    <nd ref="3367295342" lat="48.4226009" lon="9.9557837"/>
+    <nd ref="3367295343" lat="48.4226148" lon="9.9558220"/>
+    <nd ref="3760147810" lat="48.4225518" lon="9.9559132"/>
+    <nd ref="3367295330" lat="48.4225464" lon="9.9559212"/>
+    <nd ref="3778051065" lat="48.4225318" lon="9.9559131"/>
+    <nd ref="3367295319" lat="48.4225175" lon="9.9559052"/>
+    <nd ref="3760129178" lat="48.4224951" lon="9.9558928"/>
+    <nd ref="3760129172" lat="48.4224575" lon="9.9559027"/>
+    <nd ref="3760129169" lat="48.4224268" lon="9.9558220"/>
+    <nd ref="3778051059" lat="48.4224386" lon="9.9558192"/>
+    <nd ref="3760129174" lat="48.4224624" lon="9.9558135"/>
+    <nd ref="3760129175" lat="48.4224680" lon="9.9557487"/>
+    <nd ref="3760129171" lat="48.4224563" lon="9.9557464"/>
+    <nd ref="3760129173" lat="48.4224610" lon="9.9556912"/>
+    <nd ref="3760129181" lat="48.4225550" lon="9.9556650"/>
+    <nd ref="3760129183" lat="48.4225691" lon="9.9557014"/>
+    <nd ref="3367295342" lat="48.4226009" lon="9.9557837"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="building:part" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H1"/>
+  </way>
+  <way id="372455299">
+    <bounds minlat="48.4226867" minlon="9.9556522" maxlat="48.4228540" maxlon="9.9559105"/>
+    <nd ref="3760129192" lat="48.4227569" lon="9.9556994"/>
+    <nd ref="3367295362" lat="48.4226867" lon="9.9558003"/>
+    <nd ref="3367295369" lat="48.4227213" lon="9.9559105"/>
+    <nd ref="3760129194" lat="48.4228419" lon="9.9558880"/>
+    <nd ref="3760129195" lat="48.4228420" lon="9.9558881"/>
+    <nd ref="3367295397" lat="48.4228540" lon="9.9557446"/>
+    <nd ref="3778051113" lat="48.4228487" lon="9.9557381"/>
+    <nd ref="3367295389" lat="48.4228390" lon="9.9557261"/>
+    <nd ref="3760129193" lat="48.4227791" lon="9.9556522"/>
+    <nd ref="3778051085" lat="48.4227613" lon="9.9556666"/>
+    <nd ref="3760129191" lat="48.4227485" lon="9.9556770"/>
+    <nd ref="3760129192" lat="48.4227569" lon="9.9556994"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="building:part" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H3"/>
+  </way>
   <way id="374340996">
     <bounds minlat="48.4229766" minlon="9.9573823" maxlat="48.4230614" maxlon="9.9575237"/>
     <nd ref="7563745818" lat="48.4230136" lon="9.9573913"/>
     <nd ref="3777179835" lat="48.4229766" lon="9.9574224"/>
     <nd ref="3777225789" lat="48.4229824" lon="9.9574378"/>
-    <nd ref="3777179839" lat="48.4229853" lon="9.9574458"/>
+    <nd ref="7996151967" lat="48.4229853" lon="9.9574458"/>
     <nd ref="3777179847" lat="48.4230141" lon="9.9575237"/>
     <nd ref="7563745800" lat="48.4230614" lon="9.9574830"/>
     <nd ref="7813642214" lat="48.4230234" lon="9.9573823"/>
@@ -89,7 +916,6 @@
   <way id="374340999">
     <bounds minlat="48.4230141" minlon="9.9574830" maxlat="48.4230981" maxlon="9.9576221"/>
     <nd ref="3777179847" lat="48.4230141" lon="9.9575237"/>
-    <nd ref="3777179848" lat="48.4230222" lon="9.9575454"/>
     <nd ref="7563633390" lat="48.4230506" lon="9.9576221"/>
     <nd ref="3367196701" lat="48.4230592" lon="9.9576149"/>
     <nd ref="7563745801" lat="48.4230981" lon="9.9575829"/>
@@ -101,10 +927,10 @@
   </way>
   <way id="374341002">
     <bounds minlat="48.4229220" minlon="9.9574941" maxlat="48.4230309" maxlon="9.9576854"/>
-    <nd ref="3777179836" lat="48.4229778" lon="9.9574941"/>
-    <nd ref="3778611796" lat="48.4229838" lon="9.9575112"/>
-    <nd ref="3777179840" lat="48.4229867" lon="9.9575198"/>
-    <nd ref="3777179846" lat="48.4230126" lon="9.9575898"/>
+    <nd ref="7996151970" lat="48.4229778" lon="9.9574941"/>
+    <nd ref="3778611796" lat="48.4229840" lon="9.9575110"/>
+    <nd ref="7996151969" lat="48.4229871" lon="9.9575194"/>
+    <nd ref="7996151968" lat="48.4230129" lon="9.9575896"/>
     <nd ref="3777179849" lat="48.4230309" lon="9.9576387"/>
     <nd ref="3755614359" lat="48.4230240" lon="9.9576445"/>
     <nd ref="1148284383" lat="48.4229843" lon="9.9576778"/>
@@ -112,7 +938,7 @@
     <nd ref="3755037427" lat="48.4229486" lon="9.9576127"/>
     <nd ref="3778611792" lat="48.4229283" lon="9.9575577"/>
     <nd ref="7563633426" lat="48.4229220" lon="9.9575409"/>
-    <nd ref="3777179836" lat="48.4229778" lon="9.9574941"/>
+    <nd ref="7996151970" lat="48.4229778" lon="9.9574941"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="1"/>
     <tag k="ref" v="O27/123"/>
@@ -120,9 +946,7 @@
   <way id="374341005">
     <bounds minlat="48.4227096" minlon="9.9574257" maxlat="48.4228254" maxlon="9.9575226"/>
     <nd ref="7563745827" lat="48.4227412" lon="9.9574746"/>
-    <nd ref="7563745825" lat="48.4227553" lon="9.9574628"/>
-    <nd ref="7563633435" lat="48.4227676" lon="9.9574525"/>
-    <nd ref="7563633443" lat="48.4227810" lon="9.9574413"/>
+    <nd ref="7996151964" lat="48.4227675" lon="9.9574524"/>
     <nd ref="7563633434" lat="48.4227991" lon="9.9574257"/>
     <nd ref="7563633409" lat="48.4228035" lon="9.9574384"/>
     <nd ref="7563633406" lat="48.4228254" lon="9.9574446"/>
@@ -135,7 +959,7 @@
     <nd ref="3754707822" lat="48.4227251" lon="9.9575077"/>
     <nd ref="3754885012" lat="48.4227192" lon="9.9574919"/>
     <nd ref="7563633405" lat="48.4227096" lon="9.9574646"/>
-    <nd ref="3777179783" lat="48.4227215" lon="9.9574544"/>
+    <nd ref="3777179783" lat="48.4227215" lon="9.9574545"/>
     <nd ref="3777179784" lat="48.4227308" lon="9.9574466"/>
     <nd ref="7563745827" lat="48.4227412" lon="9.9574746"/>
     <tag k="indoor" v="room"/>
@@ -147,9 +971,8 @@
   <way id="374344853">
     <bounds minlat="48.4228741" minlon="9.9571749" maxlat="48.4229475" maxlon="9.9572855"/>
     <nd ref="3777207335" lat="48.4228741" lon="9.9572138"/>
-    <nd ref="7010917886" lat="48.4228795" lon="9.9572288"/>
-    <nd ref="7014699888" lat="48.4228942" lon="9.9572706"/>
-    <nd ref="7014699887" lat="48.4228944" lon="9.9572704"/>
+    <nd ref="7996151949" lat="48.4228795" lon="9.9572290"/>
+    <nd ref="7996151948" lat="48.4228954" lon="9.9572731"/>
     <nd ref="3777207337" lat="48.4228998" lon="9.9572855"/>
     <nd ref="3777207341" lat="48.4229475" lon="9.9572466"/>
     <nd ref="3777207339" lat="48.4229218" lon="9.9571749"/>
@@ -168,9 +991,7 @@
     <nd ref="3754794174" lat="48.4229106" lon="9.9575162"/>
     <nd ref="3777179831" lat="48.4229681" lon="9.9574682"/>
     <nd ref="3779404214" lat="48.4229633" lon="9.9574549"/>
-    <nd ref="3777207343" lat="48.4229606" lon="9.9574472"/>
-    <nd ref="3779404212" lat="48.4229553" lon="9.9574326"/>
-    <nd ref="3777207340" lat="48.4229296" lon="9.9573628"/>
+    <nd ref="7996151972" lat="48.4229552" lon="9.9574329"/>
     <nd ref="3777225782" lat="48.4229270" lon="9.9573555"/>
     <nd ref="3777179822" lat="48.4229222" lon="9.9573426"/>
     <nd ref="3777179821" lat="48.4229163" lon="9.9573266"/>
@@ -187,7 +1008,7 @@
     <nd ref="7563633415" lat="48.4228665" lon="9.9576024"/>
     <nd ref="7563633416" lat="48.4229031" lon="9.9575833"/>
     <nd ref="7563633420" lat="48.4229040" lon="9.9575560"/>
-    <nd ref="7563633427" lat="48.4228993" lon="9.9575427"/>
+    <nd ref="7996151963" lat="48.4228992" lon="9.9575426"/>
     <nd ref="7563633413" lat="48.4228946" lon="9.9575296"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="1"/>
@@ -202,11 +1023,70 @@
     <nd ref="3777221943" lat="48.4226946" lon="9.9574342"/>
     <nd ref="3777221944" lat="48.4226967" lon="9.9574217"/>
     <nd ref="3777221947" lat="48.4227040" lon="9.9574152"/>
-    <nd ref="3777221950" lat="48.4227123" lon="9.9574184"/>
+    <nd ref="3777221950" lat="48.4227124" lon="9.9574183"/>
     <nd ref="7010917706" lat="48.4227165" lon="9.9574294"/>
     <tag k="indoor" v="area"/>
     <tag k="level" v="1;2"/>
     <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374347711">
+    <bounds minlat="48.4225725" minlon="9.9563710" maxlat="48.4226407" maxlon="9.9564668"/>
+    <nd ref="3777243894" lat="48.4226198" lon="9.9563710"/>
+    <nd ref="3777243897" lat="48.4226407" lon="9.9564260"/>
+    <nd ref="3777243889" lat="48.4225934" lon="9.9564668"/>
+    <nd ref="3777243884" lat="48.4225725" lon="9.9564117"/>
+    <nd ref="3777243894" lat="48.4226198" lon="9.9563710"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="2;3;4;5"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374347713">
+    <bounds minlat="48.4225346" minlon="9.9564049" maxlat="48.4225776" maxlon="9.9564797"/>
+    <nd ref="3777243886" lat="48.4225776" lon="9.9564610"/>
+    <nd ref="3777243879" lat="48.4225567" lon="9.9564049"/>
+    <nd ref="3778106619" lat="48.4225386" lon="9.9564201"/>
+    <nd ref="3777243874" lat="48.4225346" lon="9.9564236"/>
+    <nd ref="3777243878" lat="48.4225555" lon="9.9564797"/>
+    <nd ref="3777243881" lat="48.4225646" lon="9.9564720"/>
+    <nd ref="3777243886" lat="48.4225776" lon="9.9564610"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374355336">
+    <bounds minlat="48.4231101" minlon="9.9559145" maxlat="48.4231787" maxlon="9.9560104"/>
+    <nd ref="3777322979" lat="48.4231101" lon="9.9559537"/>
+    <nd ref="3777322980" lat="48.4231303" lon="9.9560104"/>
+    <nd ref="3777322986" lat="48.4231787" lon="9.9559713"/>
+    <nd ref="3777322983" lat="48.4231586" lon="9.9559145"/>
+    <nd ref="3777322979" lat="48.4231101" lon="9.9559537"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="2;3;4"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374355337">
+    <bounds minlat="48.4232187" minlon="9.9559412" maxlat="48.4232668" maxlon="9.9560006"/>
+    <nd ref="3777322994" lat="48.4232289" lon="9.9560006"/>
+    <nd ref="3777322999" lat="48.4232668" lon="9.9559688"/>
+    <nd ref="3777322998" lat="48.4232566" lon="9.9559412"/>
+    <nd ref="3777322991" lat="48.4232187" lon="9.9559730"/>
+    <nd ref="3777322993" lat="48.4232212" lon="9.9559798"/>
+    <nd ref="3777322994" lat="48.4232289" lon="9.9560006"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374355338">
+    <bounds minlat="48.4232289" minlon="9.9559688" maxlat="48.4232777" maxlon="9.9560301"/>
+    <nd ref="3777322996" lat="48.4232398" lon="9.9560301"/>
+    <nd ref="3777323000" lat="48.4232777" lon="9.9559982"/>
+    <nd ref="3777322999" lat="48.4232668" lon="9.9559688"/>
+    <nd ref="3777322994" lat="48.4232289" lon="9.9560006"/>
+    <nd ref="3777322995" lat="48.4232315" lon="9.9560077"/>
+    <nd ref="3777322996" lat="48.4232398" lon="9.9560301"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="237"/>
   </way>
   <way id="374415175">
     <bounds minlat="48.4229843" minlon="9.9576445" maxlat="48.4230360" maxlon="9.9577102"/>
@@ -222,8 +1102,8 @@
   <way id="374415176">
     <bounds minlat="48.4229005" minlon="9.9569986" maxlat="48.4229611" maxlon="9.9571088"/>
     <nd ref="3778051125" lat="48.4229319" lon="9.9571088"/>
-    <nd ref="3779404208" lat="48.4229387" lon="9.9571030"/>
-    <nd ref="7563633397" lat="48.4229611" lon="9.9570839"/>
+    <nd ref="7563633397" lat="48.4229563" lon="9.9570877"/>
+    <nd ref="7996151940" lat="48.4229611" lon="9.9570839"/>
     <nd ref="7563633400" lat="48.4229295" lon="9.9569986"/>
     <nd ref="3778051120" lat="48.4229005" lon="9.9570240"/>
     <nd ref="3779752423" lat="48.4229106" lon="9.9570516"/>
@@ -240,14 +1120,14 @@
   </way>
   <way id="374415177">
     <bounds minlat="48.4227679" minlon="9.9571755" maxlat="48.4228156" maxlon="9.9572513"/>
-    <nd ref="3778051089" lat="48.4227871" lon="9.9572513"/>
-    <nd ref="3777179793" lat="48.4228070" lon="9.9572346"/>
+    <nd ref="8004486443" lat="48.4227871" lon="9.9572513"/>
+    <nd ref="8004486446" lat="48.4228070" lon="9.9572346"/>
     <nd ref="3778051098" lat="48.4228109" lon="9.9572314"/>
     <nd ref="3778051103" lat="48.4228156" lon="9.9572275"/>
     <nd ref="3778051096" lat="48.4228053" lon="9.9571992"/>
     <nd ref="3778051092" lat="48.4227967" lon="9.9571755"/>
     <nd ref="3757005283" lat="48.4227679" lon="9.9572003"/>
-    <nd ref="3778051089" lat="48.4227871" lon="9.9572513"/>
+    <nd ref="8004486443" lat="48.4227871" lon="9.9572513"/>
     <tag k="access" v="permissive"/>
     <tag k="amenity" v="toilets"/>
     <tag k="female" v="yes"/>
@@ -262,7 +1142,7 @@
     <nd ref="3778051103" lat="48.4228156" lon="9.9572275"/>
     <nd ref="3778051104" lat="48.4228214" lon="9.9572227"/>
     <nd ref="3777179805" lat="48.4228351" lon="9.9572114"/>
-    <nd ref="3778051106" lat="48.4228246" lon="9.9571833"/>
+    <nd ref="7996151956" lat="48.4228246" lon="9.9571833"/>
     <nd ref="3778051096" lat="48.4228053" lon="9.9571992"/>
     <nd ref="3778051103" lat="48.4228156" lon="9.9572275"/>
     <tag k="indoor" v="room"/>
@@ -271,13 +1151,13 @@
   </way>
   <way id="374415179">
     <bounds minlat="48.4227967" minlon="9.9571600" maxlat="48.4228246" maxlon="9.9571992"/>
-    <nd ref="3778051106" lat="48.4228246" lon="9.9571833"/>
+    <nd ref="7996151956" lat="48.4228246" lon="9.9571833"/>
     <nd ref="3778051096" lat="48.4228053" lon="9.9571992"/>
     <nd ref="3778051092" lat="48.4227967" lon="9.9571755"/>
     <nd ref="3757005289" lat="48.4228062" lon="9.9571674"/>
     <nd ref="3777179794" lat="48.4228159" lon="9.9571600"/>
     <nd ref="3777179799" lat="48.4228195" lon="9.9571696"/>
-    <nd ref="3778051106" lat="48.4228246" lon="9.9571833"/>
+    <nd ref="7996151956" lat="48.4228246" lon="9.9571833"/>
     <tag k="access" v="permissive"/>
     <tag k="amenity" v="toilets"/>
     <tag k="indoor" v="room"/>
@@ -288,16 +1168,14 @@
     <tag k="wheelchair" v="yes"/>
   </way>
   <way id="374415180">
-    <bounds minlat="48.4227871" minlon="9.9572346" maxlat="48.4228179" maxlon="9.9572805"/>
-    <nd ref="3777179793" lat="48.4228070" lon="9.9572346"/>
+    <bounds minlat="48.4227871" minlon="9.9572346" maxlat="48.4228175" maxlon="9.9572805"/>
+    <nd ref="8004486444" lat="48.4228070" lon="9.9572346"/>
     <nd ref="3777225768" lat="48.4228119" lon="9.9572482"/>
-    <nd ref="3777179798" lat="48.4228179" lon="9.9572647"/>
-    <nd ref="3777225766" lat="48.4228081" lon="9.9572730"/>
+    <nd ref="3777179793" lat="48.4228175" lon="9.9572639"/>
     <nd ref="3778051094" lat="48.4227980" lon="9.9572805"/>
-    <nd ref="7028311888" lat="48.4227973" lon="9.9572785"/>
-    <nd ref="3779404201" lat="48.4227918" lon="9.9572640"/>
+    <nd ref="7028311888" lat="48.4227942" lon="9.9572704"/>
     <nd ref="3778051089" lat="48.4227871" lon="9.9572513"/>
-    <nd ref="3777179793" lat="48.4228070" lon="9.9572346"/>
+    <nd ref="8004486444" lat="48.4228070" lon="9.9572346"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="1"/>
     <tag k="ref" v="O27/135"/>
@@ -339,7 +1217,6 @@
     <nd ref="3778051091" lat="48.4227882" lon="9.9568200"/>
     <nd ref="3754717381" lat="48.4227982" lon="9.9568115"/>
     <nd ref="3758604571" lat="48.4228080" lon="9.9568031"/>
-    <nd ref="3778051101" lat="48.4228148" lon="9.9567973"/>
     <nd ref="3778082749" lat="48.4228263" lon="9.9567876"/>
     <nd ref="3758592139" lat="48.4228542" lon="9.9567638"/>
     <nd ref="3757005293" lat="48.4228573" lon="9.9567721"/>
@@ -391,9 +1268,22 @@
     <tag k="level" v="1"/>
     <tag k="ref" v="O27/146"/>
   </way>
+  <way id="374415188">
+    <bounds minlat="48.4225130" minlon="9.9552753" maxlat="48.4225857" maxlon="9.9553672"/>
+    <nd ref="3778051064" lat="48.4225299" lon="9.9553672"/>
+    <nd ref="3778051063" lat="48.4225130" lon="9.9553219"/>
+    <nd ref="3760147809" lat="48.4225426" lon="9.9552968"/>
+    <nd ref="3778051066" lat="48.4225688" lon="9.9552753"/>
+    <nd ref="3778051068" lat="48.4225857" lon="9.9553208"/>
+    <nd ref="3778051067" lat="48.4225695" lon="9.9553345"/>
+    <nd ref="3778051064" lat="48.4225299" lon="9.9553672"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="210"/>
+  </way>
   <way id="374415189">
     <bounds minlat="48.4227330" minlon="9.9574257" maxlat="48.4228690" maxlon="9.9576326"/>
-    <nd ref="7563633443" lat="48.4227810" lon="9.9574413"/>
+    <nd ref="7996151965" lat="48.4227808" lon="9.9574412"/>
     <nd ref="7563633434" lat="48.4227991" lon="9.9574257"/>
     <nd ref="7563633409" lat="48.4228035" lon="9.9574384"/>
     <nd ref="7563633406" lat="48.4228254" lon="9.9574446"/>
@@ -407,21 +1297,63 @@
     <nd ref="3367295376" lat="48.4227395" lon="9.9575133"/>
     <nd ref="7563745826" lat="48.4227444" lon="9.9574839"/>
     <nd ref="7563745827" lat="48.4227412" lon="9.9574746"/>
-    <nd ref="7563745825" lat="48.4227553" lon="9.9574628"/>
-    <nd ref="7563633443" lat="48.4227810" lon="9.9574413"/>
+    <nd ref="7563745825" lat="48.4227553" lon="9.9574627"/>
+    <nd ref="7996151965" lat="48.4227808" lon="9.9574412"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="2"/>
     <tag k="name" v="O27/H20"/>
+  </way>
+  <way id="374415190">
+    <bounds minlat="48.4223704" minlon="9.9550046" maxlat="48.4226479" maxlon="9.9553556"/>
+    <nd ref="3760147813" lat="48.4225930" lon="9.9552554"/>
+    <nd ref="3778051066" lat="48.4225688" lon="9.9552753"/>
+    <nd ref="3760147809" lat="48.4225426" lon="9.9552968"/>
+    <nd ref="3778051063" lat="48.4225130" lon="9.9553219"/>
+    <nd ref="3760129177" lat="48.4224892" lon="9.9553420"/>
+    <nd ref="3778051062" lat="48.4224846" lon="9.9553290"/>
+    <nd ref="3760129176" lat="48.4224800" lon="9.9553163"/>
+    <nd ref="3760129170" lat="48.4224318" lon="9.9553556"/>
+    <nd ref="3778051058" lat="48.4224269" lon="9.9553418"/>
+    <nd ref="3760129168" lat="48.4224222" lon="9.9553287"/>
+    <nd ref="3778051057" lat="48.4223921" lon="9.9553531"/>
+    <nd ref="3778036656" lat="48.4223704" lon="9.9552925"/>
+    <nd ref="3367295297" lat="48.4223766" lon="9.9552875"/>
+    <nd ref="3754794162" lat="48.4223857" lon="9.9552424"/>
+    <nd ref="3367295303" lat="48.4223741" lon="9.9552374"/>
+    <nd ref="7128983124" lat="48.4224033" lon="9.9550788"/>
+    <nd ref="3367295298" lat="48.4224066" lon="9.9550608"/>
+    <nd ref="3755917057" lat="48.4224367" lon="9.9550375"/>
+    <nd ref="3367295305" lat="48.4224431" lon="9.9550556"/>
+    <nd ref="3367295308" lat="48.4224503" lon="9.9550499"/>
+    <nd ref="3755917059" lat="48.4224573" lon="9.9550447"/>
+    <nd ref="3755917058" lat="48.4224502" lon="9.9550244"/>
+    <nd ref="3755917061" lat="48.4224733" lon="9.9550046"/>
+    <nd ref="3755917062" lat="48.4224807" lon="9.9550230"/>
+    <nd ref="3367295318" lat="48.4224969" lon="9.9550094"/>
+    <nd ref="3367295338" lat="48.4225937" lon="9.9550496"/>
+    <nd ref="3367295339" lat="48.4225895" lon="9.9550706"/>
+    <nd ref="3760147815" lat="48.4226196" lon="9.9550830"/>
+    <nd ref="3778051071" lat="48.4226271" lon="9.9550768"/>
+    <nd ref="3778051072" lat="48.4226479" lon="9.9551342"/>
+    <nd ref="3760147814" lat="48.4226189" lon="9.9551581"/>
+    <nd ref="3778051070" lat="48.4226242" lon="9.9551728"/>
+    <nd ref="3760147816" lat="48.4226295" lon="9.9551873"/>
+    <nd ref="3760147812" lat="48.4225824" lon="9.9552260"/>
+    <nd ref="3778051069" lat="48.4225881" lon="9.9552418"/>
+    <nd ref="3760147813" lat="48.4225930" lon="9.9552554"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H4/5"/>
+    <tag k="ref" v="X213"/>
   </way>
   <way id="374415191">
     <bounds minlat="48.4226215" minlon="9.9571899" maxlat="48.4227980" maxlon="9.9574015"/>
     <nd ref="3757005282" lat="48.4227640" lon="9.9571899"/>
     <nd ref="3757005283" lat="48.4227679" lon="9.9572003"/>
-    <nd ref="3778051089" lat="48.4227871" lon="9.9572513"/>
-    <nd ref="3779404201" lat="48.4227918" lon="9.9572640"/>
-    <nd ref="7028311888" lat="48.4227973" lon="9.9572785"/>
+    <nd ref="8004486443" lat="48.4227871" lon="9.9572513"/>
+    <nd ref="7028311888" lat="48.4227942" lon="9.9572704"/>
     <nd ref="3778051094" lat="48.4227980" lon="9.9572805"/>
-    <nd ref="3778051088" lat="48.4227839" lon="9.9572925"/>
+    <nd ref="7996151958" lat="48.4227839" lon="9.9572925"/>
     <nd ref="3779404200" lat="48.4227186" lon="9.9573481"/>
     <nd ref="3778051074" lat="48.4227092" lon="9.9573560"/>
     <nd ref="3777221948" lat="48.4227048" lon="9.9573598"/>
@@ -435,6 +1367,158 @@
     <tag k="name" v="Südpool"/>
     <tag k="ref" v="O27/133"/>
   </way>
+  <way id="374417331">
+    <bounds minlat="48.4222206" minlon="9.9556761" maxlat="48.4222669" maxlon="9.9557441"/>
+    <nd ref="3778067071" lat="48.4222516" lon="9.9556761"/>
+    <nd ref="3778067074" lat="48.4222669" lon="9.9557185"/>
+    <nd ref="3778067069" lat="48.4222359" lon="9.9557441"/>
+    <nd ref="3778067068" lat="48.4222206" lon="9.9557013"/>
+    <nd ref="3778067071" lat="48.4222516" lon="9.9556761"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+  </way>
+  <way id="374417332">
+    <bounds minlat="48.4222786" minlon="9.9555666" maxlat="48.4223428" maxlon="9.9556683"/>
+    <nd ref="3778067086" lat="48.4223177" lon="9.9555666"/>
+    <nd ref="3778067089" lat="48.4223428" lon="9.9556364"/>
+    <nd ref="3778067083" lat="48.4223037" lon="9.9556683"/>
+    <nd ref="3778067078" lat="48.4222786" lon="9.9555985"/>
+    <nd ref="3778067086" lat="48.4223177" lon="9.9555666"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="2;3;4;5"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374417333">
+    <bounds minlat="48.4222941" minlon="9.9556720" maxlat="48.4223903" maxlon="9.9557907"/>
+    <nd ref="3778067092" lat="48.4223698" lon="9.9556720"/>
+    <nd ref="3778067093" lat="48.4223903" lon="9.9557292"/>
+    <nd ref="3778629766" lat="48.4223509" lon="9.9557612"/>
+    <nd ref="3778067085" lat="48.4223146" lon="9.9557907"/>
+    <nd ref="3778067082" lat="48.4222941" lon="9.9557335"/>
+    <nd ref="3778067088" lat="48.4223299" lon="9.9557044"/>
+    <nd ref="3778067092" lat="48.4223698" lon="9.9556720"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+  </way>
+  <way id="374417335">
+    <bounds minlat="48.4222479" minlon="9.9556471" maxlat="48.4222898" maxlon="9.9557185"/>
+    <nd ref="3778067081" lat="48.4222898" lon="9.9557000"/>
+    <nd ref="3778067079" lat="48.4222839" lon="9.9557048"/>
+    <nd ref="3778067074" lat="48.4222669" lon="9.9557185"/>
+    <nd ref="3778067071" lat="48.4222516" lon="9.9556761"/>
+    <nd ref="3778067070" lat="48.4222479" lon="9.9556658"/>
+    <nd ref="3778067076" lat="48.4222708" lon="9.9556471"/>
+    <nd ref="3778067077" lat="48.4222773" lon="9.9556655"/>
+    <nd ref="3778067080" lat="48.4222846" lon="9.9556859"/>
+    <nd ref="3778067081" lat="48.4222898" lon="9.9557000"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374417336">
+    <bounds minlat="48.4222063" minlon="9.9556175" maxlat="48.4222708" maxlon="9.9557013"/>
+    <nd ref="3778067072" lat="48.4222602" lon="9.9556175"/>
+    <nd ref="3778067066" lat="48.4222063" lon="9.9556613"/>
+    <nd ref="3778067067" lat="48.4222135" lon="9.9556814"/>
+    <nd ref="3778067068" lat="48.4222206" lon="9.9557013"/>
+    <nd ref="3778067071" lat="48.4222516" lon="9.9556761"/>
+    <nd ref="3778067070" lat="48.4222479" lon="9.9556658"/>
+    <nd ref="3778067076" lat="48.4222708" lon="9.9556471"/>
+    <nd ref="3778067075" lat="48.4222682" lon="9.9556398"/>
+    <nd ref="3778067072" lat="48.4222602" lon="9.9556175"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374417339">
+    <bounds minlat="48.4222359" minlon="9.9557048" maxlat="48.4223146" maxlon="9.9558297"/>
+    <nd ref="3778067079" lat="48.4222839" lon="9.9557048"/>
+    <nd ref="3778067074" lat="48.4222669" lon="9.9557185"/>
+    <nd ref="3778067069" lat="48.4222359" lon="9.9557441"/>
+    <nd ref="3778067073" lat="48.4222666" lon="9.9558297"/>
+    <nd ref="3778067085" lat="48.4223146" lon="9.9557907"/>
+    <nd ref="3778067082" lat="48.4222941" lon="9.9557335"/>
+    <nd ref="3778067079" lat="48.4222839" lon="9.9557048"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="205"/>
+  </way>
+  <way id="374417340">
+    <bounds minlat="48.4223194" minlon="9.9556433" maxlat="48.4223698" maxlon="9.9557044"/>
+    <nd ref="3778067090" lat="48.4223596" lon="9.9556433"/>
+    <nd ref="3778067087" lat="48.4223194" lon="9.9556761"/>
+    <nd ref="3778067088" lat="48.4223299" lon="9.9557044"/>
+    <nd ref="3778067092" lat="48.4223698" lon="9.9556720"/>
+    <nd ref="3778067091" lat="48.4223627" lon="9.9556520"/>
+    <nd ref="3778067090" lat="48.4223596" lon="9.9556433"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="male" v="yes"/>
+    <tag k="ref" v="211"/>
+    <tag k="unisex" v="no"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374417341">
+    <bounds minlat="48.4222839" minlon="9.9556761" maxlat="48.4223299" maxlon="9.9557335"/>
+    <nd ref="3778067088" lat="48.4223299" lon="9.9557044"/>
+    <nd ref="3778067087" lat="48.4223194" lon="9.9556761"/>
+    <nd ref="3778067084" lat="48.4223059" lon="9.9556869"/>
+    <nd ref="3778067081" lat="48.4222898" lon="9.9557000"/>
+    <nd ref="3778067079" lat="48.4222839" lon="9.9557048"/>
+    <nd ref="3778067082" lat="48.4222941" lon="9.9557335"/>
+    <nd ref="3778067088" lat="48.4223299" lon="9.9557044"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="212"/>
+    <tag k="unisex" v="no"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374418921">
+    <bounds minlat="48.4220334" minlon="9.9553208" maxlat="48.4220917" maxlon="9.9554111"/>
+    <nd ref="3778036643" lat="48.4220763" lon="9.9553208"/>
+    <nd ref="3778036644" lat="48.4220917" lon="9.9553629"/>
+    <nd ref="3755917027" lat="48.4220867" lon="9.9554029"/>
+    <nd ref="3755916124" lat="48.4220530" lon="9.9554111"/>
+    <nd ref="3755916123" lat="48.4220334" lon="9.9553564"/>
+    <nd ref="3778036643" lat="48.4220763" lon="9.9553208"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374421162">
+    <bounds minlat="48.4225233" minlon="9.9563637" maxlat="48.4225567" maxlon="9.9564201"/>
+    <nd ref="3778106619" lat="48.4225386" lon="9.9564201"/>
+    <nd ref="3777243879" lat="48.4225567" lon="9.9564049"/>
+    <nd ref="3778106622" lat="48.4225442" lon="9.9563714"/>
+    <nd ref="3778106621" lat="48.4225413" lon="9.9563637"/>
+    <nd ref="3778106617" lat="48.4225233" lon="9.9563790"/>
+    <nd ref="3778106619" lat="48.4225386" lon="9.9564201"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374421165">
+    <bounds minlat="48.4226317" minlon="9.9564551" maxlat="48.4226835" maxlon="9.9565574"/>
+    <nd ref="3778106627" lat="48.4226517" lon="9.9564551"/>
+    <nd ref="3778611776" lat="48.4226415" lon="9.9564637"/>
+    <nd ref="3778106626" lat="48.4226374" lon="9.9564672"/>
+    <nd ref="3778106625" lat="48.4226317" lon="9.9564720"/>
+    <nd ref="3778106628" lat="48.4226636" lon="9.9565574"/>
+    <nd ref="3778106629" lat="48.4226835" lon="9.9565405"/>
+    <nd ref="3778106627" lat="48.4226517" lon="9.9564551"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="male" v="yes"/>
+    <tag k="ref" v="122"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
   <way id="374438970">
     <bounds minlat="48.4229468" minlon="9.9573154" maxlat="48.4229966" maxlon="9.9573767"/>
     <nd ref="3777179842" lat="48.4229966" lon="9.9573452"/>
@@ -445,12 +1529,90 @@
     <tag k="indoor" v="room"/>
     <tag k="level" v="1"/>
   </way>
+  <way id="374438971">
+    <bounds minlat="48.4228087" minlon="9.9551088" maxlat="48.4228776" maxlon="9.9552061"/>
+    <nd ref="3778307393" lat="48.4228297" lon="9.9552061"/>
+    <nd ref="3778307410" lat="48.4228776" lon="9.9551668"/>
+    <nd ref="3778307401" lat="48.4228566" lon="9.9551088"/>
+    <nd ref="3778307390" lat="48.4228087" lon="9.9551481"/>
+    <nd ref="3778307393" lat="48.4228297" lon="9.9552061"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="2;3;4"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374438972">
+    <bounds minlat="48.4228701" minlon="9.9551874" maxlat="48.4229277" maxlon="9.9552931"/>
+    <nd ref="3778051121" lat="48.4229127" lon="9.9552292"/>
+    <nd ref="3778051118" lat="48.4228971" lon="9.9551874"/>
+    <nd ref="3778307413" lat="48.4228882" lon="9.9551948"/>
+    <nd ref="3778307409" lat="48.4228751" lon="9.9552061"/>
+    <nd ref="3778307407" lat="48.4228701" lon="9.9552103"/>
+    <nd ref="3789072526" lat="48.4229010" lon="9.9552931"/>
+    <nd ref="3778307417" lat="48.4229187" lon="9.9552781"/>
+    <nd ref="3760161172" lat="48.4229277" lon="9.9552699"/>
+    <nd ref="3778051121" lat="48.4229127" lon="9.9552292"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374438974">
+    <bounds minlat="48.4229209" minlon="9.9551673" maxlat="48.4229668" maxlon="9.9552538"/>
+    <nd ref="3778051124" lat="48.4229317" lon="9.9552131"/>
+    <nd ref="3778307420" lat="48.4229245" lon="9.9551937"/>
+    <nd ref="3778307419" lat="48.4229234" lon="9.9551910"/>
+    <nd ref="3778307418" lat="48.4229209" lon="9.9551842"/>
+    <nd ref="3778307421" lat="48.4229408" lon="9.9551673"/>
+    <nd ref="3778307427" lat="48.4229668" lon="9.9552369"/>
+    <nd ref="3778067097" lat="48.4229469" lon="9.9552538"/>
+    <nd ref="3778051124" lat="48.4229317" lon="9.9552131"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374438975">
+    <bounds minlat="48.4228289" minlon="9.9549709" maxlat="48.4228873" maxlon="9.9550880"/>
+    <nd ref="3778051116" lat="48.4228789" lon="9.9550720"/>
+    <nd ref="3778051115" lat="48.4228600" lon="9.9550880"/>
+    <nd ref="3778307399" lat="48.4228519" lon="9.9550664"/>
+    <nd ref="3778051114" lat="48.4228489" lon="9.9550587"/>
+    <nd ref="3760161168" lat="48.4228289" lon="9.9550029"/>
+    <nd ref="3778307405" lat="48.4228666" lon="9.9549709"/>
+    <nd ref="3778307412" lat="48.4228873" lon="9.9550262"/>
+    <nd ref="3778307406" lat="48.4228679" lon="9.9550426"/>
+    <nd ref="3778051116" lat="48.4228789" lon="9.9550720"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="male" v="yes"/>
+    <tag k="ref" v="230"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374438976">
+    <bounds minlat="48.4228679" minlon="9.9550262" maxlat="48.4228982" maxlon="9.9550720"/>
+    <nd ref="3778051116" lat="48.4228789" lon="9.9550720"/>
+    <nd ref="3778307406" lat="48.4228679" lon="9.9550426"/>
+    <nd ref="3778307412" lat="48.4228873" lon="9.9550262"/>
+    <nd ref="3778307415" lat="48.4228982" lon="9.9550556"/>
+    <nd ref="3778307411" lat="48.4228841" lon="9.9550676"/>
+    <nd ref="3778051116" lat="48.4228789" lon="9.9550720"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="231"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="unisex" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
   <way id="374438977">
     <bounds minlat="48.4229589" minlon="9.9572838" maxlat="48.4229794" maxlon="9.9573231"/>
     <nd ref="3778307426" lat="48.4229589" lon="9.9572911"/>
-    <nd ref="7038589288" lat="48.4229631" lon="9.9572877"/>
-    <nd ref="7014700085" lat="48.4229634" lon="9.9572874"/>
-    <nd ref="7014699985" lat="48.4229634" lon="9.9572874"/>
     <nd ref="3778307429" lat="48.4229678" lon="9.9572838"/>
     <nd ref="3778307431" lat="48.4229794" lon="9.9573158"/>
     <nd ref="3778307430" lat="48.4229705" lon="9.9573231"/>
@@ -459,12 +1621,20 @@
     <tag k="indoor" v="yes"/>
     <tag k="level" v="0;1;2;3;4;5"/>
   </way>
+  <way id="374438978">
+    <bounds minlat="48.4228388" minlon="9.9552314" maxlat="48.4228557" maxlon="9.9552660"/>
+    <nd ref="3778307395" lat="48.4228453" lon="9.9552314"/>
+    <nd ref="3778307394" lat="48.4228388" lon="9.9552369"/>
+    <nd ref="3778307396" lat="48.4228496" lon="9.9552660"/>
+    <nd ref="3778307400" lat="48.4228557" lon="9.9552609"/>
+    <nd ref="3778307395" lat="48.4228453" lon="9.9552314"/>
+    <tag k="highway" v="elevator"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
   <way id="374438979">
-    <bounds minlat="48.4229416" minlon="9.9572940" maxlat="48.4229671" maxlon="9.9573375"/>
+    <bounds minlat="48.4229416" minlon="9.9572941" maxlat="48.4229671" maxlon="9.9573375"/>
     <nd ref="3778307422" lat="48.4229416" lon="9.9573056"/>
-    <nd ref="7014699886" lat="48.4229485" lon="9.9572998"/>
-    <nd ref="7014699889" lat="48.4229488" lon="9.9572995"/>
-    <nd ref="3778307425" lat="48.4229554" lon="9.9572940"/>
+    <nd ref="3778307425" lat="48.4229554" lon="9.9572941"/>
     <nd ref="3778307428" lat="48.4229671" lon="9.9573260"/>
     <nd ref="3778307424" lat="48.4229531" lon="9.9573375"/>
     <nd ref="3778307422" lat="48.4229416" lon="9.9573056"/>
@@ -472,10 +1642,629 @@
     <tag k="indoor" v="yes"/>
     <tag k="level" v="0;1;2;3;4;5"/>
   </way>
+  <way id="374438980">
+    <bounds minlat="48.4228500" minlon="9.9552169" maxlat="48.4228732" maxlon="9.9552566"/>
+    <nd ref="3778307397" lat="48.4228500" lon="9.9552274"/>
+    <nd ref="3778307404" lat="48.4228623" lon="9.9552169"/>
+    <nd ref="3778307408" lat="48.4228732" lon="9.9552461"/>
+    <nd ref="3778307402" lat="48.4228609" lon="9.9552566"/>
+    <nd ref="3778307397" lat="48.4228500" lon="9.9552274"/>
+    <tag k="highway" v="elevator"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374442124">
+    <bounds minlat="48.4226884" minlon="9.9546716" maxlat="48.4227210" maxlon="9.9547073"/>
+    <nd ref="3778340241" lat="48.4226884" lon="9.9546955"/>
+    <nd ref="3778340247" lat="48.4227166" lon="9.9546716"/>
+    <nd ref="3778340248" lat="48.4227210" lon="9.9546834"/>
+    <nd ref="3778340242" lat="48.4226928" lon="9.9547073"/>
+    <nd ref="3778340241" lat="48.4226884" lon="9.9546955"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="374442125">
+    <bounds minlat="48.4225079" minlon="9.9543063" maxlat="48.4225817" maxlon="9.9544168"/>
+    <nd ref="3778340224" lat="48.4225559" lon="9.9543063"/>
+    <nd ref="3778340213" lat="48.4225079" lon="9.9543462"/>
+    <nd ref="3778340222" lat="48.4225338" lon="9.9544168"/>
+    <nd ref="3778340227" lat="48.4225817" lon="9.9543769"/>
+    <nd ref="3778340224" lat="48.4225559" lon="9.9543063"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="1;2;3;4;5"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374442126">
+    <bounds minlat="48.4226775" minlon="9.9546422" maxlat="48.4227166" maxlon="9.9546955"/>
+    <nd ref="3778340238" lat="48.4226775" lon="9.9546661"/>
+    <nd ref="3778340244" lat="48.4227056" lon="9.9546422"/>
+    <nd ref="3778340246" lat="48.4227140" lon="9.9546648"/>
+    <nd ref="3778340247" lat="48.4227166" lon="9.9546716"/>
+    <nd ref="3778340241" lat="48.4226884" lon="9.9546955"/>
+    <nd ref="3778340238" lat="48.4226775" lon="9.9546661"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="374442128">
+    <bounds minlat="48.4226928" minlon="9.9546313" maxlat="48.4227721" maxlon="9.9547382"/>
+    <nd ref="3778340242" lat="48.4226928" lon="9.9547073"/>
+    <nd ref="3778340243" lat="48.4227043" lon="9.9547382"/>
+    <nd ref="3778340245" lat="48.4227131" lon="9.9547308"/>
+    <nd ref="3761404135" lat="48.4227348" lon="9.9547125"/>
+    <nd ref="3761404138" lat="48.4227721" lon="9.9546810"/>
+    <nd ref="3778340250" lat="48.4227535" lon="9.9546313"/>
+    <nd ref="3778340246" lat="48.4227140" lon="9.9546648"/>
+    <nd ref="3778340247" lat="48.4227166" lon="9.9546716"/>
+    <nd ref="3778340248" lat="48.4227210" lon="9.9546834"/>
+    <nd ref="3778340242" lat="48.4226928" lon="9.9547073"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374442129">
+    <bounds minlat="48.4226669" minlon="9.9545807" maxlat="48.4227535" maxlon="9.9546661"/>
+    <nd ref="3778340235" lat="48.4226669" lon="9.9546378"/>
+    <nd ref="3778340236" lat="48.4226757" lon="9.9546304"/>
+    <nd ref="3761404131" lat="48.4226950" lon="9.9546141"/>
+    <nd ref="3761404133" lat="48.4227192" lon="9.9545936"/>
+    <nd ref="3761404134" lat="48.4227346" lon="9.9545807"/>
+    <nd ref="3778340250" lat="48.4227535" lon="9.9546313"/>
+    <nd ref="3778340246" lat="48.4227140" lon="9.9546648"/>
+    <nd ref="3778340244" lat="48.4227056" lon="9.9546422"/>
+    <nd ref="3778340238" lat="48.4226775" lon="9.9546661"/>
+    <nd ref="3778340235" lat="48.4226669" lon="9.9546378"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="male" v="yes"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374460082">
+    <bounds minlat="48.4226167" minlon="9.9542226" maxlat="48.4226543" maxlon="9.9542914"/>
+    <nd ref="3761404119" lat="48.4226481" lon="9.9542604"/>
+    <nd ref="3778469482" lat="48.4226543" lon="9.9542769"/>
+    <nd ref="3778493954" lat="48.4226362" lon="9.9542914"/>
+    <nd ref="3761404112" lat="48.4226307" lon="9.9542754"/>
+    <nd ref="3761404107" lat="48.4226167" lon="9.9542373"/>
+    <nd ref="3761404113" lat="48.4226339" lon="9.9542226"/>
+    <nd ref="3761404119" lat="48.4226481" lon="9.9542604"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374460083">
+    <bounds minlat="48.4222788" minlon="9.9544218" maxlat="48.4222972" maxlon="9.9544496"/>
+    <nd ref="3778493923" lat="48.4222972" lon="9.9544318"/>
+    <nd ref="3778493922" lat="48.4222968" lon="9.9544414"/>
+    <nd ref="3778493920" lat="48.4222924" lon="9.9544485"/>
+    <nd ref="3778493918" lat="48.4222860" lon="9.9544496"/>
+    <nd ref="3778493916" lat="48.4222807" lon="9.9544443"/>
+    <nd ref="3778493915" lat="48.4222788" lon="9.9544350"/>
+    <nd ref="3778493917" lat="48.4222814" lon="9.9544261"/>
+    <nd ref="3778493919" lat="48.4222871" lon="9.9544218"/>
+    <nd ref="3778493921" lat="48.4222933" lon="9.9544240"/>
+    <nd ref="3778520523" lat="48.4222949" lon="9.9544271"/>
+    <nd ref="3778493923" lat="48.4222972" lon="9.9544318"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374460084">
+    <bounds minlat="48.4225357" minlon="9.9545835" maxlat="48.4226539" maxlon="9.9547416"/>
+    <nd ref="3778340229" lat="48.4226025" lon="9.9546000"/>
+    <nd ref="3778340231" lat="48.4226217" lon="9.9545835"/>
+    <nd ref="3778493953" lat="48.4226298" lon="9.9546050"/>
+    <nd ref="3778493955" lat="48.4226539" lon="9.9546687"/>
+    <nd ref="3761404110" lat="48.4226251" lon="9.9546928"/>
+    <nd ref="3761404091" lat="48.4225675" lon="9.9547416"/>
+    <nd ref="3778493944" lat="48.4225357" lon="9.9546564"/>
+    <nd ref="3778340229" lat="48.4226025" lon="9.9546000"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="131"/>
+  </way>
+  <way id="374460085">
+    <bounds minlat="48.4225146" minlon="9.9545433" maxlat="48.4226025" maxlon="9.9546564"/>
+    <nd ref="3761404087" lat="48.4225508" lon="9.9545692"/>
+    <nd ref="3778521562" lat="48.4225714" lon="9.9545517"/>
+    <nd ref="3778340226" lat="48.4225814" lon="9.9545433"/>
+    <nd ref="3778493949" lat="48.4225949" lon="9.9545796"/>
+    <nd ref="3778340229" lat="48.4226025" lon="9.9546000"/>
+    <nd ref="3778493944" lat="48.4225357" lon="9.9546564"/>
+    <nd ref="3761404083" lat="48.4225146" lon="9.9545998"/>
+    <nd ref="3761404086" lat="48.4225334" lon="9.9545839"/>
+    <nd ref="3761404087" lat="48.4225508" lon="9.9545692"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="132"/>
+  </way>
+  <way id="374460086">
+    <bounds minlat="48.4223923" minlon="9.9542699" maxlat="48.4224702" maxlon="9.9543870"/>
+    <nd ref="3778493931" lat="48.4224195" lon="9.9543870"/>
+    <nd ref="3778493933" lat="48.4224554" lon="9.9543570"/>
+    <nd ref="3778340208" lat="48.4224702" lon="9.9543446"/>
+    <nd ref="3761404060" lat="48.4224527" lon="9.9542957"/>
+    <nd ref="3761404058" lat="48.4224432" lon="9.9542699"/>
+    <nd ref="3761402649" lat="48.4223923" lon="9.9543123"/>
+    <nd ref="3761402650" lat="48.4223976" lon="9.9543266"/>
+    <nd ref="3778520532" lat="48.4224028" lon="9.9543409"/>
+    <nd ref="3778493931" lat="48.4224195" lon="9.9543870"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="155"/>
+  </way>
+  <way id="374460087">
+    <bounds minlat="48.4222192" minlon="9.9541799" maxlat="48.4223569" maxlon="9.9543879"/>
+    <nd ref="3761402637" lat="48.4223455" lon="9.9543283"/>
+    <nd ref="3778520528" lat="48.4223424" lon="9.9543310"/>
+    <nd ref="3778493928" lat="48.4223349" lon="9.9543373"/>
+    <nd ref="3778493927" lat="48.4223291" lon="9.9543422"/>
+    <nd ref="3778493929" lat="48.4223383" lon="9.9543669"/>
+    <nd ref="3778493926" lat="48.4223135" lon="9.9543879"/>
+    <nd ref="3778493925" lat="48.4223043" lon="9.9543633"/>
+    <nd ref="3778493924" lat="48.4222992" lon="9.9543676"/>
+    <nd ref="3761402630" lat="48.4222898" lon="9.9543756"/>
+    <nd ref="3367295276" lat="48.4222828" lon="9.9543721"/>
+    <nd ref="3367295271" lat="48.4222383" lon="9.9543541"/>
+    <nd ref="3367295264" lat="48.4222192" lon="9.9543023"/>
+    <nd ref="3367295268" lat="48.4222340" lon="9.9542231"/>
+    <nd ref="3367295275" lat="48.4222845" lon="9.9541799"/>
+    <nd ref="3367295287" lat="48.4223371" lon="9.9542009"/>
+    <nd ref="3367295292" lat="48.4223569" lon="9.9542534"/>
+    <nd ref="3755917052" lat="48.4223506" lon="9.9542855"/>
+    <nd ref="3778493930" lat="48.4223434" lon="9.9543223"/>
+    <nd ref="3761402637" lat="48.4223455" lon="9.9543283"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="H14"/>
+    <tag k="ref" v="154"/>
+  </way>
+  <way id="374460088">
+    <bounds minlat="48.4225595" minlon="9.9539617" maxlat="48.4226977" maxlon="9.9541614"/>
+    <nd ref="3761404094" lat="48.4225748" lon="9.9540887"/>
+    <nd ref="3761404088" lat="48.4225595" lon="9.9541018"/>
+    <nd ref="3761404093" lat="48.4225733" lon="9.9541384"/>
+    <nd ref="3761404099" lat="48.4225885" lon="9.9541253"/>
+    <nd ref="3778493948" lat="48.4225919" lon="9.9541344"/>
+    <nd ref="3778521564" lat="48.4225966" lon="9.9541468"/>
+    <nd ref="3761404102" lat="48.4225976" lon="9.9541495"/>
+    <nd ref="3778493951" lat="48.4226053" lon="9.9541429"/>
+    <nd ref="3755917071" lat="48.4226275" lon="9.9541521"/>
+    <nd ref="3367295347" lat="48.4226489" lon="9.9541614"/>
+    <nd ref="3367295358" lat="48.4226836" lon="9.9541328"/>
+    <nd ref="3367295364" lat="48.4226977" lon="9.9540553"/>
+    <nd ref="3778494757" lat="48.4226738" lon="9.9539886"/>
+    <nd ref="3778493956" lat="48.4226615" lon="9.9539835"/>
+    <nd ref="3761404106" lat="48.4226156" lon="9.9539617"/>
+    <nd ref="3761404096" lat="48.4225825" lon="9.9539878"/>
+    <nd ref="3761404092" lat="48.4225683" lon="9.9540561"/>
+    <nd ref="3761404089" lat="48.4225641" lon="9.9540596"/>
+    <nd ref="3778493945" lat="48.4225715" lon="9.9540798"/>
+    <nd ref="3761404094" lat="48.4225748" lon="9.9540887"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="H15"/>
+    <tag k="ref" v="177"/>
+  </way>
+  <way id="374460089">
+    <bounds minlat="48.4225783" minlon="9.9537738" maxlat="48.4227138" maxlon="9.9539835"/>
+    <nd ref="3761404100" lat="48.4225899" lon="9.9539088"/>
+    <nd ref="3761404095" lat="48.4225783" lon="9.9539179"/>
+    <nd ref="3761404101" lat="48.4225913" lon="9.9539554"/>
+    <nd ref="3761404104" lat="48.4226087" lon="9.9539417"/>
+    <nd ref="3778493952" lat="48.4226116" lon="9.9539502"/>
+    <nd ref="3761404106" lat="48.4226156" lon="9.9539617"/>
+    <nd ref="3778493956" lat="48.4226615" lon="9.9539835"/>
+    <nd ref="3367295353" lat="48.4226696" lon="9.9539769"/>
+    <nd ref="3367295365" lat="48.4227007" lon="9.9539511"/>
+    <nd ref="3367295367" lat="48.4227138" lon="9.9538730"/>
+    <nd ref="3367295360" lat="48.4226859" lon="9.9537964"/>
+    <nd ref="3367295346" lat="48.4226332" lon="9.9537738"/>
+    <nd ref="3367295340" lat="48.4225996" lon="9.9538026"/>
+    <nd ref="3367295337" lat="48.4225927" lon="9.9538362"/>
+    <nd ref="3367295332" lat="48.4225813" lon="9.9538839"/>
+    <nd ref="3778493947" lat="48.4225864" lon="9.9538988"/>
+    <nd ref="3761404100" lat="48.4225899" lon="9.9539088"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="name" v="H16"/>
+    <tag k="ref" v="176"/>
+  </way>
+  <way id="374460090">
+    <bounds minlat="48.4224944" minlon="9.9542658" maxlat="48.4225212" maxlon="9.9543111"/>
+    <nd ref="3778493942" lat="48.4225212" lon="9.9542989"/>
+    <nd ref="3778493940" lat="48.4225065" lon="9.9543111"/>
+    <nd ref="3778493938" lat="48.4224944" lon="9.9542780"/>
+    <nd ref="3778493941" lat="48.4225090" lon="9.9542658"/>
+    <nd ref="3778493942" lat="48.4225212" lon="9.9542989"/>
+    <tag k="highway" v="elevator"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374460091">
+    <bounds minlat="48.4224806" minlon="9.9542824" maxlat="48.4225013" maxlon="9.9543226"/>
+    <nd ref="3778493937" lat="48.4224927" lon="9.9543226"/>
+    <nd ref="3778493939" lat="48.4225013" lon="9.9543155"/>
+    <nd ref="3778493936" lat="48.4224892" lon="9.9542824"/>
+    <nd ref="3778493935" lat="48.4224806" lon="9.9542896"/>
+    <nd ref="3778493937" lat="48.4224927" lon="9.9543226"/>
+    <tag k="highway" v="elevator"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374463186">
+    <bounds minlat="48.4224333" minlon="9.9540165" maxlat="48.4224508" maxlon="9.9540426"/>
+    <nd ref="3778520541" lat="48.4224392" lon="9.9540426"/>
+    <nd ref="3778520544" lat="48.4224453" lon="9.9540424"/>
+    <nd ref="3778520546" lat="48.4224499" lon="9.9540363"/>
+    <nd ref="3778520547" lat="48.4224508" lon="9.9540273"/>
+    <nd ref="3778520545" lat="48.4224476" lon="9.9540194"/>
+    <nd ref="3778520542" lat="48.4224419" lon="9.9540165"/>
+    <nd ref="3778520539" lat="48.4224362" lon="9.9540198"/>
+    <nd ref="3778520536" lat="48.4224333" lon="9.9540279"/>
+    <nd ref="3778520537" lat="48.4224345" lon="9.9540369"/>
+    <nd ref="3778520541" lat="48.4224392" lon="9.9540426"/>
+    <tag k="indoor" v="area"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374463190">
+    <bounds minlat="48.4225595" minlon="9.9539617" maxlat="48.4226977" maxlon="9.9541614"/>
+    <nd ref="3761404096" lat="48.4225825" lon="9.9539878"/>
+    <nd ref="3761404106" lat="48.4226156" lon="9.9539617"/>
+    <nd ref="3778493956" lat="48.4226615" lon="9.9539835"/>
+    <nd ref="3778494757" lat="48.4226738" lon="9.9539886"/>
+    <nd ref="3367295364" lat="48.4226977" lon="9.9540553"/>
+    <nd ref="3367295358" lat="48.4226836" lon="9.9541328"/>
+    <nd ref="3367295347" lat="48.4226489" lon="9.9541614"/>
+    <nd ref="3755917071" lat="48.4226275" lon="9.9541521"/>
+    <nd ref="3778493951" lat="48.4226053" lon="9.9541429"/>
+    <nd ref="3761404102" lat="48.4225976" lon="9.9541495"/>
+    <nd ref="3778521564" lat="48.4225966" lon="9.9541468"/>
+    <nd ref="3778493948" lat="48.4225919" lon="9.9541344"/>
+    <nd ref="3761404099" lat="48.4225885" lon="9.9541253"/>
+    <nd ref="3761404093" lat="48.4225733" lon="9.9541384"/>
+    <nd ref="3761404088" lat="48.4225595" lon="9.9541018"/>
+    <nd ref="3761404094" lat="48.4225748" lon="9.9540887"/>
+    <nd ref="3778493945" lat="48.4225715" lon="9.9540798"/>
+    <nd ref="3761404089" lat="48.4225641" lon="9.9540596"/>
+    <nd ref="3761404092" lat="48.4225683" lon="9.9540561"/>
+    <nd ref="3761404096" lat="48.4225825" lon="9.9539878"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H12"/>
+    <tag k="ref" v="277"/>
+  </way>
+  <way id="374463192">
+    <bounds minlat="48.4225783" minlon="9.9537738" maxlat="48.4227138" maxlon="9.9539835"/>
+    <nd ref="3367295332" lat="48.4225813" lon="9.9538839"/>
+    <nd ref="3778493947" lat="48.4225864" lon="9.9538988"/>
+    <nd ref="3761404100" lat="48.4225899" lon="9.9539088"/>
+    <nd ref="3761404095" lat="48.4225783" lon="9.9539179"/>
+    <nd ref="3761404101" lat="48.4225913" lon="9.9539554"/>
+    <nd ref="3761404104" lat="48.4226087" lon="9.9539417"/>
+    <nd ref="3778493952" lat="48.4226116" lon="9.9539502"/>
+    <nd ref="3761404106" lat="48.4226156" lon="9.9539617"/>
+    <nd ref="3778493956" lat="48.4226615" lon="9.9539835"/>
+    <nd ref="3367295353" lat="48.4226696" lon="9.9539769"/>
+    <nd ref="3367295365" lat="48.4227007" lon="9.9539511"/>
+    <nd ref="3367295367" lat="48.4227138" lon="9.9538730"/>
+    <nd ref="3367295360" lat="48.4226859" lon="9.9537964"/>
+    <nd ref="3367295346" lat="48.4226332" lon="9.9537738"/>
+    <nd ref="3367295340" lat="48.4225996" lon="9.9538026"/>
+    <nd ref="3367295337" lat="48.4225927" lon="9.9538362"/>
+    <nd ref="3367295332" lat="48.4225813" lon="9.9538839"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H13"/>
+    <tag k="ref" v="276"/>
+  </way>
+  <way id="374463918">
+    <bounds minlat="48.4226565" minlon="9.9545740" maxlat="48.4227799" maxlon="9.9547470"/>
+    <nd ref="3778340236" lat="48.4226757" lon="9.9546304"/>
+    <nd ref="3778340235" lat="48.4226669" lon="9.9546378"/>
+    <nd ref="3761404121" lat="48.4226565" lon="9.9546465"/>
+    <nd ref="3761404130" lat="48.4226938" lon="9.9547470"/>
+    <nd ref="3778340243" lat="48.4227043" lon="9.9547382"/>
+    <nd ref="3778340245" lat="48.4227131" lon="9.9547308"/>
+    <nd ref="3761404135" lat="48.4227348" lon="9.9547125"/>
+    <nd ref="3761404138" lat="48.4227721" lon="9.9546810"/>
+    <nd ref="3761404142" lat="48.4227799" lon="9.9546744"/>
+    <nd ref="3761404136" lat="48.4227426" lon="9.9545740"/>
+    <nd ref="3761404134" lat="48.4227346" lon="9.9545807"/>
+    <nd ref="3761404133" lat="48.4227192" lon="9.9545936"/>
+    <nd ref="3761404131" lat="48.4226950" lon="9.9546141"/>
+    <nd ref="3778340236" lat="48.4226757" lon="9.9546304"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="226"/>
+  </way>
+  <way id="374463919">
+    <bounds minlat="48.4225146" minlon="9.9545517" maxlat="48.4226251" maxlon="9.9547416"/>
+    <nd ref="3761404109" lat="48.4226194" lon="9.9546775"/>
+    <nd ref="3778521562" lat="48.4225714" lon="9.9545517"/>
+    <nd ref="3761404087" lat="48.4225508" lon="9.9545692"/>
+    <nd ref="3761404086" lat="48.4225334" lon="9.9545839"/>
+    <nd ref="3761404083" lat="48.4225146" lon="9.9545998"/>
+    <nd ref="3778493944" lat="48.4225357" lon="9.9546564"/>
+    <nd ref="3761404091" lat="48.4225675" lon="9.9547416"/>
+    <nd ref="3761404103" lat="48.4226055" lon="9.9547094"/>
+    <nd ref="3761404110" lat="48.4226251" lon="9.9546928"/>
+    <nd ref="3761404109" lat="48.4226194" lon="9.9546775"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="227"/>
+  </way>
+  <way id="374463920">
+    <bounds minlat="48.4223668" minlon="9.9544729" maxlat="48.4224852" maxlon="9.9546516"/>
+    <nd ref="3761404061" lat="48.4224588" lon="9.9545167"/>
+    <nd ref="3778520543" lat="48.4224425" lon="9.9544729"/>
+    <nd ref="3778527224" lat="48.4223668" lon="9.9545371"/>
+    <nd ref="3778527225" lat="48.4224095" lon="9.9546516"/>
+    <nd ref="3761404075" lat="48.4224852" lon="9.9545878"/>
+    <nd ref="3761404065" lat="48.4224702" lon="9.9545474"/>
+    <nd ref="3761404061" lat="48.4224588" lon="9.9545167"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="251"/>
+  </way>
+  <way id="374463921">
+    <bounds minlat="48.4222910" minlon="9.9545371" maxlat="48.4224095" maxlon="9.9547157"/>
+    <nd ref="3778527225" lat="48.4224095" lon="9.9546516"/>
+    <nd ref="3778527224" lat="48.4223668" lon="9.9545371"/>
+    <nd ref="3761402634" lat="48.4223003" lon="9.9545934"/>
+    <nd ref="3761402631" lat="48.4222910" lon="9.9546012"/>
+    <nd ref="3761402636" lat="48.4223336" lon="9.9547157"/>
+    <nd ref="3778527225" lat="48.4224095" lon="9.9546516"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="252"/>
+  </way>
+  <way id="374463922">
+    <bounds minlat="48.4222192" minlon="9.9541799" maxlat="48.4223569" maxlon="9.9543879"/>
+    <nd ref="3367295268" lat="48.4222340" lon="9.9542231"/>
+    <nd ref="3367295264" lat="48.4222192" lon="9.9543023"/>
+    <nd ref="3367295271" lat="48.4222383" lon="9.9543541"/>
+    <nd ref="3367295276" lat="48.4222828" lon="9.9543721"/>
+    <nd ref="3761402630" lat="48.4222898" lon="9.9543756"/>
+    <nd ref="3778493924" lat="48.4222992" lon="9.9543676"/>
+    <nd ref="3778493925" lat="48.4223043" lon="9.9543633"/>
+    <nd ref="3778493926" lat="48.4223135" lon="9.9543879"/>
+    <nd ref="3778493929" lat="48.4223383" lon="9.9543669"/>
+    <nd ref="3778493927" lat="48.4223291" lon="9.9543422"/>
+    <nd ref="3778493928" lat="48.4223349" lon="9.9543373"/>
+    <nd ref="3778520528" lat="48.4223424" lon="9.9543310"/>
+    <nd ref="3761402637" lat="48.4223455" lon="9.9543283"/>
+    <nd ref="3778493930" lat="48.4223434" lon="9.9543223"/>
+    <nd ref="3755917052" lat="48.4223506" lon="9.9542855"/>
+    <nd ref="3367295292" lat="48.4223569" lon="9.9542534"/>
+    <nd ref="3367295287" lat="48.4223371" lon="9.9542009"/>
+    <nd ref="3367295275" lat="48.4222845" lon="9.9541799"/>
+    <nd ref="3367295268" lat="48.4222340" lon="9.9542231"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H11"/>
+    <tag k="ref" v="253"/>
+  </way>
+  <way id="374465190">
+    <bounds minlat="48.4225701" minlon="9.9544129" maxlat="48.4226259" maxlon="9.9544957"/>
+    <nd ref="3778538350" lat="48.4226259" lon="9.9544651"/>
+    <nd ref="3778538346" lat="48.4225978" lon="9.9544886"/>
+    <nd ref="3778538345" lat="48.4225894" lon="9.9544957"/>
+    <nd ref="3778538343" lat="48.4225747" lon="9.9544559"/>
+    <nd ref="3778538341" lat="48.4225701" lon="9.9544435"/>
+    <nd ref="3778538348" lat="48.4226067" lon="9.9544129"/>
+    <nd ref="3778538350" lat="48.4226259" lon="9.9544651"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374465192">
+    <bounds minlat="48.4227826" minlon="9.9539539" maxlat="48.4228855" maxlon="9.9540897"/>
+    <nd ref="3778521566" lat="48.4228092" lon="9.9540897"/>
+    <nd ref="3778521567" lat="48.4228855" lon="9.9540251"/>
+    <nd ref="3761765628" lat="48.4228639" lon="9.9539673"/>
+    <nd ref="3761765626" lat="48.4228589" lon="9.9539539"/>
+    <nd ref="3761765623" lat="48.4227826" lon="9.9540185"/>
+    <nd ref="3778521566" lat="48.4228092" lon="9.9540897"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="Cafe Einstein"/>
+  </way>
+  <way id="374474135">
+    <bounds minlat="48.4226317" minlon="9.9564637" maxlat="48.4226923" maxlon="9.9565574"/>
+    <nd ref="3778106626" lat="48.4226374" lon="9.9564672"/>
+    <nd ref="3778106625" lat="48.4226317" lon="9.9564720"/>
+    <nd ref="3778106628" lat="48.4226636" lon="9.9565574"/>
+    <nd ref="3778106629" lat="48.4226835" lon="9.9565405"/>
+    <nd ref="3778611783" lat="48.4226923" lon="9.9565330"/>
+    <nd ref="3778611782" lat="48.4226756" lon="9.9564884"/>
+    <nd ref="3778611780" lat="48.4226613" lon="9.9565005"/>
+    <nd ref="3778611778" lat="48.4226508" lon="9.9564725"/>
+    <nd ref="3778611777" lat="48.4226463" lon="9.9564764"/>
+    <nd ref="3778611776" lat="48.4226415" lon="9.9564637"/>
+    <nd ref="3778106626" lat="48.4226374" lon="9.9564672"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="male" v="yes"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374474136">
+    <bounds minlat="48.4224612" minlon="9.9542234" maxlat="48.4225254" maxlon="9.9543268"/>
+    <nd ref="3778521560" lat="48.4225254" lon="9.9542954"/>
+    <nd ref="3778340218" lat="48.4225252" lon="9.9542955"/>
+    <nd ref="3778493942" lat="48.4225212" lon="9.9542989"/>
+    <nd ref="3778493940" lat="48.4225065" lon="9.9543111"/>
+    <nd ref="3778493939" lat="48.4225013" lon="9.9543155"/>
+    <nd ref="3778493937" lat="48.4224927" lon="9.9543226"/>
+    <nd ref="3778520551" lat="48.4224877" lon="9.9543268"/>
+    <nd ref="3761404066" lat="48.4224707" lon="9.9542807"/>
+    <nd ref="3761404062" lat="48.4224612" lon="9.9542549"/>
+    <nd ref="3761404073" lat="48.4224801" lon="9.9542391"/>
+    <nd ref="3778611772" lat="48.4224989" lon="9.9542234"/>
+    <nd ref="3778340211" lat="48.4224992" lon="9.9542246"/>
+    <nd ref="3778521557" lat="48.4225195" lon="9.9542796"/>
+    <nd ref="3778521560" lat="48.4225254" lon="9.9542954"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474137">
+    <bounds minlat="48.4227903" minlon="9.9550029" maxlat="48.4228489" maxlon="9.9550904"/>
+    <nd ref="3778051099" lat="48.4228117" lon="9.9550904"/>
+    <nd ref="3778051114" lat="48.4228489" lon="9.9550587"/>
+    <nd ref="3760161168" lat="48.4228289" lon="9.9550029"/>
+    <nd ref="3778611788" lat="48.4227903" lon="9.9550343"/>
+    <nd ref="3778051099" lat="48.4228117" lon="9.9550904"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474138">
+    <bounds minlat="48.4225952" minlon="9.9564720" maxlat="48.4226636" maxlon="9.9565883"/>
+    <nd ref="3778106628" lat="48.4226636" lon="9.9565574"/>
+    <nd ref="3778106625" lat="48.4226317" lon="9.9564720"/>
+    <nd ref="3778611774" lat="48.4225952" lon="9.9565028"/>
+    <nd ref="3778611775" lat="48.4226270" lon="9.9565883"/>
+    <nd ref="3778106628" lat="48.4226636" lon="9.9565574"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474139">
+    <bounds minlat="48.4225530" minlon="9.9562637" maxlat="48.4226122" maxlon="9.9563532"/>
+    <nd ref="3777243877" lat="48.4225530" lon="9.9562960"/>
+    <nd ref="3777243885" lat="48.4225743" lon="9.9563532"/>
+    <nd ref="3778082726" lat="48.4226122" lon="9.9563210"/>
+    <nd ref="3777243888" lat="48.4225912" lon="9.9562637"/>
+    <nd ref="3777243877" lat="48.4225530" lon="9.9562960"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474140">
+    <bounds minlat="48.4226576" minlon="9.9563436" maxlat="48.4227169" maxlon="9.9564325"/>
+    <nd ref="3777243899" lat="48.4226576" lon="9.9563761"/>
+    <nd ref="3778082730" lat="48.4226787" lon="9.9564325"/>
+    <nd ref="3778611785" lat="48.4227169" lon="9.9563996"/>
+    <nd ref="3778611784" lat="48.4226957" lon="9.9563436"/>
+    <nd ref="3777243899" lat="48.4226576" lon="9.9563761"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474141">
+    <bounds minlat="48.4224527" minlon="9.9544006" maxlat="48.4225087" maxlon="9.9544857"/>
+    <nd ref="3778520548" lat="48.4224527" lon="9.9544304"/>
+    <nd ref="3761404069" lat="48.4224732" lon="9.9544857"/>
+    <nd ref="3761404081" lat="48.4225087" lon="9.9544558"/>
+    <nd ref="3778520552" lat="48.4224881" lon="9.9544006"/>
+    <nd ref="3778520548" lat="48.4224527" lon="9.9544304"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474142">
+    <bounds minlat="48.4223401" minlon="9.9554972" maxlat="48.4223995" maxlon="9.9555860"/>
+    <nd ref="3778106601" lat="48.4223611" lon="9.9555860"/>
+    <nd ref="3778106598" lat="48.4223401" lon="9.9555294"/>
+    <nd ref="3778611770" lat="48.4223785" lon="9.9554972"/>
+    <nd ref="3778611771" lat="48.4223995" lon="9.9555538"/>
+    <nd ref="3778106601" lat="48.4223611" lon="9.9555860"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474143">
+    <bounds minlat="48.4222238" minlon="9.9554838" maxlat="48.4222836" maxlon="9.9555737"/>
+    <nd ref="3778106591" lat="48.4222836" lon="9.9555420"/>
+    <nd ref="3778106587" lat="48.4222446" lon="9.9555737"/>
+    <nd ref="3778611768" lat="48.4222238" lon="9.9555155"/>
+    <nd ref="3778611769" lat="48.4222628" lon="9.9554838"/>
+    <nd ref="3778106591" lat="48.4222836" lon="9.9555420"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474145">
+    <bounds minlat="48.4227382" minlon="9.9551628" maxlat="48.4227965" maxlon="9.9552490"/>
+    <nd ref="3778307388" lat="48.4227765" lon="9.9551628"/>
+    <nd ref="3778611786" lat="48.4227382" lon="9.9551950"/>
+    <nd ref="3778611787" lat="48.4227582" lon="9.9552490"/>
+    <nd ref="3778611789" lat="48.4227965" lon="9.9552168"/>
+    <nd ref="3778307388" lat="48.4227765" lon="9.9551628"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474146">
+    <bounds minlat="48.4228941" minlon="9.9550803" maxlat="48.4229539" maxlon="9.9551699"/>
+    <nd ref="3778067095" lat="48.4228941" lon="9.9551126"/>
+    <nd ref="3778611793" lat="48.4229323" lon="9.9550803"/>
+    <nd ref="3778611794" lat="48.4229433" lon="9.9551088"/>
+    <nd ref="3778611795" lat="48.4229539" lon="9.9551372"/>
+    <nd ref="3778611791" lat="48.4229155" lon="9.9551699"/>
+    <nd ref="3778067095" lat="48.4228941" lon="9.9551126"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474148">
+    <bounds minlat="48.4225017" minlon="9.9564236" maxlat="48.4225555" maxlon="9.9565075"/>
+    <nd ref="3777243874" lat="48.4225346" lon="9.9564236"/>
+    <nd ref="3777243878" lat="48.4225555" lon="9.9564797"/>
+    <nd ref="3777243872" lat="48.4225226" lon="9.9565075"/>
+    <nd ref="3777243871" lat="48.4225124" lon="9.9564801"/>
+    <nd ref="3778611773" lat="48.4225017" lon="9.9564514"/>
+    <nd ref="3777243874" lat="48.4225346" lon="9.9564236"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474149">
+    <bounds minlat="48.4225786" minlon="9.9542373" maxlat="48.4226362" maxlon="9.9543227"/>
+    <nd ref="3778493946" lat="48.4225786" lon="9.9542689"/>
+    <nd ref="3778493950" lat="48.4225982" lon="9.9543227"/>
+    <nd ref="3778340232" lat="48.4226322" lon="9.9542945"/>
+    <nd ref="3778493954" lat="48.4226362" lon="9.9542914"/>
+    <nd ref="3761404112" lat="48.4226307" lon="9.9542754"/>
+    <nd ref="3761404107" lat="48.4226167" lon="9.9542373"/>
+    <nd ref="3778521565" lat="48.4226065" lon="9.9542458"/>
+    <nd ref="3778493946" lat="48.4225786" lon="9.9542689"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374474150">
+    <bounds minlat="48.4226415" minlon="9.9564477" maxlat="48.4226756" maxlon="9.9565005"/>
+    <nd ref="3778611776" lat="48.4226415" lon="9.9564637"/>
+    <nd ref="3778611777" lat="48.4226463" lon="9.9564764"/>
+    <nd ref="3778611778" lat="48.4226508" lon="9.9564725"/>
+    <nd ref="3778611780" lat="48.4226613" lon="9.9565005"/>
+    <nd ref="3778611782" lat="48.4226756" lon="9.9564884"/>
+    <nd ref="3778611781" lat="48.4226622" lon="9.9564526"/>
+    <nd ref="3778611779" lat="48.4226604" lon="9.9564477"/>
+    <nd ref="3778106627" lat="48.4226517" lon="9.9564551"/>
+    <nd ref="3778611776" lat="48.4226415" lon="9.9564637"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374474151">
+    <bounds minlat="48.4228313" minlon="9.9552103" maxlat="48.4229011" maxlon="9.9553263"/>
+    <nd ref="3778307407" lat="48.4228701" lon="9.9552103"/>
+    <nd ref="3789072526" lat="48.4229010" lon="9.9552931"/>
+    <nd ref="3778307416" lat="48.4229011" lon="9.9552933"/>
+    <nd ref="3778611790" lat="48.4228623" lon="9.9553263"/>
+    <nd ref="3778051108" lat="48.4228313" lon="9.9552433"/>
+    <nd ref="3778307394" lat="48.4228388" lon="9.9552369"/>
+    <nd ref="3778307395" lat="48.4228453" lon="9.9552314"/>
+    <nd ref="3778307397" lat="48.4228500" lon="9.9552274"/>
+    <nd ref="3778307404" lat="48.4228623" lon="9.9552169"/>
+    <nd ref="3778307407" lat="48.4228701" lon="9.9552103"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
   <way id="374474152">
     <bounds minlat="48.4229824" minlon="9.9574065" maxlat="48.4230562" maxlon="9.9575381"/>
     <nd ref="3777225789" lat="48.4229824" lon="9.9574378"/>
-    <nd ref="3777179839" lat="48.4229853" lon="9.9574458"/>
     <nd ref="7010917690" lat="48.4229897" lon="9.9574577"/>
     <nd ref="3778611799" lat="48.4230195" lon="9.9575381"/>
     <nd ref="3778611801" lat="48.4230562" lon="9.9575072"/>
@@ -489,7 +2278,6 @@
     <bounds minlat="48.4230195" minlon="9.9575072" maxlat="48.4230873" maxlon="9.9576221"/>
     <nd ref="3778611801" lat="48.4230562" lon="9.9575072"/>
     <nd ref="3778611799" lat="48.4230195" lon="9.9575381"/>
-    <nd ref="3777179848" lat="48.4230222" lon="9.9575454"/>
     <nd ref="7010917691" lat="48.4230254" lon="9.9575541"/>
     <nd ref="7563633390" lat="48.4230506" lon="9.9576221"/>
     <nd ref="3367196701" lat="48.4230592" lon="9.9576149"/>
@@ -500,15 +2288,13 @@
     <tag k="ref" v="O27/2202"/>
   </way>
   <way id="374474156">
-    <bounds minlat="48.4229283" minlon="9.9575112" maxlat="48.4230309" maxlon="9.9576854"/>
+    <bounds minlat="48.4229283" minlon="9.9575110" maxlat="48.4230309" maxlon="9.9576854"/>
     <nd ref="3757005299" lat="48.4229752" lon="9.9576854"/>
     <nd ref="1148284383" lat="48.4229843" lon="9.9576778"/>
     <nd ref="3755614359" lat="48.4230240" lon="9.9576445"/>
     <nd ref="3777179849" lat="48.4230309" lon="9.9576387"/>
-    <nd ref="3777179846" lat="48.4230126" lon="9.9575898"/>
-    <nd ref="7010917885" lat="48.4229887" lon="9.9575252"/>
-    <nd ref="3777179840" lat="48.4229867" lon="9.9575198"/>
-    <nd ref="3778611796" lat="48.4229838" lon="9.9575112"/>
+    <nd ref="7010917885" lat="48.4229891" lon="9.9575249"/>
+    <nd ref="3778611796" lat="48.4229840" lon="9.9575110"/>
     <nd ref="3779404215" lat="48.4229653" lon="9.9575263"/>
     <nd ref="3779404207" lat="48.4229329" lon="9.9575539"/>
     <nd ref="3778611792" lat="48.4229283" lon="9.9575577"/>
@@ -517,6 +2303,56 @@
     <tag k="indoor" v="room"/>
     <tag k="level" v="2"/>
     <tag k="ref" v="O27/2203"/>
+  </way>
+  <way id="374474159">
+    <bounds minlat="48.4229433" minlon="9.9550357" maxlat="48.4230712" maxlon="9.9552211"/>
+    <nd ref="3778067099" lat="48.4229713" lon="9.9550848"/>
+    <nd ref="3778611798" lat="48.4230138" lon="9.9550487"/>
+    <nd ref="3778611800" lat="48.4230293" lon="9.9550357"/>
+    <nd ref="3778611803" lat="48.4230712" lon="9.9551481"/>
+    <nd ref="3778611797" lat="48.4229854" lon="9.9552211"/>
+    <nd ref="3778611795" lat="48.4229539" lon="9.9551372"/>
+    <nd ref="3778611794" lat="48.4229433" lon="9.9551088"/>
+    <nd ref="3778067099" lat="48.4229713" lon="9.9550848"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H8"/>
+    <tag k="ref" v="206"/>
+  </way>
+  <way id="374474160">
+    <bounds minlat="48.4230293" minlon="9.9549639" maxlat="48.4231561" maxlon="9.9551481"/>
+    <nd ref="3778611800" lat="48.4230293" lon="9.9550357"/>
+    <nd ref="3778611803" lat="48.4230712" lon="9.9551481"/>
+    <nd ref="3760161183" lat="48.4231561" lon="9.9550759"/>
+    <nd ref="3760161182" lat="48.4231250" lon="9.9549928"/>
+    <nd ref="3778611804" lat="48.4231137" lon="9.9549639"/>
+    <nd ref="3778067101" lat="48.4230752" lon="9.9549967"/>
+    <nd ref="3778611802" lat="48.4230707" lon="9.9550005"/>
+    <nd ref="3778611800" lat="48.4230293" lon="9.9550357"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H9"/>
+    <tag k="ref" v="205"/>
+  </way>
+  <way id="374475188">
+    <bounds minlat="48.4223299" minlon="9.9556720" maxlat="48.4223903" maxlon="9.9557612"/>
+    <nd ref="3778067092" lat="48.4223698" lon="9.9556720"/>
+    <nd ref="3778067093" lat="48.4223903" lon="9.9557292"/>
+    <nd ref="3778629766" lat="48.4223509" lon="9.9557612"/>
+    <nd ref="3778067088" lat="48.4223299" lon="9.9557044"/>
+    <nd ref="3778067092" lat="48.4223698" lon="9.9556720"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
+  </way>
+  <way id="374476433">
+    <bounds minlat="48.4231825" minlon="9.9558432" maxlat="48.4232405" maxlon="9.9559295"/>
+    <nd ref="3777322987" lat="48.4231825" lon="9.9558750"/>
+    <nd ref="3777322992" lat="48.4232204" lon="9.9558432"/>
+    <nd ref="3778666631" lat="48.4232405" lon="9.9558977"/>
+    <nd ref="3778666630" lat="48.4232026" lon="9.9559295"/>
+    <nd ref="3777322987" lat="48.4231825" lon="9.9558750"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4"/>
   </way>
   <way id="374546214">
     <bounds minlat="48.4228836" minlon="9.9570542" maxlat="48.4229283" maxlon="9.9571316"/>
@@ -574,15 +2410,15 @@
     <nd ref="3777225773" lat="48.4228403" lon="9.9572255"/>
     <nd ref="3777225768" lat="48.4228119" lon="9.9572482"/>
     <nd ref="3777225764" lat="48.4228021" lon="9.9572559"/>
-    <nd ref="3779404201" lat="48.4227918" lon="9.9572640"/>
-    <nd ref="3778051089" lat="48.4227871" lon="9.9572513"/>
+    <nd ref="7998166256" lat="48.4227918" lon="9.9572640"/>
+    <nd ref="8004486442" lat="48.4227871" lon="9.9572513"/>
     <nd ref="7010917689" lat="48.4227778" lon="9.9572267"/>
     <nd ref="3757005283" lat="48.4227679" lon="9.9572003"/>
     <nd ref="3778051092" lat="48.4227967" lon="9.9571755"/>
     <nd ref="3757005289" lat="48.4228062" lon="9.9571674"/>
     <nd ref="3777179794" lat="48.4228159" lon="9.9571600"/>
     <nd ref="3777179799" lat="48.4228195" lon="9.9571696"/>
-    <nd ref="3778051106" lat="48.4228246" lon="9.9571833"/>
+    <nd ref="7996151957" lat="48.4228242" lon="9.9571822"/>
     <nd ref="3777179805" lat="48.4228351" lon="9.9572114"/>
     <nd ref="3777225773" lat="48.4228403" lon="9.9572255"/>
     <tag k="indoor" v="room"/>
@@ -596,7 +2432,6 @@
     <nd ref="3779404203" lat="48.4229075" lon="9.9570542"/>
     <nd ref="3779404206" lat="48.4229283" lon="9.9571118"/>
     <nd ref="3778051125" lat="48.4229319" lon="9.9571088"/>
-    <nd ref="3779404208" lat="48.4229387" lon="9.9571030"/>
     <nd ref="7563731074" lat="48.4229611" lon="9.9570839"/>
     <nd ref="7563633398" lat="48.4229565" lon="9.9570715"/>
     <nd ref="7563622856" lat="48.4229400" lon="9.9570270"/>
@@ -610,12 +2445,12 @@
     <tag k="wheelchair" v="no"/>
   </way>
   <way id="374546219">
-    <bounds minlat="48.4229444" minlon="9.9574549" maxlat="48.4229838" maxlon="9.9575263"/>
+    <bounds minlat="48.4229444" minlon="9.9574549" maxlat="48.4229840" maxlon="9.9575263"/>
     <nd ref="3779404214" lat="48.4229633" lon="9.9574549"/>
     <nd ref="3779404210" lat="48.4229444" lon="9.9574703"/>
     <nd ref="3779404215" lat="48.4229653" lon="9.9575263"/>
-    <nd ref="3778611796" lat="48.4229838" lon="9.9575112"/>
-    <nd ref="3777179836" lat="48.4229778" lon="9.9574941"/>
+    <nd ref="3778611796" lat="48.4229840" lon="9.9575110"/>
+    <nd ref="3777179836" lat="48.4229772" lon="9.9574926"/>
     <nd ref="3777179831" lat="48.4229681" lon="9.9574682"/>
     <nd ref="3779404214" lat="48.4229633" lon="9.9574549"/>
     <tag k="indoor" v="room"/>
@@ -641,7 +2476,6 @@
   </way>
   <way id="374546221">
     <bounds minlat="48.4228598" minlon="9.9573266" maxlat="48.4229633" maxlon="9.9575029"/>
-    <nd ref="3777225782" lat="48.4229270" lon="9.9573555"/>
     <nd ref="3777179822" lat="48.4229222" lon="9.9573426"/>
     <nd ref="3777179821" lat="48.4229163" lon="9.9573266"/>
     <nd ref="3777179814" lat="48.4228692" lon="9.9573660"/>
@@ -652,9 +2486,7 @@
     <nd ref="3779404210" lat="48.4229444" lon="9.9574703"/>
     <nd ref="3779404214" lat="48.4229633" lon="9.9574549"/>
     <nd ref="3777207343" lat="48.4229606" lon="9.9574472"/>
-    <nd ref="3779404212" lat="48.4229553" lon="9.9574326"/>
-    <nd ref="3777207340" lat="48.4229296" lon="9.9573628"/>
-    <nd ref="3777225782" lat="48.4229270" lon="9.9573555"/>
+    <nd ref="3777179822" lat="48.4229222" lon="9.9573426"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="2"/>
     <tag k="ref" v="2205"/>
@@ -662,8 +2494,8 @@
   <way id="374546222">
     <bounds minlat="48.4226038" minlon="9.9571899" maxlat="48.4227980" maxlon="9.9574172"/>
     <nd ref="3778051094" lat="48.4227980" lon="9.9572805"/>
-    <nd ref="3779404201" lat="48.4227918" lon="9.9572640"/>
-    <nd ref="3778051089" lat="48.4227871" lon="9.9572513"/>
+    <nd ref="7998166255" lat="48.4227918" lon="9.9572640"/>
+    <nd ref="8004486441" lat="48.4227871" lon="9.9572513"/>
     <nd ref="7010917689" lat="48.4227778" lon="9.9572267"/>
     <nd ref="3757005283" lat="48.4227679" lon="9.9572003"/>
     <nd ref="3757005282" lat="48.4227640" lon="9.9571899"/>
@@ -675,17 +2507,36 @@
     <nd ref="3777179780" lat="48.4226667" lon="9.9573922"/>
     <nd ref="3779404197" lat="48.4226761" lon="9.9573843"/>
     <nd ref="3779404198" lat="48.4226801" lon="9.9573952"/>
-    <nd ref="3777221946" lat="48.4227036" lon="9.9573962"/>
+    <nd ref="3777221946" lat="48.4227042" lon="9.9573959"/>
     <nd ref="3777221952" lat="48.4227148" lon="9.9573864"/>
     <nd ref="3777221948" lat="48.4227048" lon="9.9573598"/>
-    <nd ref="3778051074" lat="48.4227092" lon="9.9573560"/>
     <nd ref="3779404200" lat="48.4227186" lon="9.9573481"/>
-    <nd ref="3778051088" lat="48.4227839" lon="9.9572925"/>
     <nd ref="3778051094" lat="48.4227980" lon="9.9572805"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="2"/>
     <tag k="name" v="Nordpool"/>
     <tag k="ref" v="O27/234"/>
+  </way>
+  <way id="374577778">
+    <bounds minlat="48.4232740" minlon="9.9546127" maxlat="48.4233129" maxlon="9.9546815"/>
+    <nd ref="3779734273" lat="48.4233129" lon="9.9546651"/>
+    <nd ref="3779734270" lat="48.4232940" lon="9.9546815"/>
+    <nd ref="3779734264" lat="48.4232740" lon="9.9546290"/>
+    <nd ref="3779734268" lat="48.4232929" lon="9.9546127"/>
+    <nd ref="3779734273" lat="48.4233129" lon="9.9546651"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2"/>
+    <tag k="stairs" v="yes"/>
+  </way>
+  <way id="374577781">
+    <bounds minlat="48.4232933" minlon="9.9547413" maxlat="48.4233499" maxlon="9.9548298"/>
+    <nd ref="3779734269" lat="48.4232933" lon="9.9547710"/>
+    <nd ref="3779734276" lat="48.4233276" lon="9.9547413"/>
+    <nd ref="3779734283" lat="48.4233499" lon="9.9548001"/>
+    <nd ref="3779734274" lat="48.4233156" lon="9.9548298"/>
+    <nd ref="3779734269" lat="48.4232933" lon="9.9547710"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4;5"/>
   </way>
   <way id="374580327">
     <bounds minlat="48.4229747" minlon="9.9571498" maxlat="48.4230916" maxlon="9.9573061"/>
@@ -775,7 +2626,7 @@
   <way id="374580332">
     <bounds minlat="48.4228720" minlon="9.9569830" maxlat="48.4229400" maxlon="9.9570696"/>
     <nd ref="3777225780" lat="48.4228886" lon="9.9570696"/>
-    <nd ref="3779752419" lat="48.4228811" lon="9.9570495"/>
+    <nd ref="7996151952" lat="48.4228811" lon="9.9570495"/>
     <nd ref="3777225777" lat="48.4228786" lon="9.9570429"/>
     <nd ref="3779752416" lat="48.4228720" lon="9.9570251"/>
     <nd ref="3779752420" lat="48.4228857" lon="9.9570140"/>
@@ -787,6 +2638,47 @@
     <tag k="indoor" v="room"/>
     <tag k="level" v="2"/>
     <tag k="ref" v="O27/247"/>
+  </way>
+  <way id="374580727">
+    <bounds minlat="48.4226787" minlon="9.9563996" maxlat="48.4227376" maxlon="9.9564872"/>
+    <nd ref="3778611785" lat="48.4227169" lon="9.9563996"/>
+    <nd ref="3778082730" lat="48.4226787" lon="9.9564325"/>
+    <nd ref="3779756794" lat="48.4226994" lon="9.9564872"/>
+    <nd ref="3779756795" lat="48.4227376" lon="9.9564542"/>
+    <nd ref="3778611785" lat="48.4227169" lon="9.9563996"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2101"/>
+  </way>
+  <way id="374580728">
+    <bounds minlat="48.4226994" minlon="9.9564542" maxlat="48.4227542" maxlon="9.9565309"/>
+    <nd ref="3779756795" lat="48.4227376" lon="9.9564542"/>
+    <nd ref="3779756794" lat="48.4226994" lon="9.9564872"/>
+    <nd ref="3777243905" lat="48.4227160" lon="9.9565309"/>
+    <nd ref="3777243907" lat="48.4227542" lon="9.9564978"/>
+    <nd ref="3758604569" lat="48.4227479" lon="9.9564813"/>
+    <nd ref="3779756795" lat="48.4227376" lon="9.9564542"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2102"/>
+  </way>
+  <way id="374580730">
+    <bounds minlat="48.4227087" minlon="9.9565255" maxlat="48.4228815" maxlon="9.9568839"/>
+    <nd ref="3777243902" lat="48.4227087" lon="9.9565731"/>
+    <nd ref="3777243908" lat="48.4227646" lon="9.9565255"/>
+    <nd ref="3758592139" lat="48.4228542" lon="9.9567638"/>
+    <nd ref="3757005293" lat="48.4228573" lon="9.9567721"/>
+    <nd ref="7563622864" lat="48.4228815" lon="9.9568362"/>
+    <nd ref="3779752415" lat="48.4228721" lon="9.9568442"/>
+    <nd ref="3779752410" lat="48.4228463" lon="9.9568660"/>
+    <nd ref="3778051109" lat="48.4228339" lon="9.9568767"/>
+    <nd ref="3779756796" lat="48.4228254" lon="9.9568839"/>
+    <nd ref="3754879727" lat="48.4228036" lon="9.9568259"/>
+    <nd ref="3754717381" lat="48.4227982" lon="9.9568115"/>
+    <nd ref="3777243902" lat="48.4227087" lon="9.9565731"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="2201"/>
   </way>
   <way id="374580731">
     <bounds minlat="48.4227757" minlon="9.9568259" maxlat="48.4228254" maxlon="9.9569079"/>
@@ -800,6 +2692,707 @@
     <tag k="indoor" v="room"/>
     <tag k="level" v="2"/>
     <tag k="ref" v="2202"/>
+  </way>
+  <way id="374582419">
+    <bounds minlat="48.4231750" minlon="9.9560248" maxlat="48.4232295" maxlon="9.9561044"/>
+    <nd ref="3779779772" lat="48.4231932" lon="9.9561044"/>
+    <nd ref="3789072709" lat="48.4231835" lon="9.9560782"/>
+    <nd ref="3779779771" lat="48.4231750" lon="9.9560553"/>
+    <nd ref="3779779773" lat="48.4232114" lon="9.9560248"/>
+    <nd ref="3779779774" lat="48.4232295" lon="9.9560739"/>
+    <nd ref="3779779772" lat="48.4231932" lon="9.9561044"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="0;1;2;3;4"/>
+  </way>
+  <way id="374582422">
+    <bounds minlat="48.4231332" minlon="9.9560288" maxlat="48.4231624" maxlon="9.9560877"/>
+    <nd ref="3779779766" lat="48.4231525" lon="9.9560288"/>
+    <nd ref="3789072703" lat="48.4231418" lon="9.9560378"/>
+    <nd ref="3777322981" lat="48.4231332" lon="9.9560450"/>
+    <nd ref="3789072700" lat="48.4231386" lon="9.9560597"/>
+    <nd ref="3779779764" lat="48.4231490" lon="9.9560877"/>
+    <nd ref="3789072706" lat="48.4231576" lon="9.9560805"/>
+    <nd ref="3779779769" lat="48.4231624" lon="9.9560765"/>
+    <nd ref="3779779765" lat="48.4231521" lon="9.9560487"/>
+    <nd ref="3779779767" lat="48.4231580" lon="9.9560438"/>
+    <nd ref="3779779766" lat="48.4231525" lon="9.9560288"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374582424">
+    <bounds minlat="48.4231490" minlon="9.9560206" maxlat="48.4231932" maxlon="9.9561288"/>
+    <nd ref="3779779769" lat="48.4231624" lon="9.9560765"/>
+    <nd ref="3779779765" lat="48.4231521" lon="9.9560487"/>
+    <nd ref="3779779767" lat="48.4231580" lon="9.9560438"/>
+    <nd ref="3779779766" lat="48.4231525" lon="9.9560288"/>
+    <nd ref="3779779768" lat="48.4231623" lon="9.9560206"/>
+    <nd ref="3779779771" lat="48.4231750" lon="9.9560553"/>
+    <nd ref="3789072709" lat="48.4231835" lon="9.9560782"/>
+    <nd ref="3779779772" lat="48.4231932" lon="9.9561044"/>
+    <nd ref="3789072708" lat="48.4231728" lon="9.9561215"/>
+    <nd ref="3779779770" lat="48.4231642" lon="9.9561288"/>
+    <nd ref="3789072705" lat="48.4231545" lon="9.9561025"/>
+    <nd ref="3779779764" lat="48.4231490" lon="9.9560877"/>
+    <nd ref="3789072706" lat="48.4231576" lon="9.9560805"/>
+    <nd ref="3779779769" lat="48.4231624" lon="9.9560765"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="male" v="yes"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="374582428">
+    <bounds minlat="48.4227423" minlon="9.9548746" maxlat="48.4227972" maxlon="9.9549507"/>
+    <nd ref="3779779763" lat="48.4227972" lon="9.9549179"/>
+    <nd ref="3779779761" lat="48.4227585" lon="9.9549507"/>
+    <nd ref="3779779760" lat="48.4227423" lon="9.9549080"/>
+    <nd ref="3779779762" lat="48.4227810" lon="9.9548746"/>
+    <nd ref="3779779763" lat="48.4227972" lon="9.9549179"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="211"/>
+  </way>
+  <way id="374582431">
+    <bounds minlat="48.4227585" minlon="9.9549179" maxlat="48.4228289" maxlon="9.9550343"/>
+    <nd ref="3778611788" lat="48.4227903" lon="9.9550343"/>
+    <nd ref="3760161168" lat="48.4228289" lon="9.9550029"/>
+    <nd ref="3779779763" lat="48.4227972" lon="9.9549179"/>
+    <nd ref="3779779761" lat="48.4227585" lon="9.9549507"/>
+    <nd ref="3778611788" lat="48.4227903" lon="9.9550343"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="212"/>
+  </way>
+  <way id="374582434">
+    <bounds minlat="48.4227261" minlon="9.9548323" maxlat="48.4227810" maxlon="9.9549080"/>
+    <nd ref="3779779760" lat="48.4227423" lon="9.9549080"/>
+    <nd ref="3779779762" lat="48.4227810" lon="9.9548746"/>
+    <nd ref="3760161167" lat="48.4227652" lon="9.9548323"/>
+    <nd ref="3778051075" lat="48.4227261" lon="9.9548654"/>
+    <nd ref="3779779760" lat="48.4227423" lon="9.9549080"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="ref" v="228"/>
+  </way>
+  <way id="374582435">
+    <bounds minlat="48.4223596" minlon="9.9560160" maxlat="48.4224708" maxlon="9.9561971"/>
+    <nd ref="3777243864" lat="48.4224619" lon="9.9561507"/>
+    <nd ref="3777243866" lat="48.4224708" lon="9.9561432"/>
+    <nd ref="3777243863" lat="48.4224442" lon="9.9560717"/>
+    <nd ref="3779779759" lat="48.4224235" lon="9.9560160"/>
+    <nd ref="3779779757" lat="48.4223596" lon="9.9560700"/>
+    <nd ref="3779779758" lat="48.4224070" lon="9.9561971"/>
+    <nd ref="3777243864" lat="48.4224619" lon="9.9561507"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="H7"/>
+    <tag k="ref" v="202a"/>
+  </way>
+  <way id="375546856">
+    <bounds minlat="48.4228034" minlon="9.9563551" maxlat="48.4228236" maxlon="9.9563905"/>
+    <nd ref="3789072508" lat="48.4228034" lon="9.9563638"/>
+    <nd ref="3789072510" lat="48.4228138" lon="9.9563551"/>
+    <nd ref="3789072511" lat="48.4228236" lon="9.9563818"/>
+    <nd ref="3778082745" lat="48.4228132" lon="9.9563905"/>
+    <nd ref="3789072508" lat="48.4228034" lon="9.9563638"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546857">
+    <bounds minlat="48.4228138" minlon="9.9563325" maxlat="48.4228507" maxlon="9.9563818"/>
+    <nd ref="3789072513" lat="48.4228409" lon="9.9563325"/>
+    <nd ref="3789072510" lat="48.4228138" lon="9.9563551"/>
+    <nd ref="3789072511" lat="48.4228236" lon="9.9563818"/>
+    <nd ref="3789072516" lat="48.4228507" lon="9.9563591"/>
+    <nd ref="3789072513" lat="48.4228409" lon="9.9563325"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546858">
+    <bounds minlat="48.4231012" minlon="9.9558149" maxlat="48.4231410" maxlon="9.9558867"/>
+    <nd ref="3789072693" lat="48.4231012" lon="9.9558311"/>
+    <nd ref="3789072697" lat="48.4231217" lon="9.9558867"/>
+    <nd ref="3789072702" lat="48.4231410" lon="9.9558706"/>
+    <nd ref="3789072696" lat="48.4231205" lon="9.9558149"/>
+    <nd ref="3789072693" lat="48.4231012" lon="9.9558311"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546859">
+    <bounds minlat="48.4229944" minlon="9.9556266" maxlat="48.4230300" maxlon="9.9556849"/>
+    <nd ref="3789072556" lat="48.4229944" lon="9.9556437"/>
+    <nd ref="3789072666" lat="48.4230147" lon="9.9556266"/>
+    <nd ref="3789072670" lat="48.4230300" lon="9.9556677"/>
+    <nd ref="3789072663" lat="48.4230097" lon="9.9556849"/>
+    <nd ref="3789072556" lat="48.4229944" lon="9.9556437"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546860">
+    <bounds minlat="48.4228409" minlon="9.9563086" maxlat="48.4228793" maxlon="9.9563591"/>
+    <nd ref="3789072513" lat="48.4228409" lon="9.9563325"/>
+    <nd ref="3789072516" lat="48.4228507" lon="9.9563591"/>
+    <nd ref="3789072520" lat="48.4228793" lon="9.9563353"/>
+    <nd ref="3789072518" lat="48.4228695" lon="9.9563086"/>
+    <nd ref="3789072513" lat="48.4228409" lon="9.9563325"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546861">
+    <bounds minlat="48.4230292" minlon="9.9561384" maxlat="48.4230786" maxlon="9.9562006"/>
+    <nd ref="3789072674" lat="48.4230405" lon="9.9562006"/>
+    <nd ref="3778666627" lat="48.4230292" lon="9.9561704"/>
+    <nd ref="3789072683" lat="48.4230674" lon="9.9561384"/>
+    <nd ref="3789072686" lat="48.4230786" lon="9.9561687"/>
+    <nd ref="3789072674" lat="48.4230405" lon="9.9562006"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546862">
+    <bounds minlat="48.4231631" minlon="9.9560782" maxlat="48.4231932" maxlon="9.9561215"/>
+    <nd ref="3789072707" lat="48.4231631" lon="9.9560953"/>
+    <nd ref="3789072709" lat="48.4231835" lon="9.9560782"/>
+    <nd ref="3779779772" lat="48.4231932" lon="9.9561044"/>
+    <nd ref="3789072708" lat="48.4231728" lon="9.9561215"/>
+    <nd ref="3789072707" lat="48.4231631" lon="9.9560953"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="female" v="yes"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="375546863">
+    <bounds minlat="48.4230758" minlon="9.9560780" maxlat="48.4231050" maxlon="9.9561225"/>
+    <nd ref="3789072691" lat="48.4230944" lon="9.9560780"/>
+    <nd ref="3789072694" lat="48.4231050" lon="9.9561069"/>
+    <nd ref="3778666628" lat="48.4230864" lon="9.9561225"/>
+    <nd ref="3789072684" lat="48.4230758" lon="9.9560936"/>
+    <nd ref="3789072691" lat="48.4230944" lon="9.9560780"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546864">
+    <bounds minlat="48.4230147" minlon="9.9556045" maxlat="48.4230561" maxlon="9.9556677"/>
+    <nd ref="3789072675" lat="48.4230407" lon="9.9556045"/>
+    <nd ref="3789072666" lat="48.4230147" lon="9.9556266"/>
+    <nd ref="3789072670" lat="48.4230300" lon="9.9556677"/>
+    <nd ref="3789072678" lat="48.4230561" lon="9.9556457"/>
+    <nd ref="3789072675" lat="48.4230407" lon="9.9556045"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546865">
+    <bounds minlat="48.4230300" minlon="9.9556457" maxlat="48.4230826" maxlon="9.9557390"/>
+    <nd ref="3789072670" lat="48.4230300" lon="9.9556677"/>
+    <nd ref="3789072678" lat="48.4230561" lon="9.9556457"/>
+    <nd ref="3789072687" lat="48.4230826" lon="9.9557169"/>
+    <nd ref="3789072680" lat="48.4230566" lon="9.9557390"/>
+    <nd ref="3789072670" lat="48.4230300" lon="9.9556677"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546866">
+    <bounds minlat="48.4228860" minlon="9.9561513" maxlat="48.4229395" maxlon="9.9562244"/>
+    <nd ref="3789072527" lat="48.4229010" lon="9.9562244"/>
+    <nd ref="3789072536" lat="48.4229395" lon="9.9561921"/>
+    <nd ref="3789072530" lat="48.4229245" lon="9.9561513"/>
+    <nd ref="3789072522" lat="48.4228860" lon="9.9561837"/>
+    <nd ref="3789072527" lat="48.4229010" lon="9.9562244"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546867">
+    <bounds minlat="48.4229627" minlon="9.9555194" maxlat="48.4230248" maxlon="9.9556009"/>
+    <nd ref="3789072662" lat="48.4230090" lon="9.9555194"/>
+    <nd ref="3789072544" lat="48.4229627" lon="9.9555586"/>
+    <nd ref="3789072551" lat="48.4229784" lon="9.9556009"/>
+    <nd ref="3789072668" lat="48.4230248" lon="9.9555617"/>
+    <nd ref="3789072662" lat="48.4230090" lon="9.9555194"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546868">
+    <bounds minlat="48.4230376" minlon="9.9557667" maxlat="48.4230934" maxlon="9.9558624"/>
+    <nd ref="3789072681" lat="48.4230637" lon="9.9558624"/>
+    <nd ref="3789072688" lat="48.4230934" lon="9.9558376"/>
+    <nd ref="3789072682" lat="48.4230673" lon="9.9557667"/>
+    <nd ref="3789072672" lat="48.4230376" lon="9.9557915"/>
+    <nd ref="3789072681" lat="48.4230637" lon="9.9558624"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546869">
+    <bounds minlat="48.4229160" minlon="9.9562329" maxlat="48.4229657" maxlon="9.9562953"/>
+    <nd ref="3778666623" lat="48.4229546" lon="9.9562329"/>
+    <nd ref="3789072546" lat="48.4229657" lon="9.9562631"/>
+    <nd ref="3789072531" lat="48.4229272" lon="9.9562953"/>
+    <nd ref="3789072529" lat="48.4229160" lon="9.9562652"/>
+    <nd ref="3778666623" lat="48.4229546" lon="9.9562329"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546870">
+    <bounds minlat="48.4230944" minlon="9.9560623" maxlat="48.4231238" maxlon="9.9561069"/>
+    <nd ref="3789072694" lat="48.4231050" lon="9.9561069"/>
+    <nd ref="3789072698" lat="48.4231238" lon="9.9560913"/>
+    <nd ref="3789072695" lat="48.4231131" lon="9.9560623"/>
+    <nd ref="3789072691" lat="48.4230944" lon="9.9560780"/>
+    <nd ref="3789072694" lat="48.4231050" lon="9.9561069"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546871">
+    <bounds minlat="48.4227876" minlon="9.9562890" maxlat="48.4228409" maxlon="9.9563638"/>
+    <nd ref="3789072507" lat="48.4227876" lon="9.9563205"/>
+    <nd ref="3789072508" lat="48.4228034" lon="9.9563638"/>
+    <nd ref="3789072510" lat="48.4228138" lon="9.9563551"/>
+    <nd ref="3789072513" lat="48.4228409" lon="9.9563325"/>
+    <nd ref="3789072512" lat="48.4228249" lon="9.9562890"/>
+    <nd ref="3789072507" lat="48.4227876" lon="9.9563205"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546872">
+    <bounds minlat="48.4229593" minlon="9.9557513" maxlat="48.4230133" maxlon="9.9558269"/>
+    <nd ref="3789072657" lat="48.4229969" lon="9.9557513"/>
+    <nd ref="3789072542" lat="48.4229593" lon="9.9557836"/>
+    <nd ref="3789072549" lat="48.4229756" lon="9.9558269"/>
+    <nd ref="3777322972" lat="48.4229992" lon="9.9558066"/>
+    <nd ref="3777322974" lat="48.4230133" lon="9.9557945"/>
+    <nd ref="3789072657" lat="48.4229969" lon="9.9557513"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546873">
+    <bounds minlat="48.4230003" minlon="9.9556677" maxlat="48.4230566" maxlon="9.9557641"/>
+    <nd ref="3789072680" lat="48.4230566" lon="9.9557390"/>
+    <nd ref="3789072670" lat="48.4230300" lon="9.9556677"/>
+    <nd ref="3789072663" lat="48.4230097" lon="9.9556849"/>
+    <nd ref="3789072660" lat="48.4230003" lon="9.9556929"/>
+    <nd ref="3789072669" lat="48.4230269" lon="9.9557641"/>
+    <nd ref="3789072680" lat="48.4230566" lon="9.9557390"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546874">
+    <bounds minlat="48.4228695" minlon="9.9562841" maxlat="48.4229087" maxlon="9.9563353"/>
+    <nd ref="3789072518" lat="48.4228695" lon="9.9563086"/>
+    <nd ref="3789072520" lat="48.4228793" lon="9.9563353"/>
+    <nd ref="3778082753" lat="48.4229087" lon="9.9563107"/>
+    <nd ref="3758604574" lat="48.4229031" lon="9.9562954"/>
+    <nd ref="3789072525" lat="48.4228989" lon="9.9562841"/>
+    <nd ref="3789072518" lat="48.4228695" lon="9.9563086"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546875">
+    <bounds minlat="48.4230138" minlon="9.9560967" maxlat="48.4230674" maxlon="9.9561704"/>
+    <nd ref="3789072683" lat="48.4230674" lon="9.9561384"/>
+    <nd ref="3778666627" lat="48.4230292" lon="9.9561704"/>
+    <nd ref="3789072667" lat="48.4230190" lon="9.9561428"/>
+    <nd ref="3789072665" lat="48.4230138" lon="9.9561288"/>
+    <nd ref="3789072677" lat="48.4230521" lon="9.9560967"/>
+    <nd ref="3789072683" lat="48.4230674" lon="9.9561384"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546876">
+    <bounds minlat="48.4230864" minlon="9.9560913" maxlat="48.4231350" maxlon="9.9561528"/>
+    <nd ref="3778666628" lat="48.4230864" lon="9.9561225"/>
+    <nd ref="3789072692" lat="48.4230976" lon="9.9561528"/>
+    <nd ref="3789072699" lat="48.4231350" lon="9.9561216"/>
+    <nd ref="3789072698" lat="48.4231238" lon="9.9560913"/>
+    <nd ref="3789072694" lat="48.4231050" lon="9.9561069"/>
+    <nd ref="3778666628" lat="48.4230864" lon="9.9561225"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546877">
+    <bounds minlat="48.4229245" minlon="9.9561275" maxlat="48.4229734" maxlon="9.9562071"/>
+    <nd ref="3789072548" lat="48.4229734" lon="9.9561833"/>
+    <nd ref="3789072537" lat="48.4229450" lon="9.9562071"/>
+    <nd ref="3789072536" lat="48.4229395" lon="9.9561921"/>
+    <nd ref="3789072530" lat="48.4229245" lon="9.9561513"/>
+    <nd ref="3789072540" lat="48.4229529" lon="9.9561275"/>
+    <nd ref="3789072548" lat="48.4229734" lon="9.9561833"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546878">
+    <bounds minlat="48.4229010" minlon="9.9561921" maxlat="48.4229546" maxlon="9.9562652"/>
+    <nd ref="3789072529" lat="48.4229160" lon="9.9562652"/>
+    <nd ref="3778666623" lat="48.4229546" lon="9.9562329"/>
+    <nd ref="3789072537" lat="48.4229450" lon="9.9562071"/>
+    <nd ref="3789072536" lat="48.4229395" lon="9.9561921"/>
+    <nd ref="3789072527" lat="48.4229010" lon="9.9562244"/>
+    <nd ref="3789072529" lat="48.4229160" lon="9.9562652"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546879">
+    <bounds minlat="48.4228486" minlon="9.9554569" maxlat="48.4229329" maxlon="9.9556153"/>
+    <nd ref="3789072515" lat="48.4228486" lon="9.9554883"/>
+    <nd ref="3789072521" lat="48.4228854" lon="9.9554569"/>
+    <nd ref="3778051122" lat="48.4229275" lon="9.9555696"/>
+    <nd ref="3789072535" lat="48.4229329" lon="9.9555842"/>
+    <nd ref="3789072524" lat="48.4228963" lon="9.9556153"/>
+    <nd ref="3789072515" lat="48.4228486" lon="9.9554883"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546880">
+    <bounds minlat="48.4229285" minlon="9.9556689" maxlat="48.4229969" maxlon="9.9557836"/>
+    <nd ref="3789072545" lat="48.4229657" lon="9.9556689"/>
+    <nd ref="3789072532" lat="48.4229285" lon="9.9557009"/>
+    <nd ref="3789072542" lat="48.4229593" lon="9.9557836"/>
+    <nd ref="3789072657" lat="48.4229969" lon="9.9557513"/>
+    <nd ref="3777322968" lat="48.4229765" lon="9.9556980"/>
+    <nd ref="3789072545" lat="48.4229657" lon="9.9556689"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546881">
+    <bounds minlat="48.4229990" minlon="9.9560566" maxlat="48.4230521" maxlon="9.9561288"/>
+    <nd ref="3789072677" lat="48.4230521" lon="9.9560967"/>
+    <nd ref="3789072665" lat="48.4230138" lon="9.9561288"/>
+    <nd ref="3777322973" lat="48.4230083" lon="9.9561138"/>
+    <nd ref="3789072658" lat="48.4229990" lon="9.9560887"/>
+    <nd ref="3789072671" lat="48.4230372" lon="9.9560566"/>
+    <nd ref="3789072677" lat="48.4230521" lon="9.9560967"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546882">
+    <bounds minlat="48.4230673" minlon="9.9557440" maxlat="48.4231205" maxlon="9.9558376"/>
+    <nd ref="3789072696" lat="48.4231205" lon="9.9558149"/>
+    <nd ref="3789072693" lat="48.4231012" lon="9.9558311"/>
+    <nd ref="3789072688" lat="48.4230934" lon="9.9558376"/>
+    <nd ref="3789072682" lat="48.4230673" lon="9.9557667"/>
+    <nd ref="3789072690" lat="48.4230944" lon="9.9557440"/>
+    <nd ref="3789072696" lat="48.4231205" lon="9.9558149"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546883">
+    <bounds minlat="48.4229784" minlon="9.9555617" maxlat="48.4230407" maxlon="9.9556437"/>
+    <nd ref="3789072668" lat="48.4230248" lon="9.9555617"/>
+    <nd ref="3789072551" lat="48.4229784" lon="9.9556009"/>
+    <nd ref="3789072556" lat="48.4229944" lon="9.9556437"/>
+    <nd ref="3789072666" lat="48.4230147" lon="9.9556266"/>
+    <nd ref="3789072675" lat="48.4230407" lon="9.9556045"/>
+    <nd ref="3789072668" lat="48.4230248" lon="9.9555617"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546884">
+    <bounds minlat="48.4227722" minlon="9.9562393" maxlat="48.4228349" maxlon="9.9563205"/>
+    <nd ref="3777243912" lat="48.4228195" lon="9.9562393"/>
+    <nd ref="3778082742" lat="48.4227722" lon="9.9562792"/>
+    <nd ref="3789072507" lat="48.4227876" lon="9.9563205"/>
+    <nd ref="3789072512" lat="48.4228249" lon="9.9562890"/>
+    <nd ref="3777243913" lat="48.4228349" lon="9.9562806"/>
+    <nd ref="3777243912" lat="48.4228195" lon="9.9562393"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546885">
+    <bounds minlat="48.4230563" minlon="9.9560093" maxlat="48.4231131" maxlon="9.9560936"/>
+    <nd ref="3789072684" lat="48.4230758" lon="9.9560936"/>
+    <nd ref="3789072691" lat="48.4230944" lon="9.9560780"/>
+    <nd ref="3789072695" lat="48.4231131" lon="9.9560623"/>
+    <nd ref="3789072689" lat="48.4230936" lon="9.9560093"/>
+    <nd ref="3789072679" lat="48.4230563" lon="9.9560406"/>
+    <nd ref="3789072684" lat="48.4230758" lon="9.9560936"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2;3;4"/>
+  </way>
+  <way id="375546886">
+    <bounds minlat="48.4228963" minlon="9.9555842" maxlat="48.4229657" maxlon="9.9557009"/>
+    <nd ref="3789072535" lat="48.4229329" lon="9.9555842"/>
+    <nd ref="3789072524" lat="48.4228963" lon="9.9556153"/>
+    <nd ref="3760065523" lat="48.4229172" lon="9.9556711"/>
+    <nd ref="3789072532" lat="48.4229285" lon="9.9557009"/>
+    <nd ref="3789072545" lat="48.4229657" lon="9.9556689"/>
+    <nd ref="3777322966" lat="48.4229544" lon="9.9556388"/>
+    <nd ref="3789072535" lat="48.4229329" lon="9.9555842"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546887">
+    <bounds minlat="48.4229450" minlon="9.9561833" maxlat="48.4229941" maxlon="9.9562631"/>
+    <nd ref="3789072555" lat="48.4229941" lon="9.9562393"/>
+    <nd ref="3789072546" lat="48.4229657" lon="9.9562631"/>
+    <nd ref="3778666623" lat="48.4229546" lon="9.9562329"/>
+    <nd ref="3789072537" lat="48.4229450" lon="9.9562071"/>
+    <nd ref="3789072548" lat="48.4229734" lon="9.9561833"/>
+    <nd ref="3789072552" lat="48.4229830" lon="9.9562091"/>
+    <nd ref="3789072555" lat="48.4229941" lon="9.9562393"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546888">
+    <bounds minlat="48.4230637" minlon="9.9558311" maxlat="48.4231217" maxlon="9.9559180"/>
+    <nd ref="3777322976" lat="48.4230650" lon="9.9558657"/>
+    <nd ref="3777322977" lat="48.4230842" lon="9.9559180"/>
+    <nd ref="3789072697" lat="48.4231217" lon="9.9558867"/>
+    <nd ref="3789072693" lat="48.4231012" lon="9.9558311"/>
+    <nd ref="3789072688" lat="48.4230934" lon="9.9558376"/>
+    <nd ref="3789072681" lat="48.4230637" lon="9.9558624"/>
+    <nd ref="3777322976" lat="48.4230650" lon="9.9558657"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2;3;4"/>
+  </way>
+  <way id="375546889">
+    <bounds minlat="48.4229756" minlon="9.9557945" maxlat="48.4230447" maxlon="9.9559097"/>
+    <nd ref="3777322974" lat="48.4230133" lon="9.9557945"/>
+    <nd ref="3777322972" lat="48.4229992" lon="9.9558066"/>
+    <nd ref="3789072549" lat="48.4229756" lon="9.9558269"/>
+    <nd ref="3760065528" lat="48.4230070" lon="9.9559097"/>
+    <nd ref="3760065532" lat="48.4230258" lon="9.9558938"/>
+    <nd ref="3789072676" lat="48.4230447" lon="9.9558778"/>
+    <nd ref="3777322974" lat="48.4230133" lon="9.9557945"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546890">
+    <bounds minlat="48.4231623" minlon="9.9559902" maxlat="48.4232114" maxlon="9.9560553"/>
+    <nd ref="3779779771" lat="48.4231750" lon="9.9560553"/>
+    <nd ref="3779779773" lat="48.4232114" lon="9.9560248"/>
+    <nd ref="3777322989" lat="48.4231986" lon="9.9559902"/>
+    <nd ref="3777322988" lat="48.4231886" lon="9.9559986"/>
+    <nd ref="3777322985" lat="48.4231760" lon="9.9560091"/>
+    <nd ref="3779779768" lat="48.4231623" lon="9.9560206"/>
+    <nd ref="3779779771" lat="48.4231750" lon="9.9560553"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1;2;3;4"/>
+  </way>
+  <way id="375546891">
+    <bounds minlat="48.4231386" minlon="9.9560524" maxlat="48.4231631" maxlon="9.9561025"/>
+    <nd ref="3789072707" lat="48.4231631" lon="9.9560953"/>
+    <nd ref="3789072706" lat="48.4231576" lon="9.9560805"/>
+    <nd ref="3789072704" lat="48.4231473" lon="9.9560524"/>
+    <nd ref="3789072700" lat="48.4231386" lon="9.9560597"/>
+    <nd ref="3779779764" lat="48.4231490" lon="9.9560877"/>
+    <nd ref="3789072705" lat="48.4231545" lon="9.9561025"/>
+    <nd ref="3789072707" lat="48.4231631" lon="9.9560953"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546892">
+    <bounds minlat="48.4229310" minlon="9.9554620" maxlat="48.4230090" maxlon="9.9555673"/>
+    <nd ref="3789072533" lat="48.4229310" lon="9.9555099"/>
+    <nd ref="3789072541" lat="48.4229587" lon="9.9554865"/>
+    <nd ref="3789072553" lat="48.4229876" lon="9.9554620"/>
+    <nd ref="3789072662" lat="48.4230090" lon="9.9555194"/>
+    <nd ref="3789072544" lat="48.4229627" lon="9.9555586"/>
+    <nd ref="3789072539" lat="48.4229524" lon="9.9555673"/>
+    <nd ref="3778051127" lat="48.4229471" lon="9.9555530"/>
+    <nd ref="3789072533" lat="48.4229310" lon="9.9555099"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546893">
+    <bounds minlat="48.4230070" minlon="9.9558778" maxlat="48.4230768" maxlon="9.9559956"/>
+    <nd ref="3789072676" lat="48.4230447" lon="9.9558778"/>
+    <nd ref="3760065532" lat="48.4230258" lon="9.9558938"/>
+    <nd ref="3760065528" lat="48.4230070" lon="9.9559097"/>
+    <nd ref="3789072673" lat="48.4230391" lon="9.9559956"/>
+    <nd ref="3760065533" lat="48.4230579" lon="9.9559797"/>
+    <nd ref="3789072685" lat="48.4230768" lon="9.9559637"/>
+    <nd ref="3777322975" lat="48.4230463" lon="9.9558820"/>
+    <nd ref="3789072676" lat="48.4230447" lon="9.9558778"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546894">
+    <bounds minlat="48.4229913" minlon="9.9561428" maxlat="48.4230405" maxlon="9.9562238"/>
+    <nd ref="3778666627" lat="48.4230292" lon="9.9561704"/>
+    <nd ref="3789072667" lat="48.4230190" lon="9.9561428"/>
+    <nd ref="3789072659" lat="48.4229993" lon="9.9561593"/>
+    <nd ref="3789072554" lat="48.4229913" lon="9.9561661"/>
+    <nd ref="3789072661" lat="48.4230015" lon="9.9561936"/>
+    <nd ref="3789072664" lat="48.4230127" lon="9.9562238"/>
+    <nd ref="3789072674" lat="48.4230405" lon="9.9562006"/>
+    <nd ref="3778666627" lat="48.4230292" lon="9.9561704"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546895">
+    <bounds minlat="48.4231418" minlon="9.9560206" maxlat="48.4231835" maxlon="9.9560953"/>
+    <nd ref="3789072709" lat="48.4231835" lon="9.9560782"/>
+    <nd ref="3779779771" lat="48.4231750" lon="9.9560553"/>
+    <nd ref="3779779768" lat="48.4231623" lon="9.9560206"/>
+    <nd ref="3779779766" lat="48.4231525" lon="9.9560288"/>
+    <nd ref="3789072703" lat="48.4231418" lon="9.9560378"/>
+    <nd ref="3789072704" lat="48.4231473" lon="9.9560524"/>
+    <nd ref="3789072706" lat="48.4231576" lon="9.9560805"/>
+    <nd ref="3789072707" lat="48.4231631" lon="9.9560953"/>
+    <nd ref="3789072709" lat="48.4231835" lon="9.9560782"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="toilets"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="male" v="yes"/>
+    <tag k="toilets:disposal" v="flush"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="375546896">
+    <bounds minlat="48.4229713" minlon="9.9560887" maxlat="48.4230190" maxlon="9.9561661"/>
+    <nd ref="3789072667" lat="48.4230190" lon="9.9561428"/>
+    <nd ref="3789072659" lat="48.4229993" lon="9.9561593"/>
+    <nd ref="3789072554" lat="48.4229913" lon="9.9561661"/>
+    <nd ref="3789072550" lat="48.4229757" lon="9.9561238"/>
+    <nd ref="3789072547" lat="48.4229713" lon="9.9561120"/>
+    <nd ref="3789072658" lat="48.4229990" lon="9.9560887"/>
+    <nd ref="3777322973" lat="48.4230083" lon="9.9561138"/>
+    <nd ref="3789072665" lat="48.4230138" lon="9.9561288"/>
+    <nd ref="3789072667" lat="48.4230190" lon="9.9561428"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546897">
+    <bounds minlat="48.4228195" minlon="9.9561990" maxlat="48.4228989" maxlon="9.9563325"/>
+    <nd ref="3777243912" lat="48.4228195" lon="9.9562393"/>
+    <nd ref="3777243913" lat="48.4228349" lon="9.9562806"/>
+    <nd ref="3789072512" lat="48.4228249" lon="9.9562890"/>
+    <nd ref="3789072513" lat="48.4228409" lon="9.9563325"/>
+    <nd ref="3789072518" lat="48.4228695" lon="9.9563086"/>
+    <nd ref="3789072525" lat="48.4228989" lon="9.9562841"/>
+    <nd ref="3777243914" lat="48.4228828" lon="9.9562402"/>
+    <nd ref="3789072517" lat="48.4228677" lon="9.9561990"/>
+    <nd ref="3778082751" lat="48.4228464" lon="9.9562170"/>
+    <nd ref="3777243912" lat="48.4228195" lon="9.9562393"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+  </way>
+  <way id="375546898">
+    <bounds minlat="48.4228124" minlon="9.9552433" maxlat="48.4228623" maxlon="9.9553431"/>
+    <nd ref="3778611790" lat="48.4228623" lon="9.9553263"/>
+    <nd ref="3778051108" lat="48.4228313" lon="9.9552433"/>
+    <nd ref="3778307392" lat="48.4228124" lon="9.9552598"/>
+    <nd ref="3789072514" lat="48.4228430" lon="9.9553431"/>
+    <nd ref="3778611790" lat="48.4228623" lon="9.9553263"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="1003"/>
+  </way>
+  <way id="375546900">
+    <bounds minlat="48.4228062" minlon="9.9553263" maxlat="48.4228947" maxlon="9.9554883"/>
+    <nd ref="3778611790" lat="48.4228623" lon="9.9553263"/>
+    <nd ref="3789072514" lat="48.4228430" lon="9.9553431"/>
+    <nd ref="3789072509" lat="48.4228062" lon="9.9553752"/>
+    <nd ref="3789072515" lat="48.4228486" lon="9.9554883"/>
+    <nd ref="3789072521" lat="48.4228854" lon="9.9554569"/>
+    <nd ref="3789072519" lat="48.4228750" lon="9.9554290"/>
+    <nd ref="3789072523" lat="48.4228947" lon="9.9554125"/>
+    <nd ref="3778611790" lat="48.4228623" lon="9.9553263"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="1212"/>
+  </way>
+  <way id="375546901">
+    <bounds minlat="48.4229325" minlon="9.9553919" maxlat="48.4229876" maxlon="9.9554865"/>
+    <nd ref="3789072534" lat="48.4229325" lon="9.9554163"/>
+    <nd ref="3789072541" lat="48.4229587" lon="9.9554865"/>
+    <nd ref="3789072553" lat="48.4229876" lon="9.9554620"/>
+    <nd ref="3789072543" lat="48.4229614" lon="9.9553919"/>
+    <nd ref="3789072534" lat="48.4229325" lon="9.9554163"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="131"/>
+  </way>
+  <way id="375546902">
+    <bounds minlat="48.4229049" minlon="9.9554163" maxlat="48.4229587" maxlon="9.9555099"/>
+    <nd ref="3789072528" lat="48.4229049" lon="9.9554398"/>
+    <nd ref="3789072533" lat="48.4229310" lon="9.9555099"/>
+    <nd ref="3789072541" lat="48.4229587" lon="9.9554865"/>
+    <nd ref="3789072534" lat="48.4229325" lon="9.9554163"/>
+    <nd ref="3789072528" lat="48.4229049" lon="9.9554398"/>
+    <tag k="indoor" v="room"/>
+    <tag k="level" v="1"/>
+    <tag k="ref" v="132"/>
+  </way>
+  <way id="501961152">
+    <bounds minlat="48.4179876" minlon="9.9439713" maxlat="48.4180403" maxlon="9.9440862"/>
+    <nd ref="4925905313" lat="48.4180026" lon="9.9439713"/>
+    <nd ref="4925905312" lat="48.4180403" lon="9.9440737"/>
+    <nd ref="4925905311" lat="48.4180253" lon="9.9440862"/>
+    <nd ref="4925905310" lat="48.4179876" lon="9.9439838"/>
+    <nd ref="4925905313" lat="48.4180026" lon="9.9439713"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="40"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="501961153">
+    <bounds minlat="48.4180386" minlon="9.9441067" maxlat="48.4181126" maxlon="9.9442800"/>
+    <nd ref="4925905317" lat="48.4180535" lon="9.9441067"/>
+    <nd ref="4925905316" lat="48.4181126" lon="9.9442675"/>
+    <nd ref="4925905315" lat="48.4180976" lon="9.9442800"/>
+    <nd ref="4925905314" lat="48.4180386" lon="9.9441192"/>
+    <nd ref="4925905317" lat="48.4180535" lon="9.9441067"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="40"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="501961156">
+    <bounds minlat="48.4183114" minlon="9.9434545" maxlat="48.4184089" maxlon="9.9436896"/>
+    <nd ref="4925905426" lat="48.4183264" lon="9.9434545"/>
+    <nd ref="4925905425" lat="48.4184089" lon="9.9436770"/>
+    <nd ref="4925905424" lat="48.4183940" lon="9.9436896"/>
+    <nd ref="4925905423" lat="48.4183114" lon="9.9434670"/>
+    <nd ref="4925905426" lat="48.4183264" lon="9.9434545"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="24"/>
+    <tag k="fixme" v="capacity"/>
+  </way>
+  <way id="501961157">
+    <bounds minlat="48.4184026" minlon="9.9436974" maxlat="48.4185020" maxlon="9.9439383"/>
+    <nd ref="4925905430" lat="48.4184176" lon="9.9436974"/>
+    <nd ref="4925905429" lat="48.4185020" lon="9.9439258"/>
+    <nd ref="4925905428" lat="48.4184870" lon="9.9439383"/>
+    <nd ref="4925905427" lat="48.4184026" lon="9.9437099"/>
+    <nd ref="4925905430" lat="48.4184176" lon="9.9436974"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="24"/>
+    <tag k="fixme" v="capacity"/>
+  </way>
+  <way id="501961165">
+    <bounds minlat="48.4188101" minlon="9.9430489" maxlat="48.4188769" maxlon="9.9432014"/>
+    <nd ref="4925905446" lat="48.4188250" lon="9.9430489"/>
+    <nd ref="4925905445" lat="48.4188769" lon="9.9431888"/>
+    <nd ref="4925905444" lat="48.4188620" lon="9.9432014"/>
+    <nd ref="4925905443" lat="48.4188101" lon="9.9430615"/>
+    <nd ref="4925905446" lat="48.4188250" lon="9.9430489"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="24"/>
+  </way>
+  <way id="501961167">
+    <bounds minlat="48.4183581" minlon="9.9434013" maxlat="48.4185545" maxlon="9.9438386"/>
+    <nd ref="4925905453" lat="48.4184132" lon="9.9434013"/>
+    <nd ref="4925905452" lat="48.4183581" lon="9.9434461"/>
+    <nd ref="7233497742" lat="48.4184196" lon="9.9436121"/>
+    <nd ref="7233497744" lat="48.4185002" lon="9.9438386"/>
+    <nd ref="7233497743" lat="48.4185545" lon="9.9437944"/>
+    <nd ref="4925905450" lat="48.4185160" lon="9.9436868"/>
+    <nd ref="4925905449" lat="48.4184730" lon="9.9435675"/>
+    <nd ref="4925905453" lat="48.4184132" lon="9.9434013"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="sett"/>
   </way>
   <way id="747004867">
     <bounds minlat="48.4230727" minlon="9.9571497" maxlat="48.4231294" maxlon="9.9572334"/>
@@ -987,14 +3580,14 @@
     <tag k="ref" v="O27/301"/>
   </way>
   <way id="750184136">
-    <bounds minlat="48.4229906" minlon="9.9572292" maxlat="48.4230560" maxlon="9.9573257"/>
+    <bounds minlat="48.4229906" minlon="9.9572290" maxlat="48.4230560" maxlon="9.9573257"/>
     <nd ref="7014699919" lat="48.4229906" lon="9.9572650"/>
     <nd ref="3777225793" lat="48.4230014" lon="9.9572942"/>
     <nd ref="7014699924" lat="48.4230123" lon="9.9573257"/>
     <nd ref="7014699923" lat="48.4230560" lon="9.9572893"/>
-    <nd ref="7014699922" lat="48.4230340" lon="9.9572292"/>
+    <nd ref="7014699922" lat="48.4230339" lon="9.9572290"/>
     <nd ref="7014699986" lat="48.4230215" lon="9.9572394"/>
-    <nd ref="7014699918" lat="48.4229952" lon="9.9572611"/>
+    <nd ref="7014699918" lat="48.4229952" lon="9.9572612"/>
     <nd ref="7014699919" lat="48.4229906" lon="9.9572650"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
@@ -1002,26 +3595,25 @@
   </way>
   <way id="750184139">
     <bounds minlat="48.4228634" minlon="9.9570595" maxlat="48.4229156" maxlon="9.9571471"/>
-    <nd ref="7025638586" lat="48.4228860" lon="9.9571471"/>
-    <nd ref="7025637697" lat="48.4228870" lon="9.9571463"/>
+    <nd ref="3777179818" lat="48.4228860" lon="9.9571471"/>
     <nd ref="7016742589" lat="48.4229033" lon="9.9571326"/>
     <nd ref="7025637797" lat="48.4229156" lon="9.9571224"/>
     <nd ref="7025637887" lat="48.4229109" lon="9.9571091"/>
     <nd ref="7025638592" lat="48.4228932" lon="9.9570595"/>
     <nd ref="7025637699" lat="48.4228634" lon="9.9570837"/>
-    <nd ref="7025638586" lat="48.4228860" lon="9.9571471"/>
+    <nd ref="3777179818" lat="48.4228860" lon="9.9571471"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
     <tag k="ref" v="O27/307"/>
   </way>
   <way id="750184140">
-    <bounds minlat="48.4230340" minlon="9.9572061" maxlat="48.4230837" maxlon="9.9572893"/>
-    <nd ref="7014699922" lat="48.4230340" lon="9.9572292"/>
+    <bounds minlat="48.4230339" minlon="9.9572060" maxlat="48.4230837" maxlon="9.9572893"/>
+    <nd ref="7014699922" lat="48.4230339" lon="9.9572290"/>
     <nd ref="7014699923" lat="48.4230560" lon="9.9572893"/>
     <nd ref="7014699930" lat="48.4230837" lon="9.9572663"/>
-    <nd ref="7014699931" lat="48.4230617" lon="9.9572061"/>
-    <nd ref="7014699893" lat="48.4230488" lon="9.9572168"/>
-    <nd ref="7014699922" lat="48.4230340" lon="9.9572292"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
+    <nd ref="7014699893" lat="48.4230488" lon="9.9572167"/>
+    <nd ref="7014699922" lat="48.4230339" lon="9.9572290"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
     <tag k="ref" v="O27/319"/>
@@ -1041,37 +3633,37 @@
     <tag k="ref" v="O27/311"/>
   </way>
   <way id="750184142">
-    <bounds minlat="48.4230617" minlon="9.9571832" maxlat="48.4231114" maxlon="9.9572663"/>
-    <nd ref="7014699931" lat="48.4230617" lon="9.9572061"/>
+    <bounds minlat="48.4230617" minlon="9.9571830" maxlat="48.4231114" maxlon="9.9572663"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <nd ref="7014699930" lat="48.4230837" lon="9.9572663"/>
     <nd ref="7014699934" lat="48.4231114" lon="9.9572432"/>
-    <nd ref="7014699935" lat="48.4230895" lon="9.9571832"/>
-    <nd ref="7014699894" lat="48.4230755" lon="9.9571948"/>
-    <nd ref="7014699931" lat="48.4230617" lon="9.9572061"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
+    <nd ref="7014699894" lat="48.4230754" lon="9.9571946"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
     <tag k="ref" v="O27/318"/>
   </way>
   <way id="750184143">
-    <bounds minlat="48.4230895" minlon="9.9571603" maxlat="48.4231391" maxlon="9.9572432"/>
-    <nd ref="7014699935" lat="48.4230895" lon="9.9571832"/>
+    <bounds minlat="48.4230894" minlon="9.9571600" maxlat="48.4231391" maxlon="9.9572432"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <nd ref="7014699934" lat="48.4231114" lon="9.9572432"/>
     <nd ref="7014700290" lat="48.4231391" lon="9.9572203"/>
-    <nd ref="7014699936" lat="48.4231172" lon="9.9571603"/>
-    <nd ref="7014700185" lat="48.4231035" lon="9.9571716"/>
-    <nd ref="7014699935" lat="48.4230895" lon="9.9571832"/>
+    <nd ref="7014699936" lat="48.4231171" lon="9.9571600"/>
+    <nd ref="7014700185" lat="48.4231034" lon="9.9571714"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
     <tag k="ref" v="O27/317"/>
   </way>
   <way id="750184144">
-    <bounds minlat="48.4231172" minlon="9.9571370" maxlat="48.4231670" maxlon="9.9572203"/>
-    <nd ref="7014699936" lat="48.4231172" lon="9.9571603"/>
+    <bounds minlat="48.4231171" minlon="9.9571370" maxlat="48.4231670" maxlon="9.9572203"/>
+    <nd ref="7014699936" lat="48.4231171" lon="9.9571600"/>
     <nd ref="7014700290" lat="48.4231391" lon="9.9572203"/>
     <nd ref="7014257822" lat="48.4231670" lon="9.9571972"/>
     <nd ref="7014257816" lat="48.4231449" lon="9.9571370"/>
-    <nd ref="7014699895" lat="48.4231319" lon="9.9571481"/>
-    <nd ref="7014699936" lat="48.4231172" lon="9.9571603"/>
+    <nd ref="7014699895" lat="48.4231318" lon="9.9571478"/>
+    <nd ref="7014699936" lat="48.4231171" lon="9.9571600"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
     <tag k="ref" v="O27/316"/>
@@ -1082,8 +3674,8 @@
     <nd ref="7014257822" lat="48.4231670" lon="9.9571972"/>
     <nd ref="7014257815" lat="48.4231947" lon="9.9571741"/>
     <nd ref="7014257810" lat="48.4231728" lon="9.9571138"/>
-    <nd ref="7014257795" lat="48.4231728" lon="9.9571142"/>
-    <nd ref="7014699896" lat="48.4231594" lon="9.9571253"/>
+    <nd ref="7014257795" lat="48.4231727" lon="9.9571139"/>
+    <nd ref="7014699896" lat="48.4231593" lon="9.9571250"/>
     <nd ref="7014257816" lat="48.4231449" lon="9.9571370"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
@@ -1096,7 +3688,7 @@
     <nd ref="7010917708" lat="48.4232224" lon="9.9571511"/>
     <nd ref="7010917707" lat="48.4232008" lon="9.9570909"/>
     <nd ref="7014699925" lat="48.4231960" lon="9.9570945"/>
-    <nd ref="7014699897" lat="48.4231873" lon="9.9571018"/>
+    <nd ref="7996151959" lat="48.4231877" lon="9.9571017"/>
     <nd ref="7014257810" lat="48.4231728" lon="9.9571138"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
@@ -1106,7 +3698,7 @@
     <bounds minlat="48.4227943" minlon="9.9572191" maxlat="48.4228551" maxlon="9.9573028"/>
     <nd ref="7017270301" lat="48.4227943" lon="9.9572561"/>
     <nd ref="7017270786" lat="48.4228112" lon="9.9573028"/>
-    <nd ref="3777179809" lat="48.4228551" lon="9.9572657"/>
+    <nd ref="8001553736" lat="48.4228551" lon="9.9572657"/>
     <nd ref="7016742588" lat="48.4228467" lon="9.9572427"/>
     <nd ref="7017270296" lat="48.4228466" lon="9.9572426"/>
     <nd ref="7017270986" lat="48.4228380" lon="9.9572191"/>
@@ -1245,8 +3837,7 @@
     <nd ref="7017270891" lat="48.4228324" lon="9.9573614"/>
     <nd ref="7017270786" lat="48.4228112" lon="9.9573028"/>
     <nd ref="7017270301" lat="48.4227943" lon="9.9572561"/>
-    <nd ref="7017270485" lat="48.4227807" lon="9.9572676"/>
-    <nd ref="7017270486" lat="48.4227533" lon="9.9572907"/>
+    <nd ref="7017270486" lat="48.4227535" lon="9.9572906"/>
     <nd ref="7016783585" lat="48.4227400" lon="9.9573020"/>
     <nd ref="7016783489" lat="48.4227615" lon="9.9573603"/>
     <nd ref="7017270311" lat="48.4227786" lon="9.9574065"/>
@@ -1358,9 +3949,9 @@
   <way id="750493558">
     <bounds minlat="48.4229053" minlon="9.9573120" maxlat="48.4229574" maxlon="9.9573997"/>
     <nd ref="7025637895" lat="48.4229288" lon="9.9573997"/>
-    <nd ref="7014700285" lat="48.4229574" lon="9.9573767"/>
+    <nd ref="3777179828" lat="48.4229574" lon="9.9573767"/>
     <nd ref="3777179825" lat="48.4229339" lon="9.9573120"/>
-    <nd ref="7025637692" lat="48.4229204" lon="9.9573229"/>
+    <nd ref="7025637692" lat="48.4229205" lon="9.9573231"/>
     <nd ref="7025637888" lat="48.4229053" lon="9.9573357"/>
     <nd ref="7025638585" lat="48.4229081" lon="9.9573432"/>
     <nd ref="7025637895" lat="48.4229288" lon="9.9573997"/>
@@ -1400,7 +3991,7 @@
     <nd ref="3779752418" lat="48.4228821" lon="9.9569654"/>
     <nd ref="7025638595" lat="48.4229251" lon="9.9569302"/>
     <nd ref="7026048987" lat="48.4229105" lon="9.9568906"/>
-    <nd ref="7025637890" lat="48.4228677" lon="9.9569255"/>
+    <nd ref="3779752412" lat="48.4228677" lon="9.9569255"/>
     <nd ref="7025637686" lat="48.4228752" lon="9.9569462"/>
     <nd ref="3779752418" lat="48.4228821" lon="9.9569654"/>
     <tag k="indoor" v="room"/>
@@ -1409,12 +4000,12 @@
   </way>
   <way id="751523777">
     <bounds minlat="48.4228542" minlon="9.9568528" maxlat="48.4229105" maxlon="9.9569255"/>
-    <nd ref="7025637890" lat="48.4228677" lon="9.9569255"/>
+    <nd ref="3779752412" lat="48.4228677" lon="9.9569255"/>
     <nd ref="7026048987" lat="48.4229105" lon="9.9568906"/>
     <nd ref="7025638186" lat="48.4228966" lon="9.9568528"/>
     <nd ref="7026053188" lat="48.4228542" lon="9.9568878"/>
     <nd ref="7025637687" lat="48.4228609" lon="9.9569067"/>
-    <nd ref="7025637890" lat="48.4228677" lon="9.9569255"/>
+    <nd ref="3779752412" lat="48.4228677" lon="9.9569255"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="3"/>
     <tag k="ref" v="O27/346"/>
@@ -1499,11 +4090,10 @@
     <bounds minlat="48.4229288" minlon="9.9573452" maxlat="48.4230246" maxlon="9.9574773"/>
     <nd ref="7025638685" lat="48.4230246" lon="9.9574211"/>
     <nd ref="3777179842" lat="48.4229966" lon="9.9573452"/>
-    <nd ref="7014700285" lat="48.4229574" lon="9.9573767"/>
+    <nd ref="3777179828" lat="48.4229574" lon="9.9573767"/>
     <nd ref="7025637895" lat="48.4229288" lon="9.9573997"/>
     <nd ref="7025637791" lat="48.4229325" lon="9.9574098"/>
     <nd ref="7026047094" lat="48.4229572" lon="9.9574773"/>
-    <nd ref="7026047102" lat="48.4229572" lon="9.9574773"/>
     <nd ref="7026047101" lat="48.4229812" lon="9.9574573"/>
     <nd ref="7026047098" lat="48.4229813" lon="9.9574572"/>
     <nd ref="7025638685" lat="48.4230246" lon="9.9574211"/>
@@ -1635,7 +4225,7 @@
   <way id="751571961">
     <bounds minlat="48.4229572" minlon="9.9574572" maxlat="48.4230068" maxlon="9.9575464"/>
     <nd ref="7026047101" lat="48.4229812" lon="9.9574573"/>
-    <nd ref="7026047102" lat="48.4229572" lon="9.9574773"/>
+    <nd ref="7026047094" lat="48.4229572" lon="9.9574773"/>
     <nd ref="7026098386" lat="48.4229644" lon="9.9574969"/>
     <nd ref="7026098585" lat="48.4229785" lon="9.9575352"/>
     <nd ref="7026048986" lat="48.4229826" lon="9.9575464"/>
@@ -1665,7 +4255,7 @@
     <nd ref="7017270685" lat="48.4228308" lon="9.9572251"/>
     <nd ref="7017270301" lat="48.4227943" lon="9.9572561"/>
     <nd ref="7017270786" lat="48.4228112" lon="9.9573028"/>
-    <nd ref="3777179809" lat="48.4228551" lon="9.9572657"/>
+    <nd ref="8001553735" lat="48.4228551" lon="9.9572657"/>
     <nd ref="7026053186" lat="48.4228463" lon="9.9572417"/>
     <nd ref="7017270986" lat="48.4228380" lon="9.9572191"/>
     <tag k="amenity" v="toilets"/>
@@ -1735,7 +4325,7 @@
     <bounds minlat="48.4228677" minlon="9.9568906" maxlat="48.4229251" maxlon="9.9569654"/>
     <nd ref="7025638595" lat="48.4229251" lon="9.9569302"/>
     <nd ref="7026048987" lat="48.4229105" lon="9.9568906"/>
-    <nd ref="7025637890" lat="48.4228677" lon="9.9569255"/>
+    <nd ref="3779752412" lat="48.4228677" lon="9.9569255"/>
     <nd ref="7026246792" lat="48.4228751" lon="9.9569461"/>
     <nd ref="3779752418" lat="48.4228821" lon="9.9569654"/>
     <nd ref="7025638595" lat="48.4229251" lon="9.9569302"/>
@@ -1746,7 +4336,7 @@
   <way id="751589148">
     <bounds minlat="48.4228542" minlon="9.9568528" maxlat="48.4229105" maxlon="9.9569255"/>
     <nd ref="7026048987" lat="48.4229105" lon="9.9568906"/>
-    <nd ref="7025637890" lat="48.4228677" lon="9.9569255"/>
+    <nd ref="3779752412" lat="48.4228677" lon="9.9569255"/>
     <nd ref="7025637687" lat="48.4228609" lon="9.9569067"/>
     <nd ref="7038605786" lat="48.4228608" lon="9.9569063"/>
     <nd ref="7026053188" lat="48.4228542" lon="9.9568878"/>
@@ -1770,13 +4360,13 @@
   </way>
   <way id="751589150">
     <bounds minlat="48.4228266" minlon="9.9567767" maxlat="48.4228826" maxlon="9.9568494"/>
-    <nd ref="7026246786" lat="48.4228686" lon="9.9567767"/>
+    <nd ref="7025638601" lat="48.4228686" lon="9.9567767"/>
     <nd ref="7026246985" lat="48.4228826" lon="9.9568147"/>
     <nd ref="7025638599" lat="48.4228404" lon="9.9568494"/>
     <nd ref="7026229391" lat="48.4228337" lon="9.9568310"/>
     <nd ref="7017270294" lat="48.4228313" lon="9.9568244"/>
     <nd ref="7025638602" lat="48.4228266" lon="9.9568113"/>
-    <nd ref="7026246786" lat="48.4228686" lon="9.9567767"/>
+    <nd ref="7025638601" lat="48.4228686" lon="9.9567767"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/4404"/>
@@ -1812,7 +4402,7 @@
     <bounds minlat="48.4228634" minlon="9.9570595" maxlat="48.4229156" maxlon="9.9571471"/>
     <nd ref="7025637797" lat="48.4229156" lon="9.9571224"/>
     <nd ref="7026229388" lat="48.4229009" lon="9.9571347"/>
-    <nd ref="7025638586" lat="48.4228860" lon="9.9571471"/>
+    <nd ref="3777179818" lat="48.4228860" lon="9.9571471"/>
     <nd ref="7025637699" lat="48.4228634" lon="9.9570837"/>
     <nd ref="7025638592" lat="48.4228932" lon="9.9570595"/>
     <nd ref="7025637797" lat="48.4229156" lon="9.9571224"/>
@@ -1916,7 +4506,7 @@
     <bounds minlat="48.4227400" minlon="9.9572561" maxlat="48.4228324" maxlon="9.9574065"/>
     <nd ref="7017270301" lat="48.4227943" lon="9.9572561"/>
     <nd ref="7017270485" lat="48.4227807" lon="9.9572676"/>
-    <nd ref="7017270486" lat="48.4227533" lon="9.9572907"/>
+    <nd ref="7996151941" lat="48.4227533" lon="9.9572908"/>
     <nd ref="7016783585" lat="48.4227400" lon="9.9573020"/>
     <nd ref="7028400090" lat="48.4227545" lon="9.9573412"/>
     <nd ref="7028311892" lat="48.4227545" lon="9.9573413"/>
@@ -1931,10 +4521,10 @@
     <tag k="ref" v="O27/431"/>
   </way>
   <way id="751836511">
-    <bounds minlat="48.4226847" minlon="9.9573385" maxlat="48.4227786" maxlon="9.9574529"/>
+    <bounds minlat="48.4226849" minlon="9.9573385" maxlat="48.4227786" maxlon="9.9574529"/>
     <nd ref="7028311891" lat="48.4226969" lon="9.9573385"/>
     <nd ref="7028311886" lat="48.4226915" lon="9.9573431"/>
-    <nd ref="7028305291" lat="48.4226847" lon="9.9573488"/>
+    <nd ref="7014699906" lat="48.4226849" lon="9.9573486"/>
     <nd ref="3754885013" lat="48.4227234" lon="9.9574529"/>
     <nd ref="7017270311" lat="48.4227786" lon="9.9574065"/>
     <nd ref="7028311892" lat="48.4227545" lon="9.9573413"/>
@@ -1959,15 +4549,15 @@
     <tag k="ref" v="O27/4302"/>
   </way>
   <way id="751836528">
-    <bounds minlat="48.4226440" minlon="9.9573488" maxlat="48.4227234" maxlon="9.9574995"/>
-    <nd ref="7028305291" lat="48.4226847" lon="9.9573488"/>
-    <nd ref="7563731080" lat="48.4226771" lon="9.9573552"/>
+    <bounds minlat="48.4226440" minlon="9.9573486" maxlat="48.4227234" maxlon="9.9574995"/>
+    <nd ref="7014699906" lat="48.4226849" lon="9.9573486"/>
+    <nd ref="7996151960" lat="48.4226771" lon="9.9573552"/>
     <nd ref="7028322489" lat="48.4226725" lon="9.9573592"/>
     <nd ref="7028322488" lat="48.4226872" lon="9.9573987"/>
     <nd ref="7028322287" lat="48.4226440" lon="9.9574353"/>
     <nd ref="7010918186" lat="48.4226678" lon="9.9574995"/>
     <nd ref="3754885013" lat="48.4227234" lon="9.9574529"/>
-    <nd ref="7028305291" lat="48.4226847" lon="9.9573488"/>
+    <nd ref="7014699906" lat="48.4226849" lon="9.9573486"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/4303"/>
@@ -1977,7 +4567,7 @@
     <nd ref="7028322488" lat="48.4226872" lon="9.9573987"/>
     <nd ref="7028322489" lat="48.4226725" lon="9.9573592"/>
     <nd ref="7038605787" lat="48.4226596" lon="9.9573700"/>
-    <nd ref="7028322490" lat="48.4226293" lon="9.9573957"/>
+    <nd ref="7026098685" lat="48.4226293" lon="9.9573957"/>
     <nd ref="7028322287" lat="48.4226440" lon="9.9574353"/>
     <nd ref="7028322488" lat="48.4226872" lon="9.9573987"/>
     <tag k="indoor" v="room"/>
@@ -2022,55 +4612,55 @@
     <tag k="ref" v="O27/4401"/>
   </way>
   <way id="751846767">
-    <bounds minlat="48.4229906" minlon="9.9572291" maxlat="48.4230560" maxlon="9.9573257"/>
-    <nd ref="7028382790" lat="48.4230340" lon="9.9572291"/>
+    <bounds minlat="48.4229906" minlon="9.9572290" maxlat="48.4230560" maxlon="9.9573257"/>
+    <nd ref="7028382790" lat="48.4230340" lon="9.9572290"/>
     <nd ref="7028400587" lat="48.4230408" lon="9.9572478"/>
     <nd ref="7014699923" lat="48.4230560" lon="9.9572893"/>
     <nd ref="7014699924" lat="48.4230123" lon="9.9573257"/>
     <nd ref="3777225793" lat="48.4230014" lon="9.9572942"/>
     <nd ref="7014699919" lat="48.4229906" lon="9.9572650"/>
-    <nd ref="7014699918" lat="48.4229952" lon="9.9572611"/>
+    <nd ref="7014699918" lat="48.4229952" lon="9.9572612"/>
     <nd ref="7028382787" lat="48.4230218" lon="9.9572391"/>
-    <nd ref="7028382790" lat="48.4230340" lon="9.9572291"/>
+    <nd ref="7028382790" lat="48.4230340" lon="9.9572290"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/420"/>
   </way>
   <way id="751846770">
-    <bounds minlat="48.4230340" minlon="9.9572061" maxlat="48.4230837" maxlon="9.9572893"/>
-    <nd ref="7028411286" lat="48.4230617" lon="9.9572061"/>
+    <bounds minlat="48.4230340" minlon="9.9572060" maxlat="48.4230837" maxlon="9.9572893"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <nd ref="7028411185" lat="48.4230685" lon="9.9572247"/>
     <nd ref="7014699930" lat="48.4230837" lon="9.9572663"/>
     <nd ref="7014699923" lat="48.4230560" lon="9.9572893"/>
     <nd ref="7028400587" lat="48.4230408" lon="9.9572478"/>
-    <nd ref="7028382790" lat="48.4230340" lon="9.9572291"/>
+    <nd ref="7028382790" lat="48.4230340" lon="9.9572290"/>
     <nd ref="7028400588" lat="48.4230492" lon="9.9572164"/>
-    <nd ref="7028411286" lat="48.4230617" lon="9.9572061"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/419"/>
   </way>
   <way id="751846771">
-    <bounds minlat="48.4230617" minlon="9.9571831" maxlat="48.4231114" maxlon="9.9572663"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
+    <bounds minlat="48.4230617" minlon="9.9571830" maxlat="48.4231114" maxlon="9.9572663"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <nd ref="7014699934" lat="48.4231114" lon="9.9572432"/>
     <nd ref="7014699930" lat="48.4230837" lon="9.9572663"/>
     <nd ref="7028411185" lat="48.4230685" lon="9.9572247"/>
-    <nd ref="7028411286" lat="48.4230617" lon="9.9572061"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <nd ref="7028400087" lat="48.4230762" lon="9.9571940"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/418"/>
   </way>
   <way id="751846772">
-    <bounds minlat="48.4230894" minlon="9.9571601" maxlat="48.4231391" maxlon="9.9572432"/>
-    <nd ref="7028402187" lat="48.4231171" lon="9.9571601"/>
+    <bounds minlat="48.4230894" minlon="9.9571600" maxlat="48.4231391" maxlon="9.9572432"/>
+    <nd ref="7014699936" lat="48.4231171" lon="9.9571600"/>
     <nd ref="7014700290" lat="48.4231391" lon="9.9572203"/>
     <nd ref="7014699934" lat="48.4231114" lon="9.9572432"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
-    <nd ref="7028382789" lat="48.4231039" lon="9.9571711"/>
-    <nd ref="7028402187" lat="48.4231171" lon="9.9571601"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
+    <nd ref="7028382789" lat="48.4231039" lon="9.9571710"/>
+    <nd ref="7014699936" lat="48.4231171" lon="9.9571600"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/417"/>
@@ -2080,7 +4670,7 @@
     <nd ref="7014257816" lat="48.4231449" lon="9.9571370"/>
     <nd ref="7014257822" lat="48.4231670" lon="9.9571972"/>
     <nd ref="7014700290" lat="48.4231391" lon="9.9572203"/>
-    <nd ref="7028402187" lat="48.4231171" lon="9.9571601"/>
+    <nd ref="7014699936" lat="48.4231171" lon="9.9571600"/>
     <nd ref="7028400589" lat="48.4231315" lon="9.9571481"/>
     <nd ref="7014257816" lat="48.4231449" lon="9.9571370"/>
     <tag k="indoor" v="room"/>
@@ -2098,19 +4688,6 @@
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/4105"/>
-  </way>
-  <way id="751846775">
-    <bounds minlat="48.4231728" minlon="9.9570909" maxlat="48.4232224" maxlon="9.9571741"/>
-    <nd ref="7010917707" lat="48.4232008" lon="9.9570909"/>
-    <nd ref="7010917708" lat="48.4232224" lon="9.9571511"/>
-    <nd ref="7014257815" lat="48.4231947" lon="9.9571741"/>
-    <nd ref="7014257810" lat="48.4231728" lon="9.9571138"/>
-    <nd ref="7014699897" lat="48.4231873" lon="9.9571018"/>
-    <nd ref="7014699925" lat="48.4231960" lon="9.9570945"/>
-    <nd ref="7010917707" lat="48.4232008" lon="9.9570909"/>
-    <tag k="indoor" v="room"/>
-    <tag k="level" v="4"/>
-    <tag k="ref" v="O27/4104"/>
   </way>
   <way id="751846776">
     <bounds minlat="48.4229873" minlon="9.9570533" maxlat="48.4230804" maxlon="9.9572047"/>
@@ -2191,13 +4768,13 @@
   </way>
   <way id="751846792">
     <bounds minlat="48.4229053" minlon="9.9573120" maxlat="48.4229574" maxlon="9.9573997"/>
-    <nd ref="7014700285" lat="48.4229574" lon="9.9573767"/>
+    <nd ref="3777179828" lat="48.4229574" lon="9.9573767"/>
     <nd ref="3777179825" lat="48.4229339" lon="9.9573120"/>
     <nd ref="7028400595" lat="48.4229203" lon="9.9573233"/>
     <nd ref="7025637888" lat="48.4229053" lon="9.9573357"/>
     <nd ref="7025638585" lat="48.4229081" lon="9.9573432"/>
     <nd ref="7025637895" lat="48.4229288" lon="9.9573997"/>
-    <nd ref="7014700285" lat="48.4229574" lon="9.9573767"/>
+    <nd ref="3777179828" lat="48.4229574" lon="9.9573767"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="4"/>
     <tag k="ref" v="O27/403"/>
@@ -2206,7 +4783,7 @@
     <bounds minlat="48.4229288" minlon="9.9573452" maxlat="48.4230174" maxlon="9.9574576"/>
     <nd ref="7028547392" lat="48.4230174" lon="9.9574015"/>
     <nd ref="3777179842" lat="48.4229966" lon="9.9573452"/>
-    <nd ref="7014700285" lat="48.4229574" lon="9.9573767"/>
+    <nd ref="3777179828" lat="48.4229574" lon="9.9573767"/>
     <nd ref="7025637895" lat="48.4229288" lon="9.9573997"/>
     <nd ref="7028547289" lat="48.4229450" lon="9.9574441"/>
     <nd ref="7028547187" lat="48.4229500" lon="9.9574575"/>
@@ -2334,7 +4911,7 @@
     <bounds minlat="48.4228634" minlon="9.9570595" maxlat="48.4229156" maxlon="9.9571471"/>
     <nd ref="7025637797" lat="48.4229156" lon="9.9571224"/>
     <nd ref="7033338087" lat="48.4229008" lon="9.9571347"/>
-    <nd ref="7025638586" lat="48.4228860" lon="9.9571471"/>
+    <nd ref="3777179818" lat="48.4228860" lon="9.9571471"/>
     <nd ref="7025637699" lat="48.4228634" lon="9.9570837"/>
     <nd ref="7025638592" lat="48.4228932" lon="9.9570595"/>
     <nd ref="7025637797" lat="48.4229156" lon="9.9571224"/>
@@ -2344,13 +4921,13 @@
   </way>
   <way id="752627085">
     <bounds minlat="48.4227943" minlon="9.9572191" maxlat="48.4228551" maxlon="9.9573028"/>
-    <nd ref="3777179809" lat="48.4228551" lon="9.9572657"/>
+    <nd ref="8001553732" lat="48.4228551" lon="9.9572657"/>
     <nd ref="7033337787" lat="48.4228461" lon="9.9572412"/>
     <nd ref="7017270986" lat="48.4228380" lon="9.9572191"/>
     <nd ref="7017270685" lat="48.4228308" lon="9.9572251"/>
     <nd ref="7017270301" lat="48.4227943" lon="9.9572561"/>
     <nd ref="7017270786" lat="48.4228112" lon="9.9573028"/>
-    <nd ref="3777179809" lat="48.4228551" lon="9.9572657"/>
+    <nd ref="8001553732" lat="48.4228551" lon="9.9572657"/>
     <tag k="amenity" v="toilets"/>
     <tag k="female" v="yes"/>
     <tag k="indoor" v="room"/>
@@ -2428,8 +5005,8 @@
     <nd ref="3754885013" lat="48.4227234" lon="9.9574529"/>
     <nd ref="7033337796" lat="48.4227074" lon="9.9574096"/>
     <nd ref="7033337794" lat="48.4227512" lon="9.9573727"/>
-    <nd ref="7033304692" lat="48.4227285" lon="9.9573117"/>
-    <nd ref="7033338085" lat="48.4227339" lon="9.9573070"/>
+    <nd ref="7033304692" lat="48.4227285" lon="9.9573118"/>
+    <nd ref="7033338085" lat="48.4227340" lon="9.9573072"/>
     <nd ref="7016783585" lat="48.4227400" lon="9.9573020"/>
     <nd ref="7017270311" lat="48.4227786" lon="9.9574065"/>
     <tag k="indoor" v="room"/>
@@ -2444,7 +5021,7 @@
     <nd ref="7017270311" lat="48.4227786" lon="9.9574065"/>
     <nd ref="7016783585" lat="48.4227400" lon="9.9573020"/>
     <nd ref="7033338086" lat="48.4227536" lon="9.9572905"/>
-    <nd ref="7033337888" lat="48.4227800" lon="9.9572681"/>
+    <nd ref="7033337888" lat="48.4227800" lon="9.9572682"/>
     <nd ref="7017270301" lat="48.4227943" lon="9.9572561"/>
     <nd ref="7017270786" lat="48.4228112" lon="9.9573028"/>
     <nd ref="7017270891" lat="48.4228324" lon="9.9573614"/>
@@ -2453,13 +5030,13 @@
     <tag k="ref" v="O27/531"/>
   </way>
   <way id="752627093">
-    <bounds minlat="48.4226847" minlon="9.9573117" maxlat="48.4227512" maxlon="9.9574096"/>
+    <bounds minlat="48.4226849" minlon="9.9573118" maxlat="48.4227512" maxlon="9.9574096"/>
     <nd ref="7033337794" lat="48.4227512" lon="9.9573727"/>
     <nd ref="7033337796" lat="48.4227074" lon="9.9574096"/>
-    <nd ref="7028305291" lat="48.4226847" lon="9.9573488"/>
+    <nd ref="7014699906" lat="48.4226849" lon="9.9573486"/>
     <nd ref="7033337793" lat="48.4226930" lon="9.9573418"/>
     <nd ref="7033337785" lat="48.4227101" lon="9.9573273"/>
-    <nd ref="7033304692" lat="48.4227285" lon="9.9573117"/>
+    <nd ref="7033304692" lat="48.4227285" lon="9.9573118"/>
     <nd ref="7033337794" lat="48.4227512" lon="9.9573727"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
@@ -2482,7 +5059,7 @@
   <way id="752627095">
     <bounds minlat="48.4227790" minlon="9.9569398" maxlat="48.4228789" maxlon="9.9570767"/>
     <nd ref="7026229386" lat="48.4228502" lon="9.9569398"/>
-    <nd ref="7033304698" lat="48.4227790" lon="9.9569978"/>
+    <nd ref="7025637706" lat="48.4227790" lon="9.9569978"/>
     <nd ref="3757005290" lat="48.4228086" lon="9.9570767"/>
     <nd ref="7033304699" lat="48.4228490" lon="9.9570438"/>
     <nd ref="7033304696" lat="48.4228789" lon="9.9570195"/>
@@ -2497,7 +5074,7 @@
   <way id="752627096">
     <bounds minlat="48.4227641" minlon="9.9568994" maxlat="48.4228502" maxlon="9.9569978"/>
     <nd ref="7025638607" lat="48.4227641" lon="9.9569580"/>
-    <nd ref="7033304698" lat="48.4227790" lon="9.9569978"/>
+    <nd ref="7025637706" lat="48.4227790" lon="9.9569978"/>
     <nd ref="7026229386" lat="48.4228502" lon="9.9569398"/>
     <nd ref="7033337790" lat="48.4228433" lon="9.9569199"/>
     <nd ref="7025637800" lat="48.4228355" lon="9.9568994"/>
@@ -2541,7 +5118,7 @@
     <nd ref="7037917991" lat="48.4229436" lon="9.9569804"/>
     <nd ref="7037917992" lat="48.4229002" lon="9.9570158"/>
     <nd ref="7037917985" lat="48.4229146" lon="9.9570559"/>
-    <nd ref="7033337791" lat="48.4229200" lon="9.9570712"/>
+    <nd ref="7033337791" lat="48.4229201" lon="9.9570712"/>
     <nd ref="7037917888" lat="48.4229210" lon="9.9570737"/>
     <nd ref="7037918385" lat="48.4229210" lon="9.9570738"/>
     <nd ref="7037917993" lat="48.4229554" lon="9.9570457"/>
@@ -2556,7 +5133,7 @@
     <nd ref="7037917995" lat="48.4229288" lon="9.9569402"/>
     <nd ref="7037917996" lat="48.4228857" lon="9.9569755"/>
     <nd ref="7037917889" lat="48.4228931" lon="9.9569960"/>
-    <nd ref="7037917986" lat="48.4228933" lon="9.9569965"/>
+    <nd ref="7037917986" lat="48.4228932" lon="9.9569965"/>
     <nd ref="7037917992" lat="48.4229002" lon="9.9570158"/>
     <nd ref="7037917991" lat="48.4229436" lon="9.9569804"/>
     <tag k="indoor" v="room"/>
@@ -2569,7 +5146,6 @@
     <nd ref="7037918107" lat="48.4229139" lon="9.9568998"/>
     <nd ref="7037917890" lat="48.4228711" lon="9.9569350"/>
     <nd ref="7037917987" lat="48.4228785" lon="9.9569554"/>
-    <nd ref="7037918108" lat="48.4228785" lon="9.9569554"/>
     <nd ref="7037917996" lat="48.4228857" lon="9.9569755"/>
     <nd ref="7037917995" lat="48.4229288" lon="9.9569402"/>
     <tag k="indoor" v="room"/>
@@ -2614,15 +5190,15 @@
     <tag k="ref" v="O27/547"/>
   </way>
   <way id="753224868">
-    <bounds minlat="48.4229906" minlon="9.9572291" maxlat="48.4230559" maxlon="9.9573256"/>
+    <bounds minlat="48.4229906" minlon="9.9572290" maxlat="48.4230559" maxlon="9.9573256"/>
     <nd ref="7014699919" lat="48.4229906" lon="9.9572650"/>
     <nd ref="3777225793" lat="48.4230014" lon="9.9572942"/>
     <nd ref="7037918113" lat="48.4230122" lon="9.9573256"/>
     <nd ref="7037917893" lat="48.4230559" lon="9.9572893"/>
     <nd ref="7037917989" lat="48.4230403" lon="9.9572468"/>
-    <nd ref="7028382790" lat="48.4230340" lon="9.9572291"/>
-    <nd ref="7037918087" lat="48.4230188" lon="9.9572411"/>
-    <nd ref="7014699918" lat="48.4229952" lon="9.9572611"/>
+    <nd ref="7028382790" lat="48.4230340" lon="9.9572290"/>
+    <nd ref="7037918087" lat="48.4230189" lon="9.9572415"/>
+    <nd ref="7014699918" lat="48.4229952" lon="9.9572612"/>
     <nd ref="7014699919" lat="48.4229906" lon="9.9572650"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
@@ -2630,25 +5206,25 @@
   </way>
   <way id="753224869">
     <bounds minlat="48.4230340" minlon="9.9572060" maxlat="48.4230836" maxlon="9.9572893"/>
-    <nd ref="7037918114" lat="48.4230616" lon="9.9572060"/>
-    <nd ref="7037918088" lat="48.4230476" lon="9.9572174"/>
-    <nd ref="7028382790" lat="48.4230340" lon="9.9572291"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
+    <nd ref="7037918088" lat="48.4230477" lon="9.9572176"/>
+    <nd ref="7028382790" lat="48.4230340" lon="9.9572290"/>
     <nd ref="7037917989" lat="48.4230403" lon="9.9572468"/>
     <nd ref="7037917893" lat="48.4230559" lon="9.9572893"/>
     <nd ref="7037918005" lat="48.4230836" lon="9.9572663"/>
-    <nd ref="7037918114" lat="48.4230616" lon="9.9572060"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
     <tag k="ref" v="O27/5102"/>
   </way>
   <way id="753224870">
-    <bounds minlat="48.4230616" minlon="9.9571831" maxlat="48.4231113" maxlon="9.9572663"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
-    <nd ref="7037918089" lat="48.4230751" lon="9.9571948"/>
-    <nd ref="7037918114" lat="48.4230616" lon="9.9572060"/>
+    <bounds minlat="48.4230617" minlon="9.9571830" maxlat="48.4231113" maxlon="9.9572663"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
+    <nd ref="7037918089" lat="48.4230751" lon="9.9571949"/>
+    <nd ref="7014699931" lat="48.4230617" lon="9.9572060"/>
     <nd ref="7037918005" lat="48.4230836" lon="9.9572663"/>
     <nd ref="7037918006" lat="48.4231113" lon="9.9572433"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
     <tag k="ref" v="O27/5103"/>
@@ -2666,49 +5242,49 @@
     <tag k="ref" v="O27/5115"/>
   </way>
   <way id="753224873">
-    <bounds minlat="48.4230894" minlon="9.9571501" maxlat="48.4231510" maxlon="9.9572433"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
+    <bounds minlat="48.4230894" minlon="9.9571499" maxlat="48.4231510" maxlon="9.9572433"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <nd ref="7037918006" lat="48.4231113" lon="9.9572433"/>
     <nd ref="7037918118" lat="48.4231510" lon="9.9572096"/>
-    <nd ref="7037918119" lat="48.4231293" lon="9.9571501"/>
-    <nd ref="7037918090" lat="48.4231178" lon="9.9571596"/>
-    <nd ref="7028411287" lat="48.4230894" lon="9.9571831"/>
+    <nd ref="7037918119" lat="48.4231292" lon="9.9571499"/>
+    <nd ref="7037918090" lat="48.4231178" lon="9.9571595"/>
+    <nd ref="7014699935" lat="48.4230894" lon="9.9571830"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
     <tag k="ref" v="O27/5105"/>
   </way>
   <way id="753224874">
-    <bounds minlat="48.4231293" minlon="9.9571325" maxlat="48.4231725" maxlon="9.9572096"/>
-    <nd ref="7037918007" lat="48.4231507" lon="9.9571325"/>
-    <nd ref="7037918185" lat="48.4231481" lon="9.9571346"/>
-    <nd ref="7037918119" lat="48.4231293" lon="9.9571501"/>
+    <bounds minlat="48.4231292" minlon="9.9571322" maxlat="48.4231725" maxlon="9.9572096"/>
+    <nd ref="7037918007" lat="48.4231506" lon="9.9571322"/>
+    <nd ref="7037918185" lat="48.4231480" lon="9.9571344"/>
+    <nd ref="7037918119" lat="48.4231292" lon="9.9571499"/>
     <nd ref="7037918118" lat="48.4231510" lon="9.9572096"/>
     <nd ref="7037918387" lat="48.4231725" lon="9.9571923"/>
-    <nd ref="7037918007" lat="48.4231507" lon="9.9571325"/>
+    <nd ref="7037918007" lat="48.4231506" lon="9.9571322"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
     <tag k="ref" v="O27/5106"/>
   </way>
   <way id="753224875">
-    <bounds minlat="48.4231507" minlon="9.9571152" maxlat="48.4231935" maxlon="9.9571923"/>
+    <bounds minlat="48.4231506" minlon="9.9571149" maxlat="48.4231935" maxlon="9.9571923"/>
     <nd ref="7037918387" lat="48.4231725" lon="9.9571923"/>
     <nd ref="7037918121" lat="48.4231935" lon="9.9571754"/>
-    <nd ref="7037918187" lat="48.4231716" lon="9.9571152"/>
-    <nd ref="7037918091" lat="48.4231687" lon="9.9571176"/>
-    <nd ref="7037918007" lat="48.4231507" lon="9.9571325"/>
+    <nd ref="7037918187" lat="48.4231715" lon="9.9571149"/>
+    <nd ref="7037918091" lat="48.4231686" lon="9.9571173"/>
+    <nd ref="7037918007" lat="48.4231506" lon="9.9571322"/>
     <nd ref="7037918387" lat="48.4231725" lon="9.9571923"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
     <tag k="ref" v="O27/5107"/>
   </way>
   <way id="753224877">
-    <bounds minlat="48.4231716" minlon="9.9570839" maxlat="48.4232317" maxlon="9.9571754"/>
-    <nd ref="7037918187" lat="48.4231716" lon="9.9571152"/>
+    <bounds minlat="48.4231715" minlon="9.9570839" maxlat="48.4232317" maxlon="9.9571754"/>
+    <nd ref="7037918187" lat="48.4231715" lon="9.9571149"/>
     <nd ref="7037918121" lat="48.4231935" lon="9.9571754"/>
     <nd ref="7037918008" lat="48.4232317" lon="9.9571434"/>
     <nd ref="7037918285" lat="48.4232095" lon="9.9570839"/>
     <nd ref="7037918092" lat="48.4231871" lon="9.9571024"/>
-    <nd ref="7037918187" lat="48.4231716" lon="9.9571152"/>
+    <nd ref="7037918187" lat="48.4231715" lon="9.9571149"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
     <tag k="ref" v="O27/5108"/>
@@ -2818,7 +5394,7 @@
     <nd ref="7038366192" lat="48.4229346" lon="9.9574156"/>
     <nd ref="7038366186" lat="48.4229513" lon="9.9574610"/>
     <nd ref="7038391087" lat="48.4229522" lon="9.9574635"/>
-    <nd ref="7038390790" lat="48.4229572" lon="9.9574773"/>
+    <nd ref="7026047094" lat="48.4229572" lon="9.9574773"/>
     <nd ref="7038391189" lat="48.4229845" lon="9.9574546"/>
     <nd ref="7038366191" lat="48.4229620" lon="9.9573932"/>
     <tag k="indoor" v="room"/>
@@ -2828,7 +5404,7 @@
   <way id="753288291">
     <bounds minlat="48.4229562" minlon="9.9573452" maxlat="48.4230246" maxlon="9.9574546"/>
     <nd ref="7038391189" lat="48.4229845" lon="9.9574546"/>
-    <nd ref="7038366193" lat="48.4230246" lon="9.9574211"/>
+    <nd ref="7025638685" lat="48.4230246" lon="9.9574211"/>
     <nd ref="3777179842" lat="48.4229966" lon="9.9573452"/>
     <nd ref="7038366195" lat="48.4229562" lon="9.9573777"/>
     <nd ref="7038391085" lat="48.4229562" lon="9.9573776"/>
@@ -2845,7 +5421,7 @@
     <nd ref="7038366191" lat="48.4229620" lon="9.9573932"/>
     <nd ref="7038366192" lat="48.4229346" lon="9.9574156"/>
     <nd ref="7038391086" lat="48.4229282" lon="9.9573980"/>
-    <nd ref="7038366196" lat="48.4229288" lon="9.9573997"/>
+    <nd ref="7025637895" lat="48.4229288" lon="9.9573997"/>
     <nd ref="7038366195" lat="48.4229562" lon="9.9573777"/>
     <tag k="indoor" v="room"/>
     <tag k="level" v="5"/>
