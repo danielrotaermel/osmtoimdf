@@ -370,14 +370,32 @@ function runTransformations(featureCollection, collectionSource) {
             case ANCHOR : 
                 break;
             case BUILDING : 
-                // name/alt_name
+
+                f.properties.category = categories.unspecified
+
                 if ("name" in tags) {
                     f.properties.name = {
                         en: tags.name
                     }
-                } else {
-                    f.properties.name = null
+                } else if ("ref" in tags) {
+                    f.properties.name = tags.ref
                 }
+
+                if ("alt_name:en" in tags) {
+                    f.properties.alt_name["en"] = tags["alt_name:en"]
+                }
+                
+                if ("alt_name" in tags) {
+                    f.properties.alt_name["de"] = tags.alt_name
+                }
+
+                f.properties.display_point = {
+                    type: "Point",
+                    coordinates: polylabel(f.geometry.coordinates, 1.0)
+                }
+
+                f.geometry = null
+                f.properties.address_id = null
 
                 break;
             case DETAIL : 
