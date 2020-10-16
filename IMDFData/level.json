@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "f298bd4f-9b05-4517-b114-baa40bbab943",
+      "id": "8da81a95-b9a3-4eb2-b7ea-a62252425446",
       "properties": {
         "type": "relation",
         "id": 11501969,
@@ -35,7 +35,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
+          "35c6fe61-175b-4f14-8134-0093a7177228"
         ]
       },
       "geometry": {
@@ -316,11 +316,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
+      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
     },
     {
       "type": "Feature",
-      "id": "6ada0a4b-6c46-4cd2-8a46-b3f4b0563ad6",
+      "id": "047dfdd7-4053-49fb-ab9a-6d68ad66c2cc",
       "properties": {
         "type": "relation",
         "id": 11504592,
@@ -352,7 +352,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
+          "35c6fe61-175b-4f14-8134-0093a7177228"
         ]
       },
       "geometry": {
@@ -653,11 +653,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
+      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
     },
     {
       "type": "Feature",
-      "id": "eabe9a5f-eee3-4d03-b70c-352ab04d1419",
+      "id": "09cfe0cc-ab7c-4844-95ef-163f52c59cb0",
       "properties": {
         "type": "relation",
         "id": 11722665,
@@ -689,7 +689,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
+          "35c6fe61-175b-4f14-8134-0093a7177228"
         ]
       },
       "geometry": {
@@ -938,11 +938,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
+      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
     },
     {
       "type": "Feature",
-      "id": "d2bbbdd6-0ccd-4d26-89a5-c30209c33a2a",
+      "id": "925f8b9e-5ba9-4cd7-b7ca-eec864c7ab6c",
       "properties": {
         "type": "way",
         "id": 371943318,
@@ -973,7 +973,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
+          "35c6fe61-175b-4f14-8134-0093a7177228"
         ]
       },
       "geometry": {
@@ -1204,11 +1204,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
+      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
     },
     {
       "type": "Feature",
-      "id": "dd80aac2-7667-4c49-9b0b-bc153af7a4cb",
+      "id": "33c90542-7e06-4b82-8800-5949d470fb74",
       "properties": {
         "type": "way",
         "id": 372012206,
@@ -1239,7 +1239,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
+          "35c6fe61-175b-4f14-8134-0093a7177228"
         ]
       },
       "geometry": {
@@ -1418,11 +1418,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
+      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
     },
     {
       "type": "Feature",
-      "id": "e211f803-6d72-4a5f-ae29-c95fec0d235c",
+      "id": "39e13f85-e130-490b-9259-13aef75b9c20",
       "properties": {
         "type": "way",
         "id": 372169405,
@@ -1452,7 +1452,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
+          "35c6fe61-175b-4f14-8134-0093a7177228"
         ]
       },
       "geometry": {
@@ -1595,7 +1595,7 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
+      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
     }
   ],
   "name": "level"

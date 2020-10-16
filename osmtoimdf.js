@@ -249,17 +249,17 @@ function runTransformations(featureCollection, collectionSource) {
         }
 
         if (tags.amenity === 'toilets') {
-          f.properties.category = amenityCategory.restroom;
+          imdfProps.category = amenityCategory.restroom;
           imdfProps.name = { en: 'Restroom', de: 'WC' };
         }
 
         if (tags.male === 'yes') {
-          f.properties.category = amenityCategory.restroomMale;
+          imdfProps.category = amenityCategory.restroomMale;
           imdfProps.name = { en: 'Male Restroom', de: 'WC Herren' };
         }
 
         if (tags.female === 'yes') {
-          f.properties.category = amenityCategory.restroomFemale;
+          imdfProps.category = amenityCategory.restroomFemale;
           imdfProps.name = { en: 'Female Restroom', de: 'WC Damen' };
         }
 
