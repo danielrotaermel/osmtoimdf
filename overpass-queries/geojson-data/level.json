@@ -8,9 +8,12 @@
     "type": "relation",
     "id": 11501969,
     "tags": {
+      "building:levels": "2",
+      "building:min_level": "1",
+      "building:part": "yes",
       "indoor": "level",
       "level": "2",
-      "name": "level 2",
+      "name": "2. OG",
       "type": "multipolygon",
       "wall": "yes"
     },
@@ -302,9 +305,12 @@
     "type": "relation",
     "id": 11504592,
     "tags": {
+      "building:levels": "1",
+      "building:min_level": "0",
+      "building:part": "yes",
       "indoor": "level",
       "level": "1",
-      "name": "level 1",
+      "name": "1. OG",
       "type": "multipolygon",
       "wall": "yes"
     },
@@ -617,9 +623,11 @@
     "id": 11722665,
     "tags": {
       "access": "private",
+      "building:levels": "0",
+      "building:part": "yes",
       "indoor": "level",
       "level": "0",
-      "name": "level 0",
+      "name": "EG",
       "type": "multipolygon",
       "wall": "yes"
     },
@@ -879,9 +887,12 @@
     "type": "way",
     "id": 371943318,
     "tags": {
+      "building:levels": "3",
+      "building:min_level": "2",
+      "building:part": "yes",
       "indoor": "level",
       "level": "3",
-      "name": "level 3",
+      "name": "3. OG",
       "wall": "yes"
     },
     "relations": [],
@@ -1122,9 +1133,12 @@
     "type": "way",
     "id": 372012206,
     "tags": {
+      "building:levels": "5",
+      "building:min_level": "4",
+      "building:part": "yes",
       "indoor": "level",
       "level": "5",
-      "name": "level 5",
+      "name": "5. OG",
       "wall": "yes"
     },
     "relations": [],
@@ -1313,9 +1327,12 @@
     "type": "way",
     "id": 372169405,
     "tags": {
+      "building:levels": "4",
+      "building:min_level": "3",
+      "building:part": "yes",
       "indoor": "level",
       "level": "4",
-      "name": "level 4"
+      "name": "4. OG"
     },
     "relations": [],
     "meta": {}
@@ -1455,49 +1472,6 @@
         [
           9.95726,
           48.4226426
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/836921216",
-  "properties": {
-    "type": "way",
-    "id": 836921216,
-    "tags": {
-      "indoor": "level",
-      "level": "6",
-      "name": "level 6",
-      "wall": "yes"
-    },
-    "relations": [],
-    "meta": {}
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          9.9572918,
-          48.423062
-        ],
-        [
-          9.9569979,
-          48.4229565
-        ],
-        [
-          9.9571523,
-          48.4227715
-        ],
-        [
-          9.9574435,
-          48.4228744
-        ],
-        [
-          9.9572918,
-          48.423062
         ]
       ]
     ]

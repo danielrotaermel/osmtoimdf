@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
+<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-13T19:41:03Z" areas="2020-10-13T18:58:02Z"/>
+<meta osm_base="2020-10-16T00:11:03Z" areas="2020-10-15T23:31:02Z"/>
 
+  <node id="598332667" lat="48.4183708" lon="9.9398877">
+    <tag k="entrance" v="main"/>
+  </node>
   <node id="927939191" lat="48.4228246" lon="9.9534152">
     <tag k="amenity" v="restaurant"/>
     <tag k="name" v="Cafeteria B"/>
@@ -80,6 +83,9 @@
     <tag k="payment:coins" v="yes"/>
     <tag k="payment:notes" v="no"/>
     <tag k="vending" v="bicycle_tube"/>
+  </node>
+  <node id="2469946276" lat="48.4233890" lon="9.9578557">
+    <tag k="entrance" v="emergency"/>
   </node>
   <node id="2992347606" lat="48.4232580" lon="9.9535898">
     <tag k="amenity" v="bicycle_parking"/>
@@ -241,6 +247,10 @@
     <tag k="entrance" v="yes"/>
     <tag k="name" v="Rampe A"/>
   </node>
+  <node id="3759189663" lat="48.4230509" lon="9.9581453">
+    <tag k="entrance" v="emergency"/>
+    <tag k="level" v="1"/>
+  </node>
   <node id="3759189664" lat="48.4231487" lon="9.9570035">
     <tag k="amenity" v="bicycle_parking"/>
     <tag k="bicycle_parking" v="stands"/>
@@ -279,6 +289,10 @@
   </node>
   <node id="3760065522" lat="48.4229147" lon="9.9556333">
     <tag k="entrance" v="yes"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3760065530" lat="48.4230120" lon="9.9555587">
+    <tag k="entrance" v="emergency"/>
     <tag k="level" v="2"/>
   </node>
   <node id="3760129161" lat="48.4217839" lon="9.9554855">
@@ -326,9 +340,29 @@
     <tag k="entrance" v="yes"/>
     <tag k="level" v="2"/>
   </node>
+  <node id="3777207336" lat="48.4228984" lon="9.9575264">
+    <tag k="entrance" v="emergency"/>
+    <tag k="level" v="1"/>
+  </node>
+  <node id="3778051065" lat="48.4225318" lon="9.9559131">
+    <tag k="entrance" v="emergency"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3778051073" lat="48.4226646" lon="9.9557854">
+    <tag k="access" v="emergency"/>
+    <tag k="entrance" v="emergency"/>
+    <tag k="level" v="2"/>
+  </node>
+  <node id="3778051113" lat="48.4228487" lon="9.9557381">
+    <tag k="entrance" v="emergency"/>
+    <tag k="level" v="2"/>
+  </node>
   <node id="3798205875" lat="48.4199774" lon="9.9444602">
     <tag k="entrance" v="yes"/>
     <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3798205876" lat="48.4199783" lon="9.9445608">
+    <tag k="entrance" v="main"/>
   </node>
   <node id="4910655564" lat="48.4222131" lon="9.9555547">
     <tag k="amenity" v="vending_machine"/>

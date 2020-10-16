@@ -29,8 +29,8 @@ map_to_area ->.area;
         way[highway="elevator"](area.area);
 		// stairs
         way[stairs=yes](area.area);
-		// main entries *hint don't include emergency exists these should go into the door collection
-		node[entrance=yes](area.area);
+		// main entries
+		node[entrance](area.area);
 		
 		// doors used to tag rooms
 		// node[door][ref](area.area)(if:count_tags() > 0);

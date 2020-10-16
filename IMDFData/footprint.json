@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "2dd206f5-11d5-4960-ace1-c2fbd637b724",
+      "id": "96831814-c392-4fc6-ace5-1424894b2b09",
       "properties": {
         "type": "relation",
         "id": 444096,
@@ -14,7 +14,10 @@
         "relations": [],
         "meta": {},
         "osmId": "relation/444096",
-        "customId": "footprint/relation/444096"
+        "customId": "footprint/relation/444096",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -255,7 +258,7 @@
     },
     {
       "type": "Feature",
-      "id": "295ee327-d807-4b04-99d6-d769be731dbc",
+      "id": "ff751127-4c1e-44c2-9c7d-b5ecd641a11b",
       "properties": {
         "type": "relation",
         "id": 2085572,
@@ -272,7 +275,12 @@
         "relations": [],
         "meta": {},
         "osmId": "relation/2085572",
-        "customId": "footprint/relation/2085572"
+        "customId": "footprint/relation/2085572",
+        "category": "ground",
+        "name": {
+          "en": "Musisches Zentrum"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -403,7 +411,7 @@
     },
     {
       "type": "Feature",
-      "id": "76168111-21be-4354-b2ad-cb3689b04bc0",
+      "id": "6043bffa-d60a-4f06-b1aa-bfd59011a84f",
       "properties": {
         "type": "relation",
         "id": 5523241,
@@ -418,7 +426,12 @@
         "meta": {},
         "osmId": "relation/5523241",
         "customId": "footprint/relation/5523241",
-        "_area": 2399.1145176291193
+        "_area": 2399.1145176291193,
+        "category": "ground",
+        "name": {
+          "en": "O27"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -681,7 +694,7 @@
     },
     {
       "type": "Feature",
-      "id": "1adeaa5f-0c1f-405f-8096-9949d7322fb1",
+      "id": "cf1430ee-15e8-46a4-914a-0cac39da6667",
       "properties": {
         "type": "relation",
         "id": 5523395,
@@ -696,7 +709,12 @@
         "meta": {},
         "osmId": "relation/5523395",
         "customId": "footprint/relation/5523395",
-        "_area": 3436.423603427896
+        "_area": 3436.423603427896,
+        "category": "ground",
+        "name": {
+          "en": "N25"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -947,7 +965,7 @@
     },
     {
       "type": "Feature",
-      "id": "b9830e6f-19cf-460e-8b6c-d45ca37d0c95",
+      "id": "43177edc-c087-4ebd-907e-8453c94289ee",
       "properties": {
         "type": "relation",
         "id": 9399382,
@@ -963,7 +981,10 @@
         "meta": {},
         "osmId": "relation/9399382",
         "customId": "footprint/relation/9399382",
-        "_area": 2010.9179576444585
+        "_area": 2010.9179576444585,
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1030,7 +1051,7 @@
     },
     {
       "type": "Feature",
-      "id": "fd58b3dd-4a40-4119-a48c-9695e2e9df76",
+      "id": "39ae96ad-f4ca-4565-9403-8cb352e3716f",
       "properties": {
         "type": "relation",
         "id": 11504441,
@@ -1046,7 +1067,12 @@
         "meta": {},
         "osmId": "relation/11504441",
         "customId": "footprint/relation/11504441",
-        "_area": 3796.791497514788
+        "_area": 3796.791497514788,
+        "category": "ground",
+        "name": {
+          "en": "N27"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1207,7 +1233,7 @@
     },
     {
       "type": "Feature",
-      "id": "d432487b-d567-4981-b4a3-6dd4654a3b8c",
+      "id": "0b0d348b-31f3-499a-8b64-c5f1631d63f1",
       "properties": {
         "type": "way",
         "id": 46852105,
@@ -1223,7 +1249,12 @@
         "meta": {},
         "osmId": "way/46852105",
         "customId": "footprint/way/46852105",
-        "_area": 750.1232982236885
+        "_area": 750.1232982236885,
+        "category": "ground",
+        "name": {
+          "en": "Technische Hochschule Ulm"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1260,7 +1291,7 @@
     },
     {
       "type": "Feature",
-      "id": "76ecda6f-2568-47dd-8bbf-9dda3642d2c1",
+      "id": "104829f0-09ed-4e5b-a8ce-837993b7c427",
       "properties": {
         "type": "way",
         "id": 101177773,
@@ -1278,7 +1309,12 @@
         "meta": {},
         "osmId": "way/101177773",
         "customId": "footprint/way/101177773",
-        "_area": 466.7717245838257
+        "_area": 466.7717245838257,
+        "category": "ground",
+        "name": {
+          "en": "O29"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1319,7 +1355,7 @@
     },
     {
       "type": "Feature",
-      "id": "a0d858e4-b94b-4aa9-8cdf-7c990b9f88f3",
+      "id": "a5e54b31-2f6c-4ac1-9f7c-24d0cd9ec613",
       "properties": {
         "type": "way",
         "id": 102796917,
@@ -1336,7 +1372,10 @@
         "meta": {},
         "osmId": "way/102796917",
         "customId": "footprint/way/102796917",
-        "_area": 49.26555021501295
+        "_area": 49.26555021501295,
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1377,7 +1416,7 @@
     },
     {
       "type": "Feature",
-      "id": "f9963932-0c08-45f3-8185-2a23d546f093",
+      "id": "0bc93176-45cc-41c8-a438-6b2c6a92c8c2",
       "properties": {
         "type": "way",
         "id": 115626014,
@@ -1395,7 +1434,12 @@
         "meta": {},
         "osmId": "way/115626014",
         "customId": "footprint/way/115626014",
-        "_area": 1306.8440826479048
+        "_area": 1306.8440826479048,
+        "category": "ground",
+        "name": {
+          "en": "Helmholtzstraße 22"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1468,7 +1512,7 @@
     },
     {
       "type": "Feature",
-      "id": "6cfd3608-0a1d-4129-8184-f9f86ea183a3",
+      "id": "b0fed4f0-f6ef-44f1-a2d0-d4d1932ac647",
       "properties": {
         "type": "way",
         "id": 115626015,
@@ -1487,7 +1531,12 @@
         "meta": {},
         "osmId": "way/115626015",
         "customId": "footprint/way/115626015",
-        "_area": 1411.4776959446706
+        "_area": 1411.4776959446706,
+        "category": "ground",
+        "name": {
+          "en": "Helmholtzstraße 20"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1568,7 +1617,7 @@
     },
     {
       "type": "Feature",
-      "id": "eac544af-0a55-44e2-8e75-d84f98fc77d0",
+      "id": "95fe0107-6cc2-4ae1-8819-db7956ff9a67",
       "properties": {
         "type": "way",
         "id": 115626016,
@@ -1587,7 +1636,12 @@
         "meta": {},
         "osmId": "way/115626016",
         "customId": "footprint/way/115626016",
-        "_area": 1569.750446144084
+        "_area": 1569.750446144084,
+        "category": "ground",
+        "name": {
+          "en": "Helmholtzstraße 18"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1684,7 +1738,7 @@
     },
     {
       "type": "Feature",
-      "id": "ac455a43-a04b-4eab-8666-12c4b52c534d",
+      "id": "9b6eae8d-e844-4b58-abff-66f614ac5763",
       "properties": {
         "type": "way",
         "id": 153595159,
@@ -1700,7 +1754,12 @@
         "meta": {},
         "osmId": "way/153595159",
         "customId": "footprint/way/153595159",
-        "_area": 9667.605949686265
+        "_area": 9667.605949686265,
+        "category": "ground",
+        "name": {
+          "en": "Studentenwohnanlage „Upper West Side“"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1733,7 +1792,7 @@
     },
     {
       "type": "Feature",
-      "id": "9f62122a-2ee0-424d-9554-bf5a7f57da9d",
+      "id": "a8474515-b66b-47ba-b5fa-225f8a428747",
       "properties": {
         "type": "way",
         "id": 229977298,
@@ -1753,7 +1812,12 @@
         "meta": {},
         "osmId": "way/229977298",
         "customId": "footprint/way/229977298",
-        "_area": 1200.7691984439837
+        "_area": 1200.7691984439837,
+        "category": "ground",
+        "name": {
+          "en": "Helmholtzstraße 16"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1842,7 +1906,7 @@
     },
     {
       "type": "Feature",
-      "id": "c183e321-c259-4bdb-bd54-e78eda4b4526",
+      "id": "21693d8f-449f-4b1a-b337-0fa1a7f219e6",
       "properties": {
         "type": "way",
         "id": 229980275,
@@ -1861,7 +1925,12 @@
         "meta": {},
         "osmId": "way/229980275",
         "customId": "footprint/way/229980275",
-        "_area": 761.2956918790904
+        "_area": 761.2956918790904,
+        "category": "ground",
+        "name": {
+          "en": "Helmholtzstraße 14"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1998,7 +2067,7 @@
     },
     {
       "type": "Feature",
-      "id": "dff1aae8-45c8-4196-9c91-a5b60faa4492",
+      "id": "9320747e-4577-4b21-803e-c27515162cb6",
       "properties": {
         "type": "way",
         "id": 261483432,
@@ -2018,7 +2087,12 @@
         "meta": {},
         "osmId": "way/261483432",
         "customId": "footprint/way/261483432",
-        "_area": 3843.10333112479
+        "_area": 3843.10333112479,
+        "category": "ground",
+        "name": {
+          "en": "Technische Hochschule Ulm"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2123,7 +2197,7 @@
     },
     {
       "type": "Feature",
-      "id": "f7ba9463-cddf-42ba-b456-aedb41ac94c7",
+      "id": "f3c379bf-28ca-41c2-9b47-946e86b4b51e",
       "properties": {
         "type": "way",
         "id": 323480822,
@@ -2138,7 +2212,12 @@
         "meta": {},
         "osmId": "way/323480822",
         "customId": "footprint/way/323480822",
-        "_area": 863.2944351462194
+        "_area": 863.2944351462194,
+        "category": "ground",
+        "name": {
+          "en": "O28"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2255,7 +2334,7 @@
     },
     {
       "type": "Feature",
-      "id": "3b869144-75f2-4ea3-972a-140ead5439ab",
+      "id": "43f9652d-56cd-42cd-b7c2-1b403aa87c5c",
       "properties": {
         "type": "way",
         "id": 329782186,
@@ -2271,7 +2350,12 @@
         "meta": {},
         "osmId": "way/329782186",
         "customId": "footprint/way/329782186",
-        "_area": 2694.744490437795
+        "_area": 2694.744490437795,
+        "category": "ground",
+        "name": {
+          "en": "Institut für Pathologie"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2368,7 +2452,7 @@
     },
     {
       "type": "Feature",
-      "id": "37062677-2425-49c7-b3eb-61b85bab9cc2",
+      "id": "33501670-2995-40bf-9108-7fc0b57d0766",
       "properties": {
         "type": "way",
         "id": 329782187,
@@ -2381,7 +2465,12 @@
         "meta": {},
         "osmId": "way/329782187",
         "customId": "footprint/way/329782187",
-        "_area": 2698.604177382932
+        "_area": 2698.604177382932,
+        "category": "ground",
+        "name": {
+          "en": "M24"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2526,7 +2615,7 @@
     },
     {
       "type": "Feature",
-      "id": "4b623d3b-8d3b-4eab-bb57-5662537635a0",
+      "id": "c2bd4a4e-4a15-4f15-b712-c5a2b6e55226",
       "properties": {
         "type": "way",
         "id": 329782188,
@@ -2539,7 +2628,12 @@
         "meta": {},
         "osmId": "way/329782188",
         "customId": "footprint/way/329782188",
-        "_area": 3967.3175418379615
+        "_area": 3967.3175418379615,
+        "category": "ground",
+        "name": {
+          "en": "M25"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2680,7 +2774,7 @@
     },
     {
       "type": "Feature",
-      "id": "3da6d2c4-8556-45fe-808f-e5fe1fc9d087",
+      "id": "babeb0c8-0a64-4883-b539-a055cb6384c8",
       "properties": {
         "type": "way",
         "id": 329782190,
@@ -2699,7 +2793,12 @@
         "meta": {},
         "osmId": "way/329782190",
         "customId": "footprint/way/329782190",
-        "_area": 2315.696163433849
+        "_area": 2315.696163433849,
+        "category": "ground",
+        "name": {
+          "en": "Mensa"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2860,7 +2959,7 @@
     },
     {
       "type": "Feature",
-      "id": "24fa59fb-a4ba-4f7e-a2e6-6104e7041ade",
+      "id": "e1cbbc65-e882-4c32-bd14-3845491f3cb6",
       "properties": {
         "type": "way",
         "id": 329782192,
@@ -2874,7 +2973,12 @@
         "meta": {},
         "osmId": "way/329782192",
         "customId": "footprint/way/329782192",
-        "_area": 3277.957841037841
+        "_area": 3277.957841037841,
+        "category": "ground",
+        "name": {
+          "en": "Zahnklinik"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3147,7 +3251,7 @@
     },
     {
       "type": "Feature",
-      "id": "80ddf598-fa7d-4cd3-9b72-85efd9073eb0",
+      "id": "d126e3f5-cfaa-4149-84a9-89bf12318672",
       "properties": {
         "type": "way",
         "id": 329782194,
@@ -3160,7 +3264,12 @@
         "meta": {},
         "osmId": "way/329782194",
         "customId": "footprint/way/329782194",
-        "_area": 2979.2260901565173
+        "_area": 2979.2260901565173,
+        "category": "ground",
+        "name": {
+          "en": "N26"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3289,7 +3398,7 @@
     },
     {
       "type": "Feature",
-      "id": "b4966d55-e6d8-4b49-88e2-16621c9ce13f",
+      "id": "376e0f4e-92be-4c1b-9fa8-c07ddcb70c01",
       "properties": {
         "type": "way",
         "id": 329782195,
@@ -3303,7 +3412,12 @@
         "meta": {},
         "osmId": "way/329782195",
         "customId": "footprint/way/329782195",
-        "_area": 3308.7138619550688
+        "_area": 3308.7138619550688,
+        "category": "ground",
+        "name": {
+          "en": "O25"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3552,7 +3666,7 @@
     },
     {
       "type": "Feature",
-      "id": "7f93242f-942e-470a-a044-963e55d3ac67",
+      "id": "18d8efd2-f7a8-4c49-af64-abc66c6a4612",
       "properties": {
         "type": "way",
         "id": 329782196,
@@ -3566,7 +3680,12 @@
         "meta": {},
         "osmId": "way/329782196",
         "customId": "footprint/way/329782196",
-        "_area": 2872.05849733232
+        "_area": 2872.05849733232,
+        "category": "ground",
+        "name": {
+          "en": "O26"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3735,7 +3854,7 @@
     },
     {
       "type": "Feature",
-      "id": "755a08c2-4e34-42c6-93a8-5c6b7e425b3f",
+      "id": "05536075-34f0-43a2-a43a-b10b181e53a8",
       "properties": {
         "type": "way",
         "id": 460602804,
@@ -3749,7 +3868,12 @@
         "meta": {},
         "osmId": "way/460602804",
         "customId": "footprint/way/460602804",
-        "_area": 1629.7886696334156
+        "_area": 1629.7886696334156,
+        "category": "ground",
+        "name": {
+          "en": "M26"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3806,7 +3930,7 @@
     },
     {
       "type": "Feature",
-      "id": "02564aad-71e0-46c5-8334-7de93d4673ba",
+      "id": "978bea08-4b9d-442f-9f73-6a12a2c03029",
       "properties": {
         "type": "way",
         "id": 639028574,
@@ -3819,7 +3943,12 @@
         "meta": {},
         "osmId": "way/639028574",
         "customId": "footprint/way/639028574",
-        "_area": 1097.5950418079476
+        "_area": 1097.5950418079476,
+        "category": "ground",
+        "name": {
+          "en": "M28"
+        },
+        "building_ids": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3852,7 +3981,7 @@
     },
     {
       "type": "Feature",
-      "id": "e76b5bb9-214e-4470-8bcc-92626010d8c4",
+      "id": "04ef6b0c-787d-4b04-ba89-017a48348998",
       "properties": {
         "type": "way",
         "id": 51819209,
@@ -3870,7 +3999,10 @@
         ],
         "meta": {},
         "osmId": "way/51819209",
-        "customId": "footprint/way/51819209"
+        "customId": "footprint/way/51819209",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -3997,7 +4129,7 @@
     },
     {
       "type": "Feature",
-      "id": "66838134-0824-4446-b4e3-5e5558f2b30b",
+      "id": "2664b26a-068c-4f3b-80ef-a2c16e1fb88d",
       "properties": {
         "type": "way",
         "id": 179943586,
@@ -4015,7 +4147,10 @@
         ],
         "meta": {},
         "osmId": "way/179943586",
-        "customId": "footprint/way/179943586"
+        "customId": "footprint/way/179943586",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4054,7 +4189,7 @@
     },
     {
       "type": "Feature",
-      "id": "9d142fc4-fe26-426b-be3a-7384920bc1e8",
+      "id": "a5e13d1e-1692-4e54-9d6d-5199f486e33b",
       "properties": {
         "type": "way",
         "id": 51818809,
@@ -4072,7 +4207,10 @@
         ],
         "meta": {},
         "osmId": "way/51818809",
-        "customId": "footprint/way/51818809"
+        "customId": "footprint/way/51818809",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4179,7 +4317,7 @@
     },
     {
       "type": "Feature",
-      "id": "737b1d4a-02ab-4f92-a1f7-affa44651786",
+      "id": "bf0f00a3-313a-409b-a0f6-6a77004450ad",
       "properties": {
         "type": "way",
         "id": 229975651,
@@ -4197,7 +4335,10 @@
         ],
         "meta": {},
         "osmId": "way/229975651",
-        "customId": "footprint/way/229975651"
+        "customId": "footprint/way/229975651",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4320,7 +4461,7 @@
     },
     {
       "type": "Feature",
-      "id": "ac7177bb-9d38-4f1e-b98a-8ebeadb2434a",
+      "id": "035c8bfb-2dba-4fa8-b66f-ca83a5a15935",
       "properties": {
         "type": "way",
         "id": 677096151,
@@ -4338,7 +4479,10 @@
         ],
         "meta": {},
         "osmId": "way/677096151",
-        "customId": "footprint/way/677096151"
+        "customId": "footprint/way/677096151",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4369,7 +4513,7 @@
     },
     {
       "type": "Feature",
-      "id": "18e045b5-0d05-43c7-a854-3d3e6123954b",
+      "id": "6d78640c-2565-4920-909a-1376304eab94",
       "properties": {
         "type": "way",
         "id": 51819602,
@@ -4387,7 +4531,10 @@
         ],
         "meta": {},
         "osmId": "way/51819602",
-        "customId": "footprint/way/51819602"
+        "customId": "footprint/way/51819602",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4442,7 +4589,7 @@
     },
     {
       "type": "Feature",
-      "id": "d67b7001-76ed-4485-afcd-83b10abc5748",
+      "id": "707a2670-de43-42f6-9cdd-292b85e7bb76",
       "properties": {
         "type": "way",
         "id": 76823477,
@@ -4460,7 +4607,10 @@
         ],
         "meta": {},
         "osmId": "way/76823477",
-        "customId": "footprint/way/76823477"
+        "customId": "footprint/way/76823477",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4579,7 +4729,7 @@
     },
     {
       "type": "Feature",
-      "id": "d0d73b2d-2ae8-4ea9-a611-8a4539c2885c",
+      "id": "6855c933-ee12-4f0d-aef9-18e565adb237",
       "properties": {
         "type": "way",
         "id": 155799508,
@@ -4597,7 +4747,10 @@
         ],
         "meta": {},
         "osmId": "way/155799508",
-        "customId": "footprint/way/155799508"
+        "customId": "footprint/way/155799508",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4636,7 +4789,7 @@
     },
     {
       "type": "Feature",
-      "id": "b2095663-b402-4c1b-8008-7eacd873558c",
+      "id": "692e76df-a55e-40f3-ac8c-0658ff14f4f8",
       "properties": {
         "type": "way",
         "id": 155799510,
@@ -4654,7 +4807,10 @@
         ],
         "meta": {},
         "osmId": "way/155799510",
-        "customId": "footprint/way/155799510"
+        "customId": "footprint/way/155799510",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "LineString",
@@ -4693,7 +4849,7 @@
     },
     {
       "type": "Feature",
-      "id": "9da564df-0923-45d0-b55f-0e5a8c19aab8",
+      "id": "bbd9e8a8-33c1-4d51-b61a-70be1e034752",
       "properties": {
         "type": "node",
         "id": "127498398",
@@ -4711,7 +4867,10 @@
         ],
         "meta": {},
         "osmId": "node/127498398",
-        "customId": "footprint/node/127498398"
+        "customId": "footprint/node/127498398",
+        "category": "ground",
+        "name": {},
+        "building_ids": null
       },
       "geometry": {
         "type": "Point",

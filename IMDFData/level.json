@@ -3,14 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "id": "f2f8e6e5-8448-447d-8cc6-7fbe6fdab8c4",
+      "id": "f298bd4f-9b05-4517-b114-baa40bbab943",
       "properties": {
         "type": "relation",
         "id": 11501969,
         "tags": {
+          "building:levels": "2",
+          "building:min_level": "1",
+          "building:part": "yes",
           "indoor": "level",
           "level": "2",
-          "name": "level 2",
+          "name": "2. OG",
           "type": "multipolygon",
           "wall": "yes"
         },
@@ -19,18 +22,20 @@
         "osmId": "relation/11501969",
         "customId": "level/relation/11501969",
         "_area": 2323.9578092546108,
-        "restriction": null,
         "category": "unspecified",
+        "restriction": null,
         "outdoor": false,
         "ordinal": 2,
         "name": {
-          "en": "level 2"
+          "en": "2. OG"
         },
         "short_name": {
           "en": "2"
         },
+        "display_point": null,
+        "address_id": null,
         "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
+          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
         ]
       },
       "geometry": {
@@ -311,18 +316,21 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
     },
     {
       "type": "Feature",
-      "id": "83952a81-50d2-47ad-84c9-9327b89f9ac5",
+      "id": "6ada0a4b-6c46-4cd2-8a46-b3f4b0563ad6",
       "properties": {
         "type": "relation",
         "id": 11504592,
         "tags": {
+          "building:levels": "1",
+          "building:min_level": "0",
+          "building:part": "yes",
           "indoor": "level",
           "level": "1",
-          "name": "level 1",
+          "name": "1. OG",
           "type": "multipolygon",
           "wall": "yes"
         },
@@ -331,18 +339,20 @@
         "osmId": "relation/11504592",
         "customId": "level/relation/11504592",
         "_area": 2324.7998108812158,
-        "restriction": null,
         "category": "unspecified",
+        "restriction": null,
         "outdoor": false,
         "ordinal": 1,
         "name": {
-          "en": "level 1"
+          "en": "1. OG"
         },
         "short_name": {
           "en": "1"
         },
+        "display_point": null,
+        "address_id": null,
         "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
+          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
         ]
       },
       "geometry": {
@@ -643,19 +653,21 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
     },
     {
       "type": "Feature",
-      "id": "3b337875-4023-4fb5-913f-dc2abe398304",
+      "id": "eabe9a5f-eee3-4d03-b70c-352ab04d1419",
       "properties": {
         "type": "relation",
         "id": 11722665,
         "tags": {
           "access": "private",
+          "building:levels": "0",
+          "building:part": "yes",
           "indoor": "level",
           "level": "0",
-          "name": "level 0",
+          "name": "EG",
           "type": "multipolygon",
           "wall": "yes"
         },
@@ -664,18 +676,20 @@
         "osmId": "relation/11722665",
         "customId": "level/relation/11722665",
         "_area": 2399.0464253053965,
-        "restriction": null,
         "category": "unspecified",
+        "restriction": null,
         "outdoor": false,
         "ordinal": 0,
         "name": {
-          "en": "level 0"
+          "en": "EG"
         },
         "short_name": {
           "en": "0"
         },
+        "display_point": null,
+        "address_id": null,
         "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
+          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
         ]
       },
       "geometry": {
@@ -924,18 +938,21 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
     },
     {
       "type": "Feature",
-      "id": "c5e4a6dd-9919-4f7b-be42-dddb685c652b",
+      "id": "d2bbbdd6-0ccd-4d26-89a5-c30209c33a2a",
       "properties": {
         "type": "way",
         "id": 371943318,
         "tags": {
+          "building:levels": "3",
+          "building:min_level": "2",
+          "building:part": "yes",
           "indoor": "level",
           "level": "3",
-          "name": "level 3",
+          "name": "3. OG",
           "wall": "yes"
         },
         "relations": [],
@@ -943,18 +960,20 @@
         "osmId": "way/371943318",
         "customId": "level/way/371943318",
         "_area": 2142.5698666832945,
-        "restriction": null,
         "category": "unspecified",
+        "restriction": null,
         "outdoor": false,
         "ordinal": 3,
         "name": {
-          "en": "level 3"
+          "en": "3. OG"
         },
         "short_name": {
           "en": "3"
         },
+        "display_point": null,
+        "address_id": null,
         "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
+          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
         ]
       },
       "geometry": {
@@ -1185,18 +1204,21 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
     },
     {
       "type": "Feature",
-      "id": "58703b43-9504-4b3c-87c7-557b4505a54f",
+      "id": "dd80aac2-7667-4c49-9b0b-bc153af7a4cb",
       "properties": {
         "type": "way",
         "id": 372012206,
         "tags": {
+          "building:levels": "5",
+          "building:min_level": "4",
+          "building:part": "yes",
           "indoor": "level",
           "level": "5",
-          "name": "level 5",
+          "name": "5. OG",
           "wall": "yes"
         },
         "relations": [],
@@ -1204,18 +1226,20 @@
         "osmId": "way/372012206",
         "customId": "level/way/372012206",
         "_area": 1752.9291472999055,
-        "restriction": null,
         "category": "unspecified",
+        "restriction": null,
         "outdoor": false,
         "ordinal": 5,
         "name": {
-          "en": "level 5"
+          "en": "5. OG"
         },
         "short_name": {
           "en": "5"
         },
+        "display_point": null,
+        "address_id": null,
         "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
+          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
         ]
       },
       "geometry": {
@@ -1394,36 +1418,41 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
     },
     {
       "type": "Feature",
-      "id": "ec3beade-c376-4ad4-82b2-1d211a636f60",
+      "id": "e211f803-6d72-4a5f-ae29-c95fec0d235c",
       "properties": {
         "type": "way",
         "id": 372169405,
         "tags": {
+          "building:levels": "4",
+          "building:min_level": "3",
+          "building:part": "yes",
           "indoor": "level",
           "level": "4",
-          "name": "level 4"
+          "name": "4. OG"
         },
         "relations": [],
         "meta": {},
         "osmId": "way/372169405",
         "customId": "level/way/372169405",
         "_area": 2036.198530896303,
-        "restriction": null,
         "category": "unspecified",
+        "restriction": null,
         "outdoor": false,
         "ordinal": 4,
         "name": {
-          "en": "level 4"
+          "en": "4. OG"
         },
         "short_name": {
           "en": "4"
         },
+        "display_point": null,
+        "address_id": null,
         "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
+          "40cdd0a8-4648-4a3e-8810-0c1e2adb9339"
         ]
       },
       "geometry": {
@@ -1566,68 +1595,7 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
-    },
-    {
-      "type": "Feature",
-      "id": "667da971-2bf8-4747-bd88-2bec0eb179a7",
-      "properties": {
-        "type": "way",
-        "id": 836921216,
-        "tags": {
-          "indoor": "level",
-          "level": "6",
-          "name": "level 6",
-          "wall": "yes"
-        },
-        "relations": [],
-        "meta": {},
-        "osmId": "way/836921216",
-        "customId": "level/way/836921216",
-        "_area": 579.3576379473294,
-        "restriction": null,
-        "category": "unspecified",
-        "outdoor": false,
-        "ordinal": 6,
-        "name": {
-          "en": "level 6"
-        },
-        "short_name": {
-          "en": "6"
-        },
-        "building_ids": [
-          "8264c055-e947-4a36-8857-53d7b0e054fe"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              9.9572918,
-              48.423062
-            ],
-            [
-              9.9569979,
-              48.4229565
-            ],
-            [
-              9.9571523,
-              48.4227715
-            ],
-            [
-              9.9574435,
-              48.4228744
-            ],
-            [
-              9.9572918,
-              48.423062
-            ]
-          ]
-        ]
-      },
-      "feature_type": "level",
-      "building_id": "c9c9b309-e653-428d-b6c1-21a37f1951db"
+      "building_id": "3e4e945c-24e4-4c6b-8ea6-f18b3e6bee62"
     }
   ],
   "name": "level"
