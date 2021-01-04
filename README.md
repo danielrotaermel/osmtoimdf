@@ -41,3 +41,7 @@ To gather the features used to generate the IMDF archive you will have to write 
   ```
 
 If you want to add custom categories etc. do so in the ./imdf-model directory for example right here [./imdf-model/category-extended.js](https://github.com/danielrotaermel/osmtoimdf/blob/master/imdf-model/category-extended.js)
+
+Test your generated ./IMDFData.zip over here https://register.apple.com/indoor/imdf-sandbox
+
+If you want to add custom categories etc. do so in the ./imdf-model directory for example right here [./imdf-model/category-extended.js](https://github.com/danielrotaermel/osmtoimdf/blob/master/imdf-model/category-extended.js)
