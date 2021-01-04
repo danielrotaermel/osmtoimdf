@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
+<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-16T00:11:03Z" areas="2020-10-15T23:31:02Z"/>
+<meta osm_base="2020-10-20T17:47:02Z" areas="2020-10-20T14:17:02Z"/>
 
   <node id="598332667" lat="48.4183708" lon="9.9398877">
     <tag k="entrance" v="main"/>
