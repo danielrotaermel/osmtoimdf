@@ -466,74 +466,6 @@
     ]
   },
   "building": {
-    "building": [
-      "university",
-      "yes",
-      "hospital",
-      "retail"
-    ],
-    "type": [
-      "multipolygon"
-    ],
-    "building:colour": [
-      "red",
-      "#C0C0C0",
-      "green"
-    ],
-    "building:levels": [
-      "6",
-      "3",
-      "2",
-      "5"
-    ],
-    "name": [
-      "O27",
-      "N25",
-      "N27",
-      "Technische Hochschule Ulm",
-      "O29",
-      "Helmholtzstraße 22",
-      "Helmholtzstraße 20",
-      "Helmholtzstraße 18",
-      "Studentenwohnanlage „Upper West Side“",
-      "Helmholtzstraße 16",
-      "Helmholtzstraße 14",
-      "O28",
-      "Institut für Pathologie",
-      "M24",
-      "M25",
-      "Mensa",
-      "Zahnklinik",
-      "N26",
-      "O25",
-      "O26",
-      "M26",
-      "M28"
-    ],
-    "operator": [
-      "Universität Ulm",
-      "Studentenwerk Ulm"
-    ],
-    "roof:colour": [
-      "#808080",
-      "#C0C0C0"
-    ],
-    "start_date": [
-      "2014",
-      "2005",
-      "1997"
-    ],
-    "alt_name": [
-      "M23",
-      "N24"
-    ],
-    "roof:levels": [
-      "0",
-      "1"
-    ],
-    "wheelchair": [
-      "yes"
-    ],
     "addr:city": [
       "Ulm"
     ],
@@ -541,100 +473,403 @@
       "DE"
     ],
     "addr:housenumber": [
+      "23",
+      "16",
+      "3",
+      "1",
+      "11",
+      "43",
+      "47",
+      "13",
+      "14",
+      "9",
+      "15",
+      "10",
+      "24",
+      "6",
+      "4",
+      "17",
+      "5",
+      "8",
+      "12",
+      "7",
+      "40",
+      "22",
       "20",
       "18",
-      "1-3",
-      "16",
-      "14",
-      "55"
+      "2",
+      "26",
+      "41",
+      "8/2",
+      "8/1",
+      "55",
+      "45",
+      "45/1",
+      "54"
     ],
     "addr:postcode": [
       "89081"
     ],
     "addr:street": [
-      "Helmholtzstraße",
+      "Albert-Einstein-Allee",
+      "Lise-Meitner-Straße",
       "Manfred-Börner-Straße",
-      "Albert-Einstein-Allee"
+      "Helmholtzstraße",
+      "Wilhelm-Runge-Straße",
+      "Staudingerstraße",
+      "Oberer Eselsberg",
+      "Wolfgang-Paul-Straße",
+      "Max-Born-Straße"
+    ],
+    "building": [
+      "hospital",
+      "university",
+      "office",
+      "dormitory",
+      "yes",
+      "parking",
+      "service",
+      "industrial",
+      "hotel",
+      "roof",
+      "greenhouse",
+      "garages",
+      "retail",
+      "hangar",
+      "commercial",
+      "construction"
+    ],
+    "building:colour": [
+      "#C0C0C0",
+      "black",
+      "red",
+      "green",
+      "blue",
+      "white"
+    ],
+    "name": [
+      "Chirurgie",
+      "LTG Ulm GmbH",
+      "Musisches Zentrum",
+      "Helmholtz Institut Ulm",
+      "Medizinische Klinik",
+      "O27",
+      "N25",
+      "N27",
+      "BWK Ulm",
+      "P23",
+      "P20",
+      "P24",
+      "P41",
+      "ScanPlus",
+      "Vodafone Mobile Switching Center",
+      "P10",
+      "P11",
+      "Mitarbeiterparkplatz BWK",
+      "Technische Hochschule Ulm",
+      "Energon",
+      "Technologie-Förderungs-Unternehmen TFU",
+      "Continental / Elektrobit Automotive GmbH",
+      "Witec",
+      "Bosch Rexroth - Kunden- und Innovationszentrum",
+      "Philips GmbH U-L-M Photonics",
+      "P40",
+      "Weiterbildungszentrum Brennstoffzelle Ulm e.V.",
+      "Zentrum für Sonnenenergie und Wasserstoff-Forschung",
+      "Fuhrpark",
+      "Truppenunterkunft",
+      "KIZ-Magazin",
+      "Technische Versorgungsbetriebe",
+      "Kinderkrippe \"Flohzirkus\"",
+      "Kindertagesstätte",
+      "O29",
+      "DRK Blutspendedienst Baden-Württemberg",
+      "P12",
+      "Kantine",
+      "Parkhaus Energon",
+      "Bundeswehrkrankenhaus Ulm",
+      "Krankenhausapotheke",
+      "Versorgungsgebäude",
+      "Rettungswache BWK Ulm",
+      "Helmholtzstraße 22",
+      "Helmholtzstraße 20",
+      "Helmholtzstraße 18",
+      "Institut für Lasertechnologien in der Medizin und Meßtechnik",
+      "Kindergarten Universität",
+      "Trafostation Science Park III",
+      "iQ-Hotel",
+      "Daimler Mitarbeiter-Parkplatz",
+      "Daimler Pforte",
+      "P13",
+      "Oberer Eselsberg",
+      "P16",
+      "Klinik für Psychotherapie und Psychosomatische Medizin",
+      "Hörsaal Chirurgie",
+      "P17",
+      "Parkplatz iQ-Hotel",
+      "Lehrgebäude für Wirtschaftswissenschaften und Psychologie",
+      "P43",
+      "Gewächshäuser",
+      "Botanischer Garten, Verwaltung",
+      "Nokia Networks",
+      "Trinkwasserhochbehälter",
+      "Spitzgrabenwehr",
+      "Linke Schultergrabenwehr",
+      "Rechte Schultergrabenwehr",
+      "Biergarten am Botanicum",
+      "Daimler Besucherparkplatz",
+      "Daimler",
+      "P44",
+      "Helmholtzstraße 16",
+      "Helmholtzstraße 14",
+      "Zentrum für Biomedizinische Forschung",
+      "Medizinische Fakultät",
+      "Department für Geisteswissenschaften",
+      "P21",
+      "Mitarbeiterparkplatz",
+      "Behandlung, Untersuchung",
+      "Stabsgruppe",
+      "Takata",
+      "O28",
+      "P45",
+      "Strahlentherapie",
+      "Institut für Pathologie",
+      "M24",
+      "M25",
+      "Mensa",
+      "Mitarbeitercasino Uniklinik Ulm",
+      "Zahnklinik",
+      "N26",
+      "O25",
+      "O26",
+      "Parkplatz P09",
+      "P26",
+      "Wachhäuschen",
+      "AMA Instruments",
+      "Luftrettungszentrum BWK Ulm",
+      "Elektrobit Automotive GmbH / Beamtec",
+      "Casino",
+      "M26",
+      "Mercatis",
+      "Pilotlinie VCSEL",
+      "Sartorius Stedim Cellca",
+      "P49",
+      "M28",
+      "Klinikhotel Recover",
+      "Z4",
+      "Venticer World"
+    ],
+    "roof:colour": [
+      "#808080",
+      "red",
+      "#C0C0C0",
+      "white",
+      "black",
+      "green"
+    ],
+    "start_date": [
+      "2013",
+      "2012",
+      "2000",
+      "2004",
+      "1997",
+      "2014",
+      "2003",
+      "2009",
+      "2006",
+      "2005",
+      "1980",
+      "2011",
+      "1984",
+      "2016",
+      "2017",
+      "2015",
+      "2010",
+      "2019"
+    ],
+    "type": [
+      "multipolygon"
+    ],
+    "building:levels": [
+      "1",
+      "5",
+      "6",
+      "3",
+      "4",
+      "7",
+      "2",
+      "9"
     ],
     "source": [
+      "extrapolation",
       "Bing",
-      "Map4Bw"
+      "Map4Bw",
+      "Maps4BW",
+      "survey"
+    ],
+    "url": [
+      "http://www.wbzu.de/wbzu.html"
+    ],
+    "operator": [
+      "Universität Ulm",
+      "T.S.U. GmbH",
+      "PBW",
+      "Bundeswehr",
+      "Studentenwerk Ulm",
+      "ADAC Luftrettung",
+      "Sartorius Stedim Cellca",
+      "RKU"
+    ],
+    "roof:shape": [
+      "gabled"
+    ],
+    "amenity": [
+      "parking",
+      "kindergarten",
+      "hospital",
+      "pharmacy",
+      "biergarten",
+      "canteen",
+      "restaurant"
+    ],
+    "contact:phone": [
+      "+49 731 17100"
+    ],
+    "short_name": [
+      "BWK Ulm"
+    ],
+    "roof:levels": [
+      "0",
+      "1"
+    ],
+    "wheelchair": [
+      "yes",
+      "limited",
+      "no"
+    ],
+    "alt_name": [
+      "Daimler Mitarbeiter Parkplatz",
+      "M23",
+      "N24"
+    ],
+    "access": [
+      "private",
+      "public",
+      "military",
+      "no",
+      "yes",
+      "customers"
+    ],
+    "opening_hours": [
+      "Mo-Su,PH 00:00-23:59",
+      "Mo-Fr 06:00-21:00",
+      "Mo-Fr 09:00-12:00; Tu 09:00-12:00, 14:00-16:00",
+      "Mo-Th 11:30-13:45; Fr 11:30-13:30",
+      "Mo-Fr 07:00-16:30"
+    ],
+    "parking": [
+      "surface",
+      "multi-storey",
+      "underground"
+    ],
+    "fee": [
+      "yes",
+      "no"
+    ],
+    "capacity": [
+      "80",
+      "425",
+      "540",
+      "9",
+      "10",
+      "6",
+      "20"
+    ],
+    "capacity:disabled": [
+      "no",
+      "2"
+    ],
+    "toilets:wheelchair": [
+      "yes"
+    ],
+    "capacity:parent": [
+      "no"
+    ],
+    "capacity:women": [
+      "no"
+    ],
+    "park_ride": [
+      "yes",
+      "tram"
+    ],
+    "old_name": [
+      "Nokia"
+    ],
+    "building:min_level": [
+      "2",
+      "1"
+    ],
+    "layer": [
+      "1"
+    ],
+    "landuse": [
+      "commercial"
+    ],
+    "website": [
+      "http://www.iq-hotels.de",
+      "https://www.uni-ulm.de/med/fakultaet.html",
+      "https://www.uni-ulm.de/studium/studienberatung/zentrale-studienberatung.html",
+      "http://www.studentenwerk-ulm.de/hochschulgastronomie/mensen-und-cafeterien.html#c124945",
+      "https://www.uniklinik-ulm.de/service/anreiselageplan/oberer-eselsberg/wo-finde-ich.html",
+      "http://www.ama-instruments.com",
+      "http://www.traumateam.de/"
+    ],
+    "wikipedia": [
+      "de:Christoph 22"
+    ],
+    "building:material": [
+      "glass"
+    ],
+    "emergency": [
+      "ambulance_station"
+    ],
+    "wikidata": [
+      "Q1664908"
     ],
     "description": [
       "Fakultät für Mathematik und Wirtschaftswissenschaften",
       "Verwaltung Universität Ulm",
-      "Institut für Unfallchirurgische Forschung und Biomechanik"
+      "Institut für Unfallchirurgische Forschung und Biomechanik",
+      "Gebäudedach ist gleichzeitig Terrasse"
+    ],
+    "tourism": [
+      "hotel"
+    ],
+    "int_name": [
+      "Daimler Gate"
+    ],
+    "supervised": [
+      "no",
+      "yes"
+    ],
+    "company": [
+      "United Monolithic Semiconductors"
+    ],
+    "surface": [
+      "paved",
+      "sett"
+    ],
+    "maxstay": [
+      "120"
+    ],
+    "smoking": [
+      "outside"
+    ],
+    "note": [
+      "Lage und Umriss geschätzt"
     ]
   },
   "footprint": {
-    "building": [
-      "university",
-      "yes",
-      "hospital",
-      "retail"
-    ],
-    "type": [
-      "multipolygon"
-    ],
-    "building:colour": [
-      "red",
-      "#C0C0C0",
-      "green"
-    ],
-    "building:levels": [
-      "6",
-      "3",
-      "2",
-      "5"
-    ],
-    "name": [
-      "O27",
-      "N25",
-      "N27",
-      "Technische Hochschule Ulm",
-      "O29",
-      "Helmholtzstraße 22",
-      "Helmholtzstraße 20",
-      "Helmholtzstraße 18",
-      "Studentenwohnanlage „Upper West Side“",
-      "Helmholtzstraße 16",
-      "Helmholtzstraße 14",
-      "O28",
-      "Institut für Pathologie",
-      "M24",
-      "M25",
-      "Mensa",
-      "Zahnklinik",
-      "N26",
-      "O25",
-      "O26",
-      "M26",
-      "M28"
-    ],
-    "operator": [
-      "Universität Ulm",
-      "Studentenwerk Ulm"
-    ],
-    "roof:colour": [
-      "#808080",
-      "#C0C0C0"
-    ],
-    "start_date": [
-      "2014",
-      "2005",
-      "1997"
-    ],
-    "alt_name": [
-      "M23",
-      "N24"
-    ],
-    "roof:levels": [
-      "0",
-      "1"
-    ],
-    "wheelchair": [
-      "yes"
-    ],
     "addr:city": [
       "Ulm"
     ],
@@ -642,29 +877,400 @@
       "DE"
     ],
     "addr:housenumber": [
+      "23",
+      "16",
+      "3",
+      "1",
+      "11",
+      "43",
+      "47",
+      "13",
+      "14",
+      "9",
+      "15",
+      "10",
+      "24",
+      "6",
+      "4",
+      "17",
+      "5",
+      "8",
+      "12",
+      "7",
+      "40",
+      "22",
       "20",
       "18",
-      "1-3",
-      "16",
-      "14",
-      "55"
+      "2",
+      "26",
+      "41",
+      "8/2",
+      "8/1",
+      "55",
+      "45",
+      "45/1",
+      "54"
     ],
     "addr:postcode": [
       "89081"
     ],
     "addr:street": [
-      "Helmholtzstraße",
+      "Albert-Einstein-Allee",
+      "Lise-Meitner-Straße",
       "Manfred-Börner-Straße",
-      "Albert-Einstein-Allee"
+      "Helmholtzstraße",
+      "Wilhelm-Runge-Straße",
+      "Staudingerstraße",
+      "Oberer Eselsberg",
+      "Wolfgang-Paul-Straße",
+      "Max-Born-Straße"
+    ],
+    "building": [
+      "hospital",
+      "university",
+      "office",
+      "dormitory",
+      "yes",
+      "parking",
+      "service",
+      "industrial",
+      "hotel",
+      "roof",
+      "greenhouse",
+      "garages",
+      "retail",
+      "hangar",
+      "commercial",
+      "construction"
+    ],
+    "building:colour": [
+      "#C0C0C0",
+      "black",
+      "red",
+      "green",
+      "blue",
+      "white"
+    ],
+    "name": [
+      "Chirurgie",
+      "LTG Ulm GmbH",
+      "Musisches Zentrum",
+      "Helmholtz Institut Ulm",
+      "Medizinische Klinik",
+      "O27",
+      "N25",
+      "N27",
+      "BWK Ulm",
+      "P23",
+      "P20",
+      "P24",
+      "P41",
+      "ScanPlus",
+      "Vodafone Mobile Switching Center",
+      "P10",
+      "P11",
+      "Mitarbeiterparkplatz BWK",
+      "Technische Hochschule Ulm",
+      "Energon",
+      "Technologie-Förderungs-Unternehmen TFU",
+      "Continental / Elektrobit Automotive GmbH",
+      "Witec",
+      "Bosch Rexroth - Kunden- und Innovationszentrum",
+      "Philips GmbH U-L-M Photonics",
+      "P40",
+      "Weiterbildungszentrum Brennstoffzelle Ulm e.V.",
+      "Zentrum für Sonnenenergie und Wasserstoff-Forschung",
+      "Fuhrpark",
+      "Truppenunterkunft",
+      "KIZ-Magazin",
+      "Technische Versorgungsbetriebe",
+      "Kinderkrippe \"Flohzirkus\"",
+      "Kindertagesstätte",
+      "O29",
+      "DRK Blutspendedienst Baden-Württemberg",
+      "P12",
+      "Kantine",
+      "Parkhaus Energon",
+      "Bundeswehrkrankenhaus Ulm",
+      "Krankenhausapotheke",
+      "Versorgungsgebäude",
+      "Rettungswache BWK Ulm",
+      "Helmholtzstraße 22",
+      "Helmholtzstraße 20",
+      "Helmholtzstraße 18",
+      "Institut für Lasertechnologien in der Medizin und Meßtechnik",
+      "Kindergarten Universität",
+      "Trafostation Science Park III",
+      "iQ-Hotel",
+      "Daimler Mitarbeiter-Parkplatz",
+      "Daimler Pforte",
+      "P13",
+      "Oberer Eselsberg",
+      "P16",
+      "Klinik für Psychotherapie und Psychosomatische Medizin",
+      "Hörsaal Chirurgie",
+      "P17",
+      "Parkplatz iQ-Hotel",
+      "Lehrgebäude für Wirtschaftswissenschaften und Psychologie",
+      "P43",
+      "Gewächshäuser",
+      "Botanischer Garten, Verwaltung",
+      "Nokia Networks",
+      "Trinkwasserhochbehälter",
+      "Spitzgrabenwehr",
+      "Linke Schultergrabenwehr",
+      "Rechte Schultergrabenwehr",
+      "Biergarten am Botanicum",
+      "Daimler Besucherparkplatz",
+      "Daimler",
+      "P44",
+      "Helmholtzstraße 16",
+      "Helmholtzstraße 14",
+      "Zentrum für Biomedizinische Forschung",
+      "Medizinische Fakultät",
+      "Department für Geisteswissenschaften",
+      "P21",
+      "Mitarbeiterparkplatz",
+      "Behandlung, Untersuchung",
+      "Stabsgruppe",
+      "Takata",
+      "O28",
+      "P45",
+      "Strahlentherapie",
+      "Institut für Pathologie",
+      "M24",
+      "M25",
+      "Mensa",
+      "Mitarbeitercasino Uniklinik Ulm",
+      "Zahnklinik",
+      "N26",
+      "O25",
+      "O26",
+      "Parkplatz P09",
+      "P26",
+      "Wachhäuschen",
+      "AMA Instruments",
+      "Luftrettungszentrum BWK Ulm",
+      "Elektrobit Automotive GmbH / Beamtec",
+      "Casino",
+      "M26",
+      "Mercatis",
+      "Pilotlinie VCSEL",
+      "Sartorius Stedim Cellca",
+      "P49",
+      "M28",
+      "Klinikhotel Recover",
+      "Z4",
+      "Venticer World"
+    ],
+    "roof:colour": [
+      "#808080",
+      "red",
+      "#C0C0C0",
+      "white",
+      "black",
+      "green"
+    ],
+    "start_date": [
+      "2013",
+      "2012",
+      "2000",
+      "2004",
+      "1997",
+      "2014",
+      "2003",
+      "2009",
+      "2006",
+      "2005",
+      "1980",
+      "2011",
+      "1984",
+      "2016",
+      "2017",
+      "2015",
+      "2010",
+      "2019"
+    ],
+    "type": [
+      "multipolygon"
+    ],
+    "building:levels": [
+      "1",
+      "5",
+      "6",
+      "3",
+      "4",
+      "7",
+      "2",
+      "9"
     ],
     "source": [
+      "extrapolation",
       "Bing",
-      "Map4Bw"
+      "Map4Bw",
+      "Maps4BW",
+      "survey"
+    ],
+    "url": [
+      "http://www.wbzu.de/wbzu.html"
+    ],
+    "operator": [
+      "Universität Ulm",
+      "T.S.U. GmbH",
+      "PBW",
+      "Bundeswehr",
+      "Studentenwerk Ulm",
+      "ADAC Luftrettung",
+      "Sartorius Stedim Cellca",
+      "RKU"
+    ],
+    "roof:shape": [
+      "gabled"
+    ],
+    "amenity": [
+      "parking",
+      "kindergarten",
+      "hospital",
+      "pharmacy",
+      "biergarten",
+      "canteen",
+      "restaurant"
+    ],
+    "contact:phone": [
+      "+49 731 17100"
+    ],
+    "short_name": [
+      "BWK Ulm"
+    ],
+    "roof:levels": [
+      "0",
+      "1"
+    ],
+    "wheelchair": [
+      "yes",
+      "limited",
+      "no"
+    ],
+    "alt_name": [
+      "Daimler Mitarbeiter Parkplatz",
+      "M23",
+      "N24"
+    ],
+    "access": [
+      "private",
+      "public",
+      "military",
+      "no",
+      "yes",
+      "customers"
+    ],
+    "opening_hours": [
+      "Mo-Su,PH 00:00-23:59",
+      "Mo-Fr 06:00-21:00",
+      "Mo-Fr 09:00-12:00; Tu 09:00-12:00, 14:00-16:00",
+      "Mo-Th 11:30-13:45; Fr 11:30-13:30",
+      "Mo-Fr 07:00-16:30"
+    ],
+    "parking": [
+      "surface",
+      "multi-storey",
+      "underground"
+    ],
+    "fee": [
+      "yes",
+      "no"
+    ],
+    "capacity": [
+      "80",
+      "425",
+      "540",
+      "9",
+      "10",
+      "6",
+      "20"
+    ],
+    "capacity:disabled": [
+      "no",
+      "2"
+    ],
+    "toilets:wheelchair": [
+      "yes"
+    ],
+    "capacity:parent": [
+      "no"
+    ],
+    "capacity:women": [
+      "no"
+    ],
+    "park_ride": [
+      "yes",
+      "tram"
+    ],
+    "old_name": [
+      "Nokia"
+    ],
+    "building:min_level": [
+      "2",
+      "1"
+    ],
+    "layer": [
+      "1"
+    ],
+    "landuse": [
+      "commercial"
+    ],
+    "website": [
+      "http://www.iq-hotels.de",
+      "https://www.uni-ulm.de/med/fakultaet.html",
+      "https://www.uni-ulm.de/studium/studienberatung/zentrale-studienberatung.html",
+      "http://www.studentenwerk-ulm.de/hochschulgastronomie/mensen-und-cafeterien.html#c124945",
+      "https://www.uniklinik-ulm.de/service/anreiselageplan/oberer-eselsberg/wo-finde-ich.html",
+      "http://www.ama-instruments.com",
+      "http://www.traumateam.de/"
+    ],
+    "wikipedia": [
+      "de:Christoph 22"
+    ],
+    "building:material": [
+      "glass"
+    ],
+    "emergency": [
+      "ambulance_station"
+    ],
+    "wikidata": [
+      "Q1664908"
     ],
     "description": [
       "Fakultät für Mathematik und Wirtschaftswissenschaften",
       "Verwaltung Universität Ulm",
-      "Institut für Unfallchirurgische Forschung und Biomechanik"
+      "Institut für Unfallchirurgische Forschung und Biomechanik",
+      "Gebäudedach ist gleichzeitig Terrasse"
+    ],
+    "tourism": [
+      "hotel"
+    ],
+    "int_name": [
+      "Daimler Gate"
+    ],
+    "supervised": [
+      "no",
+      "yes"
+    ],
+    "company": [
+      "United Monolithic Semiconductors"
+    ],
+    "surface": [
+      "paved",
+      "sett"
+    ],
+    "maxstay": [
+      "120"
+    ],
+    "smoking": [
+      "outside"
+    ],
+    "note": [
+      "Lage und Umriss geschätzt"
     ]
   },
   "level": {

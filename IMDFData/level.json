@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "8da81a95-b9a3-4eb2-b7ea-a62252425446",
+      "id": "25542e66-b2fe-466d-907b-6a8dc9fe0db9",
       "properties": {
         "type": "relation",
         "id": 11501969,
@@ -35,7 +35,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "35c6fe61-175b-4f14-8134-0093a7177228"
+          "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc"
         ]
       },
       "geometry": {
@@ -316,11 +316,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
+      "building_id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe"
     },
     {
       "type": "Feature",
-      "id": "047dfdd7-4053-49fb-ab9a-6d68ad66c2cc",
+      "id": "4f3bbd53-e4d9-4585-83d5-4feaaf84de5d",
       "properties": {
         "type": "relation",
         "id": 11504592,
@@ -352,7 +352,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "35c6fe61-175b-4f14-8134-0093a7177228"
+          "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc"
         ]
       },
       "geometry": {
@@ -653,17 +653,18 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
+      "building_id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe"
     },
     {
       "type": "Feature",
-      "id": "09cfe0cc-ab7c-4844-95ef-163f52c59cb0",
+      "id": "00157765-ad02-4b59-a0fc-90f4b16c231a",
       "properties": {
         "type": "relation",
         "id": 11722665,
         "tags": {
           "access": "private",
           "building:levels": "0",
+          "building:min_level": "0",
           "building:part": "yes",
           "indoor": "level",
           "level": "0",
@@ -689,7 +690,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "35c6fe61-175b-4f14-8134-0093a7177228"
+          "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc"
         ]
       },
       "geometry": {
@@ -938,11 +939,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
+      "building_id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe"
     },
     {
       "type": "Feature",
-      "id": "925f8b9e-5ba9-4cd7-b7ca-eec864c7ab6c",
+      "id": "802a73ac-a119-4632-9aab-a0585bb38857",
       "properties": {
         "type": "way",
         "id": 371943318,
@@ -973,7 +974,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "35c6fe61-175b-4f14-8134-0093a7177228"
+          "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc"
         ]
       },
       "geometry": {
@@ -1204,11 +1205,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
+      "building_id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe"
     },
     {
       "type": "Feature",
-      "id": "33c90542-7e06-4b82-8800-5949d470fb74",
+      "id": "a8114af1-e90d-4741-8dd2-552c3b54e825",
       "properties": {
         "type": "way",
         "id": 372012206,
@@ -1239,7 +1240,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "35c6fe61-175b-4f14-8134-0093a7177228"
+          "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc"
         ]
       },
       "geometry": {
@@ -1418,11 +1419,11 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
+      "building_id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe"
     },
     {
       "type": "Feature",
-      "id": "39e13f85-e130-490b-9259-13aef75b9c20",
+      "id": "d732f44b-602a-46e3-ab19-22d2b1b18068",
       "properties": {
         "type": "way",
         "id": 372169405,
@@ -1452,7 +1453,7 @@
         "display_point": null,
         "address_id": null,
         "building_ids": [
-          "35c6fe61-175b-4f14-8134-0093a7177228"
+          "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc"
         ]
       },
       "geometry": {
@@ -1595,7 +1596,7 @@
         ]
       },
       "feature_type": "level",
-      "building_id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63"
+      "building_id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe"
     }
   ],
   "name": "level"

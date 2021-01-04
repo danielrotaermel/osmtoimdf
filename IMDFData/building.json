@@ -3,43 +3,134 @@
   "features": [
     {
       "type": "Feature",
-      "id": "d0ecae7e-0e31-4f51-8bf0-b58814a33b63",
+      "id": "bcebf93e-0e98-459c-b100-8bdfda65dcfe",
       "properties": {
         "type": "relation",
-        "id": 444096,
+        "id": 367880,
         "tags": {
-          "building": "university",
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "29",
+          "addr:postcode": "89081",
+          "addr:street": "Albert-Einstein-Allee",
+          "building": "yes",
+          "building:colour": "#C0C0C0",
+          "name": "Verwaltung Uniklinik Ulm",
+          "roof:colour": "#808080",
+          "start_date": "2001",
           "type": "multipolygon"
         },
         "relations": [],
         "meta": {},
-        "osmId": "relation/444096",
-        "customId": "building/relation/444096",
-        "name": null,
+        "osmId": "relation/367880",
+        "customId": "building/relation/367880",
+        "_area": 2082.993722170569,
+        "name": {
+          "en": "Verwaltung Uniklinik Ulm"
+        },
         "alt_name": null,
         "category": "unspecified",
         "restriction": null,
         "display_point": {
           "type": "Point",
           "coordinates": [
-            9.945988199999999,
-            48.41998805
+            9.94884295,
+            48.42262155
           ]
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.945988199999999,
-          48.41998805
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "0fb08e98-2284-4c19-a184-3e8ba2b76697",
+      "id": "5b247a23-3b82-48f6-aa95-5774af0f7193",
+      "properties": {
+        "type": "relation",
+        "id": 367881,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "23",
+          "addr:postcode": "89081",
+          "addr:street": "Albert-Einstein-Allee",
+          "building": "hospital",
+          "building:colour": "#C0C0C0",
+          "building:levels": "2",
+          "name": "Chirurgie",
+          "roof:colour": "#808080",
+          "source": "http://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezVI/%C3%B6ffentlich/v-1/20120413_lageplan_kliniken_oe.pdf",
+          "start_date": "2013",
+          "type": "multipolygon"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "relation/367881",
+        "customId": "building/relation/367881",
+        "_area": 22415.79555777782,
+        "name": {
+          "en": "Chirurgie"
+        },
+        "alt_name": null,
+        "category": "hospital",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9511395,
+            48.4227808
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "e8dccc21-6fe7-4bc9-827a-f123301cbc27",
+      "properties": {
+        "type": "relation",
+        "id": 1958603,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "16",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "office",
+          "building:levels": "1",
+          "name": "LTG Ulm GmbH",
+          "start_date": "2012",
+          "type": "multipolygon",
+          "url": "http://www.bmgmis.de"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "relation/1958603",
+        "customId": "building/relation/1958603",
+        "_area": 6851.277229560204,
+        "name": {
+          "en": "LTG Ulm GmbH"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.936947199999999,
+            48.4193628
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "77df2f3d-451d-4f55-86b8-61208d5657c8",
       "properties": {
         "type": "relation",
         "id": 2085572,
@@ -61,7 +152,7 @@
           "en": "Musisches Zentrum"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -72,18 +163,94 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.954766,
-          48.42205495
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "33fe836b-17ba-45d0-a78a-66b4ca88d270",
+      "id": "a84baf5b-81fe-45de-9e13-e2b73ce3ddc2",
+      "properties": {
+        "type": "relation",
+        "id": 4078966,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "11",
+          "addr:postcode": "89081",
+          "addr:street": "Helmholtzstraße",
+          "amenity": "research_institute",
+          "building": "yes",
+          "contact:phone": "+49 731 50 34001",
+          "contact:website": "http://www.hiu-batteries.de",
+          "name": "Helmholtz Institut Ulm",
+          "name:en": "Helmholtz Institute Ulm",
+          "office": "research",
+          "short_name": "HIU",
+          "start_date": "2013",
+          "type": "multipolygon"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "relation/4078966",
+        "customId": "building/relation/4078966",
+        "_area": 1273.041089822772,
+        "name": {
+          "en": "Helmholtz Institut Ulm"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95992835,
+            48.4264211
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "1a0cf071-9d8d-4717-8fb5-70da86e7e2dc",
+      "properties": {
+        "type": "relation",
+        "id": 5378158,
+        "tags": {
+          "building": "hospital",
+          "building:levels": "5",
+          "name": "Medizinische Klinik",
+          "roof:levels": "1",
+          "type": "multipolygon",
+          "wheelchair": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "relation/5378158",
+        "customId": "building/relation/5378158",
+        "_area": 14128.190871624658,
+        "name": {
+          "en": "Medizinische Klinik"
+        },
+        "alt_name": null,
+        "category": "hospital",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9532958,
+            48.4217117
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "200bbf42-43f7-455a-b0d5-88fcaa44674f",
       "properties": {
         "type": "relation",
         "id": 5523241,
@@ -103,7 +270,7 @@
           "en": "O27"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -114,18 +281,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.95723365,
-          48.422911299999996
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "66f1c200-bf35-44c1-a4fd-465b7ecea3fc",
+      "id": "c000aaf3-181b-4c6b-8fd2-054bb64cf9f1",
       "properties": {
         "type": "relation",
         "id": 5523395,
@@ -145,7 +306,7 @@
           "en": "N25"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -156,66 +317,19 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9553022,
-          48.422847399999995
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "fd5de6d5-a8d5-44cd-9af3-b393ea68eaf9",
-      "properties": {
-        "type": "relation",
-        "id": 9399382,
-        "tags": {
-          "building": "university",
-          "building:colour": "red",
-          "building:levels": "3",
-          "roof:colour": "#808080",
-          "start_date": "2000",
-          "type": "multipolygon"
-        },
-        "relations": [],
-        "meta": {},
-        "osmId": "relation/9399382",
-        "customId": "building/relation/9399382",
-        "_area": 2010.9179576444585,
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.94859085,
-            48.42152065
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.94859085,
-          48.42152065
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "bced040e-d206-4b21-91f8-53c91be1a800",
+      "id": "7151f01a-7520-430d-97f9-9317be12ed83",
       "properties": {
         "type": "relation",
         "id": 11504441,
         "tags": {
           "alt_name": "Fakultät für Naturwissenschaften",
           "alt_name:en": "Faculty of Science",
-          "building": "yes",
+          "building": "university",
           "name": "N27",
           "operator": "Universität Ulm",
           "type": "multipolygon"
@@ -232,7 +346,7 @@
           "de": "Fakultät für Naturwissenschaften",
           "en": "Faculty of Science"
         },
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -243,18 +357,401 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.956978450000001,
-          48.423599949999996
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "3fdeffe6-ded5-466b-920a-32067e2e3439",
+      "id": "15ce889d-96fe-47da-a608-949b511662b3",
+      "properties": {
+        "type": "way",
+        "id": 24754015,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "building": "parking",
+          "building:levels": "3",
+          "name": "BWK Ulm",
+          "opening_hours": "24/7",
+          "parking": "multi-storey",
+          "source": "extrapolation",
+          "stories": "3"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/24754015",
+        "customId": "building/way/24754015",
+        "_area": 3709.7943549558577,
+        "name": {
+          "en": "BWK Ulm"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94322785,
+            48.425915599999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "e08ee04f-cf61-43cc-a76c-0adc3911bc22",
+      "properties": {
+        "type": "way",
+        "id": 24814135,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P23",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/24814135",
+        "customId": "building/way/24814135",
+        "_area": 6855.756561414178,
+        "name": {
+          "en": "P23"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95485225,
+            48.4264894
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "b7f9674d-9ab0-40dc-bd8f-b238c8cdf914",
+      "properties": {
+        "type": "way",
+        "id": 24832409,
+        "tags": {
+          "access": "public",
+          "addr:city": "Ulm",
+          "addr:housenumber": "16",
+          "addr:street": "Albert-Einstein-Allee",
+          "amenity": "parking",
+          "building": "parking",
+          "building:colour": "#C0C0C0",
+          "building:levels": "4",
+          "capacity": "365",
+          "capacity:disabled": "yes",
+          "fee": "yes",
+          "name": "P20",
+          "opening_hours": "Mo-Su,PH 00:00-23:59",
+          "operator": "T.S.U. GmbH",
+          "parking": "multi-storey",
+          "roof:colour": "#C0C0C0",
+          "start_date": "2004",
+          "toilets:wheelchair": "no",
+          "wheelchair": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/24832409",
+        "customId": "building/way/24832409",
+        "_area": 2657.73584949033,
+        "name": {
+          "en": "P20"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.951308449999999,
+            48.424236199999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "8852873a-dd05-4a38-8bf4-d26584b48056",
+      "properties": {
+        "type": "way",
+        "id": 24832413,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P24",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/24832413",
+        "customId": "building/way/24832413",
+        "_area": 7382.7099383573195,
+        "name": {
+          "en": "P24"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.953544099999998,
+            48.4242857
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "2b106e72-59f3-4d72-a4c3-e730636dcf20",
+      "properties": {
+        "type": "way",
+        "id": 25099969,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "425",
+          "capacity:disabled": "no",
+          "capacity:parent": "no",
+          "capacity:women": "no",
+          "fee": "yes",
+          "name": "P41",
+          "operator": "T.S.U. GmbH",
+          "park_ride": "no",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/25099969",
+        "customId": "building/way/25099969",
+        "_area": 10003.619970870526,
+        "name": {
+          "en": "P41"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.958593100000002,
+            48.426555300000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "77912fb7-a57b-4955-baf2-58394842a097",
+      "properties": {
+        "type": "way",
+        "id": 32486909,
+        "tags": {
+          "building": "office",
+          "building:colour": "#C0C0C0",
+          "building:levels": "4",
+          "name": "ScanPlus",
+          "roof:colour": "#C0C0C0",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/32486909",
+        "customId": "building/way/32486909",
+        "_area": 2018.00257940303,
+        "name": {
+          "en": "ScanPlus"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93989035,
+            48.4245849
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "64a5f987-4586-4871-aba5-d897ef266dd2",
+      "properties": {
+        "type": "way",
+        "id": 33214480,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "1",
+          "addr:postcode": "89081",
+          "addr:street": "Wilhelm-Runge-Straße",
+          "building": "service",
+          "name": "Vodafone Mobile Switching Center"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/33214480",
+        "customId": "building/way/33214480",
+        "_area": 444.89486803400536,
+        "name": {
+          "en": "Vodafone Mobile Switching Center"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93781855,
+            48.4244195
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "7f90a731-8aa3-4b0a-8e8c-c7e85c79dd2f",
+      "properties": {
+        "type": "way",
+        "id": 35473312,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P10",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/35473312",
+        "customId": "building/way/35473312",
+        "_area": 3759.5275441528656,
+        "name": {
+          "en": "P10"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94386165,
+            48.419300899999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "db6990cf-dcc6-427a-9985-4da2b2dac5bc",
+      "properties": {
+        "type": "way",
+        "id": 35473328,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P11",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/35473328",
+        "customId": "building/way/35473328",
+        "_area": 1232.0857994863452,
+        "name": {
+          "en": "P11"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.944775700000001,
+            48.420137800000006
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "1e8659f6-9135-4226-b8e8-1af057a6026e",
+      "properties": {
+        "type": "way",
+        "id": 36788088,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "name": "Mitarbeiterparkplatz BWK"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/36788088",
+        "customId": "building/way/36788088",
+        "_area": 5977.367128396245,
+        "name": {
+          "en": "Mitarbeiterparkplatz BWK"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.946053899999999,
+            48.42594115
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "c7b9b3e1-8bf5-42c9-92b2-79538528727d",
       "properties": {
         "type": "way",
         "id": 46852105,
@@ -275,7 +772,7 @@
           "en": "Technische Hochschule Ulm"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -286,18 +783,633 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.93810565,
-          48.4183628
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "e4e33f51-9333-4806-bdad-1bf97a0835e3",
+      "id": "b8be5101-b70d-4416-9d47-772bf4c700c8",
+      "properties": {
+        "type": "way",
+        "id": 76705338,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P11",
+          "operator": "T.S.U. GmbH"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/76705338",
+        "customId": "building/way/76705338",
+        "_area": 1189.344457957432,
+        "name": {
+          "en": "P11"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9457424,
+            48.42003
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "eaf90dcb-4b67-4747-beb2-cb80e83c86a7",
+      "properties": {
+        "type": "way",
+        "id": 93586316,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "14",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "office",
+          "building:colour": "white",
+          "building:levels": "4",
+          "landuse": "commercial",
+          "name": "Energon",
+          "roof:colour": "white",
+          "start_date": "2000",
+          "website": "http://www.energon-ulm.de/",
+          "wikipedia": "de:Energon"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/93586316",
+        "customId": "building/way/93586316",
+        "_area": 1686.8898268967994,
+        "name": {
+          "en": "Energon"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93452645,
+            48.419255899999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "ee0b260b-83f2-46a0-99b9-c2729dace852",
+      "properties": {
+        "type": "way",
+        "id": 93586317,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "9",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "office",
+          "building:levels": "4",
+          "name": "Technologie-Förderungs-Unternehmen TFU",
+          "start_date": "2003"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/93586317",
+        "customId": "building/way/93586317",
+        "_area": 899.3395271621338,
+        "name": {
+          "en": "Technologie-Förderungs-Unternehmen TFU"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.940875550000001,
+            48.4244753
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "87eecd55-2fe1-4a23-a49c-bd15998db4b4",
+      "properties": {
+        "type": "way",
+        "id": 93586319,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "10",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "office",
+          "building:colour": "#C0C0C0",
+          "building:levels": "3",
+          "name": "Continental / Elektrobit Automotive GmbH",
+          "old_name": "Nokia",
+          "roof:colour": "#808080",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/93586319",
+        "customId": "building/way/93586319",
+        "_area": 2789.3507685038744,
+        "name": {
+          "en": "Continental / Elektrobit Automotive GmbH"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9351104,
+            48.42120975
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "bf83b85c-66f9-4562-8981-87668a83891c",
+      "properties": {
+        "type": "way",
+        "id": 96746562,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "6",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "yes",
+          "name": "Witec",
+          "start_date": "2009"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/96746562",
+        "customId": "building/way/96746562",
+        "_area": 637.9811116991176,
+        "name": {
+          "en": "Witec"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.936490500000001,
+            48.4229245
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "6a5204a0-30f0-4f00-90ae-ca843f9d7128",
+      "properties": {
+        "type": "way",
+        "id": 96746563,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "4",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "yes",
+          "name": "Bosch Rexroth - Kunden- und Innovationszentrum"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/96746563",
+        "customId": "building/way/96746563",
+        "_area": 1244.2814571961462,
+        "name": {
+          "en": "Bosch Rexroth - Kunden- und Innovationszentrum"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93693415,
+            48.4234892
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "e9867cf9-3ead-471b-8db7-b5c2744df994",
+      "properties": {
+        "type": "way",
+        "id": 96747067,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "17",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "yes",
+          "name": "Philips GmbH U-L-M Photonics"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/96747067",
+        "customId": "building/way/96747067",
+        "_area": 1317.7607169665534,
+        "name": {
+          "en": "Philips GmbH U-L-M Photonics"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94042415,
+            48.42375395
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "6699767c-4f0a-41b8-b2d9-2040622cbb3e",
+      "properties": {
+        "type": "way",
+        "id": 98681118,
+        "tags": {
+          "access": "yes",
+          "addr:city": "Ulm",
+          "addr:housenumber": "5",
+          "addr:street": "Helmholtzstraße",
+          "amenity": "parking",
+          "building": "parking",
+          "capacity": "540",
+          "capacity:parent": "no",
+          "capacity:women": "no",
+          "fee": "yes",
+          "name": "P40",
+          "operator": "PBW",
+          "park_ride": "yes",
+          "parking": "multi-storey"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/98681118",
+        "customId": "building/way/98681118",
+        "_area": 3785.6488997087786,
+        "name": {
+          "en": "P40"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.957362700000001,
+            48.42631155
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "1fb5ea6a-22b8-4f4d-9ade-7e4aeeb4695b",
+      "properties": {
+        "type": "way",
+        "id": 98681121,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "6",
+          "addr:postcode": "89081",
+          "addr:street": "Helmholtzstraße",
+          "building": "yes",
+          "name": "Weiterbildungszentrum Brennstoffzelle Ulm e.V.",
+          "url": "http://www.wbzu.de/wbzu.html"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/98681121",
+        "customId": "building/way/98681121",
+        "_area": 465.1450832109254,
+        "name": {
+          "en": "Weiterbildungszentrum Brennstoffzelle Ulm e.V."
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.959173400000001,
+            48.42578365
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a99e4843-4d15-437e-9410-5cef92f9a757",
+      "properties": {
+        "type": "way",
+        "id": 98681128,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "8",
+          "addr:postcode": "89081",
+          "addr:street": "Helmholtzstraße",
+          "building": "yes",
+          "name": "Zentrum für Sonnenenergie und Wasserstoff-Forschung"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/98681128",
+        "customId": "building/way/98681128",
+        "_area": 692.0140195049897,
+        "name": {
+          "en": "Zentrum für Sonnenenergie und Wasserstoff-Forschung"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.959754499999999,
+            48.425665800000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "98dd0a23-2de3-4e22-a5d4-768eb9688d2e",
+      "properties": {
+        "type": "way",
+        "id": 99275616,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "4",
+          "addr:postcode": "89081",
+          "addr:street": "Staudingerstraße",
+          "building": "yes",
+          "name": "Fuhrpark"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/99275616",
+        "customId": "building/way/99275616",
+        "_area": 968.7002540134679,
+        "name": {
+          "en": "Fuhrpark"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9527874,
+            48.425894650000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "d74e042b-354b-449a-baf2-f1ce8df99913",
+      "properties": {
+        "type": "way",
+        "id": 99275630,
+        "tags": {
+          "building": "yes",
+          "name": "Truppenunterkunft"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/99275630",
+        "customId": "building/way/99275630",
+        "_area": 1778.9621994745667,
+        "name": {
+          "en": "Truppenunterkunft"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94963075,
+            48.4271721
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a8fe9f97-35a9-41cd-9be6-97ac1c9118e1",
+      "properties": {
+        "type": "way",
+        "id": 99275631,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "7",
+          "addr:postcode": "89081",
+          "addr:street": "Staudingerstraße",
+          "building": "yes",
+          "name": "KIZ-Magazin"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/99275631",
+        "customId": "building/way/99275631",
+        "_area": 1080.2390765479897,
+        "name": {
+          "en": "KIZ-Magazin"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95127435,
+            48.42624565
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "f5616b1f-0249-4d78-a354-f7e809b363e5",
+      "properties": {
+        "type": "way",
+        "id": 99275636,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "8",
+          "addr:postcode": "89081",
+          "addr:street": "Staudingerstraße",
+          "building": "yes",
+          "name": "Technische Versorgungsbetriebe"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/99275636",
+        "customId": "building/way/99275636",
+        "_area": 2144.338163924109,
+        "name": {
+          "en": "Technische Versorgungsbetriebe"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.952263,
+            48.4263191
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "b4359261-b571-438c-8d56-4cb8438d95d2",
+      "properties": {
+        "type": "way",
+        "id": 99275639,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "14",
+          "addr:street": "Albert-Einstein-Allee",
+          "amenity": "kindergarten",
+          "building": "yes",
+          "building:colour": "black",
+          "building:levels": "1",
+          "name": "Kinderkrippe \"Flohzirkus\"",
+          "roof:colour": "black",
+          "roof:levels": "1",
+          "roof:shape": "gabled"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/99275639",
+        "customId": "building/way/99275639",
+        "_area": 203.8600182021551,
+        "name": {
+          "en": "Kinderkrippe \"Flohzirkus\""
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9522131,
+            48.424529500000006
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "82f41531-e5ba-49f9-b475-80e5dce7c4fa",
+      "properties": {
+        "type": "way",
+        "id": 99275640,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "3",
+          "addr:postcode": "89081",
+          "addr:street": "Staudingerstraße",
+          "amenity": "kindergarten",
+          "building": "yes",
+          "building:colour": "red",
+          "building:levels": "1",
+          "name": "Kindertagesstätte",
+          "roof:colour": "#808080",
+          "start_date": "2006"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/99275640",
+        "customId": "building/way/99275640",
+        "_area": 1049.8800790952027,
+        "name": {
+          "en": "Kindertagesstätte"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.952200300000001,
+            48.4250057
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "036fce0b-a4d5-4560-ab6e-b9d7352c6b4c",
       "properties": {
         "type": "way",
         "id": 101177773,
@@ -320,7 +1432,7 @@
           "en": "O29"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -331,60 +1443,325 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.957688999999998,
-          48.4233325
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "f1437fe8-48b0-49d1-b5c1-68e47a88f344",
+      "id": "31de28b4-bfdf-4976-9e86-ae20baa60288",
       "properties": {
         "type": "way",
-        "id": 102796917,
+        "id": 101930148,
         "tags": {
-          "building": "university",
-          "building:colour": "#C0C0C0",
-          "building:levels": "3",
-          "building:material": "glass",
-          "building:min_level": "2",
-          "layer": "1",
-          "roof:colour": "#C0C0C0"
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "10",
+          "addr:postcode": "89081",
+          "addr:street": "Helmholtzstraße",
+          "building": "yes",
+          "name": "DRK Blutspendedienst Baden-Württemberg"
         },
         "relations": [],
         "meta": {},
-        "osmId": "way/102796917",
-        "customId": "building/way/102796917",
-        "_area": 49.26555021501295,
-        "name": null,
+        "osmId": "way/101930148",
+        "customId": "building/way/101930148",
+        "_area": 1803.6965039190834,
+        "name": {
+          "en": "DRK Blutspendedienst Baden-Württemberg"
+        },
         "alt_name": null,
         "category": "unspecified",
         "restriction": null,
         "display_point": {
           "type": "Point",
           "coordinates": [
-            9.94866655,
-            48.421263800000006
+            9.9614255,
+            48.425352950000004
           ]
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.94866655,
-          48.421263800000006
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "82d389fa-6043-4144-a267-dc686e1bd934",
+      "id": "4818b042-bbd2-46a8-887a-cd33b0fe6757",
+      "properties": {
+        "type": "way",
+        "id": 102795714,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P12",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/102795714",
+        "customId": "building/way/102795714",
+        "_area": 1378.4009572585821,
+        "name": {
+          "en": "P12"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.946482849999999,
+            48.420656199999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "bafd8680-1818-42e1-89dc-7fd223f47078",
+      "properties": {
+        "type": "way",
+        "id": 111321155,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "10",
+          "addr:postcode": "89081",
+          "addr:street": "Wilhelm-Runge-Straße",
+          "building": "yes",
+          "building:colour": "white",
+          "name": "Kantine",
+          "roof:colour": "#808080"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/111321155",
+        "customId": "building/way/111321155",
+        "_area": 2032.6015029860807,
+        "name": {
+          "en": "Kantine"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.939997550000001,
+            48.421317599999995
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "b4e94d04-c644-4d20-b2ab-78c32fd4ebb2",
+      "properties": {
+        "type": "way",
+        "id": 111414969,
+        "tags": {
+          "access": "private",
+          "addr:city": "Ulm",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "amenity": "parking",
+          "building": "parking",
+          "building:colour": "blue",
+          "building:levels": "4",
+          "name": "Parkhaus Energon",
+          "opening_hours": "Mo-Fr 06:00-21:00",
+          "parking": "multi-storey",
+          "roof:colour": "white",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/111414969",
+        "customId": "building/way/111414969",
+        "_area": 3744.871332550414,
+        "name": {
+          "en": "Parkhaus Energon"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9348114,
+            48.420269450000006
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "b8d13093-5666-4eff-a028-5c4231fab805",
+      "properties": {
+        "type": "way",
+        "id": 114077976,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "40",
+          "addr:postcode": "89081",
+          "addr:street": "Oberer Eselsberg",
+          "amenity": "hospital",
+          "building": "yes",
+          "building:colour": "black",
+          "building:levels": "9",
+          "contact:phone": "+49 731 17100",
+          "emergency": "yes",
+          "name": "Bundeswehrkrankenhaus Ulm",
+          "operator": "Bundeswehr",
+          "roof:colour": "#808080",
+          "short_name": "BWK Ulm",
+          "start_date": "1980",
+          "wheelchair": "yes",
+          "wikidata": "Q1009277"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/114077976",
+        "customId": "building/way/114077976",
+        "_area": 5397.351220678811,
+        "name": {
+          "en": "Bundeswehrkrankenhaus Ulm"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94818495,
+            48.4250008
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "816b9b3c-e5f1-4616-b988-9b8c714f33b3",
+      "properties": {
+        "type": "way",
+        "id": 114077977,
+        "tags": {
+          "access": "private",
+          "amenity": "pharmacy",
+          "building": "yes",
+          "dispensing": "yes",
+          "healthcare": "pharmacy",
+          "name": "Krankenhausapotheke"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/114077977",
+        "customId": "building/way/114077977",
+        "_area": 2200.7516986417813,
+        "name": {
+          "en": "Krankenhausapotheke"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94857085,
+            48.426771099999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "9a0ded19-04b1-4911-a4a1-2427ec35ea73",
+      "properties": {
+        "type": "way",
+        "id": 114077978,
+        "tags": {
+          "building": "yes",
+          "name": "Versorgungsgebäude"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/114077978",
+        "customId": "building/way/114077978",
+        "_area": 5821.699673828834,
+        "name": {
+          "en": "Versorgungsgebäude"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94754305,
+            48.4264001
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "90d35c94-4a8a-454b-8f61-db5ddd38434a",
+      "properties": {
+        "type": "way",
+        "id": 114077979,
+        "tags": {
+          "building": "yes",
+          "building:levels": "2",
+          "emergency": "ambulance_station",
+          "name": "Rettungswache BWK Ulm",
+          "operator": "Bundeswehr"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/114077979",
+        "customId": "building/way/114077979",
+        "_area": 1167.3492773189973,
+        "name": {
+          "en": "Rettungswache BWK Ulm"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.947143350000001,
+            48.42435165
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "cbef3d53-91d2-4b56-a924-25f7b9860b5d",
       "properties": {
         "type": "way",
         "id": 115626014,
@@ -407,7 +1784,7 @@
           "en": "Helmholtzstraße 22"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -418,18 +1795,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.96306405,
-          48.4260118
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "33925a35-9cd1-4d83-8fee-35c6b58f1748",
+      "id": "843cee73-d5b8-4e5f-9270-cccf6aed8405",
       "properties": {
         "type": "way",
         "id": 115626015,
@@ -453,7 +1824,7 @@
           "en": "Helmholtzstraße 20"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -464,18 +1835,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.963539,
-          48.42568405
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "ad10b07e-c6db-4cca-80b8-c0b6db73a723",
+      "id": "e00ca87f-481e-468d-b7f4-961ed0af98fc",
       "properties": {
         "type": "way",
         "id": 115626016,
@@ -499,7 +1864,7 @@
           "en": "Helmholtzstraße 18"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -510,36 +1875,34 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.963694499999999,
-          48.425176699999994
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "b50793e1-2a40-4af9-a8ff-fa4087fed848",
+      "id": "829d90da-e051-4241-8902-d48b704a59c0",
       "properties": {
         "type": "way",
-        "id": 153595159,
+        "id": 115626017,
         "tags": {
-          "addr:housenumber": "1-3",
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "12",
           "addr:postcode": "89081",
-          "addr:street": "Manfred-Börner-Straße",
-          "landuse": "residential",
-          "name": "Studentenwohnanlage „Upper West Side“",
-          "operator": "Studentenwerk Ulm"
+          "addr:street": "Helmholtzstraße",
+          "building": "yes",
+          "building:levels": "4",
+          "name": "Institut für Lasertechnologien in der Medizin und Meßtechnik",
+          "source": "Bing",
+          "wikidata": "Q1664908"
         },
         "relations": [],
         "meta": {},
-        "osmId": "way/153595159",
-        "customId": "building/way/153595159",
-        "_area": 9667.605949686265,
+        "osmId": "way/115626017",
+        "customId": "building/way/115626017",
+        "_area": 810.4517540314182,
         "name": {
-          "en": "Studentenwohnanlage „Upper West Side“"
+          "en": "Institut für Lasertechnologien in der Medizin und Meßtechnik"
         },
         "alt_name": null,
         "category": "unspecified",
@@ -547,24 +1910,1216 @@
         "display_point": {
           "type": "Point",
           "coordinates": [
-            9.9433917,
-            48.4188009
+            9.9621733,
+            48.42565305
           ]
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9433917,
-          48.4188009
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "13d0bca3-67b1-419d-987c-3502d6a3c708",
+      "id": "9be07379-af48-45e0-a005-384abe8d925e",
+      "properties": {
+        "type": "way",
+        "id": 120076447,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "2",
+          "addr:postcode": "89081",
+          "addr:street": "Staudingerstraße",
+          "amenity": "kindergarten",
+          "building": "yes",
+          "name": "Kindergarten Universität",
+          "start_date": "2011"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/120076447",
+        "customId": "building/way/120076447",
+        "_area": 1606.7280824697743,
+        "name": {
+          "en": "Kindergarten Universität"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.953344600000001,
+            48.42513555
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "3f9f0fe9-e2cd-47e1-98b7-0e929d0fa367",
+      "properties": {
+        "type": "way",
+        "id": 120183539,
+        "tags": {
+          "building": "service",
+          "name": "Trafostation Science Park III",
+          "start_date": "2011"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/120183539",
+        "customId": "building/way/120183539",
+        "_area": 398.59435021894984,
+        "name": {
+          "en": "Trafostation Science Park III"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9378977,
+            48.425230400000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "d531561e-185a-4c84-bd3c-e40d924613e0",
+      "properties": {
+        "type": "way",
+        "id": 120183540,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "26",
+          "addr:postcode": "89081",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "hotel",
+          "building:levels": "5",
+          "name": "iQ-Hotel",
+          "roof:levels": "0",
+          "start_date": "2012",
+          "tourism": "hotel",
+          "website": "http://www.iq-hotels.de"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/120183540",
+        "customId": "building/way/120183540",
+        "_area": 429.5481867350573,
+        "name": {
+          "en": "iQ-Hotel"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93823665,
+            48.423345499999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "b7fbf36a-7e3b-47fd-a454-78c00a9b3b28",
+      "properties": {
+        "type": "way",
+        "id": 128881192,
+        "tags": {
+          "access": "private",
+          "alt_name": "Daimler Mitarbeiter Parkplatz",
+          "amenity": "parking",
+          "int_name": "Daimler Employee Parking",
+          "name": "Daimler Mitarbeiter-Parkplatz"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/128881192",
+        "customId": "building/way/128881192",
+        "_area": 16457.0008428838,
+        "name": {
+          "en": "Daimler Mitarbeiter-Parkplatz"
+        },
+        "alt_name": {
+          "de": "Daimler Mitarbeiter Parkplatz"
+        },
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94074855,
+            48.422879300000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "9930e7a5-d1af-4a28-9ef4-39171f605d81",
+      "properties": {
+        "type": "way",
+        "id": 128881976,
+        "tags": {
+          "building": "yes",
+          "building:colour": "white",
+          "int_name": "Daimler Gate",
+          "name": "Daimler Pforte",
+          "roof:colour": "#808080"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/128881976",
+        "customId": "building/way/128881976",
+        "_area": 206.63202647183115,
+        "name": {
+          "en": "Daimler Pforte"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.941982,
+            48.41995535
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "1af9abda-3a12-4be2-98cc-38577468d9e1",
+      "properties": {
+        "type": "way",
+        "id": 136060778,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P13",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/136060778",
+        "customId": "building/way/136060778",
+        "_area": 332.13736292933953,
+        "name": {
+          "en": "P13"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9479228,
+            48.421185449999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "7b1a1933-9f91-46ba-a5ef-642798bea889",
+      "properties": {
+        "type": "way",
+        "id": 141065618,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P10",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/141065618",
+        "customId": "building/way/141065618",
+        "_area": 4699.1953988662935,
+        "name": {
+          "en": "P10"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94443285,
+            48.41905155
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "d267d316-852f-497a-8d25-16204ae8a3bb",
+      "properties": {
+        "type": "way",
+        "id": 143767934,
+        "tags": {
+          "amenity": "parking",
+          "name": "Oberer Eselsberg",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/143767934",
+        "customId": "building/way/143767934",
+        "_area": 3227.634173011687,
+        "name": {
+          "en": "Oberer Eselsberg"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94260585,
+            48.42538835
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a9c82300-ee7a-4852-9862-ecf625d0115c",
+      "properties": {
+        "type": "way",
+        "id": 150771922,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P16",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/150771922",
+        "customId": "building/way/150771922",
+        "_area": 3935.1072933754153,
+        "name": {
+          "en": "P16"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94810815,
+            48.422228000000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "f604b463-a58e-4518-94f6-574e94076883",
+      "properties": {
+        "type": "way",
+        "id": 166171743,
+        "tags": {
+          "building": "hospital",
+          "building:colour": "white",
+          "building:levels": "4",
+          "name": "Klinik für Psychotherapie und Psychosomatische Medizin",
+          "roof:colour": "#C0C0C0",
+          "start_date": "2012",
+          "wheelchair": "yes"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/166171743",
+        "customId": "building/way/166171743",
+        "_area": 760.8578748387421,
+        "name": {
+          "en": "Klinik für Psychotherapie und Psychosomatische Medizin"
+        },
+        "alt_name": null,
+        "category": "hospital",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95385115,
+            48.42075225
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "df07a9d7-5936-4faa-9caf-e468e0843471",
+      "properties": {
+        "type": "way",
+        "id": 166171745,
+        "tags": {
+          "building": "yes",
+          "building:colour": "white",
+          "name": "Hörsaal Chirurgie",
+          "roof:colour": "#C0C0C0"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/166171745",
+        "customId": "building/way/166171745",
+        "_area": 327.80125511492133,
+        "name": {
+          "en": "Hörsaal Chirurgie"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95300005,
+            48.422386
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "bd279de6-a926-4787-8128-e2e6440f4479",
+      "properties": {
+        "type": "way",
+        "id": 166171760,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P17",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface",
+          "start_date": "2012"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/166171760",
+        "customId": "building/way/166171760",
+        "_area": 1148.6008165095272,
+        "name": {
+          "en": "P17"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9492525,
+            48.4216986
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "f142d9cf-670f-4888-aac3-e29bd967e24b",
+      "properties": {
+        "type": "way",
+        "id": 178238216,
+        "tags": {
+          "access": "customers",
+          "amenity": "parking",
+          "name": "Parkplatz iQ-Hotel",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/178238216",
+        "customId": "building/way/178238216",
+        "_area": 683.9518685388684,
+        "name": {
+          "en": "Parkplatz iQ-Hotel"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93821925,
+            48.4231324
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a22c777d-ebbd-41c8-9a69-30081d268efc",
+      "properties": {
+        "type": "way",
+        "id": 179943586,
+        "tags": {
+          "building": "university",
+          "name": "Lehrgebäude für Wirtschaftswissenschaften und Psychologie",
+          "start_date": "2013"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/179943586",
+        "customId": "building/way/179943586",
+        "_area": 310.87055034168975,
+        "name": {
+          "en": "Lehrgebäude für Wirtschaftswissenschaften und Psychologie"
+        },
+        "alt_name": null,
+        "category": "university",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.944486699999999,
+            48.42007235
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "892ac5a1-d870-499b-aec8-0d3580d3e0a8",
+      "properties": {
+        "type": "way",
+        "id": 181063678,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P43",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface",
+          "start_date": "2012"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/181063678",
+        "customId": "building/way/181063678",
+        "_area": 3106.871149836092,
+        "name": {
+          "en": "P43"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9606155,
+            48.424539800000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "94fd93e7-32c3-4b77-a3af-30d4f6f2bd8f",
+      "properties": {
+        "type": "way",
+        "id": 187656103,
+        "tags": {
+          "building": "greenhouse",
+          "building:levels": "1",
+          "name": "Gewächshäuser"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/187656103",
+        "customId": "building/way/187656103",
+        "_area": 1412.9856930629032,
+        "name": {
+          "en": "Gewächshäuser"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9599341,
+            48.423362850000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "bae97359-eb45-4dcf-88a6-6a4f0a6cf3b2",
+      "properties": {
+        "type": "way",
+        "id": 187656106,
+        "tags": {
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Botanischer Garten, Verwaltung",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/187656106",
+        "customId": "building/way/187656106",
+        "_area": 710.4134241057401,
+        "name": {
+          "en": "Botanischer Garten, Verwaltung"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.959918649999999,
+            48.42359655
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "f068182f-1905-439d-aef7-04292dd3da69",
+      "properties": {
+        "type": "way",
+        "id": 192942191,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P11",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/192942191",
+        "customId": "building/way/192942191",
+        "_area": 775.4556886641353,
+        "name": {
+          "en": "P11"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9450944,
+            48.4197181
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "ec148624-9b4b-45c0-843f-ccf876f494d0",
+      "properties": {
+        "type": "way",
+        "id": 194712143,
+        "tags": {
+          "building": "office",
+          "building:colour": "#C0C0C0",
+          "building:levels": "4",
+          "name": "Nokia Networks",
+          "roof:colour": "#C0C0C0",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/194712143",
+        "customId": "building/way/194712143",
+        "_area": 1446.17842887307,
+        "name": {
+          "en": "Nokia Networks"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.940511399999998,
+            48.42507515
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "2ee814b7-31da-43c8-995d-2d4a486c69c4",
+      "properties": {
+        "type": "way",
+        "id": 194712144,
+        "tags": {
+          "building": "office",
+          "building:colour": "#C0C0C0",
+          "building:levels": "4",
+          "name": "Nokia Networks",
+          "roof:colour": "#C0C0C0",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/194712144",
+        "customId": "building/way/194712144",
+        "_area": 2146.223844425417,
+        "name": {
+          "en": "Nokia Networks"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.939741999999999,
+            48.42526445
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "79c5f995-d2c3-4e45-b948-e006daf0755e",
+      "properties": {
+        "type": "way",
+        "id": 194712157,
+        "tags": {
+          "building": "yes",
+          "name": "Trinkwasserhochbehälter"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/194712157",
+        "customId": "building/way/194712157",
+        "_area": 70.9695806804801,
+        "name": {
+          "en": "Trinkwasserhochbehälter"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93408235,
+            48.422419899999994
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a43017bc-4ba3-4d98-b400-502c44d95ece",
+      "properties": {
+        "type": "way",
+        "id": 218007607,
+        "tags": {
+          "building": "yes",
+          "name": "Spitzgrabenwehr"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/218007607",
+        "customId": "building/way/218007607",
+        "_area": 212.8854659589246,
+        "name": {
+          "en": "Spitzgrabenwehr"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9510804,
+            48.427097950000004
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "cab582f8-8eb1-47f1-b671-1e85149d5d3f",
+      "properties": {
+        "type": "way",
+        "id": 218007608,
+        "tags": {
+          "building": "yes",
+          "name": "Linke Schultergrabenwehr"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/218007608",
+        "customId": "building/way/218007608",
+        "_area": 66.23376557559114,
+        "name": {
+          "en": "Linke Schultergrabenwehr"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9499358,
+            48.4256696
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "2dce1ada-2539-4985-b804-6cba5c797f3d",
+      "properties": {
+        "type": "way",
+        "id": 218007609,
+        "tags": {
+          "building": "yes",
+          "name": "Rechte Schultergrabenwehr"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/218007609",
+        "customId": "building/way/218007609",
+        "_area": 109.36951937787747,
+        "name": {
+          "en": "Rechte Schultergrabenwehr"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.953574499999998,
+            48.4269056
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "54717177-e196-4767-9c9e-b6dc5af45303",
+      "properties": {
+        "type": "way",
+        "id": 224174384,
+        "tags": {
+          "amenity": "biergarten",
+          "building": "yes",
+          "food": "yes",
+          "name": "Biergarten am Botanicum",
+          "wheelchair": "limited"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/224174384",
+        "customId": "building/way/224174384",
+        "_area": 147.07409552230678,
+        "name": {
+          "en": "Biergarten am Botanicum"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9592855,
+            48.423296
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "260dd973-4e08-4c98-ac2a-859c8ee03e43",
+      "properties": {
+        "type": "way",
+        "id": 229516150,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "name": "Daimler Besucherparkplatz",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229516150",
+        "customId": "building/way/229516150",
+        "_area": 3906.0638415330395,
+        "name": {
+          "en": "Daimler Besucherparkplatz"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.942513550000001,
+            48.4201793
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "450f2fa8-ad01-4177-8af7-9e62a85fe486",
+      "properties": {
+        "type": "way",
+        "id": 229528587,
+        "tags": {
+          "building": "yes",
+          "building:colour": "white",
+          "building:levels": "4",
+          "name": "Daimler",
+          "roof:colour": "green"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229528587",
+        "customId": "building/way/229528587",
+        "_area": 3763.8308274775522,
+        "name": {
+          "en": "Daimler"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93885495,
+            48.4209285
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "60ee3a0a-0b41-4629-8409-ca9df3513c01",
+      "properties": {
+        "type": "way",
+        "id": 229528592,
+        "tags": {
+          "building": "yes",
+          "building:colour": "white",
+          "building:levels": "4",
+          "name": "Daimler",
+          "roof:colour": "green"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229528592",
+        "customId": "building/way/229528592",
+        "_area": 3713.136464550192,
+        "name": {
+          "en": "Daimler"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93934675,
+            48.42034495
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a1fe9f2b-2cb7-4a21-9e26-79b9c27be972",
+      "properties": {
+        "type": "way",
+        "id": 229973348,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "11",
+          "addr:postcode": "89081",
+          "addr:street": "Wilhelm-Runge-Straße",
+          "building": "yes",
+          "building:colour": "white",
+          "building:levels": "4",
+          "company": "Daimler AG, Daimler TSS, United Monolithic Semiconductors",
+          "name": "Daimler",
+          "roof:colour": "#808080"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229973348",
+        "customId": "building/way/229973348",
+        "_area": 8015.381595625581,
+        "name": {
+          "en": "Daimler"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9420183,
+            48.4215484
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "07ebbb67-f9c3-4185-bcfe-4507620d6e7f",
+      "properties": {
+        "type": "way",
+        "id": 229976817,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229976817",
+        "customId": "building/way/229976817",
+        "_area": 146.6308036811054,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9631648,
+            48.425532700000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "95a56d74-c353-4507-954e-3b4617e07e6f",
+      "properties": {
+        "type": "way",
+        "id": 229976820,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "underground"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229976820",
+        "customId": "building/way/229976820",
+        "_area": 136.257650495376,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.96274785,
+            48.42539495
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a420324f-5ea3-4943-bacc-09c514d5f30e",
+      "properties": {
+        "type": "way",
+        "id": 229976822,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229976822",
+        "customId": "building/way/229976822",
+        "_area": 198.02813495434555,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.962646,
+            48.425836700000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "8aa395cd-6b50-4426-9c0a-96584d8b4ebc",
+      "properties": {
+        "type": "way",
+        "id": 229976824,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229976824",
+        "customId": "building/way/229976824",
+        "_area": 159.24388803522933,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.96270765,
+            48.425441649999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "6757db10-e9cf-4c06-8807-ce9cbdee78b6",
       "properties": {
         "type": "way",
         "id": 229977298,
@@ -600,18 +3155,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.962969399999999,
-          48.4251014
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "32468a90-2462-407c-b2fc-1e2a8ff9f01c",
+      "id": "af43182a-9758-48b1-a17d-7ff5fbfb4f6b",
       "properties": {
         "type": "way",
         "id": 229980275,
@@ -635,7 +3184,7 @@
           "en": "Helmholtzstraße 14"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -646,18 +3195,354 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9621796,
-          48.4252056
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "d5e2445f-c68c-4e4b-a44d-b28cb3a460a8",
+      "id": "e6e70736-9b3c-4e77-95ef-a59762d9359c",
+      "properties": {
+        "type": "way",
+        "id": 229980279,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229980279",
+        "customId": "building/way/229980279",
+        "_area": 101.53089068855076,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.96240615,
+            48.425288300000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "4c8956ad-adf9-4ae8-986e-462eaecf0052",
+      "properties": {
+        "type": "way",
+        "id": 229982076,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "8/1",
+          "addr:postcode": "89081",
+          "addr:street": "Helmholtzstraße",
+          "building": "yes",
+          "name": "Zentrum für Biomedizinische Forschung"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/229982076",
+        "customId": "building/way/229982076",
+        "_area": 1068.4707541173211,
+        "name": {
+          "en": "Zentrum für Biomedizinische Forschung"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.959786099999999,
+            48.425069949999994
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "4f8e42c3-4b45-4990-a064-a5969d5168a2",
+      "properties": {
+        "type": "way",
+        "id": 233965014,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "7",
+          "addr:postcode": "89081",
+          "addr:street": "Albert-Einstein-Allee",
+          "building": "office",
+          "building:colour": "black",
+          "building:levels": "1",
+          "email": "med.dekanat@uni-ulm.de",
+          "name": "Medizinische Fakultät",
+          "roof:colour": "black",
+          "website": "https://www.uni-ulm.de/med/fakultaet.html"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/233965014",
+        "customId": "building/way/233965014",
+        "_area": 542.1041168673252,
+        "name": {
+          "en": "Medizinische Fakultät"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95482955,
+            48.42449345
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "c4a3f4cb-4038-45e9-b967-75a6da7aa219",
+      "properties": {
+        "type": "way",
+        "id": 233965015,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:country": "DE",
+          "addr:housenumber": "5",
+          "addr:postcode": "89081",
+          "addr:street": "Albert-Einstein-Allee",
+          "building": "office",
+          "building:colour": "black",
+          "building:levels": "1",
+          "fax": "+49 731 / 50-22074",
+          "name": "Department für Geisteswissenschaften",
+          "opening_hours": "Mo-Fr 09:00-12:00; Tu 09:00-12:00, 14:00-16:00",
+          "phone": "+49 731 / 50-24444",
+          "roof:colour": "black",
+          "website": "https://www.uni-ulm.de/studium/studienberatung/zentrale-studienberatung.html"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/233965015",
+        "customId": "building/way/233965015",
+        "_area": 929.6294739385771,
+        "name": {
+          "en": "Department für Geisteswissenschaften"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95483005,
+            48.424886650000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "15989e8f-0d33-4b11-a95a-f0c717489652",
+      "properties": {
+        "type": "way",
+        "id": 237147620,
+        "tags": {
+          "access": "yes",
+          "amenity": "parking",
+          "fee": "no",
+          "maxstay": "30",
+          "name": "P21",
+          "parking": "surface",
+          "surface": "paved"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/237147620",
+        "customId": "building/way/237147620",
+        "_area": 679.9726050715623,
+        "name": {
+          "en": "P21"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.952774250000001,
+            48.42509215
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "0fd75039-7077-43ea-b782-258faf0dafba",
+      "properties": {
+        "type": "way",
+        "id": 243095510,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P17",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface",
+          "start_date": "2012"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/243095510",
+        "customId": "building/way/243095510",
+        "_area": 1585.272956869077,
+        "name": {
+          "en": "P17"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9491061,
+            48.422058899999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "a6affa08-6e7b-418d-bb7e-e348a7264c04",
+      "properties": {
+        "type": "way",
+        "id": 248968510,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "building": "yes",
+          "name": "Mitarbeiterparkplatz"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/248968510",
+        "customId": "building/way/248968510",
+        "_area": 3279.705824379024,
+        "name": {
+          "en": "Mitarbeiterparkplatz"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9465983,
+            48.42695205
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "2b2a5ef6-1ed1-471f-99c2-e50f2edc5063",
+      "properties": {
+        "type": "way",
+        "id": 248969148,
+        "tags": {
+          "building": "yes",
+          "building:colour": "black",
+          "building:levels": "2",
+          "name": "Behandlung, Untersuchung",
+          "roof:colour": "green"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/248969148",
+        "customId": "building/way/248969148",
+        "_area": 5198.656417707691,
+        "name": {
+          "en": "Behandlung, Untersuchung"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9483916,
+            48.42557755
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "ef27ac71-ea9e-4f31-a94c-f4b01ec20ecb",
+      "properties": {
+        "type": "way",
+        "id": 257948471,
+        "tags": {
+          "building": "yes",
+          "name": "Stabsgruppe"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/257948471",
+        "customId": "building/way/257948471",
+        "_area": 288.9663655928353,
+        "name": {
+          "en": "Stabsgruppe"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9481579,
+            48.426115800000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "98506905-d0c1-4801-90ed-ba200a9d7c31",
       "properties": {
         "type": "way",
         "id": 261483432,
@@ -682,7 +3567,7 @@
           "en": "Technische Hochschule Ulm"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -693,18 +3578,49 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9391271,
-          48.4183556
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "80a395c9-0100-44ad-95c3-382f424bb99d",
+      "id": "b969c82d-205b-4c0f-9122-0b72e7ea7da1",
+      "properties": {
+        "type": "way",
+        "id": 321050428,
+        "tags": {
+          "building": "office",
+          "building:colour": "#C0C0C0",
+          "building:levels": "4",
+          "name": "Takata",
+          "roof:colour": "#C0C0C0",
+          "start_date": "2000"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/321050428",
+        "customId": "building/way/321050428",
+        "_area": 2185.508563344574,
+        "name": {
+          "en": "Takata"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93887085,
+            48.424232849999996
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "05b94696-f1d9-4806-8d8e-277ebeb5118c",
       "properties": {
         "type": "way",
         "id": 323480822,
@@ -724,7 +3640,7 @@
           "en": "O28"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -735,18 +3651,194 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9578972,
-          48.423063299999995
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "3e2f819e-b5a2-4198-b93a-a1cee3ce27d4",
+      "id": "c3548234-722d-4d88-a2a6-456e75a12f5c",
+      "properties": {
+        "type": "way",
+        "id": 329779603,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/329779603",
+        "customId": "building/way/329779603",
+        "_area": 67.66469495307543,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.963039850000001,
+            48.425540049999995
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "8a6a1e7a-7696-44cd-8e13-d39625b4cb44",
+      "properties": {
+        "type": "way",
+        "id": 329779604,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/329779604",
+        "customId": "building/way/329779604",
+        "_area": 168.8070237099773,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.962766949999999,
+            48.42529445
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "f11baccf-100b-4288-9b2f-96fb080ca8b7",
+      "properties": {
+        "type": "way",
+        "id": 329779605,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P44",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/329779605",
+        "customId": "building/way/329779605",
+        "_area": 88.66748773036089,
+        "name": {
+          "en": "P44"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9625641,
+            48.42548855
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "ad3394ae-16ff-431f-817e-bba07bcc7d4b",
+      "properties": {
+        "type": "way",
+        "id": 329779606,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "fee": "yes",
+          "level": "-1",
+          "name": "P45",
+          "operator": "PBW",
+          "parking": "underground"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/329779606",
+        "customId": "building/way/329779606",
+        "_area": 4741.750673262025,
+        "name": {
+          "en": "P45"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.96337185,
+            48.42560335
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "fb6690a4-2943-4a7c-8200-af8f2f75b2b1",
+      "properties": {
+        "type": "way",
+        "id": 329782185,
+        "tags": {
+          "building": "hospital",
+          "name": "Strahlentherapie"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/329782185",
+        "customId": "building/way/329782185",
+        "_area": 4351.642551785106,
+        "name": {
+          "en": "Strahlentherapie"
+        },
+        "alt_name": null,
+        "category": "hospital",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95155415,
+            48.4211916
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "07b5db6a-9bd8-4068-b1be-194dbe7e5ff7",
       "properties": {
         "type": "way",
         "id": 329782186,
@@ -769,7 +3861,7 @@
         "alt_name": {
           "de": "M23"
         },
-        "category": "unspecified",
+        "category": "hospital",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -780,18 +3872,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.953097849999999,
-          48.422798
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "f4b4f030-4d27-410e-b503-d86b2717981c",
+      "id": "94aa0451-6946-48db-a3f6-afdac100e2d0",
       "properties": {
         "type": "way",
         "id": 329782187,
@@ -809,7 +3895,7 @@
           "en": "M24"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -820,18 +3906,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.95391255,
-          48.42308235
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "57225632-80e8-4239-ae57-64457c49ddd8",
+      "id": "9e0b0be1-0653-4859-8c4d-52036b6b136e",
       "properties": {
         "type": "way",
         "id": 329782188,
@@ -849,7 +3929,7 @@
           "en": "M25"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -860,18 +3940,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.95447295,
-          48.423443199999994
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "60cd25c5-5a08-46e3-95a9-2a6f75657d86",
+      "id": "e2a0b615-bf19-49c6-af02-dce88841aa3f",
       "properties": {
         "type": "way",
         "id": 329782190,
@@ -906,18 +3980,48 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.95543355,
-          48.42187075
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "f2c0a91e-9389-408c-a380-7e83074736d4",
+      "id": "cbdbf6e6-a214-4dc3-bb32-e17931034803",
+      "properties": {
+        "type": "way",
+        "id": 329782191,
+        "tags": {
+          "amenity": "restaurant",
+          "building": "yes",
+          "name": "Mitarbeitercasino Uniklinik Ulm",
+          "opening_hours": "Mo-Fr 07:00-16:30",
+          "website": "https://www.uniklinik-ulm.de/service/anreiselageplan/oberer-eselsberg/wo-finde-ich.html"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/329782191",
+        "customId": "building/way/329782191",
+        "_area": 1154.3524212968757,
+        "name": {
+          "en": "Mitarbeitercasino Uniklinik Ulm"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9522865,
+            48.42149775
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "40004fd0-8d54-45b9-bc4f-8401f64a3eac",
       "properties": {
         "type": "way",
         "id": 329782192,
@@ -938,7 +4042,7 @@
         "alt_name": {
           "de": "N24"
         },
-        "category": "unspecified",
+        "category": "hospital",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -949,18 +4053,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9543101,
-          48.4225592
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "f3c373a6-2ee2-4ecb-970f-bc5e0a7fe6d2",
+      "id": "14a91aa9-c745-49d5-9900-29da1e1db167",
       "properties": {
         "type": "way",
         "id": 329782194,
@@ -978,7 +4076,7 @@
           "en": "N26"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -989,18 +4087,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.95596755,
-          48.423162500000004
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "5e0acb6d-73c8-4220-a0e2-86f8de866be2",
+      "id": "e142d76d-c2b1-4642-9756-8e46fdf5e84c",
       "properties": {
         "type": "way",
         "id": 329782195,
@@ -1019,7 +4111,7 @@
           "en": "O25"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -1030,18 +4122,12 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.955572,
-          48.42239515
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "3aa1fe76-4d2f-4d56-bde3-9c17d8cd5203",
+      "id": "f9d6e06a-ebac-4bb5-99fe-2c4ef0074aed",
       "properties": {
         "type": "way",
         "id": 329782196,
@@ -1060,7 +4146,7 @@
           "en": "O26"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -1071,18 +4157,264 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9564234,
-          48.42260885
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "81c28f0c-065b-4801-aa8f-100a202a8c8b",
+      "id": "a7693925-3245-4d09-9620-af836da26716",
+      "properties": {
+        "type": "way",
+        "id": 376386726,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "name": "Parkplatz P09",
+          "operator": "T.S.U. GmbH",
+          "parking": "surface",
+          "start_date": "2016"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/376386726",
+        "customId": "building/way/376386726",
+        "_area": 7019.959250197687,
+        "name": {
+          "en": "Parkplatz P09"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9422219,
+            48.4186435
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "9e4d4849-56df-4a30-808e-18fab78686fa",
+      "properties": {
+        "type": "way",
+        "id": 377311678,
+        "tags": {
+          "amenity": "parking",
+          "fee": "yes",
+          "name": "P26",
+          "start_date": "2017"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/377311678",
+        "customId": "building/way/377311678",
+        "_area": 3145.436504818944,
+        "name": {
+          "en": "P26"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.95227015,
+            48.423950950000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "8ee4501c-8da3-4e68-bf11-c43e68042375",
+      "properties": {
+        "type": "way",
+        "id": 380865189,
+        "tags": {
+          "building": "yes",
+          "name": "Wachhäuschen"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/380865189",
+        "customId": "building/way/380865189",
+        "_area": 58.321611681260684,
+        "name": {
+          "en": "Wachhäuschen"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9446177,
+            48.4261288
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "ea2a681a-0a5e-499f-b19b-21d34d432873",
+      "properties": {
+        "type": "way",
+        "id": 390188895,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Lise-Meitner-Straße",
+          "building": "yes",
+          "name": "AMA Instruments",
+          "website": "http://www.ama-instruments.com"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/390188895",
+        "customId": "building/way/390188895",
+        "_area": 615.7856709346705,
+        "name": {
+          "en": "AMA Instruments"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93566745,
+            48.422746450000005
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "8f2f0e84-d107-498a-a7a8-7260568e12de",
+      "properties": {
+        "type": "way",
+        "id": 430446849,
+        "tags": {
+          "building": "yes",
+          "emergency": "ambulance_station",
+          "name": "Luftrettungszentrum BWK Ulm",
+          "operator": "ADAC Luftrettung",
+          "website": "http://www.traumateam.de/",
+          "wikipedia": "de:Christoph 22"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/430446849",
+        "customId": "building/way/430446849",
+        "_area": 156.18027243079382,
+        "name": {
+          "en": "Luftrettungszentrum BWK Ulm"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9448969,
+            48.42681465
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "3152ba90-e223-4c62-b085-98acfb613cfe",
+      "properties": {
+        "type": "way",
+        "id": 431147831,
+        "tags": {
+          "addr:city": "Ulm",
+          "addr:housenumber": "4",
+          "addr:postcode": "89081",
+          "addr:street": "Wolfgang-Paul-Straße",
+          "building": "commercial",
+          "building:levels": "2",
+          "name": "Elektrobit Automotive GmbH / Beamtec",
+          "source": "Maps4BW"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/431147831",
+        "customId": "building/way/431147831",
+        "_area": 504.64029903286956,
+        "name": {
+          "en": "Elektrobit Automotive GmbH / Beamtec"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93630135,
+            48.4254773
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "abe1eb0a-c31d-49f7-9efb-2ce95a860bd3",
+      "properties": {
+        "type": "way",
+        "id": 451778277,
+        "tags": {
+          "building": "yes",
+          "building:levels": "1",
+          "description": "Gebäudedach ist gleichzeitig Terrasse",
+          "name": "Casino"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/451778277",
+        "customId": "building/way/451778277",
+        "_area": 2453.3820360967306,
+        "name": {
+          "en": "Casino"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.94743555,
+            48.42448435
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "4fca3d17-b6ef-4f24-a376-25fcd16f587b",
       "properties": {
         "type": "way",
         "id": 460602804,
@@ -1101,7 +4433,7 @@
           "en": "M26"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -1112,18 +4444,185 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9554946,
-          48.4237875
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "0d49b932-8d94-4370-ad32-e332e19f0be7",
+      "id": "2cd6373e-3ac2-4537-b796-effca354184f",
+      "properties": {
+        "type": "way",
+        "id": 497385533,
+        "tags": {
+          "building": "office",
+          "building:levels": "4",
+          "name": "Mercatis",
+          "roof:levels": "0"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/497385533",
+        "customId": "building/way/497385533",
+        "_area": 474.71248282311956,
+        "name": {
+          "en": "Mercatis"
+        },
+        "alt_name": null,
+        "category": "office",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.93578385,
+            48.42216235
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "6bcc8c2c-174a-4a6e-9a24-c82055df354a",
+      "properties": {
+        "type": "way",
+        "id": 498531037,
+        "tags": {
+          "amenity": "parking",
+          "name": "Oberer Eselsberg",
+          "parking": "underground",
+          "start_date": "2012"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/498531037",
+        "customId": "building/way/498531037",
+        "_area": 2932.1155011602486,
+        "name": {
+          "en": "Oberer Eselsberg"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.942253050000001,
+            48.4257975
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "17357556-8c09-4fed-8aca-9c83ada9bfc5",
+      "properties": {
+        "type": "way",
+        "id": 526822570,
+        "tags": {
+          "building": "yes",
+          "name": "Pilotlinie VCSEL"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/526822570",
+        "customId": "building/way/526822570",
+        "_area": 2123.6184021460517,
+        "name": {
+          "en": "Pilotlinie VCSEL"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.940527150000001,
+            48.4234359
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "cefabe8a-ccd0-4896-a167-6831fee96017",
+      "properties": {
+        "type": "way",
+        "id": 530513302,
+        "tags": {
+          "building": "yes",
+          "name": "Sartorius Stedim Cellca",
+          "operator": "Sartorius Stedim Cellca"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/530513302",
+        "customId": "building/way/530513302",
+        "_area": 4922.119251380371,
+        "name": {
+          "en": "Sartorius Stedim Cellca"
+        },
+        "alt_name": null,
+        "category": "unspecified",
+        "restriction": null,
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.9322311,
+            48.425596
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "352bc11a-5c26-49f3-b062-fe75e965e523",
+      "properties": {
+        "type": "way",
+        "id": 560046915,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "name": "P49",
+          "operator": "T.S.U. GmbH",
+          "start_date": "2014"
+        },
+        "relations": [],
+        "meta": {},
+        "osmId": "way/560046915",
+        "customId": "building/way/560046915",
+        "_area": 2265.0644711089617,
+        "name": {
+          "en": "P49"
+        },
+        "alt_name": null,
+        "category": "parking",
+        "restriction": "restricted",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [
+            9.960519900000001,
+            48.42649445
+          ]
+        },
+        "address_id": null
+      },
+      "geometry": null,
+      "feature_type": "building"
+    },
+    {
+      "type": "Feature",
+      "id": "ee7034fd-5505-400a-9fcc-137b7dd0f33f",
       "properties": {
         "type": "way",
         "id": 639028574,
@@ -1141,7 +4640,7 @@
           "en": "M28"
         },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "university",
         "restriction": null,
         "display_point": {
           "type": "Point",
@@ -1152,443 +4651,114 @@
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.956777599999999,
-          48.4243291
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "3d713fa1-5cb0-4ba1-ade4-e1109b94c2ca",
+      "id": "70d7d05a-e7c3-40e4-a04c-d92d42081de0",
       "properties": {
         "type": "way",
-        "id": 51819209,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
+        "id": 712167514,
+        "tags": {
+          "beds": "51",
+          "building": "yes",
+          "building:levels": "4",
+          "name": "Klinikhotel Recover",
+          "operator": "RKU",
+          "rooms": "51",
+          "start_date": "2019",
+          "tourism": "hotel",
+          "wheelchair": "yes"
+        },
+        "relations": [],
         "meta": {},
-        "osmId": "way/51819209",
-        "customId": "building/way/51819209",
-        "name": null,
+        "osmId": "way/712167514",
+        "customId": "building/way/712167514",
+        "_area": 627.699333654518,
+        "name": {
+          "en": "Klinikhotel Recover"
+        },
         "alt_name": null,
         "category": "unspecified",
         "restriction": null,
         "display_point": {
           "type": "Point",
           "coordinates": [
-            9.9449817,
-            48.419454349999995
+            9.944519549999999,
+            48.42345915
           ]
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9449817,
-          48.419454349999995
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "4d1f9b90-a12b-4ff4-9e7f-91b27bde025d",
+      "id": "16053873-061a-4ae8-8d86-22e8bd379dbd",
       "properties": {
         "type": "way",
-        "id": 179943586,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
+        "id": 775327975,
+        "tags": {
+          "building": "office",
+          "name": "Z4",
+          "note": "Lage und Umriss geschätzt"
+        },
+        "relations": [],
         "meta": {},
-        "osmId": "way/179943586",
-        "customId": "building/way/179943586",
-        "name": null,
+        "osmId": "way/775327975",
+        "customId": "building/way/775327975",
+        "_area": 1760.0627882839117,
+        "name": {
+          "en": "Z4"
+        },
         "alt_name": null,
-        "category": "unspecified",
+        "category": "office",
         "restriction": null,
         "display_point": {
           "type": "Point",
           "coordinates": [
-            9.944486699999999,
-            48.42007235
+            9.93719115,
+            48.42498075
           ]
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.944486699999999,
-          48.42007235
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     },
     {
       "type": "Feature",
-      "id": "8b28d9a3-9265-471e-9d0d-ce70d5f57341",
+      "id": "3d89f62e-dc1f-4bf9-ab2d-8b7b822646fc",
       "properties": {
         "type": "way",
-        "id": 51818809,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
+        "id": 775327978,
+        "tags": {
+          "building": "yes",
+          "name": "Venticer World"
+        },
+        "relations": [],
         "meta": {},
-        "osmId": "way/51818809",
-        "customId": "building/way/51818809",
-        "name": null,
+        "osmId": "way/775327978",
+        "customId": "building/way/775327978",
+        "_area": 222.5559085746093,
+        "name": {
+          "en": "Venticer World"
+        },
         "alt_name": null,
         "category": "unspecified",
         "restriction": null,
         "display_point": {
           "type": "Point",
           "coordinates": [
-            9.946726049999999,
-            48.42046325
+            9.93545185,
+            48.425988149999995
           ]
         },
         "address_id": null
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.946726049999999,
-          48.42046325
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "5e3a275c-f58a-4b21-b2d2-462cf6d1fb0f",
-      "properties": {
-        "type": "way",
-        "id": 229975651,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "way/229975651",
-        "customId": "building/way/229975651",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.9475325,
-            48.420889450000004
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9475325,
-          48.420889450000004
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "5dace600-7918-4619-b37c-33d42da1bfdb",
-      "properties": {
-        "type": "way",
-        "id": 677096151,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "way/677096151",
-        "customId": "building/way/677096151",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.94875055,
-            48.42110195
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.94875055,
-          48.42110195
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "e09d2ae6-723b-4d7d-aa45-7a4c78115a67",
-      "properties": {
-        "type": "way",
-        "id": 51819602,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "way/51819602",
-        "customId": "building/way/51819602",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.94888005,
-            48.42099605
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.94888005,
-          48.42099605
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "3504b5ba-a779-4e0c-b31d-f8426121b4f3",
-      "properties": {
-        "type": "way",
-        "id": 76823477,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "way/76823477",
-        "customId": "building/way/76823477",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.9470109,
-            48.4199869
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9470109,
-          48.4199869
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "741cd486-337c-48c5-b1e6-c853c2eb7a67",
-      "properties": {
-        "type": "way",
-        "id": 155799508,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "way/155799508",
-        "customId": "building/way/155799508",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.9472241,
-            48.420651250000006
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9472241,
-          48.420651250000006
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "81a5add4-8272-43e4-afb7-9ff5f22a6e5c",
-      "properties": {
-        "type": "way",
-        "id": 155799510,
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "way/155799510",
-        "customId": "building/way/155799510",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.946241050000001,
-            48.4203399
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.946241050000001,
-          48.4203399
-        ]
-      },
-      "feature_type": "building"
-    },
-    {
-      "type": "Feature",
-      "id": "35c6fe61-175b-4f14-8134-0093a7177228",
-      "properties": {
-        "type": "node",
-        "id": "127498398",
-        "tags": {},
-        "relations": [
-          {
-            "role": "",
-            "rel": "444113",
-            "reltags": {
-              "name": "Uni-West",
-              "site": "university",
-              "type": "site"
-            }
-          }
-        ],
-        "meta": {},
-        "osmId": "node/127498398",
-        "customId": "building/node/127498398",
-        "name": null,
-        "alt_name": null,
-        "category": "unspecified",
-        "restriction": null,
-        "display_point": {
-          "type": "Point",
-          "coordinates": [
-            9.9470045,
-            48.4206167
-          ]
-        },
-        "address_id": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9470045,
-          48.4206167
-        ]
-      },
+      "geometry": null,
       "feature_type": "building"
     }
   ],
