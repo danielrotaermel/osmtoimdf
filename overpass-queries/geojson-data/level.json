@@ -624,6 +624,7 @@
     "tags": {
       "access": "private",
       "building:levels": "0",
+      "building:min_level": "0",
       "building:part": "yes",
       "indoor": "level",
       "level": "0",
