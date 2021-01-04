@@ -5,4 +5,10 @@ module.exports = {
     room: 'room',
     emergencyexit: 'emergencyexit',
   },
+  building: {
+    hospital: 'hospital',
+    university: 'university',
+    dormitory: 'dormitory',
+    office: 'office',
+  },
 };

@@ -25,7 +25,7 @@ const imdf = {
   featureType: require('./imdf-model/feature-type'),
   category: require('./imdf-model/category'),
   properties: require('./imdf-model/property'),
-  categoryExtended: require('./imdf-model/categoriy-extended'),
+  categoryExtended: require('./imdf-model/category-extended'),
 };
 
 const DEBUG = true;
@@ -52,6 +52,15 @@ async function run() {
     allOSMTagValues[collectionSource] = getTagsAndTheirPossibleValues(geojson, true);
     geojson = runTransformations(geojson, collectionSource);
     featureCollections[collectionSource] = geojson;
+  }
+
+  // remove all buildings without a name
+  if ('building' in featureCollections) {
+    console.log(featureCollections.building.features.length);
+    featureCollections.building.features = featureCollections.building.features.filter(
+      (f) => !(f.properties.name === null)
+    );
+    console.log(featureCollections.building.features.length);
   }
 
   // sort units for correct display
@@ -302,6 +311,7 @@ function runTransformations(featureCollection, collectionSource) {
       case imdf.featureType.BUILDING:
         let buidingCategory = imdf.category.building;
         imdfProps = clone(imdf.properties.building);
+        imdfProps.category = imdf.category.building.unspecified;
 
         if ('name' in tags) {
           imdfProps.name = {
@@ -321,9 +331,54 @@ function runTransformations(featureCollection, collectionSource) {
           }
         }
 
+        switch (tags.building) {
+          case 'hospital':
+            imdfProps.category = imdf.categoryExtended.building.hospital;
+            break;
+          case 'university':
+            imdfProps.category = imdf.categoryExtended.building.university;
+            break;
+          case 'office':
+            imdfProps.category = imdf.categoryExtended.building.office;
+            break;
+          case 'dormitory':
+            imdfProps.category = imdf.categoryExtended.building.dormitory;
+            break;
+          case 'parking':
+            imdfProps.category = imdf.category.building.parking;
+            break;
+          case 'garages':
+            imdfProps.category = imdf.category.building.parking;
+            break;
+        }
+
+        if ('amenity' in tags) {
+          if (tags.amenity === 'parking') {
+            imdfProps.category = imdf.category.building.parking;
+          }
+        }
+
+        if ('access' in tags) {
+          switch (String(tags.access)) {
+            case 'private':
+              imdfProps.restriction = imdf.category.restriction.restricted;
+            case 'military':
+              imdfProps.restriction = imdf.category.restriction.restricted;
+            case 'no':
+              imdfProps.restriction = imdf.category.restriction.restricted;
+            default:
+              break;
+          }
+        }
+
         f.geometry = turf.center(f).geometry;
         imdfProps.display_point = turf.center(f).geometry;
         imdfProps.address_id = null;
+
+        // console.log(imdfProps.category);
+
+        // buildings should not include a geometry
+        f.geometry = null;
 
         break;
       case imdf.featureType.DETAIL:
@@ -338,8 +393,18 @@ function runTransformations(featureCollection, collectionSource) {
         let footprintCategory = imdf.category.footprint;
         imdfProps = clone(imdf.properties.footprint);
         imdfProps.name = { en: tags.name };
+
+        imdfProps.category = imdf.category.footprint.subterranean;
+
+        // turn linestrings into polygons
+        // there is an issue with osm data not having an intrinsic datatype
+        // https://wiki.openstreetmap.org/wiki/Overpass_turbo/Polygon_Features
+        if (f.geometry.type === 'LineString') {
+          f.geometry = turf.lineToPolygon(f.geometry).geometry;
+        }
+
         // TODO: generate footprints from building outlines by converting multipolygons to polygons (only keep first in geom array https://turfjs.org/docs/#flatten)
-        // use turf https://turfjs.org/docs/#dissolve or https://turfjs.org/docs/#union to merge the resulting poligons
+        // use turf https://turfjs.org/docs/#dissolve or https://turfjs.org/docs/#union to merge the resulting polygons
         break;
       case imdf.featureType.GEOFENCE:
         let geofenceCategory = imdf.category.geofence;
@@ -509,6 +574,14 @@ function generateReferences(featureCollections) {
     setCorrelatingBuildingIds(featureCollections.level, featureCollections.building);
   }
 
+  // correlate footprints and buildings
+  if ('building' in featureCollections && 'footprint' in featureCollections) {
+    setCorrelatingBuildingIdsForFootprints(
+      featureCollections.footprint,
+      featureCollections.building
+    );
+  }
+
   // correlate amenities with units and set the unit_id
   if ('amenity' in featureCollections) {
     setCorrelatingUnitIds(featureCollections.amenity, featureCollections.unit);
@@ -602,8 +675,8 @@ function setCorrelatingBuildingIds(targetCollection, buildingCollection) {
       if (turf.booleanPointInPolygon(turf.center(building.geometry), level)) {
         // if (turf.booleanOverlap(turf.flatten(level), turf.flatten(building))) {
         // if (turf.booleanContains(level, building)) {
-        // if unit is smaller than the last found one
         if (building.properties._area < smallestArea) {
+          // if unit is smaller than the last found one
           smallestArea = building.properties._area;
           level.properties.building_ids = [building.id];
         }
@@ -614,6 +687,28 @@ function setCorrelatingBuildingIds(targetCollection, buildingCollection) {
       level.properties.building_ids = null;
       console.log('INFO: found level without building_ids: ' + level.properties.osmId);
       console.log(level.properties.tags);
+    }
+  });
+}
+
+function setCorrelatingBuildingIdsForFootprints(footprintsCollection, buildingCollection) {
+  footprintsCollection.features.forEach((footprint) => {
+    footprint.properties.building_ids = [];
+    let smallestArea = Number.MAX_VALUE;
+    buildingCollection.features.forEach((building) => {
+      if (turf.booleanPointInPolygon(building.properties.display_point, footprint)) {
+        if (footprint.properties._area < smallestArea) {
+          smallestArea = footprint.properties._area;
+          // if building is smaller than the last found one
+          footprint.properties.building_ids = [building.id];
+        }
+      }
+    });
+
+    if (footprint.properties.building_ids.length == 0) {
+      footprint.properties.building_ids = null;
+      console.log('INFO: found footprint without building_ids: ' + footprint.properties.osmId);
+      console.log(footprint.properties.tags);
     }
   });
 }
