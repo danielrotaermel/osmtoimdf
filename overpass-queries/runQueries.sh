@@ -9,7 +9,7 @@ mkdir -p ./geojson-data
 rm ./osm-data/*
 rm ./geojson-data/*
 
-for f in queries/*.txt
+for f in queries/*.overpassql
 do
     filename=$(basename -- "$f")
     extension="${filename##*.}"
