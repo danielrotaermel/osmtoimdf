@@ -3,7 +3,7 @@
 Turn Openstreetmap XML into [Indoor Mapping Data Format (IMDF)](https://register.apple.com/resources/imdf/).
 The generated IMDF archive can be used with Apple Mapkit. Here is [sample code](https://developer.apple.com/documentation/mapkit/displaying_an_indoor_map) for IOS.
 
-Disclaimer: certainly this conversion is not straight forward but this project should be a starting point. There is still manual mapping to do.
+Disclaimer: This conversion is certainly not straightforward, but this project is intended as a starting point. Some manual mapping is still required.
 
 <img src="docs/preview-uulm.png" alt="preview-uulm" title="University Ulm" style="zoom:25%;"/>
 
